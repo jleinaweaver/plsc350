@@ -1,0 +1,420 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size50[**I. Basics of Analyzing International Institutions**]
+
+<br>
+
+.size50[**Today's Agenda: Principal-Agent Theory**
+
+- Hawkins, Lake, Nielson & Tierney (2006). "Delegation Under Anarchy: States, international organizations, and principal-agent theory"
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+(CASES: Find a recent current event (news story) that involves an IO doing something "important" or "useful" in the world (make sure you can explain the basics of what it is and what specifically it did!) AND Hawkins et al p3-38 "Why Delegate?") 
+
+Diagram PA theory, use the cases to illustrate the components in action with the ICC
+
+Save time for end of class to divide into groups, select IOs and assignment for next class
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Semester Plan of Attack**]]
+
+.size50[
+1. Basics of Analyzing International Institutions
+
+2. .textblue[**International Institutions for Mutual Restraint**]
+
+3. International Institutions for Coordination
+
+4. International Institutions for Aggregate Effort
+
+]
+
+???
+
+Last week, the CAT!
+
+### Key takeaways? How are we, the world, doing with this problem?
+
+
+
+---
+
+background-image: url('libs/Images/07_1-youre-hired.gif')
+background-size: 85%
+background-position: bottom
+class: top, center, slideblue
+
+.size45[.content-box-white[**Why did states delegate to this (or any) agent?**]]
+
+???
+
+We'll get to assigning groups and picking cases shortly, first I want us to discuss the big leap we make when moving from international law to an international organization.
+
+WHAT DOES THE CONCEPT 'DELEGATION' REFER TO?
+
+- WHERE HAVE WE ENCOUNTERED THE CONCEPT OF DELEGATION THIS TERM?
+
+- (**SLIDE**)
+
+
+
+---
+
+background-image: url('libs/Images/07_1-delegation_legalization.png')
+background-size: 100%
+background-position: center
+
+???
+
+Legalization!
+- Abbott, K. W., Keohane, R. O., Moravcsik, A., Slaughter, A.-M., & Snidal, D. (2000). The Concept of Legalization. International Organization. 54(3), 401–419.
+
+
+
+
+Your reading for today from Hawkins, Lake, Nielson and Tierney (2006) covers the basic theoretical foundations you'll need to make this first argument.
+
+WITH THAT IN MIND, WHAT DO WE NEED TO DISCUSS OR CLARIFY FROM THE READING?
+
+- ANY CONCEPTS OR ARGUMENTS THAT DON'T MAKE SENSE?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-white[**Principal-Agent Theory: Delegation**]]]
+
+<br>
+
+.size40[
+"Delegation is a conditional grant of authority from a principal to an agent that empowers the latter to act on behalf of the former" (Hawkins et al 2006, 4).
+
+- Always governed by a contract
+
+- Limited in time or scope and must be revocable
+
+- Roles are mutually constitutive
+]
+
+???
+
+HOW DO THE AUTHORS DEFINE DELEGATION?
+(SLIDE)
+(p4; “Delegation is a conditional grant of authority from a principal to an agent that empowers the latter to act on behalf of the former.”)
+
+WHY ALWAYS GOVERNED BY A CONTRACT?
+(Make the exact limits and expectations of the relationship clear for both sides)
+
+WHAT DOES IT MEAN TO SAY THE DELEGATION MUCT BE REVOCABLE?
+(Agents can be fired or else they are not agents)
+
+HOW ARE THE ROLES MUTUALLY CONSTITUTIVE?
+(Titles only have meaning as part of the relationship.)
+- e.g. slave and master only true as long as relationship holds. 
+
+
+
+WHAT ARE THE BENEFITS OF DELEGATING TO AN AGENT DISCUSSED IN THE CHAPTER?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**Hawkins et al (2006): The Benefits of Delegation**]]]
+
+.size40[
+1. Divide the labor & create gains from specialization
+
+2. Managing policy externalities
+
+3. Facilitating collective decision-making
+
+4. Resolving disputes
+
+5. Enhancing credibility
+
+6. Creating policy bias
+]
+
+???
+
+GIVE ME AN EXAMPLE FROM THE CHAPTER OF EACH OF THESE IN ACTION.
+
+(1. Divide the labor and create gains from specialization)
+- frequent, repetitive tasks that require specific knowledge benefit from being delegated, agent gets better at them over time
+- Create a specialized agent (ICC, World Bank, IMF)
+
+(2. Managing policy externalities)
+- Coordinating agent: coordination games (chicken game) the policy outcome doesn't matter as long as everyone does the same thing. Let the agent dictate.
+- Collaboration agents: collaboration games (PD): States want to defect, delegate to an agent to provide the good for you or to monitor and publicize bad behavior. CoE monitors human rights.
+- Coordinating agent (International Postal Union) 
+- Collaboration agents (CoE, OECD, IAEA)
+
+(3. Facilitating collective decision-making)
+- Agenda-setting Agent: Agent with agenda setting power can help states get past vote cycling problems or other preference instabilities
+- Basics of vote cycling: No condorcet winner (an option that beats all others in pairwise competition).
+- agenda-setting agent (European Commission)
+
+(4. Resolving disputes)
+- Arbitrating agent: Incomplete contracting has lower future transaction costs if you create an arbitrating agent.
+- Problems arise from incomplete contracting.
+- Arrange careful rules so states can give the IO the authority AND autonomy to handle these unplanned for events.
+- Arbitrating agents
+
+(5. Enhancing credibility)
+- Enforcing agents: with high discretion to push policy in the direction desired over the long-term. Makes it hard for states to cheat to grab short-term gains.
+- time-inconsistency problem (long-term interests may not be same as short-term interests)
+- Delegating authority to an IO is a demonstrable action that ties a state’s hands more than simple talk.
+- Enforcing agents (ECB)
+
+(6. Creating policy bias)
+- Create lock-in with policy-biased agents
+- Try to set the rules of behavior of the IO so that your power is protected even if the balance shifts over time.
+- e.g. Post civil war create institutions with voting rules balanced across ethnic groups
+- Policy creates winners and losers. Ensure your preferences remain in place long after you're gone.
+- UNSC structure reflected power dynamics in 1945 but keeps them central today
+
+
+
+
+ANY QUESTIONS ON THE BENEFITS?
+
+These will play a big role in the first part of your case study.
+
+
+
+Ok, so delegation can produce sizable benefits for agents.
+
+THEN, ACCORDING TO THE READING, WHAT IS THE BIG PROBLEM?
+
+("Agency slack")
+
+WHAT IS AGENCY SLACK?
+(p5; “...independent action by an agent that is undesired by the principal.”)
+
+- EXAMPLE?
+(I hire you to make sales calls and you play on Facebook all day long.)
+
+
+
+The chapter defines two types of "slack."
+
+1. WHAT IS "SHIRKING" AND GIVE ME AN EXAMPLE FROM YOUR WORK LIVES?
+(“...when an agent minimizes the effort it exerts on its principal’s behalf.”)
+
+Facebook time while at your desk.
+
+
+
+2. WHAT IS SLIPPAGE AND GIVE ME AN EXAMPLE?
+(“...when an agent shifts policy away from its principal’s preferred outcome and toward its own preference”)
+
+I hire a realtor to help me buy a house at the lowest price.
+- They get paid as a % of the selling price so their incentive is to keep the price higher than I'd like but low enough that I don't walk away.
+
+
+EVERYBODY CLEAR ON THOSE FORMS OF AGENCY LOSS?
+
+
+
+
+---
+
+background-image: url('libs/Images/07_1-PA_Maximizing_Benefits.png')
+background-size: 100%
+background-position: center
+class: middle
+
+???
+
+Now that we have the basic concepts down...
+
+SLIDE
+
+EXPLAIN TO ME WHAT WE'RE SEEING IN THESE TWO FIGURES.
+
+
+The primary benefit of delegation is in specialization.
+- The agent gets really good at doing the job and you benefit.
+
+The problem is that specialization only pays off if you give the agent the freedom to do the job.
+
+As the agent's autonomy increases, the capacity for slack increases and eventually the agent's productivity collapses.
+
+Game for the principal is to try and design a contract that maximizes productivity while minimizing slack.
+
+DOES THIS MAKE SENSE?
+
+
+
+
+---
+
+background-image: url('libs/Images/07_1-PA_Control_Mechanisms.png')
+background-size: 100%
+background-position: center
+class: middle
+
+???
+
+So, the question for us is how do you control your agents?
+
+SLIDE
+
+ACCORDING TO THE READING, WHAT ARE THE FIVE MAJOR MECHANISMS STATES USE TO CONTROL THEIR AGENTS?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**Principal-Agent Theory: Control Mechanisms**]]]
+
+.size50[
+1. Rules vs Discretion
+
+2. Monitoring and Reporting Requirements
+
+3. Screening and Selection Procedures
+
+4. Institutional Checks and Balances
+
+5. Sanctions
+]
+
+???
+
+HOW DO WE USE THE "RULES VS DISCRETION" DIFFERENCES TO CONTROL AN AGENT?
+- How extensive and specific will the rules be for agent task execution?
+
+- Entirely rule-based is inefficient and only needed when agent is difficult to control through other means (Ex: World Bank and the environment)
+
+- Total discretion is better when uncertainty is very high, agent possesses important specialized knowledge or in cases of preference heterogeneity, BUT, trade-off is greater chance of slack.
+
+
+HOW DO WE USE MONITORING AND REPORTING REQUIREMENTS TO CONTROL AN AGENT?
+- "ex post" monitoring 
+- "police patrol" is direct monitoring of agent by principals 
+- "fire alarm" relies upon affected outside actors to make principals aware of a problem
+
+
+HOW DO WE USE SCREENING AND SELECTION PROCEDURES TO CONTROL AN AGENT?
+- Carefully pick agents whose preferences match your own.
+- Of course, agents have an incentive to misrepresent their preferences...
+
+
+HOW DO WE USE INSTITUTIONAL CHECKS AND BALANCES TO CONTROL AN AGENT?
+- Design internal, conflicting authorities (UNSC can stop ICC)
+- empower more than one agent with overlapping authorities
+
+
+HOW DO WE USE SANCTIONS TO CONTROL AN AGENT?
+- Carrots and sticks
+- Increase or decrease budgets, perks, staff, degree of oversight
+- Control mechanisms are costly and imperfect
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size40[
+1. "Understanding the ICC" 2020 p9-15 (at a glance), 17-21 (structure), 23-27 (crimes), 31-47 (how it operates)
+
+2. Groups: Find us real world examples to illustrate the following ICC actions in recent news
+    - Group 1) Country objections to an ICC investigation
+    - Group 2) ICC prosecutor explains a new investigation
+    - Group 3) Arrests and extradition to the ICC
+    - Group 4) ICC Trials in process
+]
+
+???
+
+CASES: Split up key elements highlighted by the intro doc above so we get news stories related to each thing. Ask each group to collect us a handful examples of their "thing" from the news
+    - Examples of countries requesting or objecting to an ICC investigation
+    - Examples of the ICC prosecutor starting or ending an investigation
+    - Examples of arrests 
+    - Reports from trials
+
+
+
+
+
+
+

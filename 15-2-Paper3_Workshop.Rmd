@@ -1,0 +1,85 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.center[.size70[
+Working on the Final Paper
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[.content-box-blue[**Final Paper: Reform Proposal**]]
+
+.size40[
+Select one of the international institutions we studied this semester and propose a **specific** and **feasible** reform that would improve its functioning. 
+
+Your proposal must be rooted in the actual design of the institution and discuss how it could be pursued without losing important members or inspiring great opposition. 
+
+Do not assume the reader of your report is familiar with the institution you are reforming so make sure to introduce and summarize it in your paper.
+]
+
+???
+
+IF you choose the UN and your paper overlaps with the work we did on reforms in class the bar for you will be much higher than with the other institutions.
+
+### Questions on the assignment?
+
+<br>
+
+Let's get to work!
+
+- Use your classmates for feedback!

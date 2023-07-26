@@ -1,0 +1,780 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(readxl)
+library(lubridate)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+
+d <- read_excel("../../Data/Kyoto_Protocol_and_WDI/Data-Kyoto_Protocol_Negotiation.xlsx", na = "NA")
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size45[**IV. International Institutions for Aggregate Effort**]
+
+<br>
+
+.size50[**Today's Agenda: Design Analysis**
+
+- Kyoto Protocol to the United Nations Framework Convention on Climate Change
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Semester Plan of Attack**]]
+
+.size50[
+1. Basics of Analyzing International Institutions
+
+2. International Institutions for Mutual Restraint
+
+3. International Institutions for Coordination
+
+4. .textblue[**International Institutions for Aggregate Effort**]
+
+]
+
+???
+
+Last week we dug into reforming the UN.
+
+### Key takeaways? How should we reform the UN?
+
+
+
+
+---
+
+class: middle, slideblue
+
+state of the science in 1995 p21-24
+
+Summary for Policymakers: The Science of Climate Change
+
+1. Greenhouse gas concentrations have continued to increase
+2. Anthropogenic aerosols tend to produce negative radiative forcings
+3. Climate has changed over the past century
+4. The balance of evidence suggests a discernible human influence on global climate
+5. Climate is expected to continue to change in the future
+6. There are still many uncertainties
+
+
+
+---
+
+background-image: url('libs/Images/13_1-UNFCCC_Conference.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+
+
+---
+
+class: middle, slideblue
+
+.size45["The ultimate objective of this Convention and any related legal instruments that the Conference of the Parties may adopt is to achieve, in accordance with the relevant provisions of the Convention, stabilization of greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous anthropogenic interference with the climate system.  Such a level should be achieved within a time frame sufficient to allow ecosystems to adapt naturally to climate change, to ensure that food production is not threatened and to enable economic development to proceed in a sustainable manner" (UNFCCC 1992, Art 2).]
+
+???
+
+The ultimate objective for the international community's effort on climate change.
+
+### Why is this a problematic "ultimate objective"?
+- (Might include two sentences that contradict each other...)
+1. Stabilize GHGs before dangerous human interference in the system, BUT
+2. Don't interrupt efforts to fight hunger and preserve economic growth.
+
+
+
+
+---
+
+background-image: url('libs/Images/13_1-Kyoto_Conference.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+???
+
+Ok, let's transition to the Lanchberry piece you read for today.
+
+Lanchberry (1997) does an excellent job tracking the period between agreeing the UNFCCC and the Kyoto meeting.
+
+WHAT STAGE OF THE TREATY-MAKING PROCESS IS LANCHBERRY DESCRIBING?
+(Pre-negotiation)
+
+AND WHAT IS THE BIGGEST BATTLE DURING PRE-NEGOTIATION?
+(Problem Framing!)
+
+IF THE CONVENTION ALREADY EXISTS TO FRAME THE PROBLEM, THEN WHAT WAS LEFT TO BATTLE OVER DURING THIS PERIOD?
+(1. Adequacy of UNFCCC rules and need for replacement)
+(2. Precise mechanism of the obligation e.g. aims, suggestions, binding commitments, Joint Implementation (JI) e.g. CDM, emissions trading)
+
+<br>
+
+**SLIDE**: Before we talk specifics from Lanchberry, let's look at the data!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, full
+
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.width=9, fig.height=4.5, cache=TRUE}
+# Emissions map - Kyoto (1997)
+# quantile(d1997$CO2_kt, probs = .25)[[1]]
+#summary(d$co2_per_capita[d$year == 1997])
+
+d1997 <- d |> 
+  filter(year == 1997) |>
+  mutate(
+    co2_cat = case_when(
+      co2_emissions < 1e3 ~ "< 1,000",
+      co2_emissions < 1e4 ~ "< 10,000",
+      co2_emissions < 1e5 ~ "< 100,000",
+      co2_emissions < 1e6 ~ "< 1,000,000",
+      co2_emissions < 1e7 ~ "< 10,000,000"
+    ),
+    co2_pc_cat = case_when(
+      co2_per_capita < 1 ~ "< 1",
+      co2_per_capita < 5 ~ "< 5",
+      co2_per_capita < 10 ~ "< 10",
+      co2_per_capita >= 10 ~ "10+"
+    )
+  )
+
+# Use rnaturalearth to define world map data
+worldmap <- ne_countries(scale = 'medium', type = 'map_units', returnclass = 'sf')
+
+# Merge data onto worldmap
+d10 <- left_join(worldmap, d1997, by = c("adm0_a3" = "ccode"))
+
+d10 |>
+  mutate(
+    co2_cat = factor(co2_cat, levels = c("< 1,000", "< 10,000", "< 100,000", "< 1,000,000", "< 10,000,000"))
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = co2_cat)) +
+  labs(fill = "", title = "CO2 Emissions (kt): Kyoto Protocol (1997)") +
+  #scale_fill_brewer(type = "seq", palette = 7)
+  scale_fill_manual(values = c("floralwhite", "khaki2", "yellow1", "orange1", "red")) #+
+  #theme(legend.position = "bottom")
+```
+
+???
+
+State of emissions at date of Kyoto Agreement
+
+### What stands out here? Key observations?
+
+<br>
+
+This tends to be the metric, and series of maps, that the developed world emphasizes at the negotiations.
+
+### What metric would the developing world prefer we use?
+- (**SLIDE 1**: Make a MAP: per capita)
+
+- (**SLIDE 2**: Make a MAP: Historical!)
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, full
+
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.width=9, fig.height=4.5, cache=TRUE}
+# Emissions per capita map - Kyoto (1997)
+d10 |>
+  mutate(
+    co2_pc_cat = factor(co2_pc_cat, levels = c("< 1", "< 5", "< 10", "10+"))
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = co2_pc_cat)) +
+  labs(fill = "", title = "CO2 Emissions per capita (kt): Kyoto Protocol (1997)") +
+  scale_fill_manual(values = c("floralwhite", "yellow1", "orange1", "red"))
+```
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/13_1-cumulative-co-emissions.svg')
+background-size: 70%
+background-position: center
+class: slideblue
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics("libs/Images/13_1-cumulative-co-emissions.svg")
+```
+
+.pull-left[
+```{r, fig.retina=3, fig.align = 'center', out.width = '100%', fig.width=9, fig.height=4.5, cache=TRUE}
+d10 |>
+  mutate(
+    co2_cat = factor(co2_cat, levels = c("< 1,000", "< 10,000", "< 100,000", "< 1,000,000", "< 10,000,000"))
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = co2_cat)) +
+  labs(fill = "", title = "CO2 Emissions (kt): Kyoto Protocol (1997)") +
+  scale_fill_manual(values = c("floralwhite", "khaki2", "yellow1", "orange1", "red"))
+```
+]
+
+.pull-right[
+```{r, fig.retina=3, fig.align = 'center', out.width = '100%', fig.width=9, fig.height=4.5, cache=TRUE}
+# Emissions per capita map - Kyoto (1997)
+d10 |>
+  mutate(
+    co2_pc_cat = factor(co2_pc_cat, levels = c("< 1", "< 5", "< 10", "10+"))
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = co2_pc_cat)) +
+  labs(fill = "", title = "CO2 Emissions per capita (kt): Kyoto Protocol (1997)") +
+  scale_fill_manual(values = c("floralwhite", "yellow1", "orange1", "red"))
+```
+]
+
+???
+
+Compare and contrast the three maps
+
+### Where should we focus? Why?
+
+
+
+
+
+---
+
+class: middle, slideblue
+
+.size30[
+- Each party is represented by its own national delegation
+- Group of 77 (G77) and China
+- Alliance of Small Island States (AOSIS)
+- Least Developed Countries (LDC)
+- European Union (EU)
+- The Umbrella Group (formerly JUSSCANNZ)
+- Environmental Integrity Group (EIG)
+- Organization of Petroleum Exporting Countries (OPEC)
+- Central Asia, Caucasus, Albania and Moldova (CACAM)
+- The League of Arab States
+- The Independent Alliance of Latin America and the Caribbean (AILAC)
+- The BASIC Group (Brazil, South Africa, China India)
+- The Bolivarian Alliance for the Peoples of our America (ALBA)
+]
+
+???
+
+(UN Party groupings: http://unfccc.int/parties_and_observers/parties/negotiating_groups/items/2714.php)
+
+States typically form groups during the climate negotiations.
+
+WHY IS THAT AN APPEALING STRATEGY?
+(- Amplify your voice)
+(- Try to control the agenda)
+(- Greater weight of draft resolutions)
+
+
+
+Lanchberry walked you through many of these groups and what they want.
+
+* notes at bottom *
+
+BASED ON THE WAY LANCHBERRY MAPS OUT THE COMPETING INTERESTS, WHAT SHOULD OUR EXPECTATIONS BE FOR THE KYOTO PROTOCOL?
+
+- LIKELY TO REACH ANY KIND OF DEAL? OVERLAPPING WIN-SETS?
+
+
+
+Developing World:
+Pace-setters? (AOSIS)
+Fence-sitters? (China, India and Brazil)
+Foot-draggers? (OPEC especially Saudi Arabia and Kuwait)
+
+Global Climate Coalition (US NGO tied to oil and coal industry) - Big time foot-draggers
+
+Developed World:
+- NOTE: Many states face considerable internal splits.
+
+EU
+- Northern countries want big cuts and soon (Germany, Denmark, Austria, Netherlands, UK)
+- Southern countries willing to go along in return for aid from EU
+
+JUSCANZ (Japan, US, Canada, Australia and New Zealand)
+- "Shaky, largely informal and decreasingly important"
+- Mostly major emitters who want less stringent rules than the EU
+
+Australia 
+- King of the foot-draggers, opposes all cuts
+
+Canada - Similarly a big foot-dragger
+
+Japan 
+- Big internal split: MITI vs Environmental Agency
+- WHY DOES LANCHBERY THINK THE JAPANESE WILL CAVE?
+(Oddly racial explanation rooted in their culture's respect for consensus)
+
+G77 and China
+- significant cuts but only if no JI commitments for them in short term.
+
+US 
+- Big internal split: Clinton (science scary) vs Senate (only if developing world acts too)
+- Big supporter of emissions trading and JI
+
+
+#### Notes
+
+Party positions pre-negotiation (Lanchbery1997)
+
+Developing (nominally the G77 and China = 130 or so countries) vs Developed
+- Fundamental divide over historical responsibility
+
+Developing world can also be split into camps: 
+- One extreme: OPEC demands compensation for any cuts
+- Other extreme: Alliance of Small Island States (AOSIS), Bangladesh and Egypt fear being inundated by sea-level rise and so demand binding cuts
+- Middle: China, India and Brazil
+
+Pace-setters? (AOSIS)
+Fence-sitters? (China, India and Brazil)
+Foot-draggers? (OPEC)
+
+
+Developed world camps:
+
+1. Using UNFCCC Annex I to define developed has problems
+- e.g. developed in 1991 excludes recent joiners of OECD like Mexico and South Korea
+- Countries of former USSR and central and eastern europe given special status as "countries in transition" even though developed. 
+-- Positions vary dramatically within that group of states: Countries aiming for EU membership (Poland, Czech Rep, Hungary) typically align with EU vs Russia which depends on oil exports and suspects it may benefit from climate change
+--- Important to note: Internal Russian ministries tend to hold different positions on this related to their area e.g. energy vs environment ministries
+
+2. EU supposed to speak with one voice BUT
+- northern countries want big cuts (Germany, Denmark, Austria, Netherlands, UK)
+- Southern countries willing to go along in return for aid from EU
+
+3. JUSCANZ
+- Japan, US, Canada, Australia and New Zealand
+- "Shaky, largely informal and decreasingly important"
+- Mostly major emitters who want less stringent rules than the EU
+- Australia most extreme opponent
+- Internal rifts evident in Japanese (MITI vs Environmental Agency) and US (EPA vs Dept of Energy; Clinton vs Congress) delegations
+
+
+The Origins of the Present Climate Negotiations
+- Aim to strengthen UNFCCC begins March/April 1995 at Berlin CoP (however, discussions had begun earlier in NYC Feb 1995 where AOSIS made formal proposal for new protocol)
+- Debate continues about the adequacy of the rules in FCC
+- OPEC led by Saudi Arabia and Kuwait try to undermine planning for Berlin by blocking rules of procedure (FOOT-DRAGGERS!) supported by Global Climate Coalition (US NGO tied to oil and coal industry) 
+- Outcome: meeting breaks up with no decision on anything except a new ban on NGOs on floor during debates
+
+Berlin issues
+1. Adequacy of UNFCCC rules and need for replacement?
+2. Sanction joint implementation (JI) between developed and developing countries e.g. can developed countries pay for cuts in developing instead of changes at home?
+-- many in developing world think these changes should start in developed world.
+-- US and Netherlands big fans and also want emissions trading
+
+Berlin conclusions
+1. Led by Germany, the EU and a "green group" led by India pushed forward consensus on inadequacy of FCC rules and establish process moving forward
+- OPEC opposition fades under pressure of oil consuming states
+- Australia and Canada alone as obstacles, but eventually give in so as to remain part of future negotiations
+2. Berlin sets up 4 year pilot program for JI with testing and monitoring but no credits given
+
+Post-Berlin AGBM negotiations
+- Ad-hoc Group on the Berlin Mandate
+- Very slow progress that few states or groups had solid idea of what they wanted next.
+- Only AOSIS had firm proposal, "which was politely ignored..."
+- US and other sought to actively side-track the negotiations which by third meeting led to chairman rebuking US for wasting time.
+- IPCC releases second assessment report that really pissed off the "no action" states e.g. 1. detection of human impact on climate, 2. climate change impacts will be adverse, 3. most countries could reduce GHG at little to no cost. 
+-- Much debate ensues: OPEC and some of JUSCANZ vs EU and northern nations
+
+CoP 2 in Geneva (July 1996)
+- no clear progress on much of anything had been made e.g. rules of procedure, accept or not the IPCC report, need for a protocol or an amendment
+- After frantic meetings, G77, China, EU and US accept the report (Geneva Declaration) but never formally made because no rules of procedure agreed and OPEC, Australia and others opposed it.
+
+Afterward, comments and proposal fragments flood into AGBM
+- Only AOSIS and EU willing to offer a complete draft protocol with targets and time-frames included
+- G77 and China say developed world should take the lead in cuts
+- US proposal emphasizes emissions trading and JI
+- Some of JUSCANZ push differentiated commitments
+- EU pushes some "obligatory coordinated policies and measures"
+- France and Japan push per capita standards (likely because they rely so much on nuclear)
+
+Where Next?
+- EU takes climate issue very seriously and wants significant emissions cuts in short term. Supported by AOSIS, prospective members of EU. Lanchbery thinks Russia, Switzerland Norway eventually will back EU position.
+- US position too hard to read as Clinton battles Congress; likely focused on emissions trading and requirement by Senate that developing states participate.
+- Australia opposes all cuts
+- Japan similar but as host of meeting may be pressured to give in.
+- G77 and China endorse significant cuts but only if no JI commitments for them in short term.
+- OPEC will agree so long as compensation included
+- Possibility of new "green group" arising from within G77 would transform the negotiations.
+
+Lanchbery Prediction for Kyoto: Protocol (or maybe an amendment) 10% reduction by 2010 (from 1990 levels) with emissions trading by 2000; Japan, Canada, Australia stay on outside. No "green group" then only 5% likely.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/13_1-Kyoto_Preamble.png")
+```
+
+???
+
+Before we dig into the Kyoto Protocol articles, let's start with the preamble.
+
+WHAT STANDS OUT TO YOU IN THE PREAMBLE?
+
+- IMPORTANT LINKAGES TO THE UNFCCC?
+
+
+(- Protocol only open to parties of the UNFCCC)
+
+(- Pride of place for Art 2, the ultimate objective)
+
+(- Accepting all the rules in the UNFCCC)
+
+(- Accepting the PRINCIPLES in Art 3)
+
+
+
+
+So, even if a convention is weak in terms of creating strict obligations I hope you can see how big a deal it is to enshrine a specific problem-framing in it.
+
+Winning the battle to design the convention is a HUGE victory.
+
+
+
+Why baseline in 1990?
+
+- Data availability
+- Avoid people screwing around with current emissions 
+- Politics!
+
+
+Ok, in what specific ways does the Kyoto Protocol try to "improve things beyond the 'no-regime' counterfactual"?
+
+Let's evaluate some specific parts of the treaty together.
+
+And where we have to start is the BIG obligation represented by the emission commitments in Annex B.
+
+HOW DO WE INTERPRET THE NUMBERS IN ANNEX B?
+
+ARE NUMBERS OF 100 OR HIGHER ALSO CONSIDERED EMISSIONS CUTS?
+
+(SLIDE)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[**Kyoto Protocol: Annex B Emission Commitments**]]
+
+.size25[
+**Make cuts**
+- Austria 92, Belgium 92, Bulgaria 92, Canada 94, Croatia 95, Czech Republic 92, Denmark 92, Estonia 92, European Community 92, Finland 92, France 92, Germany 92, Greece 92, Hungary 94, Ireland 92, Italy 92, Japan 94, Latvia 92, Liechtenstein 92, Lithuania 92, Luxembourg 92, Monaco 92, Netherlands 92, Poland 94, Portugal 92, Romania 92, Slovakia 92, Slovenia 92, Spain 92, Sweden 92, Switzerland 92, UK 92, USA 93
+
+**Hold steady**
+- New Zealand 100, Russian Federation 100, Ukraine 100
+
+**Grow more slowly**
+- Australia 108, Iceland 110, Norway 101
+]
+
+???
+
+In essence, even numbers above 100% represent a cut from a state’s projected increase in GHG emissions.
+
+These states are allowed to increase emissions but, hopefully, more slowly than they would have otherwise as their economies grow.
+
+
+
+
+Each of these represent interesting stories, but let's talk about Australia for a sec.
+
+Australia negotiated a 108% target meaning they got to increase their emissions by 8% from 1990 levels.
+
+ANYBODY KNOW WHY AUSTRALIA GOT SUCH A SWEETHEART DEAL? IT CERTAINLY DOESN'T STRIKE ME AS LESS DEVELOPED?
+
+
+
+Answering that question requires a quick detour. 
+
+WHICH ARTICLE IN THE TREATY TELLS STATES WHAT KINDS OF ACTIONS THEY ARE SUPPOSED TAKE TO ACHIEVE THESE GOALS?
+
+* Everybody skim through article 2.1 (a) and (b) *
+
+
+
+
+WHAT IS THE GIST OF THESE INSTRUCTIONS?
+
+- WHAT KINDS OF THINGS ARE STATES SUPPOSED TO TARGET FOR EMISSIONS REDUCTIONS?
+
+(energy efficiency, plant forests, reduce wasteful oil subsidies, etc.)
+- In other words, take an active role in making your society more carbon neutral in an ongoing way.
+
+
+
+* Everybody read article 3.7 *
+
+
+
+WHAT DO WE LEARN FROM THE FIRST SENTENCE IN 3.7?
+(- Kyoto targets only apply to the period 2008 - 2012)
+(- Base year is 1990)
+(- Special consideration for countries "undergoing the process of transition to a market economy.")
+
+
+WHAT DO WE LEARN FROM THE SECOND SENTENCE?
+
+
+It reads like gibberish, right?
+
+Welcome to the “Australia clause.” 
+- It essentially only applies to Australia.
+
+At the very last minute, Australian negotiator Robert Hill stands up to say Australia won't sign the agreement UNLESS this clause is added.
+
+Powerful because the meeting had FINALLY achieved consensus and many were afraid of anything disrupting it.
+
+Hill was playing chicken with the conference which either makes him an exceptional negotiator, an asshole or both.
+
+Either way, the conference gives in and the clause is added.
+
+
+
+Who cares? You should!
+
+Basically, the treaty emission targets were meant to get states to cut emissions from ongoing sources of CO2.
+
+Factories, oil production, traffic, etc.
+
+However, Australia was wrapping up a period of massive land clearing exercises.
+
+They were wiping out huge areas of forest for development.
+
+Land clearance releases tons of CO2.
+
+Australia got this clause inserted which treated these one-off releases of CO2 from land clearing as part of their baseline 1990 emissions.
+
+Adding this in increased their pc emissions from 21 to 26 tons (Hamilton and Reynolds 1999) which made it look like Australia was the biggest ongoing CO2 emitters in the world.
+
+HOWEVER, Australia was in the process of wrapping up its land clearing exercises.
+
+Those were never going to be ongoing emissions.
+
+This meant they'd be able to meet their 108% target without cutting any ongoing sources.
+
+IN FACT, estimates were that they could increase emissions by 25-30% and still hit their target.
+
+Which they did (+28% in normal sources) while still hitting their "target."
+
+Messed up right?
+
+
+
+It gets worse when you realize that this loophole is likely to play a huge role when devleoping states, who also do a lot of land clearing, will want the same treatment if and when they ever accept their own targets.
+
+So, booo Australia. Boooooo.
+
+* References at bottom *
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size45[.content-box-white[**Treaty Design Analysis**]]
+
+<br>
+
+.size35[.content-box-white[**Kyoto Protocol to the United Nations Framework**]]
+
+.size35[.content-box-white[**Convention on Climate Change**]]
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+]
+
+???
+
+Let's highlight some other important design elements / choices.
+
+Article 3 is really the heart of the treaty and was almost the last element finalized in Kyoto.
+
+FROM THE PERSPECTIVE OF THE ANNEX B STATES, HOW SERIOUSLY ARE YOU CONSTRAINED BY EACH SECTION OF ARTICLE 3?
+
+1?
+- Aims for a global 5% reduction (allows joint estimation)
+
+2?
+- What is demonstrable progress?
+
+4?
+- we won't decide how you should be calculating all of these complicated emissions amounts until later and then these rules won't apply in the current period.
+
+9?
+- We'll discuss commitments after 2012 much later
+
+13?
+- Save extra emissions? You can bank them and use in the next period
+
+
+
+WHAT DOES ARTICLE 5 REQUIRE THEM TO DO? 
+(- States must track and report emissions.)
+
+IS IT A SERIOUS CONSTRAINT? WHY OR WHY NOT?
+(- HOWEVER, this means reporting is controlled by the states themselves...)
+
+
+
+
+SO, WHAT HAPPENS IF AN ANNEX B STATE FAILS TO COMPLY WITH THE PROTOCOL?
+
+* Read Art 18 and tell me about the compliance mechanism *
+
+"The Conference of the Parties serving as the meeting of the Parties to this Protocol shall, at its first session, approve appropriate and effective procedures and mechanisms to determine and to address cases of non-compliance with the provisions of this Protocol, including through the development of an indicative list of consequences, taking into account the cause, type, degree and frequency of non-compliance. Any procedures and mechanisms under this Article entailing binding consequences shall be adopted by means of an amendment to this Protocol."
+
+In other words, we'll get to that later...
+
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align='center', out.width = '70%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table1.png")
+```
+
+???
+
+### Where does Kyoto fit?
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**Next Class: Effectiveness Questions**]
+
+.size30[
+1. Which countries saw the biggest percentage declines in GHG emissions by 2012? Which the biggest increases?
+2. Did signatory states see bigger declines in emissions than non-signatory states?
+3. Did ratifying states see bigger declines in emissions than non-participant states?
+4. Did states that ratified more quickly cut emissions more than those who ratified more slowly?
+5. Did Annex B states that ratified see bigger declines in emissions than other states?
+]
+
+???
+
+
+
+
+
+
+
+
+
+
+

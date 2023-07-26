@@ -1,0 +1,172 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size50[**III. International Institutions for Coordination**]
+
+<br>
+
+.size50[**Today's Agenda: Design Analysis**
+
+- The United Nations (UN)
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Semester Plan of Attack**]]
+
+.size50[
+1. Basics of Analyzing International Institutions
+
+2. International Institutions for Mutual Restraint
+
+3. .textblue[**International Institutions for Coordination**]
+
+4. International Institutions for Aggregate Effort
+
+]
+
+???
+
+Weekly plan:
+
+T - Design
+
+R - Effectiveness
+
+
+
+---
+
+background-image: url('libs/Images/10_1-United-Nations.jpg')
+background-size: 100%
+background-position: center
+class: bottom
+
+.center[.content-box-blue[.size50[What are the current debates or areas of conflict in terms of the United Nations?]]]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**Treaty Design Analysis: The UN Charter (1945)**]]]
+
+.pull-left[
+
+<br>
+
+.size35[
+1. General Assembly (*Chapter 4, Arts 9-22*)
+    
+2. Security Council (*Chapter V, Arts 23-32*)
+
+3. International Court of Justice (*Chapter 14, Arts 92-96*)
+    
+4. The Secretariat (*Chapter 15, Arts 97-101*)
+]]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+]
+
+???
+
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size45[
+1. Radtke & Jo (2018) "Fighting the Hydra: United Nations sanctions and rebel groups"
+
+2. Beardsley (2011) "Peacekeeping and the Contagion of Armed Conflict"
+
+3. Ruggeri, Dorussen & Gizelis (2017) "Winning the Peace Locally: UN Peacekeeping and Local Conflict"
+]
+
+???
+
+Your job is to read the arguments and conclusions in these two articles
+
+- Be ready to diagram the argument in class
+
+- Give the analyses a skim too!
+
+
+
+
+
+
+

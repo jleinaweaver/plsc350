@@ -1,0 +1,197 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size50[**I. Basics of Analyzing International Institutions**]
+
+<br>
+
+.size50[**Today's Agenda**
+
+Groups working on Paper 1
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Paper 1 - Treaty Design Analysis**]
+
+.size40[
+1. Why did we "need" this piece of international law? Why is it important? To whom?
+2. What specifically does it do? Classify using legalization and the rational design conjectures
+3. Based on its design how likely is it to be effective?
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Class Today: Paper 1**]
+
+.size40[
+Present design in terms of legalization and Rational Design conjectures
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[**Paper 1 - Treaty Design Analysis**]
+
+<br>
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+]
+
+<br>
+
+.center[.size45[2) What specifically does it do? Classify using legalization and the rational design conjectures]]
+
+???
+
+Analyses on the board and let's present!
+
+1. Classify using legalization
+
+2. Which KLS conjectures in action?
+
+
+KLS Problems
+- Enforcement,
+- uncertainty about preferences,
+- distribution,
+- uncertainty about behavior,
+- uncertainty about the state of the world,
+- number
+
+KLS Design Mechanisms
+- Restrictive membership
+- Scope
+- Centralization
+- Control
+- Flexibility
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Paper 1 - Treaty Design Analysis**]
+
+.size40[
+3) Based on its design how likely is it to be effective?
+]
+
+???
+
+Groups diagram this argument on board
+
+Present
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size40[
+Section 2: Mutual Restraint (agreeing what states ought not to do)
+
+1. CASES: Find a recent current event (news story) that concerns nuclear weapons in the world (Who has 'em? Who wants 'em? Who is threatening to use 'em? etc)
+
+2. Davenport 2022
+
+3. Skim the Treaty on the Non-Proliferation of Nuclear Weapons (NPT)
+]
+
+???
+
+NO OVERLAP in cases!
+
+
+
+
+
+
+

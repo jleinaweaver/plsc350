@@ -1,0 +1,290 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size50[**I. Basics of Analyzing International Institutions**]
+
+<br>
+
+.size50[**Today's Agenda**
+
+Analyzing case studies of international laws failing to achieve their aims using Mearsheimer (1994)
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size40[.content-box-white[**Abbott, Keohane, Moravcsik, Slaughter & Snidal (2000)**]]]
+
+<br>
+
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+
+???
+
+Recap legalization
+
+
+
+---
+
+background-image: url('libs/Images/03_1-Boxing_v3.png')
+background-size: 100%
+background-position: center
+class: bottom, center
+
+.size55[.content-box-blue[**Do international institutions matter?**]]
+
+
+
+---
+
+background-image: url('libs/Images/03_1-Boxing_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.content-box-white[.size50[**“Institutions are the .textblue[rules of the game] in a society or, more formally, are the .textblue[humanly devised] constraints that .textblue[shape human interaction]" (North 1990).**]]
+
+
+
+---
+
+background-image: url('libs/Images/03_1-Boxing_v2.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.content-box-white[.size45[**"...as a set of rules that stipulate the ways in which states .textblue[should] cooperate and compete with each other" (Mearsheimer 1994, p8).**]]
+
+<br>
+
+<br>
+
+<br>
+
+.content-box-white[.size45[**"Institutions are the .textblue[rules of the game] in a society or, more formally, are the .textblue[humanly devised] constraints that .textblue[shape human interaction]" (North 1990).**]]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size40[.content-box-white[**Mearsheimer (1994): Offensive Realism and Institutions**]]]
+
+.size40[
+- ?
+
+- ?
+
+- ?
+
+- ...
+
+Therefore, international institutions "have minimal influence on state behavior" (7).
+]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size40[.content-box-white[**Mearsheimer (1994): Offensive Realism and Institutions**]]]
+
+.size40[
+- Powerful states create institutions to maintain or increase their power
+
+- Institutions simply reflect the balance of power
+
+- When the balance of power shifts so too should the institutions
+
+Therefore, international institutions "have minimal influence on state behavior" (7).
+]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size40[.content-box-white[**Mearsheimer (1994): Offensive Realism**]]]
+
+<br>
+
+.size40[
+- International anarchy
+- States have offensive military capacity
+- Uncertainty re: intentions of other states
+- Survival is primary goal
+- States are strategic
+
+Therefore, great powers fear each other, self-help is the rule and the goal of all states is power maximization.
+]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size40[.content-box-white[**Mearsheimer (1994): Offensive Realism**]]]
+
+.size40[
+- International anarchy
+- States have offensive military capacity
+- Uncertainty re: intentions of other states
+- Survival is primary goal
+- States are strategic
+
+Therefore, international institutions don't matter.
+
+Powerful states create institutions to maintain or increase their power.
+]
+
+
+
+---
+
+background-image: url('libs/Images/03_1-NATO_Enlargement.jpg')
+background-size: 82%
+background-position: center
+class: slideblue
+
+
+---
+
+background-image: url('libs/Images/03_1-NATO_US_Flag.jpg')
+background-size: 95%
+background-position: center
+class: slideblue
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.content-box-white[.size50["....textblue[**almost**] all nations observe almost all principles of international law and .textblue[**almost**] all of their obligations .textblue[**almost**] all the time."]]
+
+<br>
+
+<br>
+
+.content-box-white[.size45[--- Louis Henkin (1979)]]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size40[.content-box-white[**Mearsheimer (1994): Offensive Realism**]]]
+
+.size40[
+- International anarchy
+- States have offensive military capacity
+- Uncertainty re: intentions of other states
+- Survival is primary goal
+- States are strategic
+
+Therefore, international institutions don't matter.
+
+Powerful states create institutions to maintain or increase their power.
+]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size40[
+1. Koremenos, Lipson and Snidal (2001) excerpts
+
+2. CASES: Find us an example of an international law succeeding in achieving its aims in the world (e.g. someone crediting an international law for a good thing happening)
+]
+
+???
+
+If you understand the conjectures in Table 1 (p797) you're ready for class!
+
+
+
+
+

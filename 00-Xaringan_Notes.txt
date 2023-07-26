@@ -1,0 +1,51 @@
+To see live preview, run xaringan::inf_mr()
+
+Output as pdf, use pagedown (https://github.com/rstudio/pagedown)
+pagedown::chrome_print(input = "File.html")
+
+Host completed slides on your github
+--------------------------------------------------
+
+See your extra.css file for code to change:
+- text size
+- code size (in R)
+- text color
+(e.g. .grey, .charcoal, .purple, .black, .red, .blue, .green, .yellow, .orange)
+- add colored containers for text (on top of images)
+
+--------------------------------------------------
+## Two options for adding images
+- Images must be saved inside the libs folder as that is the main data directory
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/01_1-learn_code.jpg")
+```
+
+background-image: url('libs/Images/01_1-Height_technique.jpg')
+background-size: 100%
+background-position: center
+
+--------------------------------------------------
+## Tables
+
+Use kableExtra and create tables in R
+(https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html#Table_Styles)
+
+Get rid of striped rows? Add the following css code chunk to top of slide
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+
+
+
+For offline work 
+https://bookdown.org/yihui/rmarkdown/some-tips.html#working-offline
+
+
+
+

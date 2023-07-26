@@ -1,0 +1,653 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size50[**PLSC 350: International Organizations and Law**]
+
+<br>
+
+.size65[
+
+What is an act by an .textblue[**individual**] or a .textblue[**state**] that would clearly be .textred[**against international law**]?
+
+]
+
+<br>
+
+.size40[
+  Justin Leinaweaver (Fall 2023)
+]
+
+???
+
+### Prep for Class
+1. Make sure to save the key assumption lists from board today for class 14-3. Add notes to those slides.
+
+<br>
+
+*ON BOARD: As students come in get ideas up on the board!*
+
+<br>
+
+Welcome to PLSC 350: International Organizations and Law
+
+### Is everybody in the right place?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+.size65[**Introductions**]
+
+]
+
+.pull-right[
+.size55[
+
+1. Name
+
+2. Year in school
+
+3. Major
+
+4. Any experience reading laws?
+
+]]
+
+???
+
+I'm Dr. Leinaweaver.
+
+- Political scientist
+
+- Research interests: international politics, environmental politics and bargaining / negotiations.
+
+<br>
+
+### Your turn!
++ Name, year, major and do you have any experience reading/studying laws (domestic or international)?
+
+<br>
+
+Ok, let's see where we are starting our explorations this term.
+
+- I'd like to get a sense of your "prior knowledge" concerning international law.
+
+- Don't worry if you don't have clear prior knowledge, let's just talk through our intuitions.
+
+- **SLIDE**
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size80[**Key Assumptions**]
+
+<br>
+
+<br>
+
+.size80[What do states want from the international community?]
+
+???
+
+Take a few minutes on your own to think about this.
+- Try making a list.
+
+<br>
+
+Share your list with the people near you, discuss them.
+
+<br>
+
+*ON 1/2 THE BOARD: Build a class list*
+
+<br>
+
+### How would we rank these from the most important items to the least?
+
+### - Any big differences in our rankings? Why or why not?
+
+- (**ON BOARD**)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size80[**Key Assumptions**]
+
+<br>
+
+<br>
+
+.size80[When do states act on the international level?]
+
+???
+
+Ok, let's repeat this for a second question.
+
+### When do states act on the international level?
+
+### - In other words, what specific conditions motivate state action? 
+
+Take a few minutes on your own to think about this.
+- Try making a list.
+
+<br>
+
+Share your list with the people near you, discuss them.
+
+<br>
+
+*ON 1/2 THE BOARD: Build a class list*
+
+<br>
+
+### How would we rank these from the most important items to the least?
+### - Any big differences in our rankings? Why or why not?
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[.center[**What are your priors re: international law?**]]
+
+.size55[
+1. What do states want from the international community?
+
+2. When do states act on the international level?
+]
+
+???
+
+The question for us this semester is, should international law or international organizations be on either of these lists?
+
+- In other words, does international law matter for understanding international politics?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size80[**What is international law?**]
+
+.size60[
+"International law is that law that the .textred[**wicked do not obey**] and the .textblue[**righteous do not enforce**]."
+
+--- Abba Eban (1957) 
+]
+
+???
+
+One common theme you might come across in response to this question is summed up nicely by the Former Foreign Affairs Minister of Israel
+
+### What is this as an answer to our question?
+
+### - Is Eban telling us international law and organizations matter or not?
+
+<br>
+
+**SLIDE**: Here's a different answer!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size80[**What is international law?**]
+
+.size65[
+".textred[**International law**] is to law what .textblue[**professional wrestling**] is to wrestling."
+
+--- Stephen Budiansky 
+]
+
+???
+
+Stephen Budiansky is an American writer, historian and biographer
+
+### What is this as an answer to our question?
+
+### - Is Budiansky telling us international law and organizations matter or not?
+
+<br>
+
+**SLIDE**: Here's the answer from our course catalog
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size80[**What is international law?**]
+
+.size55[
+"....textred[**almost**] all nations observe .textred[**almost**] all principles of international law and .textred[**almost**] all of their obligations .textred[**almost**] all the time."
+
+--- Louis Henkin (1979) 
+]
+
+???
+
+The distinguished international legal scholar Louis Henkin famously wrote: 
+
+"...almost all nations observe almost all principles of international law and almost all of their obligations almost all the time."
+
+- Take a second and think about this sentence fragment.
+
+<br>
+
+### If this was the only thing you knew about international law, what could you say about it?
+
+1. (Target of the law appears to be nations. e.g. States.)
+
+2. (International law, at least according to legal scholars, carries obligations for those states.)
+
+3. (International law seems to matter at least some of the time.)
+
+4. (There are some conditions when states break international law.)
+    - Be a good idea to figure out what those conditions are…
+
+
+
+
+
+---
+
+background-image: url('libs/Images/01_1-UNGA.jpg')
+background-size: 100%
+background-position: center
+class: bottom, center
+
+.size50[.content-box-blue[UN General Assembly Resolution 77/222]]
+
+???
+
+Let's get our hands dirty by comparing and contrasting two examples of "international law"
+
+GA resolution (UNGA_Resolution-ARES77_222.pdf moratorium on death penalty);
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Slavery_Convention.jpg')
+background-size: 100%
+background-position: center
+class: bottom, center
+
+.content-box-blue[.size45[Convention on the Abolition of Slavery, the Slave Trade, and Institutions and Practices Similar to Slavery (1953)]]
+
+???
+
+Treaty (Supplementary Convention on the Abolition of Slavery, the Slave Trade, and Institutions and Practices Similar to Slavery 1953)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**LO1: Content Knowledge**]
+
+<br>
+
+.size50[Students should have substantial familiarity with the basic concepts and theoretical approaches of international law and international organizations.]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**LO2: Methods Knowledge**]
+
+<br>
+
+.size50[Students should demonstrate an ability to deeply explore specific international laws and organizations using data and academic literature.]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size45[**LO3: Critical Thinking and Problem-Solving Skills**]
+
+<br>
+
+.size50[Students should demonstrate an understanding of how institutional design matters for addressing international problems.]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size60[**LO4: Communication Skills**]
+
+<br>
+
+.size50[Students should demonstrate the ability to communicate complex international problems and institutional designs in ways that allow a non-expert audience to be convinced of their arguments.]
+
+
+
+---
+
+class: middle, center
+
+.size60[**Course Grade**]
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+tibble(
+  col1 = c("Participation", "Papers", "- Intl Law Case Study", "- IO Case Study", "- Analyze a Journal Article", "Total"),
+  col2 = c("", "", "(TBD)", "(TBD)", "(Final Exam)", ""),
+  col3 = c(30, 70, rep("", 3), 100)
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kable_styling(font_size = 43) |>
+  kableExtra::column_spec(1, width = "14em") |>
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(c(0, 6), bold = TRUE, background = "#b3ccff")
+
+```
+
+???
+
+Course Grade
+
+Heavy on the participation!
+
+Definitely a seminar, not a lecture.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Semester Plan of Attack**]]
+
+.size50[
+1. Basics of Analyzing International Institutions
+
+2. International Institutions for Mutual Restraint
+
+3. International Institutions for Coordination
+
+4. International Institutions for Aggregate Effort
+
+]
+
+???
+
+Mutual Restraint: Agreeing what states ought not to do
+
+Coordination and Global Standards: Agreeing what states ought to do
+
+Aggregate Effort: Outcomes that depend on the combined efforts of all states
+
+
+
+
+---
+
+background-image: url('libs/Images/01_1-coyote.jpg')
+background-size: 85%
+class: center
+
+???
+
+My attendance policy is simple.
+
+The only way I can ensure everyone makes progress on the LOs is by being in class and doing the work.
+
+- This means I have to make sure you are here!
+
+<br>
+
+To help encourage you I use an attendance cliff.
+
+- Anyone with more than THREE unexcused absences in the semester cannot earn higher than a ‘C’ in the course
+
+- Regardless of grades earned on other assignments.
+
+### Questions on this?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-office_space.jpg')
+background-size: 68%
+background-position: center
+
+???
+
+What if you have an excused absence coming up?
+
+- It is your responsibility to email me **BEFORE** the absence in order to receive a make-up assignment.
+
+- Easy peasy
+
+<br>
+
+This is also the place where I say to you, whatever is going on that might keep you out of class, please keep me in the loop. 
+
+- I genuinely want you to make progress on our learning outcomes
+
+<br>
+
+So, if things are getting rough for you please come talk to me.
+
+**I will always offer you flexibility in the face of struggle IF YOU COME TO ME BEFORE DEADLINES HAVE PASSED!**
+
+### Fair enough?
+
+
+---
+
+background-image: url('libs/Images/01_1-participation-points.jpg')
+background-size: 85%
+background-position: center
+class: slideblue
+
+???
+
+Ok, so I've got you coming to class now how do I make sure you're engaged?
+
+- Participation points!
+
+<br>
+
+Basically, if you:
+
+- Get to class on time,
+
+- Have the materials you need to work, and
+
+- Submit all daily required assignments BEFORE class,
+
+You'll be good to go and these are easy free points.
+
+<br>
+
+Before almost every class we will have a reading and a discussion question.
+
+- You must submit your answer to that question on our Canvas discussion board BEFORE class begins to earn your participation point.
+
+<br>
+
+The two most common ways people lose these points?
+
+- Come to class late, or 
+
+- Come to class without having completed the daily assignment.
+
+### Questions on this?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-matrix_meme.jpg')
+background-size: 95%
+class: center
+
+???
+
+Your first job is to download the syllabus from Canvas and read it carefully.
+
+It includes detail on everything you need to know.
+- Assignment deadlines
+- Readings
+- Drury policies
+- Office hours
+
+ALSO, I can see who downloaded it, so don’t delay!
+
+<br>
+
+We'll be using Canvas for submitting assignments, posting to the discussions and accessing the class readings.
+
+- Let me know if you have trouble accessing our materials on Canvas.
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Canvas_Modules.png')
+background-size: 73%
+class: center, slideblue
+
+???
+
+Speaking of Canvas!
+
+- ALL of the assigned readings are available on Canvas in the "Modules" section.
+
+<br>
+
+The syllabus includes many web links, but if they don't work I have uploaded backups onto Canvas.
+
+- ALL of the assigned readings should be on Canvas
+
+- Please let me know BEFORE class if you ever can't find an assigned reading.
+
+<br>
+
+SLIDE: Now, how do you earn your participation point for Friday?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size45[
+Cassese ch 3
+]
+
+???
+
+

@@ -1,0 +1,271 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size50[**I. Basics of Analyzing International Institutions**]
+
+<br>
+
+.size50[**Today's Agenda**
+
+Abbott, Keohane, Moravcsik, Slaughter & Snidal. (2000). The Concept of Legalization. *International Organization*. 54(3), 401–419.
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.content-box-white[.size40[**The Statute of the International Court of Justice (ICJ)**]]
+
+.size30[
+**Article 38**
+
+1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
+
+a. international conventions, whether general or particular, establishing rules expressly recognized by the contesting states; 
+
+b. international custom, as evidence of a general practice accepted as law; 
+
+c. the general principles of law recognized by civilized nations; 
+
+d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
+
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size40[.content-box-white[**Abbott, Keohane, Moravcsik, Slaughter & Snidal (2000)**]]]
+
+<br>
+
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size55[.content-box-white[**Operationalizing Legalization**]]]
+
+.pull-left[
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table2.png")
+```
+
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table3.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table4.png")
+```
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**Hard and Soft Law in International Governance**]]]
+
+.center[.size45[.content-box-white[**(Abbott and Snidal 2000)**]]]
+
+.size45[
+It is .textred[**VERY**] difficult to create .textred[**hard**] international institutions but they are valuable because they:
+
+- Make your commitments more credible,
+
+- Reduce transaction costs, and
+
+- Allows for incomplete contracting.
+]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**Hard and Soft Law in International Governance**]]]
+
+.center[.size45[.content-box-white[**(Abbott and Snidal 2000)**]]]
+
+<br>
+
+.size45[
+Soft Law is the ultimate tool of compromise!
+
+- Typically achieves less than hard law, .textred[**BUT**]
+
+- Low contracting costs means deals .textred[**WAY**] easier / faster to make
+]
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size55[.content-box-white[**Operationalizing Legalization**]]]
+
+.pull-left[
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table2.png")
+```
+
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table3.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table4.png")
+```
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size35[.content-box-white[**Abbott, Keohane, Moravcsik, Slaughter & Snidal (2000)**]]]
+
+<br>
+
+```{r, echo = FALSE, fig.align='center', out.width = '50%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+
+.size35[
+1. Treaty on the Prohibition of Nuclear Weapons (2017)
+
+2. Non-legally binding authoritative statement of principles for a global consensus on the management, conservation and sustainable development of all types of forests (1992)
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align='center', out.width = '70%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table1.png")
+```
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size40[
+1. Mearsheimer (1994) excerpts
+
+2. CASES: Find us a recent example of an international law failing to achieve its goals in the world (e.g. someone criticizing an international law for failing)
+]
+
+???
+
+
+
+
+
+
+

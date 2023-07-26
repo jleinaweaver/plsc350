@@ -1,0 +1,605 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size45[**II. International Institutions for Mutual Restraint**]
+
+<br>
+
+.size50[**Today's Agenda: Design Analysis**
+
+- The Convention Against Torture (CAT)
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Semester Plan of Attack**]]
+
+.size50[
+1. Basics of Analyzing International Institutions
+
+2. .textblue[**International Institutions for Mutual Restraint**]
+
+3. International Institutions for Coordination
+
+4. International Institutions for Aggregate Effort
+
+]
+
+???
+
+Last week international institutions to prevent nuclear proliferation.
+
+### Key takeaways? How are we, the world, doing with this problem?
+
+
+
+---
+
+background-image: url('libs/Images/06_1-CAT_Convention1.jpg')
+background-size: 100%
+background-position: center
+class: top, center
+
+.size50[.content-box-white[**The Convention Against Torture (CAT) (1984)**]]
+
+???
+
+This week's plan
+
+- Today we analyze the design of the CAT
+
+- Thursday we explore the debate about whether the CAT has been effective or not
+
+<br>
+
+**SLIDE**: Let's set the table by discussing the AI report
+
+---
+
+background-image: url('libs/Images/06_1-AmnestyReportLogo.png')
+background-size: 70%
+background-position: center
+class: slideblue
+
+???
+
+### Key overarching takeaways from the "Global Analysis" section?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/06_1-AmnestyReportLogo.png")
+```
+]
+
+.pull-right[
+.size35[
+**Regional Overviews**
+
+- Africa (p21)
+
+- Americas (p29)
+
+- Asia-Pacific (p37)
+
+- Europe and Central Asia (p45)
+]]
+
+???
+
+Each group presents their key takeaways from their region including details from individual country cases
+
+<br> 
+
+**SLIDE**: Before we dig into the treaty let me ask you to reflect on our discussion so far.
+
+
+
+---
+
+background-image: url('libs/Images/06_1-CAT_Convention1.jpg')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size50[.content-box-white[**The Convention Against Torture (CAT) (1984)**]
+
+<br>
+
+<br>
+
+<br>
+
+.content-box-white[Do we need an international law to ban torture?]
+]
+
+???
+
+I'm not trying to be flippant here.
+- International law for mutual restraint means deciding that there are some issues states and their citizens cannot decide for themselves.
+
+Given everything we just discussed from the AI report I want you to reflect on two things
+
+1. Is this problem clear enough and serious enough to merit international law infringing on state sovereignty?
+
+2. Is this a problem international law is likely to be effective in solving? 
+
+<br>
+
+Think about everything we've covered over the last five weeks.
+
+- In a few minutes we'll go around the room and share your answers.
+
+
+
+---
+
+background-image: url('libs/Images/background-columns.png')
+background-size: 100%
+background-position: center
+
+.left-column[
+.size35[
+**KLS Design Choices**
+
+Membership
+
+Scope
+
+Centralization
+
+Control
+
+Flexibility
+]]
+
+.right-column[
+.size35[
+1. **Identify**
+    - Find us **two examples** of this design issue being addressed? 
+
+2. **Code**
+    - Are they attacking this problem with hard or soft law? 
+
+3. **Analyze the Problem**
+    - What do we learn about the problem from these designs? 
+]]
+
+???
+
+Option 1
+
+
+
+
+Membership
+- Art 26
+
+Scope
+- Good discussion of the definition in Art 1
+- Art 3 a different thing? Extra-territoriality
+- Same in Art 16
+
+Centralization
+- Art 18
+
+Make sure to discuss Arts 21 and 22 which are held up by Hathaway (2007) as important enough to be a separate DV from simple CAT ratification
+
+(- Art 21 is oversight by states)
+(- Art 22 is oversight by individuals)
+
+It strikes me that Art 21 is more similar to CAT ratification.
+- Both of those open you to oversight and negotiation with other states.
+
+Art 22 threatens to open you to something very different.
+- It empowers non-state actors to make serious claims on your behavior!
+
+
+
+
+
+
+#### KLS Notes
+p763
+Membership rules ( MEMBERSHIP )
+- "Who belongs to the institution? Is membership exclusive and restrictive, like the G-7’s limitation to rich countries? Or is it inclusive by design, like the UN? Is it regional, like ASEAN, or is it universal? Is it restricted to states, or can NGOs join?" (770).
+
+Scope of issues covered ( SCOPE )
+- "What issues are covered?" (770).
+
+Centralization of tasks ( CENTRALIZATION )
+- "Are some important institutional tasks performed by a single focal entity or not? Scholars often misleadingly equate centralization with centralized enforcement. We use the term more broadly to cover a wide range of centralized activities. In particular we focus on centralization to disseminate information, to reduce bargaining and transaction costs, and to enhance enforcement" (771).
+
+Rules for controlling the institution ( CONTROL )
+- "How will collective decisions be made? Control is determined by a range of factors, including the rules for electing key officials and the way an institution is financed. We focus on voting arrangements as one important and observable aspect of control" (772).
+
+Flexibility of arrangements ( FLEXIBILITY )
+- "How will institutional rules and procedures accommodate new circumstances? Institutions may confront unanticipated circumstances or shocks, or face new demands from domestic coalitions or clusters of states wanting to change important rules or procedures. What kind of flexibility does an institution allow to meet such challenges?" (773).
+
+
+
+DO ANY OF THESE DESIGN CHOICES OR PROBLEMS STAND OUT AS MOST VITAL? WHY OR WHY NOT?
+- IN OTHER WORDS, COULD WE RANK THESE IN IMPORTANCE?
+
+
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size55[**Treaty Design Analysis**]
+
+.size40[**The Convention Against Torture (CAT) (1984)**]
+
+<br>
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+]
+
+???
+
+Option 2
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align='center', out.width = '70%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table1.png")
+```
+
+???
+
+* Give each of these discussions room to breathe *
+
+GIVEN ALL OF THIS, WHERE WOULD YOU PLACE THE CAT ON THE HARD TO SOFT LAW DIMENSION? WHY?
+
+(Level 3? High obligation and precision, low delegation?)
+
+
+
+ARE WE CLEAR ON WHAT THE AIMS OF THE TREATY ARE?
+- ARE THEY RELATED TO THE LOFTY LANGUAGE IN THE PREAMBLE OR SOMETHING ELSE?
+
+
+
+BASED ON THE OBSTACLES IT FACES AND THE DESIGN YOU REVIEWED, HOW CONFIDENT SHOULD WE BE THAT THE CAT WILL ACHIEVE ITS AIMS?
+
+
+
+
+---
+
+background-image: url('libs/Images/06_1-ViennaConv_Reservations.png')
+background-size: 100%
+background-position: center
+
+???
+
+Ok, let's now talk treaty reservations.
+
+Refresher from the Shaw (2008) chapter a few weeks back
+
+Best case: Encourages wider participation by allowing states to modify their obligations on minor issues.
+
+Worst case: Completely ruins the agreement and thoroughly complicates state interactions
+
+Must be distinguished from "other statements ... not intended to have the legal effect of a reservation, such as understandings, political statements or interpretive declarations" (915).
+
+Must be aware that simple declarations are very different from "conditional interpretive declarations". Former is usually a statement for domestic application / interpretation, the latter specifies an obligation is conditional on some clarification. The latter is a reservation.
+
+Vienna Art 20 has the rules for whether a reservation is acceptable. Not an easy answer as it depends on the context of the situation and the degree to which the reservation messes with the object and purpose of the treaty. At the weak end an objection to a reservation may just modify the relationship between the reserving and the objecting state and only as it pertains to the article being reservation-ed. At the strong end reservations can be nullified if deeply problematic or unacceptable to the other states.
+
+In general, if you don't object within 12 months of the reservation you've accepted it.
+
+<br>
+
+WHAT RULES DOES THE CAT (1984) HAVE THAT PERTAIN TO RESERVATIONS?
+
+(SLIDE)
+- Art 28: Committee investigates torture
+- Art 29: Reservation approval process
+- Art 30: Dispute resolution by arbitration
+
+<br>
+
+#### Vienna Convention Notes
+Vienna Convention on the Law of Treaties (1969)
+ART 2(D)
+"'reservation' means a unilateral statement, however phrased or named, made by a State, when signing, ratifying, accepting, approving or acceding to a treaty, whereby it purports to exclude or to modify the legal effect of certain provisions of the treaty in their application to that State;"
+
+ART 19: FORMULATION OF RESERVATIONS
+("A State may, when signing, ratifying, accepting, approving or acceding to a treaty, formulate a reservation unless:
+(a) the reservation is prohibited by the treaty;
+(b) the treaty provides that only specified reservations, which do not include the reservation in question, may be made; or
+(c) in cases not falling under sub-paragraphs (a) and (b), the reservation is incompatible with the object and purpose of the treaty."
+
+ART 20: ACCEPTANCE OF AND OBJECTION TO RESERVATIONS
+ART 21: LEGAL EFFECTS OF RESERVATIONS AND OF OBJECTIONS TO RESERVATIONS
+ART 22: WITHDRAWAL OF RESERVATIONS AND OF OBJECTIONS TO RESERVATIONS
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: top, middle
+
+.center[.size40[.content-box-white[**The Convention Against Torture (CAT) (1984)**]]]
+
+.size30[
+**Article 28**
+
+1) Each State may, at the time of signature or ratification of this Convention or accession thereto, declare that it does not recognize the competence of the Committee provided for in article 20. (Committee investigates allegations of systematic torture)
+
+**Article 29**
+
+1) Any State Party to this Convention may propose an amendment and file it with the Secretary-General of the United Nations. (Must be accepted by 2/3 of all parties)
+
+**Article 30**
+
+2) Each State may, at the time of signature or ratification of this Convention or accession thereto, declare that it does not consider itself bound by paragraph I of this article. (Dispute resolution by arbitration)
+]
+
+???
+
+HOW SUBSTANTIAL A SET OF LOOPHOLES DOES THIS MAKE POSSIBLE IN THE CAT?
+
+- DO ANY OF THESE THINGS HIT DIRECTLY ON THE ELEMENTS YOU IDENTIFIED TODAY AS IMPORTANT DESIGN ELEMENTS OF THE CAT?
+
+
+
+
+Let's look at some of the specific reservations to the CAT!
+
+Everybody open the link in the syllabus and scan through the reservations attached below the table of dates.
+
+First, let's locate examples of what Shaw (2008) would classify as 'simple declarations.'
+
+* ON BOARD or YOU HIGHLIGHT ON THE SCREEN *
+
+
+
+
+Now, let's try to find examples that seriously alter the design of the CAT.
+
+GIVE ME EXAMPLES OF STATES WITH RESERVATIONS THAT YOU BELIEVE MOST SUBSTANTIALLY ALTER THE CAT.
+
+* ON BOARD *
+
+* Really encourage these discussions *
+
+
+
+
+Pakistan opts out of the main things allowed.
+
+- IS THIS A RESERVATION THE OTHER STATE PARTIES SHOULD HAVE FORBIDDEN? WHY OR WHY NOT?
+
+
+
+US offers extensive reservations including about the definition of torture in Art 1.
+
+- IS THIS A RESERVATION THE OTHER STATE PARTIES SHOULD HAVE FORBIDDEN? WHY OR WHY NOT?
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-columns.png')
+background-size: 100%
+background-position: center
+
+.left-column[
+.size35[
+**KLS Design Choices**
+
+Membership
+
+Scope
+
+Centralization
+
+Control
+
+Flexibility
+]]
+
+.right-column[
+.size35[
+1. **Identify**
+    - Find us **two examples** of this design issue being addressed? 
+
+2. **Code**
+    - Are they attacking this problem with hard or soft law? 
+
+3. **Analyze the Problem**
+    - What do we learn about the problem from these designs? 
+]]
+
+???
+
+WHEN WE COMPARE AND CONTRAST ALL OF THESE RESERVATIONS, WHAT CAN WE CONCLUDE ABOUT HOW STATES HAVE APPROACHED PARTICIPATING IN THE CAT?
+
+- WHICH KLS DESIGN TASKS APPEAR TO HAVE BEEN TARGETED THE MOST BY THESE STATES?
+
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-columns.png')
+background-size: 100%
+background-position: center
+
+.left-column[
+.size35[.textblack[
+**KLS Design Choices**
+
+Membership
+
+Scope
+
+Centralization
+
+Control
+
+Flexibility
+]]]
+
+.right-column[
+```{r, echo = FALSE, fig.align = 'center', out.width = '85%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table1.png")
+```
+]
+
+???
+
+ULTIMATELY, AND GIVEN THESE RESERVATIONS, SHOULD WE RECLASSIFY THE CONVENTION AGAINST TORTURE? WHY OR WHY NOT?
+
+- IN TERMS OF HARD VS SOFT LAW?
+
+- IN TERMS OF KLS TASKS?
+
+<br>
+
+* ON BOARD *
+
+GIVEN OUR EXTENSIVE ANALYSIS OF THE TREATY'S DESIGN AND THE ATTACHED RESERVATIONS, WHAT SHOULD WE EXPECT THE EFFECT OF THE CAT TO BE ON THE INTERNATIONAL COMMUNITY?
+
+- WHAT SPECIFIC THINGS SHOULD WE EXPECT THIS TREATY TO ACCOMPLISH?
+
+* force this discussion *
+
+
+
+IN TERMS OF EFFECTIVENESS, CAN WE COME UP WITH DESIGN BASED HYPOTHESES WE SHOULD TEST?
+
+
+# Class notes 2/22/19
+1. Committee discussions: Are they talking?
+2. Committee discussions: Follow on activity?
+3. Domestic law changed (post-ratification or near it?) AND only a fair test in countries whose domestic laws were previously weaker than the CAT
+4. Extraditions consistent with CAT rules about who you can't send suspects to?
+- This may speak to why states ratify and then opt out of everything they can.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size40[
+1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
+
+2. Vreeland (2008) "Political Institutions and Human Rights: Why Dictatorships Enter into the United Nations Convention Against Torture"
+
+3. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
+]
+
+???
+
+Your job is to read the arguments and conclusions in these three articles
+
+- Be ready to diagram the argument in class
+
+- Give the analyses a skim too!
+
+
+
+
+
+
+

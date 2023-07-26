@@ -1,0 +1,478 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size45[**II. International Institutions for Mutual Restraint**]
+
+<br>
+
+.size50[**Today's Agenda: Design Analysis**
+
+- The International Criminal Court (ICC) and the Rome Statute (1998)
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-white[**International Institutions for Mutual Restraint**]]]
+
+<br>
+
+.size40[
+1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
+
+2. Vreeland (2008) "Political Institutions and Human Rights: Why Dictatorships Enter into the United Nations Convention Against Torture"
+
+3. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
+]
+
+???
+
+Last week we explored how international law has tried to reduce the use of torture by governments.
+
+### Takeaways from last week, has the CAT reduced torture?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-white[**International Institutions for Mutual Restraint**]]]
+
+<br>
+
+.size40[
+"Delegation is a conditional grant of authority from a principal to an agent that empowers the latter to act on behalf of the former" (Hawkins et al 2006, 4).
+
+- Always governed by a contract
+
+- Limited in time or scope and must be revocable
+
+- Roles are mutually constitutive
+]
+
+???
+
+On Tuesday we added PA Theory to our toolbox.
+
+### Key takeaways?
+
+
+
+
+---
+
+background-image: url('libs/Images/07_2-ICC.webp')
+background-size: 100%
+background-position: center
+
+???
+
+Today we put these two threads together!
+
+- The CAT + PA theory = the ICC
+
+<br>
+
+Discuss ICC "at a glance" basics and connect them to set-up articles in treaty
+
+1. Discuss ICC "at a glance" basics and connect them to set-up articles in treaty (Part I Establishment of the Court (Art 1-4),  Part II Jurisdiction, admissibility and applicable law (Art 5-21), Part III General principles of criminal law (Art 22-33)
+
+
+
+---
+
+background-image: url('libs/Images/07_2-ICC.webp')
+background-size: 100%
+background-position: center
+class: top, left
+
+.right-column[
+.size30[
+.content-box-white[
+**The Rome Statute (1998)**
+
+**Article 1: The Court**
+
+An International Criminal Court (‘the Court’) is hereby established. It shall be a permanent institution and shall have the power to exercise its jurisdiction over persons for the most serious crimes of international concern, as referred to in this Statute, and shall be complementary to national criminal jurisdictions. The jurisdiction and functioning of the Court shall be governed by the provisions of this Statute.
+]]]
+
+???
+
+Article 1 of the Rome Statute (1998) reveals a ton of useful information about the ICC.
+- Examples?
+
+### What does it mean to say the ICC is a permanent institution?
+- Aim is to create something that would become an important feature of world politics.
+- Something that wouldn’t need its authority or mandate to be renewed.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '90%'}
+knitr::include_graphics("libs/Images/07_2-Bosnia_map_v1.png")
+```
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/07_2-Bosnia_v1.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '90%'}
+knitr::include_graphics("libs/Images/07_2-Rwanda_map_v1.png")
+```
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/07_2-Rwanda_v1.png")
+```
+]
+
+???
+
+In the modern era, but before the ICC, the world was confronted with two atrocities that inspired outrage similar to that following WWII.
+- Yugoslavia and Rwanda in the early 1990s: Genocide, war crimes and crimes against humanity
+
+- Not really anybody’s responsibility unless the ongoing domestic crimes threatened international peace and order (e.g. UNSC)
+
+- The UNSC acted to create ad hoc tribunals to investigate and punish criminal acts
+    - Ex: SC resolution 827 in 1993 created the International Criminal Tribunal for the former Yugolsavia (ICTY)
+    - Ex: SC resolution 955 in 1994 created the International Criminal Tribunal for Rwanda (ICTR).
+
+- The creation of these tribunals, and especially ICTY, led to considerable international criticism.
+
+### BRAINSTORM: Why might a state, an NGO or an IO have a problem with this ad hoc approach by the SC?
+1. (**Inconsistency**) 
+    - Not every atrocity gets its own tribunal. Is this inconsistency going to change the calculations of a “bad” leader? A credible punishment?)
+2. (**Selective justice**)
+    - If these are international crimes in these states, then shouldn’t similar crimes be punished anywhere they happen? Are we just applying the “justice” of the victors?)
+3. (**Distraction**)
+    - Transparent cover for failure by the major powers to stop the crimes themselves
+4. (**Lack legitimacy**)
+    - What right does the SC have to create international courts? None specified in Charter.
+
+Creating a permanent institution for dealing with these kinds of crimes provides extensive benefits to the world
+    - Consistency of application, plus
+    - Equality of protection, plus
+    - Rooted in legitimate international authority
+    
+All combined hopefully alters the decisionmaking of “bad” leaders.
+
+
+
+
+---
+
+background-image: url('libs/Images/07_2-ICC.webp')
+background-size: 100%
+background-position: center
+class: top, left
+
+.right-column[
+.size30[
+.content-box-white[
+**The Rome Statute (1998)**
+
+**Article 1: The Court**
+
+An International Criminal Court (‘the Court’) is hereby established. It shall be a permanent institution and shall have the power to exercise its jurisdiction over persons for the most serious crimes of international concern, as referred to in this Statute, and shall be complementary to national criminal jurisdictions. The jurisdiction and functioning of the Court shall be governed by the provisions of this Statute.
+]]]
+
+???
+
+Name another important characteristic illustrated by Article 1.
+(2. “jurisdiction over persons”)
+
+
+- DISCUSS: What does that mean and why important?
+
+
+Novel innovation in 20th century international law to directly connect individuals to an international institution.
+- Previously an indirect connection; states agree rules between themselves and then implement them domestically to impact individuals.
+
+
+
+
+- DISCUSS: In what ways is this an innovation that will create important benefits for people around the world?
+
+
+1. You as an individual are deserving of protection even against the state that rules over you.
+2. You as an individual are responsible for your actions and the actions of those who report to you.
+
+
+- DISCUSS: In what ways does this substantially undermine a system that holds state sovereignty as a foundational principle?
+
+
+Massive threat to state sovereignty.
+- Threat to hierarchical orders (citizens must be careful before following your commands)
+- Proposes a set of societal rules and individual rights that are hierarchically superior to your domestic laws.
+
+
+What leader wants to run a system where you don’t make all the rules and your subordinates don’t have to follow your commands?
+
+
+* Starting place for Wednesday *
+
+
+
+
+Name another important characteristic illustrated by Article 1.
+(3. teases subject jurisdiction: only the most serious crimes of international concern) 
+
+
+- What article lists the subject jurisdiction of the ICC?
+(Article 5 has the list, Articles 6-8 elaborate on each)
+
+
+- What specific crimes can the ICC punish?
+(a. the crime of genocide; b. crimes against humanity; c. War crimes; d. the crime of aggression)
+
+
+
+
+Name another important characteristic illustrated by Article 1.
+(4. “complementary”) 
+
+
+- Which article explains this complementarity idea and what does it mean?
+(Art 17: National courts have priority over the ICC unless “unwilling or unable genuinely to carry out the investigation or prosecution...”)
+
+
+- If you are a state, what aspect of this idea would you find most troubling?
+(If the ICC gets to decide “genuine” effort, than almost ANYTHING could be their jurisdiction)
+
+
+
+
+Putting all this together, when does the ICC have jurisdiction over a case?
+(1. Person alleged to have committed crime in Art 5; 2. Must be citizen of ICC party state or have committed crime in ICC party state; 3. Domestic courts must fail to “genuinely” investigate or prosecute.)
+
+
+
+---
+
+background-image: url('libs/Images/07_2-ICC.webp')
+background-size: 100%
+background-position: center
+class: top, right
+
+```{r, echo = FALSE, out.width = '70%'}
+knitr::include_graphics("libs/Images/07_2-Rome_Statute-Art21.png")
+```
+
+???
+
+Compare and contrast with ICJ Art 
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/07_2-ICC.webp')
+background-size: 100%
+background-position: center
+class: top, left
+
+.right-column[
+.size30[
+.content-box-white[
+**Real-World Examples**
+- Group 1) Country objections to an ICC investigation
+
+- Group 2) ICC prosecutor explains a new investigation
+
+- Group 3) Arrests and extradition to the ICC
+
+- Group 4) ICC Trials in process
+]]]
+
+???
+
+Each group presents their topic and illustrates with current event cases
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[**Treaty Design Analysis: The Rome Statute (1998)**]]
+
+.pull-left[
+
+<br>
+
+.size25[
+Group 1) How effectively can states delay / obstruct an investigation they do not want? *Part IX International cooperation, Art. 86-102*
+    
+Group 2) How does the ICC prosecutor decide to investigate? *Part V Investigation and prosecution, Art. 53-61*
+
+Group 3) How does enforcement work? *Part X Enforcement, Art 103-111*
+    
+Group 4) Who are the judges? How autonomous are they? *Part IV Composition and administration of the Court, Art 34-52*
+]]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+]
+
+???
+
+Treaty analysis: Each group focuses on the parts of the treaty related to their topic using legalization, KLS and PA Theory
+- I had to make some tweaks to hit the interesting parts of the treaty
+
+Group 1) How effectively can states delay / obstruct an investigation they do not want?
+    - International cooperation (Part IX, Art. 86-102)
+    
+Group 2) How does the ICC prosecutor decide to investigate?
+    - Investigation and prosecution (Part V, Art. 53-61)
+
+Group 3) How does enforcement work?
+    - Enforcement (Part X, Art 103-111)
+    
+Group 4) Who are the judges? How autonomous are they?
+    - Composition and administration of the Court (Part IV Art 34-52)
+
+
+
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align='center', out.width = '70%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table1.png")
+```
+
+???
+
+* Give each of these discussions room to breathe *
+
+GIVEN ALL OF THIS, WHERE WOULD YOU PLACE THE CAT ON THE HARD TO SOFT LAW DIMENSION? WHY?
+
+(Level 3? High obligation and precision, low delegation?)
+
+
+
+ARE WE CLEAR ON WHAT THE AIMS OF THE TREATY ARE?
+- ARE THEY RELATED TO THE LOFTY LANGUAGE IN THE PREAMBLE OR SOMETHING ELSE?
+
+
+
+BASED ON THE OBSTACLES IT FACES AND THE DESIGN YOU REVIEWED, HOW CONFIDENT SHOULD WE BE THAT THE CAT WILL ACHIEVE ITS AIMS?
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size40[
+1. Hillebrecht (2016) "The Deterrent Effects of the International Criminal Court: Evidence from Libya"
+
+2. Hillebrecht & Straus (2017) "Who Pursues the Perpetrators? State Cooperation with the ICC"
+
+]
+
+???
+
+Your job is to read the arguments and conclusions in these three articles
+
+- Page numbers in the syllabus: Hillebrecht 2016 p616-628, 637-638; Hillebrecht and Straus 2017 p162-172, 185-187
+
+- Be ready to diagram the argument in class
+
+- Give the analyses a skim too!
+
+
+
+
+
+
+

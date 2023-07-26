@@ -1,0 +1,704 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(readxl)
+library(lubridate)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+
+d <- read_excel("../../Data/Paris_Agreement_and_WDI/Data-Paris_Agreement_Negotiation.xlsx", na = "")
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size45[**IV. International Institutions for Aggregate Effort**]
+
+<br>
+
+.size50[**Today's Agenda: Design Analysis**
+
+- The Paris Agreement
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. Prep Canvas Forum for collecting answers
+    - Name, Country, List the most substantial commitments made by this country. Aim for 3-5 commitments., List any clear attempts to delay action or weaken the obligations made by this country in their NDC.
+    - Each student submits answers for two states
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size45[.content-box-white[**Treaty Design Analysis**]]
+
+<br>
+
+.size35[.content-box-white[**The Kyoto Protocol to the UNFCCC**]]
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+]
+
+???
+
+Kyoto Protocol Design Takeaways?
+
+
+
+
+---
+
+background-image: url('libs/Images/13_2-Baettig_oldslide15.png')
+background-size: 100%
+background-position: center
+
+???
+
+Kyoto Protocol Effectiveness Takeaways?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '80%'}
+knitr::include_graphics("libs/Images/14_1-IPCC_Report.png")
+```
+]
+
+.pull-right[
+.size40[
+A. Current Status and Trends
+
+B. Future Climate Change, Risks, and Long-Term Responses
+
+C. Responses in the Near Term
+]]
+
+???
+
+### What are the updates to our global consensus on climate change science?
+
+Clearly the science has changed, consensus strengthened, risks growing sharper
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, full
+
+```{r}
+# Emissions map - Kyoto (1997)
+# quantile(d1997$CO2_kt, probs = .25)[[1]]
+d1997 <- d |> 
+  filter(Year == 1997) |>
+  mutate(
+    co2_cat = case_when(
+      CO2_kt < 1e3 ~ "< 1,000",
+      CO2_kt < 1e4 ~ "< 10,000",
+      CO2_kt < 1e5 ~ "< 100,000",
+      CO2_kt < 1e6 ~ "< 1,000,000",
+      CO2_kt < 1e7 ~ "< 10,000,000"
+    ),
+    co2_pc_cat = case_when(
+      CO2_per_capita < 1 ~ "< 1",
+      CO2_per_capita < 5 ~ "< 5",
+      CO2_per_capita < 10 ~ "< 10",
+      CO2_per_capita >= 10 ~ "10+"
+    )
+  )
+
+# Use rnaturalearth to define world map data
+worldmap <- ne_countries(scale = 'medium', type = 'map_units', returnclass = 'sf')
+
+# Merge data onto worldmap
+d10 <- left_join(worldmap, d1997, by = c("adm0_a3" = "ccode"))
+```
+
+```{r, fig.retina=3, fig.align = 'center', out.width = '54%', fig.width=9, fig.height=4.5, cache=TRUE}
+d10 |>
+  mutate(
+    co2_cat = factor(co2_cat, levels = c("< 1,000", "< 10,000", "< 100,000", "< 1,000,000", "< 10,000,000"))
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = co2_cat)) +
+  labs(fill = "", title = "CO2 Emissions (kt): Kyoto Protocol (1997)") +
+  scale_fill_manual(values = c("floralwhite", "khaki2", "yellow1", "orange1", "red"))
+```
+
+```{r, fig.retina=3, fig.align = 'center', out.width = '54%', fig.width=9, fig.height=4.5, cache=TRUE}
+# Emissions per capita map - Kyoto (1997)
+d10 |>
+  mutate(
+    co2_pc_cat = factor(co2_pc_cat, levels = c("< 1", "< 5", "< 10", "10+"))
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = co2_pc_cat)) +
+  labs(fill = "", title = "CO2 Emissions per capita (kt): Kyoto Protocol (1997)") +
+  scale_fill_manual(values = c("floralwhite", "yellow1", "orange1", "red"))
+```
+
+???
+
+As we looked at last week, here is the state of global emissions in 1997 (at the completion of the Kyoto Protocol negotiation).
+
+### What were our takeaways? Who are the biggest emitters at that point?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, full
+
+```{r, fig.retina=3, fig.align='center', out.width='100%', fig.width=9, fig.height=4.5}
+# Change in Emissions 1997 to 2015
+d_compare <- d |> 
+  select(Country, ccode, Year, CO2_kt) |>
+  pivot_wider(names_from = Year, values_from = CO2_kt, names_prefix = "CO2_") |>
+  mutate(
+    Change = CO2_2015 - CO2_1997,
+    Change_cat = case_when(
+      Change <= 0 ~ "Cut Emissions",
+      Change < 1e4 ~ "+ 10,000",
+      Change < 1e5 ~ "+ 100,000",
+      Change < 1e6 ~ "+ 1,000,000",
+      Change < 1e7 ~ "+ 10,000,000"
+    )
+  ) 
+
+# Use rnaturalearth to define world map data
+worldmap <- ne_countries(scale = 'medium', type = 'map_units', returnclass = 'sf')
+
+# Merge data onto worldmap
+d11 <- left_join(worldmap, d_compare, by = c("adm0_a3" = "ccode"))
+
+d11 |>
+  mutate(
+    Change_cat = factor(Change_cat, levels = c("Cut Emissions", "+ 1,000", "+ 10,000", "+ 100,000", "+ 1,000,000", "+ 10,000,000"))
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = Change_cat)) +
+  labs(fill = "", title = "Change in CO2 Emissions (kt): 1997 to 2015") +
+  scale_fill_manual(values = c("dodgerblue1", "khaki3", "yellow1", "orange1", "red"))
+```
+
+???
+
+Here we see the changes in total emissions between the Kyoto Protocol agreement and the close of the Paris negotiation.
+
+### Key changes?
+
+<br>
+
+**SLIDE**: And where does that leave us?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, full
+
+```{r}
+# Emissions map - Kyoto (2015)
+d2015 <- d |> 
+  filter(Year == 2015) |>
+  mutate(
+    co2_cat = case_when(
+      CO2_kt < 1e3 ~ "< 1,000",
+      CO2_kt < 1e4 ~ "< 10,000",
+      CO2_kt < 1e5 ~ "< 100,000",
+      CO2_kt < 1e6 ~ "< 1,000,000",
+      CO2_kt < 1e7 ~ "< 10,000,000"
+    ),
+    co2_pc_cat = case_when(
+      CO2_per_capita < 1 ~ "< 1",
+      CO2_per_capita < 5 ~ "< 5",
+      CO2_per_capita < 10 ~ "< 10",
+      CO2_per_capita >= 10 ~ "10+"
+    )
+  )
+
+# Use rnaturalearth to define world map data
+worldmap <- ne_countries(scale = 'medium', type = 'map_units', returnclass = 'sf')
+
+# Merge data onto worldmap
+d11 <- left_join(worldmap, d2015, by = c("adm0_a3" = "ccode"))
+```
+
+```{r, fig.retina=3, fig.align = 'center', out.width = '54%', fig.width=9, fig.height=4.5, cache=TRUE}
+d11 |>
+  mutate(
+    co2_cat = factor(co2_cat, levels = c("< 1,000", "< 10,000", "< 100,000", "< 1,000,000", "< 10,000,000"))
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = co2_cat)) +
+  labs(fill = "", title = "CO2 Emissions (kt): Kyoto Protocol (2015)") +
+  scale_fill_manual(values = c("floralwhite", "khaki2", "yellow1", "orange1", "red"))
+```
+
+```{r, fig.retina=3, fig.align = 'center', out.width = '54%', fig.width=9, fig.height=4.5, cache=TRUE}
+# Emissions per capita map - Kyoto (2015)
+d11 |>
+  mutate(
+    co2_pc_cat = factor(co2_pc_cat, levels = c("< 1", "< 5", "< 10", "10+"))
+  ) |>
+  ggplot() +
+  geom_sf(aes(fill = co2_pc_cat)) +
+  labs(fill = "", title = "CO2 Emissions per capita (kt): Kyoto Protocol (2015)") +
+  scale_fill_manual(values = c("floralwhite", "yellow1", "orange1", "red"))
+```
+
+???
+
+Welcome India to the biggest emitters club!
+
+- US making improvements but emissions still massive!
+
+<br>
+
+So, this is where the world found itself post-Kyoto. 
+
+- Some cuts happening amongst the OECD/Annex B countries (although not huge)
+
+- Emissions remaining high in developed countries, and
+
+- Emissions growing rapidly in the global south
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/14_1-PA_Design_Old2.png')
+background-size: 100%
+background-position: center
+
+???
+
+Let's shift to the next treaty in this lineage: The Paris Agreement!
+
+
+
+
+---
+
+background-image: url('libs/Images/14_1-PA_Design_Old1.png')
+background-size: 100%
+background-position: center
+
+???
+
+Today we'll start with Dimitrov Radoslav's analysis of the negotiation leading to the Paris Agreement.
+
+WHAT DO WE THINK OF DIMITROV AS A SOURCE OF THIS INFORMATION? PROS AND CONS?
+
+*Force this discussion*
+
+<br>
+
+OVERALL, WHY DOES DIMITROV DESCRIBE THE PARIS AGREEMENT AS A BIG SUCCESS?
+
+
+
+---
+
+background-image: url('libs/Images/14_1-PA_Design_Old3.png')
+background-size: 100%
+background-position: center
+
+???
+
+- Quote from China's Closing Statement at top of paper: "The Paris Agreement is fair and just, comprehensive and balanced, highly ambitious, enduring and effective, and with legally binding force."
+
+(1. policy obligations for all states)
+(2. Attempt to offer the best of a bottom-up and a top-down treaty)
+
+
+
+HOW DOES THE PA BLEND A BOTTOM-UP AND A TOP-DOWN APPROACH TO INSTITUTION BUILDING?
+
+(countries set own goals BUT int'l community oversight and pushing you to ratchet up pledges every five years)
+
+- "The new climate deal is a laissez-faire accord among nations that leaves the content of domestic policy to governments but creates international legal obligations to develop, implement, and regularly strengthen actions" (2).
+
+
+
+
+WHO ARE DIMITROV'S "WINNERS" AND "LOSERS" FROM THE PA? IN TERMS OF COUNTRIES AND IDEAS?
+
+- ANYBODY NEED CLARIFICATION ON THESE POINTS?
+
+(SLIDE)
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size45[.content-box-white[**Winners and Losers of the Paris Agreement**]]
+
+<br>
+
+.size30[
+"Strengths of the agreement pertain to principled obligations to act, regularity and progression of national policy development, international transparency and accountability" (8). 
+
+"The PA is weaker on the long-term global goal, adaptation policy, compensation for loss and damage, and technology transfer. Crucially, the PA lacks specificity on the international division of labor for reducing emissions" (8).
+]
+
+???
+
+PA generally favors developed countries of the North.
+- Basically a pledge and review system (first proposed by Japan in the 1990s. (8)
+
+Least fair to the African Group and other Least Developed Countries
+- No reference to their special circumstances, weak on adaptation and "precludes any future claims for liability and compensation."
+
+"Strengths of the agreement pertain to principled obligations to act, regularity and progression of national policy development, international transparency and accountability" (8). 
+
+"The PA is weaker on the long-term global goal, adaptation policy, compensation for loss and damage, and technology transfer. Crucially, the PA lacks specificity on the international division of labor for reducing emissions" (8).
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**Key provisions of the Paris Agreement**]]]
+
+.size35[
+- Temp increases below 2° C, pursue efforts below 1.5° C (Art 2)
+- Global emissions should peak as soon as possible (Art 4)
+- States should "intend to achieve" their NDCs (Art 4.2)
+- NDCs should be ambitious (Art 2) and be strengthened every five years
+- Developed countries take the lead, developing states should enhance their efforts in light of national circumstances (Art 4.4)
+- Developed states shall provide financial resources (Art 9)
+- Encourages market based mechanisms and carbon trading
+- Compliance done by facilitative committee whose work is "non-adversarial and non-punitive" (Art 15)
+]
+
+???
+
+Here are the key provisions of the treaty according to Dimitrov.
+
+Compare and contrast this with the Kyoto Protocol for me.
+
+WHAT ARE THE BIG STEPS FORWARD HERE?
+
+ANY MISTAKES?
+- THINGS WE SHOULDN'T HAVE GIVEN AWAY?
+
+* Force this discussion *
+
+
+
+
+Ok, Dimitrov identifies three big reasons the PA was a success.
+
+First, the US and China kickstarted the process in 2014 with a bilateral deal.
+
+Second, French leadership and secrecy were vital.
+
+And third, negotiation dynamics and social learning from domestic policy attempts mattered.
+
+I want to dig in on two of these.
+
+
+
+
+
+---
+
+background-image: url('libs/Images/14_1-PA_Design_Old4.png')
+background-size: 100%
+background-position: center
+
+???
+
+Let's zoom in on this second factor: Laurent Fabius' role as COP 21 president.
+
+DO YOU AGREE THE FRENCH DID THE RIGHT THING HERE? WHY OR WHY NOT?
+
+- WHAT ARE THE PROS AND CONS OF ORGANIZING A GLOBAL NEGOTIATION AROUND SECRECY AND EXCLUSION OF BOTH STATES AND CIVIC SOCIETY?
+
+* Force this discussion *
+
+
+The Secret Ingredients (5)
+- Heavy use of secrecy was crucial.
+- The French presidency kept consultations secret so they could manage the many different blocs of interests. Private breakthroughs kept quiet to facilitate compromise.
+- Weird anecdote on p6 about an invisible meeting between US and Saudi Arabia.
+- Final texts only released at the last minute and presented as take-it-or-leave-it deals "to avoid provoking early opposition and to leave no time for reopening major issues" (6).
+- "This raises important questions about transparency and legitimacy in global governance (Bernstein 2004)."
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**Persuasive Argumentation and Social Learning**]]]
+
+<br>
+
+.size35[
+Persuasive Argumentation
+- "...persuasive arguments had changed actors’ minds about the wisdom of climate policy (Dimitrov 2015)" (9).
+
+Social Learning
+- "By the opening of the Paris conference, 186 governments had declared national plans covering 94 percent of global emissions (UNFCCC 2015b). These policy pledges laid an important foundation for a global UN agreement" (9).
+]
+
+???
+
+Now zoom in on the third causes according to Dimitrov: Persuasive Argumentation and Social Learning
+
+Let's explore these arguments.
+
+WHAT DO YOU THINK?
+
+
+
+- ARE WE SURPRISED DIMITROV, AN EU NEGOTIATOR, WOULD ARGUE THE NEGOTIATION AND EU LEADERSHIP MATTERS?
+
+
+- WHICH OF THESE COMES FIRST: THE NEGOTIATIONS MOVING PREFERENCES OR COUNTRIES ENACTING POLICIES THAT CHANGE THE INTERESTS?
+
+
+
+
+
+Now I want us to continue to evaluate the design of the Paris Agreement while also familiarizing ourselves with your selected NDCs.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size45[.content-box-white[**Treaty Design Analysis**]]
+
+<br>
+
+.size35[.content-box-white[**The Paris Agreement to the UNFCCC**]]
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+]
+
+???
+
+To start, let's talk through Article 4 of the Paris Agreement.
+
+Article 4 contains the main guidance for states when designing their NDC submissions.
+
+Everybody open up the treaty and let's review Article 4.
+
+Help me construct a list of specific pieces of guidance states are supposed to keep in mind when designing their NDCs.
+
+* ON BOARD (3 cols): All States, Developed, Developing *
+
+
+
+We'll keep this focused on writing an NDC and the first 8 points in Article 4
+
+* you guide them *
+
+4.1
+- All: Context is GHG emissions
+
+4.2
+- All: Specific domestic mitigation measures (policies)
+
+4.3
+- All: Highest possible ambition BUT CBDR + national circumstances
+
+4.4
+- Developed: economy-wide absolute emission reduction targets
+- Developing: "enhance" efforts, "encouraged" to set targets
+
+4.5
+- Developing: Ambition can be contingent on financing
+
+4.7
+- All: adaptation co-benefits count as mitigation
+
+4.8
+- All: Provide all needed info for "clarity, transparency and understanding"
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align='center', out.width = '70%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table1.png")
+```
+
+???
+
+### Where does Paris fit?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[**Next Class: Evaluating the NDCs**]
+
+.size30[
+Climate Change Negotiating Groups
+- OECD States
+- Least Developed Countries
+- Small Island Developing States (SIDS)
+- The Organization of Petroleum Exporting Countries (OPEC)
+- The Umbrella Group
+
+Make a list for each state's commitments:
+1. Most substantial commitments?
+2. Any attempts to delay or weaken commitments?
+3. Big changes from submission 1 to 2?
+]
+
+???
+
+Submit your answers to Canvas before next class
+
+- Data: CLASS-Country_NDCs_to_Evaluate.xlsx
+
+- Registry: https://unfccc.int/NDCREG (Searching this thing SUCKS. Super slow and kind of clunky. Show them how to use the search feature at bottom of webpage and especially the "status" option. Have to change to "archived" to see first submissions.)
+
+- Require them to submit answers to questions 1-3 before class next Tuesday
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align='center', out.width = '40%'}
+knitr::include_graphics("libs/Images/14_1-NDC_Registry1.png")
+```
+
+```{r, echo = FALSE, fig.align='center', out.width = '60%'}
+knitr::include_graphics("libs/Images/14_1-NDC_Registry2.png")
+```
+
+???
+
+Search feature is SLOOOOOOOW
+
+Also, be prepared for all kinds of weirdness (e.g. not a simple first submission vs second)
+
+- Often what you'll see is first with a 2020-ish update to the first
+
+- For our purposes we are interested in the updates as second submissions
+
+<br>
+
+If your chosen country only submitted NDCs in a different language, use Google Translate or pick a different country!
+
+
+
+
+

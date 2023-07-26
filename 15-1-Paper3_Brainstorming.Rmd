@@ -1,0 +1,177 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size70[**Today's Agenda**]
+
+<br>
+
+.center[.size70[
+Working on the Final Paper
+]]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. check Canvas submissions
+
+<br>
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[.content-box-blue[**Final Paper: Reform Proposal**]]
+
+.size40[
+Select one of the international institutions we studied this semester and propose a **specific** and **feasible** reform that would improve its functioning. 
+
+Your proposal must be rooted in the actual design of the institution and discuss how it could be pursued without losing important members or inspiring great opposition. 
+
+Do not assume the reader of your report is familiar with the institution you are reforming so make sure to introduce and summarize it in your paper.
+]
+
+???
+
+IF you choose the UN and your paper overlaps with the work we did on reforms in class the bar for you will be much higher than with the other institutions.
+
+### Questions on the assignment?
+
+<br>
+
+**SLIDE**: I'm reserving our two classes next week for working on the final paper.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[.content-box-blue[**For Today**]]
+
+.size45[
+1. Your selected international institution
+
+2. ARGUE: Explain the specific aspect or functioning of the institution you believe needs to be reformed. 
+
+3. BRAINSTORM: 3-5 ideas for a specific reform that could help to address your chosen problem
+]
+
+???
+
+### Everybody ready to go?
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[.content-box-blue[**For Today**]]
+
+.size45[
+1. **Your selected international institution**
+
+2. **ARGUE: Explain the specific aspect or functioning of the institution you believe needs to be reformed.** 
+
+3. BRAINSTORM: 3-5 ideas for a specific reform that could help to address your chosen problem
+]
+
+???
+
+Go around the room to hear responses to first two pieces of today's assignment: What institution and what's your argument?
+
+- As you listen, be ready to give feedback on the argument.
+
+- Have they identified a clear "problem" that should be addressed?
+
+- Can we help them sharpen up the diagnosis?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[.content-box-blue[**For Today**]]
+
+.size45[
+1. Your selected international institution
+
+2. ARGUE: Explain the specific aspect or functioning of the institution you believe needs to be reformed. 
+
+3. **BRAINSTORM: 3-5 ideas for a specific reform that could help to address your chosen problem**
+]
+
+???
+
+Form small groups
+
+- Take turns sharing your brainstormed lists
+
+- Group, help them pick what to focus on!
+
+<br>
+
+### Report Back: How's it going?
+
+<br>
+
+Thursday writing workshop in class
+
+- Start writing so you can get feedback!
+
+

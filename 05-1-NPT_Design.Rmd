@@ -1,0 +1,239 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size45[**II. International Institutions for Mutual Restraint**]
+
+<br>
+
+.size50[**Today's Agenda: Design Analysis**
+
+- Treaty on the Non-Proliferation of Nuclear Weapons (NPT)
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Semester Plan of Attack**]]
+
+.size50[
+1. Basics of Analyzing International Institutions
+
+2. .textblue[**International Institutions for Mutual Restraint**]
+
+3. International Institutions for Coordination
+
+4. International Institutions for Aggregate Effort
+
+]
+
+???
+
+Weekly plan:
+
+T - Design
+
+R - Effectiveness
+
+
+
+
+---
+
+background-image: url('libs/Images/05_1-WarheadInventories.webp')
+background-size: 70%
+background-position: center
+class: slideblue
+
+???
+
+[Davenport 2022](https://www.armscontrol.org/factsheets/Nuclearweaponswhohaswhat)
+
+
+
+---
+
+background-image: url('libs/Images/05_1-GlobalNuclearWarheadInventories_1945-2021.webp')
+background-size: 90%
+background-position: center
+class: slideblue
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/05_1-BarChart_WarheadInventories.webp')
+background-size: 100%
+background-position: center
+class: slideblue
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/05_1-earth bombs.jpg')
+background-size: 100%
+background-position: center
+class: bottom
+
+.center[.content-box-blue[.size50[What are the current debates or areas of conflict in terms of nuclear weapons?]]]
+
+???
+
+Share and discuss cases: What's the current debates/areas of conflict in terms of nuclear weapons?
+
+
+
+---
+
+background-image: url('libs/Images/background-columns.png')
+background-size: 100%
+background-position: center
+
+.left-column[
+.size35[
+**KLS Design Choices**
+
+Membership
+
+Scope
+
+Centralization
+
+Control
+
+Flexibility
+]]
+
+.right-column[
+.size35[
+1. **Identify**
+    - Find us two examples of this design issue being addressed? 
+
+2. **Code**
+    - Are they attacking this problem with hard or soft law? 
+
+3. **Analyze the Problem**
+    - What do we learn about the problem from these designs? 
+]]
+
+???
+
+OPTION 1
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size55[**Treaty Design Analysis**]
+
+.size40[**Treaty on the Non-Proliferation of Nuclear Weapons (NPT)**]
+
+<br>
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+]
+
+???
+
+OPTION 2
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size45[
+1. Jo and Gartzke (2007) "Determinants of Nuclear Weapons Proliferation"
+
+2. Fuhrmann & Berejikian (2012) "Disaggregating Noncompliance: Abstention versus Predation in the Nuclear Nonproliferation Treaty"
+]
+
+???
+
+Your job is to read the arguments and conclusions in these two articles
+
+- Be ready to diagram the argument in class
+
+- Give the analyses a skim too!
+
+
+
+
+
+
+

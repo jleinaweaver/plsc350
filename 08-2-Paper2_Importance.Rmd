@@ -1,0 +1,221 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size45[**II. International Institutions for Mutual Restraint**]
+
+<br>
+
+.size50[**Today's Agenda**
+
+Groups working on Paper 2
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+
+UPDATE ALL OF THE FOLLOWING FOR PAPER 2 PROMPT
+
+Groups pick their IO and submit evidence to help you answer the "Why did we "need" this international organization?"
+
+Paper 2 - IO Design Analysis
+- 1) Why did we "need" this international organization? 2) In what specific ways was the foundational treaty of your selected international organization designed to provide the "benefits" of delegation? Be sure to consider PA theory, legalization and the rational design literatures. 3) Argue: Based on its design how likely is it to be effective?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Paper 2 - IO Design Analysis**]
+
+.size40[
+1. Why did we "need" this international organization? Why is it important? To whom?
+2. In what specific ways was the foundational treaty of your selected international organization designed to provide the "benefits" of delegation? Be sure to consider PA theory, legalization and the rational design literatures
+3. Based on its design how likely is it to be effective?
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Class Today: Paper 2**]
+
+.size40[
+Groups pick their IO and submit evidence to help you answer the "Why did we "need" this international organization?"
+]
+
+???
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[**Paper 2 - IO Design Analysis**]
+
+.size40[
+1. Why did we "need" this international organization? Why is it important? To whom?
+
+Discuss evidence in groups
+
+Use cases to diagram this argument on the board
+]
+
+???
+
+Discuss evidence in groups
+
+Build argument diagram
+
+Present
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[**Paper 2 - IO Design Analysis**]
+
+<br>
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+]
+
+<br>
+
+.center[.size45[2) In what specific ways was the foundational treaty of your selected international organization designed to provide the "benefits" of delegation? Be sure to consider PA theory, legalization and the rational design literatures]]
+
+???
+
+Groups prepare to present analyses for both at start of next class  
+
+1. Classify using legalization
+
+2. Which KLS conjectures in action?
+
+
+KLS Problems
+- Enforcement,
+- uncertainty about preferences,
+- distribution,
+- uncertainty about behavior,
+- uncertainty about the state of the world,
+- number
+
+KLS Design Mechanisms
+- Restrictive membership
+- Scope
+- Centralization
+- Control
+- Flexibility
+
+
+p763
+Membership rules ( MEMBERSHIP )
+- "Who belongs to the institution? Is membership exclusive and restrictive, like the G-7’s limitation to rich countries? Or is it inclusive by design, like the UN? Is it regional, like ASEAN, or is it universal? Is it restricted to states, or can NGOs join?" (770).
+
+Scope of issues covered ( SCOPE )
+- "What issues are covered?" (770).
+
+Centralization of tasks ( CENTRALIZATION )
+- "Are some important institutional tasks performed by a single focal entity or not? Scholars often misleadingly equate centralization with centralized enforcement. We use the term more broadly to cover a wide range of centralized activities. In particular we focus on centralization to disseminate information, to reduce bargaining and transaction costs, and to enhance enforcement" (771).
+
+Rules for controlling the institution ( CONTROL )
+- "How will collective decisions be made? Control is determined by a range of factors, including the rules for electing key officials and the way an institution is financed. We focus on voting arrangements as one important and observable aspect of control" (772).
+
+Flexibility of arrangements ( FLEXIBILITY )
+- "How will institutional rules and procedures accommodate new circumstances? Institutions may confront unanticipated circumstances or shocks, or face new demands from domestic coalitions or clusters of states wanting to change important rules or procedures. What kind of flexibility does an institution allow to meet such challenges?" (773).
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size40[
+1. Groups build argument diagrams on the board for each of the legalization concepts focused on delegation benefits (part 2 of the paper)
+]
+
+???
+
+Your projects keep going, next week we work as a class to study the ICC
+
+
+
+
+
+
