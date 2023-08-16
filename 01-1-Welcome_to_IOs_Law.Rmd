@@ -50,11 +50,14 @@ What is an act by an .textblue[**individual**] or a .textblue[**state**] that wo
 ???
 
 ### Prep for Class
-1. Make sure to save the key assumption lists from board today for class 14-3. Add notes to those slides.
+1. SAVE ALL key assumption lists from board today for class 14-3. 
+    - Add notes to those slides as you go!
 
 <br>
 
 *ON BOARD: As students come in get ideas up on the board!*
+
+- **Copy this list to 14.2**
 
 <br>
 
@@ -72,18 +75,21 @@ background-position: center
 class: middle
 
 .pull-left[
+.size65[
+.content-box-white[**Introductions**]
+]]
 
-<br>
+???
 
-<br>
+I'm Dr. Leinaweaver.
 
-<br>
+- 12th year at Drury
 
-<br>
+- Political scientist
 
-.size65[**Introductions**]
+- Research interests: international politics, environmental politics and bargaining / negotiations.
 
-]
+--
 
 .pull-right[
 .size55[
@@ -100,12 +106,6 @@ class: middle
 
 ???
 
-I'm Dr. Leinaweaver.
-
-- Political scientist
-
-- Research interests: international politics, environmental politics and bargaining / negotiations.
-
 <br>
 
 ### Your turn!
@@ -113,13 +113,46 @@ I'm Dr. Leinaweaver.
 
 <br>
 
-Ok, let's see where we are starting our explorations this term.
+**SLIDE**: Clearly we have some work to do this semester to get everyone up to speed on international law and international organizations!
 
-- I'd like to get a sense of your "prior knowledge" concerning international law.
 
-- Don't worry if you don't have clear prior knowledge, let's just talk through our intuitions.
 
-- **SLIDE**
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[
+.content-box-white[**Learning Outcomes**]
+
+**Content Knowledge**: Basic concepts and theoretical approaches of international institutions
+
+**Methods Knowledge**: Explore international institutions with data and literature
+
+**Critical Thinking/Problem-Solving**: Examine how institutional design matters for solving problems
+
+**Communication Skills**: Clear communication
+]
+
+???
+
+The syllabus has the full details on these but here is the heart of each.
+
+- The LOs guide my design of the semester, my plan for each class, the pedagogies we use in class and the design of each assignment.
+
+<br>
+
+### Any questions on the LOs?
+
+<br>
+
+**SLIDE**: I've broken the semester into four sections. 
+
+- Let's step through them so you can see where we're going
+
 
 
 ---
@@ -129,13 +162,40 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size80[**Key Assumptions**]
+.size70[.content-box-purple[**Section 1**]
+
+The Basics of Analyzing International Institutions]
+
+???
+
+Section 1 of the class, our first four weeks, will focus on baseline concepts and the models/tools we'll need this semester.
 
 <br>
 
+What does that actually mean?
+
+- Let me answer that question with a few questions of my own
+
+- In other words, let's get a sense of your "prior knowledge" concerning international law.
+
+- Don't worry if you don't have clear prior knowledge, let's just talk through our intuitions.
+
 <br>
 
-.size80[What do states want from the international community?]
+**SLIDE**
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size80[.content-box-purple[**Key Assumptions**]
+
+What do states want from the international community?]
 
 ???
 
@@ -149,6 +209,8 @@ Share your list with the people near you, discuss them.
 <br>
 
 *ON 1/2 THE BOARD: Build a class list*
+
+- **Copy this list to 14.2**
 
 <br>
 
@@ -168,13 +230,9 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size80[**Key Assumptions**]
+.size80[.content-box-purple[**Key Assumptions**]
 
-<br>
-
-<br>
-
-.size80[When do states act on the international level?]
+When do states act on the international level?]
 
 ???
 
@@ -195,6 +253,8 @@ Share your list with the people near you, discuss them.
 
 *ON 1/2 THE BOARD: Build a class list*
 
+- **Copy this list to 14.2**
+
 <br>
 
 ### How would we rank these from the most important items to the least?
@@ -209,7 +269,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size70[.center[**What are your priors re: international law?**]]
+.size70[.center[.content-box-purple[**What are your priors re: international law?**]]]
 
 .size55[
 1. What do states want from the international community?
@@ -223,6 +283,10 @@ The question for us this semester is, should international law or international 
 
 - In other words, does international law matter for understanding international politics?
 
+<br>
+
+**SLIDE**: In an effort to help us better understand what international law is, let's examine three well-known quotes.
+
 
 
 ---
@@ -232,7 +296,7 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size80[**What is international law?**]
+.size80[.content-box-white[**What is international law?**]]
 
 .size60[
 "International law is that law that the .textred[**wicked do not obey**] and the .textblue[**righteous do not enforce**]."
@@ -242,11 +306,13 @@ class: middle, center
 
 ???
 
-One common theme you might come across in response to this question is summed up nicely by the Former Foreign Affairs Minister of Israel
+Quote number 1 comes from Abba Eban in 1957
 
-### What is this as an answer to our question?
+- Eban was a Foreign Affairs Minister of Israel
 
-### - Is Eban telling us international law and organizations matter or not?
+<br>
+
+### Is this an argument that international law "matters" or not? Why?
 
 <br>
 
@@ -261,7 +327,7 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size80[**What is international law?**]
+.size80[.content-box-white[**What is international law?**]]
 
 .size65[
 ".textred[**International law**] is to law what .textblue[**professional wrestling**] is to wrestling."
@@ -271,15 +337,13 @@ class: middle, center
 
 ???
 
-Stephen Budiansky is an American writer, historian and biographer
+Quote number 2 comes from Stephen Budiansky an American writer, historian and biographer
 
-### What is this as an answer to our question?
-
-### - Is Budiansky telling us international law and organizations matter or not?
+### Is this an argument that international law "matters" or not? Why?
 
 <br>
 
-**SLIDE**: Here's the answer from our course catalog
+**SLIDE**: Finally, here's the answer from the course catalog and the syllabus for this class
 
 
 
@@ -291,7 +355,7 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.size80[**What is international law?**]
+.size80[.content-box-white[**What is international law?**]]
 
 .size55[
 "....textred[**almost**] all nations observe .textred[**almost**] all principles of international law and .textred[**almost**] all of their obligations .textred[**almost**] all the time."
@@ -320,6 +384,115 @@ The distinguished international legal scholar Louis Henkin famously wrote:
 4. (There are some conditions when states break international law.)
     - Be a good idea to figure out what those conditions are…
 
+<br>
+
+In sum Section 1 of our class will be focused on helping you develop the tools you need to analyze this challenge
+
+- By the end of the semester I think you'll have a strong grasp on exactly what these quotes mean!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size70[.content-box-purple[**Section 2**]
+
+International Institutions for Mutual Restraint
+
+(e.g. agreeing what states ought not to do)]
+
+???
+
+Section 2 of the class, our next five weeks, will focus on international institutions designed to stop states from doing something.
+
+<br>
+
+**SLIDE**: What does international law designed to stop state behavior look like?
+
+
+
+---
+
+background-image: url('libs/Images/01_1-Canvas_Modules_highlight1.png')
+background-size: 95%
+class: center, slideblue
+
+???
+
+Everybody open up the 1953 Slavery Convention.
+
+- This is an international treaty that aimed to end slavery around the world.
+
+- Let's briefly skim through this treaty to highlight a few lessons that come up time and again in every treaty
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size70[.content-box-purple[**Section 2**]
+
+International Institutions for Mutual Restraint
+
+(e.g. agreeing what states ought not to do)]
+
+???
+
+### How clear is the definition of slavery included in Article 1 (p3)? Any wiggle room here to eliminate slavery but keep a class of people essentially as slaves?
+
+### Jump to Article 5 (p4) and tell me what the slavery definition explicitly does NOT include?
+- (Forced labor as punishment, e.g. prison labor)
+
+<br>
+
+### How strong are the obligations for each state in Article 2? How hard would it be to tell if a state participant in the treaty was complying or not?
+
+<br>
+
+### Jump to Article 6 (p4) and tell me, what are the punishments for states who participate in the treaty but don't eliminate slavery in their territory?
+
+<br>
+
+These questions of definition, obligation and punishment are going to be key for us as we evaluate treaties designed to stop states from doing something specific in the world.
+
+- e.g. Section 2 of the class!
+
+- In class we'll dig deeply into efforts to stop the spread of nuclear weapons and the violation of human rights
+
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size70[.content-box-purple[**Section 3**]
+
+International Institutions for Coordination 
+
+(agreeing what states ought to do)]
+
+???
+
+Section 3 of the class, over three weeks, will analyze international institutions designed to set standards or rules for states.
+
+- **SLIDE**: Everybody now open the UN General Assembly resolution on the use of the death penalty.
+
+
 
 
 
@@ -331,125 +504,76 @@ background-size: 100%
 background-position: center
 class: bottom, center
 
-.size50[.content-box-blue[UN General Assembly Resolution 77/222]]
+.size50[.content-box-purple[UN General Assembly Resolution 77/222]]
 
 ???
 
-Let's get our hands dirty by comparing and contrasting two examples of "international law"
+### Everybody now skim through the text of this resolution and tell me how this compares and contrasts with the slavery treaty we were just discussing. 
 
-GA resolution (UNGA_Resolution-ARES77_222.pdf moratorium on death penalty);
+- (VERY long preamble setting the stage)
 
+- (Sentence 1 starts with a reaffirmation of sovereignty, e.g. the right for states to make their own decisions)
 
-
----
-
-background-image: url('libs/Images/01_1-Slavery_Convention.jpg')
-background-size: 100%
-background-position: center
-class: bottom, center
-
-.content-box-blue[.size45[Convention on the Abolition of Slavery, the Slave Trade, and Institutions and Practices Similar to Slavery (1953)]]
-
-???
-
-Treaty (Supplementary Convention on the Abolition of Slavery, the Slave Trade, and Institutions and Practices Similar to Slavery 1953)
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size60[**LO1: Content Knowledge**]
+- (MUCH weaker language e.g. "welcomes", "calls upon", "encourages" and "requests")
 
 <br>
 
-.size50[Students should have substantial familiarity with the basic concepts and theoretical approaches of international law and international organizations.]
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size60[**LO2: Methods Knowledge**]
+### Focus on section 7, how strong are the obligations in this resolution?
 
 <br>
 
-.size50[Students should demonstrate an ability to deeply explore specific international laws and organizations using data and academic literature.]
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size45[**LO3: Critical Thinking and Problem-Solving Skills**]
+### Any punishments here for states that choose to not do these things?
+- (Nope!)
 
 <br>
 
-.size50[Students should demonstrate an understanding of how institutional design matters for addressing international problems.]
+I hope this very brief review of a UN GA resolution shows you just how different this form of international law is to something like a full treaty!
+
+- Section 3 of the class we will dig into the United Nations and the CEDAW treaty which deals with discrimination against women
 
 
 
 ---
 
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-image: url('libs/Images/background-worldmap3.png')
 background-size: 100%
 background-position: center
-class: middle
-
-.size60[**LO4: Communication Skills**]
-
-<br>
-
-.size50[Students should demonstrate the ability to communicate complex international problems and institutional designs in ways that allow a non-expert audience to be convinced of their arguments.]
-
-
-
----
-
 class: middle, center
 
-.size60[**Course Grade**]
+.size70[.content-box-purple[**Section 4**]
 
-```{css, echo=F}
-/* Change the background color to white for shaded rows (even rows) */
-.remark-slide thead, .remark-slide tr:nth-child(2n) {
-      background-color: white;
-}
-```
+International Institutions for Aggregate Effort 
 
-```{r}
-tibble(
-  col1 = c("Participation", "Papers", "- Intl Law Case Study", "- IO Case Study", "- Analyze a Journal Article", "Total"),
-  col2 = c("", "", "(TBD)", "(TBD)", "(Final Exam)", ""),
-  col3 = c(30, 70, rep("", 3), 100)
-) |>
-  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
-  kableExtra::kable_styling(font_size = 43) |>
-  kableExtra::column_spec(1, width = "14em") |>
-  kableExtra::column_spec(2, width = "7em") |>
-  kableExtra::row_spec(c(0, 6), bold = TRUE, background = "#b3ccff")
-
-```
+(outcomes that depend on the combined efforts of all states)]
 
 ???
 
-Course Grade
+The final section of the class will analyze international institutions designed to solve problems that need states to take actions working together.
 
-Heavy on the participation!
+- In class we will examine a series of treaties designed to address global climate change.
 
-Definitely a seminar, not a lecture.
+<br>
+
+Everybody open the Convention on Long-Range Transboundary Air Pollution from 1979.
+
+- This is a treaty designed to reduce air pollution, primarily in Europe.
+
+### How thorough is the definition of pollution in Article 1? How does it compare to the slavery definition?
+- (WAY more precise)
+
+<br>
+
+This treaty has been remarkably successful and I think part of that is due to the obligations in the treaty.
+
+### Read Articles 3 and 4 and tell me what this treaty was designed to do.
+- (Promote information collection and data sharing BOTH on pollution AND on policy effectiveness around the world)
+
+<br>
+
+Much of the rest of this convention is built around fostering cooperation through assistance and support.
+
+- All designed to get countries to take the problem more seriously and to be more transparent in addressing them.
+
 
 
 
@@ -475,11 +599,52 @@ class: middle
 
 ???
 
-Mutual Restraint: Agreeing what states ought not to do
+Ok, so that's our plan of attack.
 
-Coordination and Global Standards: Agreeing what states ought to do
+### Any questions on the structure of the semester?
 
-Aggregate Effort: Outcomes that depend on the combined efforts of all states
+
+
+
+
+---
+
+class: middle, center
+
+.size60[.content-box-blue[**Course Grade**]]
+
+```{css, echo=F}
+/* Change the background color to white for shaded rows (even rows) */
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+      background-color: white;
+}
+```
+
+```{r}
+tibble(
+  col1 = c("Participation", "Papers", "- Treaty Design Analysis", "- IO Design Analysis", "- Reform Proposal", "Total"),
+  col2 = c("", "", "(Sep 22)", "(Oct 27)", "(Final Exam)", ""),
+  col3 = c(30, 70, rep("", 3), 100)
+) |>
+  kableExtra::kbl(align = c("l", "c", "c"), col.names = c("", "", "%")) |>
+  kableExtra::kable_styling(font_size = 43) |>
+  kableExtra::column_spec(1, width = "14em") |>
+  kableExtra::column_spec(2, width = "7em") |>
+  kableExtra::row_spec(c(0, 6), bold = TRUE, background = "#b3ccff")
+
+```
+
+???
+
+Course Grade
+
+Heavy on the participation!
+
+Definitely a seminar, not a lecture.
+
+
+
+
 
 
 
@@ -562,21 +727,11 @@ Basically, if you:
 
 - Submit all daily required assignments BEFORE class,
 
-You'll be good to go and these are easy free points.
-
 <br>
 
-Before almost every class we will have a reading and a discussion question.
+**Each participation point you lose will reduce your participation grade by 1/3 of a letter grade**
 
-- You must submit your answer to that question on our Canvas discussion board BEFORE class begins to earn your participation point.
-
-<br>
-
-The two most common ways people lose these points?
-
-- Come to class late, or 
-
-- Come to class without having completed the daily assignment.
+- e.g. A, A-, B+, B, B-, C+, etc.
 
 ### Questions on this?
 
@@ -610,15 +765,17 @@ We'll be using Canvas for submitting assignments, posting to the discussions and
 
 ---
 
-background-image: url('libs/Images/01_1-Canvas_Modules.png')
-background-size: 73%
+background-image: url('libs/Images/01_1-Canvas_Modules_highlight2.png')
+background-size: 95%
 class: center, slideblue
 
 ???
 
 Speaking of Canvas!
 
-- ALL of the assigned readings are available on Canvas in the "Modules" section.
+- ALL of the assigned readings and daily assignments are available on Canvas in the "Modules" section.
+
+- I have organized the Modules by week of the semester to mirror the structure of the syllabus
 
 <br>
 
@@ -630,24 +787,56 @@ The syllabus includes many web links, but if they don't work I have uploaded bac
 
 <br>
 
-SLIDE: Now, how do you earn your participation point for Friday?
+Here you can see your assignment for next class
 
+- The Cassese chapter introduces these seven-ish fundamental principles.
+
+- In class I want us to evaluate and debate whether or not we believe these are "fundamental" or not.
+
+<br>
+
+**SLIDE**: Assignment details
 
 
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles.jpg')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**Next Class**]
-
-.size45[
-Cassese ch 3
-]
+background-image: url('libs/Images/01_2-Canvas_Modules.png')
+background-size: 90%
+class: center, slideblue
 
 ???
+
+*Assign the students to the seven principles*
+1. Sovereignty of States (3.2.2)
+2. Equality of States (3.2.3)
+3. Non-Intervention in the Int. / Ext. Affairs of Other States (3.3.1)
+4. Prohibition of the Threat or Use of Force (3.4)
+5. Peaceful Settlement of Disputes (3.5)
+6. Respect for Human Rights (3.6)
+7. Self-Determination of Peoples (3.7)
+
+<br>
+
+Your job is to find a case that demonstrates your assigned principle in action on the international stage. 
+
+Examples
+
+- A state representative invokes this principle as a justification for an action they have taken
+
+- A state representative, an NGO or a non-state actor may cite this principle as a call for action by others. 
+
+<br>
+
+1. Submit an APA citation for the news article / evidence you have found (see the Purdue OWL for formatting instructions)
+
+2. Briefly explain your chosen case (e.g. how is the principle being exhibited here and is this evidence that the principle "matters" in world politics?) (2-3 sentences)
+
+<br>
+
+### Questions on the assignment?
+
+- You have to read the whole chapter, but you only find evidence for one of the principles in action!
+
 
 
