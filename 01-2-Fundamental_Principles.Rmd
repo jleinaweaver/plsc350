@@ -57,17 +57,6 @@ Welcome back everybody.
 
 - Today we continue our work in Section 1 of the class focused on the "Basics of Analyzing International Institutions"
 
-<br>
-
-### Out of curiosity, where do we find the "fundamental principles" governing life inside the USA?
-- (The Constitution and the 50 state constitutions)
-
-<br>
-
-Within states rules typically exist in a constitution, or other formative document, that offers the baseline on which a society functions.
-
-- Our question for today is, at the international level does anything stand in for that missing Constitution?
-
 
 
 ---
@@ -80,6 +69,78 @@ class: slideblue
 ???
 
 ### Any questions on the structure of the class, Canvas or the details in the syllabus?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-worldmap3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[.center[.content-box-purple[**What are your priors re: international law?**]]]
+
+.size55[
+1. What do states want from the international community?
+
+2. When do states act on the international level?
+]
+
+???
+
+Last class we worked to unpack and examine your prior knowledge about international law
+
+<br>
+
+My argument to you is that it is vitally important to identify the assumptions you hold about any subject before you begin to explore it.
+
+- Your initial assumptions are typically based on intuitions that come from all kinds of wacky places in our lives
+
+- ESPECIALLY when we're talking about international law, intuitions based on how domestic law works will often lead you astray.
+
+
+
+
+---
+
+background-image: url('libs/Images/01_2-hammer_globe.png')
+background-size: 100%
+background-position: center
+class: bottom, center
+
+.content-box-blue[.size40[**Cassese, A. (2005). Chapter 3: The Fundamental Principles Governing International Relations. *International Law*.**]]
+
+???
+
+Our next job in Section 1 of the class is to think about the sources of international institutions.
+
+- e.g. where does international law come from?
+
+<br>
+
+Over the next two classes I want us to examine three interrelated sources of international law.
+
+- Today we begin with what Cassese describes as the "fundamental principles governing international relations"
+
+<br>
+
+Even though I just told you it is dangerous to draw parallels with domestic law tell me... 
+
+### Where do we find the "fundamental principles" governing life inside the USA?
+- (The Constitution and the 50 state constitutions)
+    - as interpreted by 9 crazy people with lifetime tenure
+
+<br>
+
+Within states rules typically exist in a constitution, or other formative document, that offers the baseline on which a society functions.
+
+- Our question for today is, at the international level does anything stand in for that missing Constitution?
+
+
+
+
 
 
 
