@@ -49,7 +49,7 @@ class: middle
 ???
 
 ### Prep for Class
-1. ?
+1. If needed. TBD
 
 <br>
 
@@ -59,7 +59,11 @@ Last class we began our exploration of the sources of international law with wha
 
 <br>
 
-**SLIDE**: Let's kick off our exploration by talking for a moment about the International Court of Justice (ICJ)
+So, what are the "sources" of international law?
+
+- **SLIDE**: Let's ask an authority!
+
+
 
 
 
@@ -72,8 +76,9 @@ class: middle
 
 ???
 
-### Has anybody ever heard of the ICJ?
-### - Anything specific?
+### Has anybody ever heard of the International Court of Justice (ICJ)?
+
+### - Did anybody bring a case to last class that involved the ICJ? In what capacity?
 
 <br>
 
@@ -82,6 +87,8 @@ The International Court of Justice (ICJ) is the principal judicial organ of the 
 
 - The Court is composed of 15 judges, who are elected for terms of office of nine years
 
+<br>
+
 Two main jobs:
 1. Settle legal disputes between states
     
@@ -89,7 +96,87 @@ Two main jobs:
     
 <br>
 
-**SLIDE**: For example...
+**SLIDE**: Let me give you an example of each
+
+
+
+---
+
+background-image: url('libs/Images/02-1-Border_Dispute.png')
+background-size: 51%
+background-position: right
+class: middle
+
+```{r, echo = FALSE, fig.align='left', out.width = '42%'}
+knitr::include_graphics("libs/Images/02-1-Africa.png")
+```
+
+???
+
+1. The ICJ is often called upon to settle legal disputes between states.
+
+<br>
+
+Here we see a map showing the section of East Africa where Kenya and Somalia share a border.
+- This zoomed in map, taken from the ICJ opinion, also shows us the sea borders south of Kenya
+
+<br>
+
+What do I mean by a "sea border"?
+- An extension of your boundaries into the ocean (assuming you are a coastal state)
+
+- The first 12 miles is a country's "territorial sea" 
+    - e.g. an area you control just like you do your own land (UNCLOS Part II)
+
+- Up to 200 nautical miles is your exclusive economic zone (EEZ)
+    - EEZ gives you rights for the purposes of exploring, exploiting, conserving, and managing natural resources of the seabed, subsoil, and waters above it (UNCLOS Part V).
+
+<br>
+
+Talk to me about the sea borders already on this map. 
+
+### How do territorial sea lines appear to be drawn?
+- (Lines directly offshore, territorial sea, seem to directly follow the land border)
+
+### What about the EEZ, is that still following the land border?
+- (Farther out, the EEZ, seems to adopt a straight line paralleling the latitutde line)
+
+### Why is the Kenya/Tanzania sea border seemingly longer than the Tanzania/Mozambique sea border?
+- (The Tanzania/Mozambique border is shorter as it runs into the territory of Comoros)
+- (The Kenya/Tanzania line is extended, for Tanzania, by those large islands offshore that extend its territory)
+
+<br>
+
+**SLIDE**: US EEZ
+
+
+
+---
+
+background-image: url('libs/Images/02_1-US_EEZ_NOAA_map.jpg')
+background-size: 78%
+background-position: center
+class: middle, slideblue
+
+???
+
+As an example, here is a map of the US EEZ shaded in blue as provided by the National Oceanic and Atmospheric Administration (NOAA).
+
+- US EEZ is more than 3.4 million square nautical miles (4 million square miles) of ocean
+
+- Larger than the land area of all 50 states combined and is one of the largest EEZs in the world
+
+- It is so big we've only mapped about 40% of it
+
+<br>
+
+In case you've ever wondered why the US would work so hard to maintain control over tiny islands in the Pacific Ocean, each tiny island can claim a huge area of ocean resources!
+
+<br>
+
+**SLIDE**: Back to Kenya vs Somalia!
+
+
 
 
 ---
@@ -101,17 +188,73 @@ class: bottom
 
 ???
 
-1) The ICJ is often asked to settle disputes between countries.
+Kenya and Somalia have been arguing about how to draw the sea border between them for a LONG, LONG time.   [ICJ Opinion](https://www.icj-cij.org/sites/default/files/case-related/161/161-20211012-JUD-01-00-EN.pdf)*
+
+- Essentially this dispute dates back to, at least, both states gaining independence in 1960 (Somalia) and 1963 (Kenya)
+
+- Note that claims over the continental shelf beyond 200 nautical miles apply only to the seabed and subsoil
+
+- The EEZ also gives you rights to the water column above it
 
 <br>
 
-Sea border dispute between Kenya and Somalia [LINK](https://www.icj-cij.org/sites/default/files/case-related/161/161-20211012-JUD-01-00-EN.pdf)
+### Per our brief and oversimplified analyses of other sea borders, what do you think Kenya's line is based on?
+- (Parallel that latitude line!)
 
-- Aug 2014 Somalia files an application to the ICJ to settle this dispute
+Kenya argues that this is the "correct" sea border based on:
+1. Current practice e.g. both states have long behaved like this is the border (meaning Somalia has already acquiesced), and 
 
-- Kenya spends the next five years trying to prevent the ICJ from hearing the case and making a ruling (not shocking given their claims on the map)
+2. If the ICJ decides they need a new sea border it should be drawn along the parallel of latitude (as you can kind of see in the sea borders to the south)
 
-- Somewhat understandable though given how the Kenyan border with Tanzania cuts off a lot of EEZ ocean already
+<br>
+
+### And what about Somalia's preferred line?
+- (Follow the territorial land border?)
+
+Somalia argues that:
+1. no maritime boundary currently exists between the two States, and 
+
+2. Asks ICJ to draw "an unadjusted equidistance line throughout all maritime areas" to achieve an "equitable result" (p18).
+    - Think of drawing lines from each territory out into the sea to the proposed border
+    - If each line segment is equally long (from the same point on land away from the border) then the sea border is equidistant (and possibly "fair")
+
+<br>
+
+So, in Aug 2014 Somalia files an application to the ICJ to settle this dispute
+
+- Kenya spends the next five years trying to prevent the ICJ from hearing the case and making a ruling (feeling pessismistic about their chances?)
+
+<br>
+
+We'll come back to this example of the ICJ settling a dispute between states in a moment!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align='center', out.width = '90%'}
+knitr::include_graphics("libs/Images/02_1-UNGA_Climate_Resolution2.png")
+```
+
+???
+
+The second task: The ICJ is often asked for advisory opinions about international law from the UN and its member states
+
+<br>
+
+Here's our example: UN GA Resolution 77/276
+
+- In March of this year (2023) the UN GA asked the ICJ for an advisory opinion about climate change.
+
+- **SLIDE**: Specifically, the resolution asks two big questions
+
+
 
 
 
@@ -134,11 +277,11 @@ knitr::include_graphics("libs/Images/02_1-UNGA_Climate_Resolution2.png")
 
 ???
 
-2) The ICJ is often asked for advisory opinions about international law from the UN and its member states
+### Focusing just on the first question, any idea what happens if the ICJ rules that states are obligated to act to stop climate change?
 
 <br>
 
-In March of this year (2023) the UN GA asked the ICJ for an advisory opinion about climate change.
+### And what if the ICJ decides states are legally responsible for climate harms they created or worsened?
 
 <br>
 
@@ -203,7 +346,12 @@ Simply put, Article 38 is one answer to the question: What is international law?
 
 <br>
 
-For judges to rule on controversies of the law they need a firm understanding of both what the law is and how conflicts across laws should be settled.
+For judges to rule on controversies of the law they need a firm understanding of both **what the law is** and how **conflicts across laws** should be settled.
+- A judge is often called on to sort out situations where obeying one law means violating another!
+
+- For example, when driving you must stop at stop signs and you must get out of the way for emergency vehicles. What if doing the latter means running through a stop sign and what if that action causes an accident?
+
+<br>
 
 1. Art 38 tells the ICJ judges that "international law" has four sources:
     - treaties, 
@@ -214,10 +362,12 @@ For judges to rule on controversies of the law they need a firm understanding of
 2. Art 38 tells the ICJ judges the hierarchy of international laws for dealing with conflicts between them
     - When making a decision the ICJ starts with (a) and only moves to (b) if (a) is insufficient to decide the dispute.
     
+<br>
+    
 Don't over-interpret this list order!
-- The list order does not mean treaty law is superior to customary law.
+- This list is ICJ specific
 - The order is particular to the court working through a specific dispute (e.g. state 1 vs state 2)
-- This is not the establishment of one type of international law as more important than the others.
+- This is not the establishment of one type of international law as generally more important than the others.
     
 <br>
 
@@ -289,6 +439,8 @@ In October 2021 the ICJ released its judgment settling the border dispute betwee
 According to the judges themselves the key basis for the decision was that both states had joined the UN Convention on the Law of the Sea.
 
 - That treaty includes specific language for adjudicating disputes like this one and so that was what they applied.
+
+- The treaty overruled the argument based on custom
 
 <br>
 
@@ -364,10 +516,23 @@ So, here we have one answer to the question, "what is international law?"
 
 ### How similar is this to the way domestic law works in the United States?
 
-(Not at all, right?)
-- Hard to imagine a judge letting you away from a speeding ticket because you point out that everyone else was speeding so therefore the custom must be that speeding is allowed!
+<br>
 
-- Or because you find a decision on traffic speeding from Japan that decided speeding isn't a crime
+It seems different, but you'd be suprised.
+- While most domestic behavior in the US is covered by explicitly written laws, there are still gray areas that are not covered
+
+- law too vague, behavior too new or unanticipated
+
+<br>
+    
+In those instances US courts will sometimes look to custom (e.g. "common law")
+- "That which derives its force and authority from the universal consent and immemorial practice of the people" [LINK](https://www.upcounsel.com/legal-def-common-law)
+
+- Think precedent: The law created by judges when deciding individual disputes or cases.
+
+And if both those sources fail them, some US courts have looked to court decisions from other countries with similar systems to ours for ideas! 
+
+- Wacky side note, Louisiana is only US state not to follow English common law foundations. There's come from France.
 
 <br>
 
@@ -406,16 +571,27 @@ d. subject to the provisions of Article 59, [.e. that only the parties bound by 
 
 Last week we kicked off our exploration of international law by examining the fundamental principles!
 
-### What were our takeaways from that work with the Cassese chapter?
+### What were our takeaways from that work with the Cassese chapter? 
 
-### - Where do they come from?
+### - Where do the seven principles come from?
 
-### - Specific examples?
+### - Which of the seven principles seem "most" fundamental? Why?
 
 <br>
 
 Funnily enough, they seem to come from the first two items on this list, although they are a small selection of them.
 
+<br>
+
+#### List
+
+1. Sovereignty of States
+2. Equality of States
+3. Non-Intervention in the Int. / Ext. Affairs of Other States
+4. Prohibition of the Threat or Use of Force
+5. Peaceful Settlement of Disputes
+6. Respect for Human Rights
+7. Self-Determination of Peoples
 
 
 
@@ -445,11 +621,17 @@ d. subject to the provisions of Article 59, [.e. that only the parties bound by 
 
 ???
 
-For today I gave you readings on customary law and treaties.
+For today I gave you readings on the two primary sources of international law: customary law and treaties.
+
+<br>
 
 *Split class into two groups*
 
-I'd like each group to diagram and then present to us the basics of each type of international law.
+- Groups claim half the board!
+
+<br>
+
+**SLIDE**: I'd like each group to diagram and then present to us the basics of each type of international law.
 
 
 
@@ -479,7 +661,7 @@ knitr::include_graphics("libs/Images/02_1-treaty_peace.webp")
 
 2. How is it made?
 
-3. Give us an example of this type in action
+3. Give us examples to illustrate it in practice
 ]
 
 ???
@@ -488,13 +670,21 @@ Groups, work on the board and diagram each of these types of international law!
 
 - Get ready to present to us.
 
+1. Define it
+    - e.g. How do we know it when we see it?
+    
+2. How is it made?
+    - e.g. How do states "make" this kind of international law?
+    
+3. Give us examples to illustrate it in practice
+
+### Questions?
+
 <br>
 
-Ok, Customary Law Group, walk us through your analyses!
-
 <br>
 
-**SLIDE**: Your highlights
+**SLIDE**: Ok, Customary Law Group, walk us through your analyses!
 
 
 
@@ -529,6 +719,9 @@ class: top, center
 
 - If someone lets you merge in front of them on the road you HAVE TO WAVE!
 
+<br>
+
+**SLIDE**: And how is customary law made?
 
 
 ---
@@ -571,7 +764,13 @@ Ok group, talk us through the process of creating customary law.
 
 ### Questions on this process?
 
-- **SLIDE**: Let's step through an example to clarify this.
+<br>
+
+Group, what examples do you have for us?
+
+<br>
+
+**SLIDE**: Example - no murdering ambassadors!
 
 
 
@@ -587,7 +786,7 @@ class: slideblue
 This illustration depicts the British Ambassador, Lord George Macartney, visiting the Chinese emperor in 1792.
 - Super racist drawing, right? Whew.
 
-### 1. In the pre-WWII era, why might states have stationed ambassadors in other states? What is the opinio necessitatis for having ambassadors?
+### Step 1: In the pre-WWII era, why might states have stationed ambassadors in other states? What is the opinio necessitatis for having ambassadors?
 - (Keep the lines of communication open)
 - (Encourage trade)
 - (Create new opportunities for cooperation)
@@ -622,11 +821,13 @@ background-position: center
 From here we see the development of the customary law related to diplomatic immunity.
 - e.g. the protection of diplomats from harassment, imprisonment, etc.
 
-### 2. Why would we not expect a "strong and consistent" opposition to develop on the question of not murdering ambassadors when countries make you mad?
+### Step 2: Why would we not expect a "strong and consistent" opposition to develop on the question of not murdering ambassadors when countries make you mad?
 - Ambassadors prove useful so more and more states exchange them.
 - Even when things go bad between two states, states recognize that their anger is not productively taken out on the other side's ambassador.
 
-### 3. Finally, how do we know if we've reached step 3, 'opinio juris'?
+<br>
+
+### Step 3: Finally, how do we know if we've reached step 3, 'opinio juris'?
 - States come to recognize that it would be a violation of international law to harm an ambassador, so they choose not to.
 
 ### So, based on the chapter, what do we understand customary international law to be?
@@ -663,7 +864,7 @@ Ok, Treaty Law Group, take it away!
 
 <br>
 
-**SLIDE**: Your highlights
+**SLIDE**: treaty definition from Vienna Convention on the Law of Treaties (1969)
 
 
 
@@ -690,6 +891,9 @@ class: middle, center
 
 - Fundamental Principle: "pacta sunt servanda" (agreements must be kept)
 
+<br>
+
+**SLIDE**: And how is treaty law made?
 
 
 ---
@@ -726,6 +930,8 @@ Interestingly, in basically all states in the world, the ratification threshold 
 
 - Autocracies: Wealthy and military
 
+<br>
+
 ### Why do you think essentially all states, even dictatorships, moved to a status where consent by more than just the leader is needed to bind a state to international law?
 1. (Protection for other states against uncertainty.)
     - Need to know your state is committed and not just until the next election.
@@ -737,6 +943,14 @@ Interestingly, in basically all states in the world, the ratification threshold 
 
 3. (Protection for the leader from those who might wish to replace them.)
     - Gives elites a seat at the table.
+    
+<br>
+
+### Group, what examples do you have for us?
+
+<br>
+
+**SLIDE**: Interestingly, customary law directly informed the writing of the Vienna Convention!
 
 
 
@@ -887,13 +1101,15 @@ d. subject to the provisions of Article 59, [.e. that only the parties bound by 
 
 ???
 
-### Ok, what do we know about international law at this point?
+Ok, how are we doing? 
+
+### Does everybody now have a good sense of how to answer the question "what is international law"?
+
+### How about answering questions about the "sources of international law"?
 
 <br>
 
 Not bad for week 2!
-
-<br>
 
 **SLIDE**: Most importantly, now that you know this, you too can react to every argument you hear about "international law" with...
 
@@ -907,16 +1123,23 @@ background-position: center
 
 ???
 
-1. International law is way less nefarious than its opponents argue
-    - If international law is treaties, then it only binds you if you choose it.
-    - If international law is custom, then it only binds you if the behavior is an accepted custom.
-    - If international laws are the general principles everyone accepts, then you've already accepted them.
-    
-2. The answer to "does international law work?" is going to depend a lot on what specifically you are talking about in any given moment!
+Some people use "international law" as an argument that they think settles big problems just by existing
+
+- They are certainly overstating the impact and omitting the vital context to any situation
 
 <br>
 
-Bottom line, the super secret new world order isn't a thing OR, if it is, it isn't using international law to control us and take our country away!
+Others mock "international law" or equate it with some nefarious plot by the "world community" to conquer America
+
+- But international law is way less nefarious than its opponents argue
+
+- If international law is treaties, then it only binds you if you choose it.
+
+- If international law is custom, then it only binds you if the behavior is an accepted custom.
+
+- If international laws are the general principles everyone accepts, then you've already accepted them.
+    
+<br>
 
 ### Make sense?
 
@@ -929,14 +1152,14 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size70[**Next Class**]
+.size70[.content-box-white[**Next Class**]]
 
 .size40[
-1. Abbott, Keohane, Moravcsik, Slaughter and Snidal (2000)
+Abbott, Keohane, Moravcsik, Slaughter & Snidal (2000). The Concept of Legalization. *International Organization*. 54(3), 401–419.
 
-2. Forest Principles (1992)
-
-3. Treaty on the Prohibition of Nuclear Weapons (2017)
+Bring to Class
+- Forest Principles (1992)
+- Treaty on the Prohibition of Nuclear Weapons (2017)
 ]
 
 ???
