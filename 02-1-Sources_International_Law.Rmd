@@ -78,8 +78,6 @@ class: middle
 
 ### Has anybody ever heard of the International Court of Justice (ICJ)?
 
-### - Did anybody bring a case to last class that involved the ICJ? In what capacity?
-
 <br>
 
 The International Court of Justice (ICJ) is the principal judicial organ of the United Nations (UN).
