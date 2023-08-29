@@ -1157,9 +1157,8 @@ class: middle
 .size40[
 Abbott, Keohane, Moravcsik, Slaughter & Snidal (2000). The Concept of Legalization. *International Organization*. 54(3), 401–419.
 
-Bring to Class
-- Forest Principles (1992)
-- Treaty on the Prohibition of Nuclear Weapons (2017)
+Bring to Class: 
+- See treaties listed on Modules in Canvas
 ]
 
 ???
