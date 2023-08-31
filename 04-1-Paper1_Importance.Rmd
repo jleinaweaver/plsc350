@@ -206,6 +206,22 @@ Present design in terms of legalization and Rational Design conjectures
 
 
 
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size65[.content-box-white[**For Next Class**]]
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/04_1-Assignment_next_class.png")
+```
+
+???
+
+
 
 
 

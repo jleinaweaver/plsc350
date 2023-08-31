@@ -37,7 +37,9 @@ class: middle
 
 .size50[**Today's Agenda**
 
-Analyzing case studies of international laws failing to achieve their aims using Mearsheimer (1994)
+Do international institutions matter?
+
+- Mearsheimer's (1994) Argument and Case Studies
 ]
 
 <br>
@@ -471,7 +473,7 @@ Therefore, international institutions "have minimal influence on state behavior"
 
 <br>
 
-Everybody have this written down?
+**Everybody have this written down?**
 
 - **SLIDE**: Assignment for today
 
@@ -485,7 +487,9 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[.content-box-white[**For Today**]]
+.size60[.content-box-white[**For Today**]]
+
+<br>
 
 ```{r, echo = FALSE, fig.align='center', out.width = '100%'}
 knitr::include_graphics("libs/Images/02_2-Assignment.png")
@@ -493,12 +497,55 @@ knitr::include_graphics("libs/Images/02_2-Assignment.png")
 
 ???
 
+In a moment I will ask each of you to introduce your case to us but I want to focus your presentation on analyzing Mearsheimer's argument.
+
+<br>
+
+**SLIDE**: Specifically, I want you to tell us three things.
 
 
 
 
+---
 
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
 
+```{r, echo = FALSE, fig.align='center', out.width = '80%'}
+knitr::include_graphics("libs/Images/02_2-Assignment.png")
+```
+
+.size40[
+1. What is the law? 
+
+2. What is the "failure"?
+
+3. Is it evidence consistent with one (or more) of Mearsheimer's premises?
+]
+
+???
+
+In other words, tell us the law, what the failure is and whether it is empirical support for one of Mearsheimer's premises.
+
+<br>
+
+Remember, we evaluate a model by its usefulness, and we evaluate its usefulness by its ability to explain and predict the real world.
+
+<br>
+
+HOWEVER, convincing people your model is valuable often hinges on finding empirical evidence showing its assumptions are consistent with reality
+
+- Technically, assumptions are assumed and so "truth" is irrelevant, but if your model's assumptions are bat-crap crazy no one else will adopt it and your "science" ends in a cul de sac.
+
+<br>
+
+### Make sense?
+
+<br>
+
+- **SLIDE**: Important note!
 
 
 
@@ -510,40 +557,44 @@ background-size: 100%
 background-position: center
 class: middle, center
 
-.content-box-white[.size50["....textblue[**almost**] all nations observe almost all principles of international law and .textblue[**almost**] all of their obligations .textblue[**almost**] all the time."]]
+.size45[.content-box-white[**Don't Select on the DV**]]
 
-<br>
+.pull-left[
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_1-selecting_on_the_DV_example.jpg")
+```
+]
 
-<br>
-
-.content-box-white[.size45[--- Louis Henkin (1979)]]
+.pull-right[
+```{r, echo = FALSE, fig.align='center', out.width = '80%'}
+knitr::include_graphics("libs/Images/03_1-millionaire_tips.png")
+```
+]
 
 ???
 
-### How different is Mearsheimer's argument from Henkin's?
+IMPORTANT research design note.
 
+- We are NOT testing Mearsheimer's argument!
 
+- Your cases represent an activity known as selecting on the dependent variable.
 
----
+<br>
 
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
+To test a research question (e.g. Do institutions matter?) you need variation on the outcome!
 
-.center[.size40[.content-box-white[**Mearsheimer (1994): Offensive Realism**]]]
+- Unfortunately, you see books, articles and videos making this mistake ALL THE TIME
 
-.size40[
-- International anarchy
-- States have offensive military capacity
-- Uncertainty re: intentions of other states
-- Survival is primary goal
-- States are strategic
+<br>
 
-Therefore, international institutions don't matter.
+Oh wow, Elon Musk makes sure to read books and eat a healthy breakfast clearly that must be the path to riches!
 
-Powerful states create institutions to maintain or increase their power.
-]
+- Instead, follow 1,000 people's reading and eating habits and see if they correlate with wealth.
+
+<br>
+
+### Make sense?
+
 
 
 
@@ -554,19 +605,81 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size70[**Next Class**]
+```{r, echo = FALSE, fig.align='center', out.width = '80%'}
+knitr::include_graphics("libs/Images/02_2-Assignment.png")
+```
 
 .size40[
-1. Koremenos, Lipson and Snidal (2001) excerpts
+1. What is the law? 
 
-2. CASES: Find us an example of an international law succeeding in achieving its aims in the world (e.g. someone crediting an international law for a good thing happening)
+2. What is the "failure"?
+
+3. Is it evidence consistent with one (or more) of Mearsheimer's premises?
 ]
 
 ???
 
-If you understand the conjectures in Table 1 (p797) you're ready for class!
+Our exercise is simply to evaluate if the premises appear consistent with empirical reality.
+
+- Even if they are we still haven't proved anything
+
+- Just made the case that this model might be useful stronger.
+
+<br>
+
+Ok, take a moment to prepare and then we'll go around the room!
+
+- PRESENT and DISCUSS each
 
 
 
 
+---
 
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size45[
+"International law is that law that the .textred[**wicked do not obey**] and the .textblue[**righteous do not enforce**]" (Eban 1957).
+
+".textred[**International law**] is to law what .textblue[**professional wrestling**] is to wrestling" (Stephen Budiansky).
+
+"....textred[**almost**] all nations observe .textred[**almost**] all principles of international law and .textred[**almost**] all of their obligations .textred[**almost**] all the time" (Henkin 1979). 
+]
+
+???
+
+### Just curious, would Mearsheimer like any of the quotes from our first day of class? Why or why not?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[.content-box-white[**Next Class**]]
+
+.size40[
+Read the Koremenos, Lipson and Snidal (2001) excerpts, then...
+]
+
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/03_1-Assignment.png")
+```
+
+???
+
+On the reading, make sure you understand the conjectures in Table 1 (p797)
+
+<br>
+
+CASES: Find us an example of an international law succeeding in achieving its aims in the world (e.g. someone crediting an international law for a good thing happening)
+
+<br>
+
+### Questions on the assignment?
