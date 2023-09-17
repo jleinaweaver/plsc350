@@ -1,0 +1,707 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "extra.css"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+#library(readxl)
+#library(stargazer)
+#library(kableExtra)
+#library(modelr)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+background-image: url('libs/Images/background-scales_justice_v3.png')
+background-size: 105%
+background-position: top
+class: middle
+
+.size45[**II. International Institutions for Mutual Restraint**]
+
+<br>
+
+.size50[**Today's Agenda: Effectiveness Analysis**
+
+- Treaty on the Non-Proliferation of Nuclear Weapons (NPT)
+]
+
+<br>
+
+.center[.size40[
+  Justin Leinaweaver (Fall 2023)
+]]
+
+???
+
+### Prep for Class
+1. ?
+
+<br>
+
+1. Jo, D.-J., & Gartzke, E. (2007). Determinants of Nuclear Weapons Proliferation. Journal of Conflict Resolution, 51(1), 167–194. 
+    - Opportunity, Willingness and the NPT
+    - NPT membership has small negative effect on proliferation BUT system effect appears to go in opposite direction (bigger % world ratify, more proliferation?) 
+    - ASSIGN: p167-171, 185-187
+    - BRING: Jo_Gartzke2007-Data_Notes.pdf
+
+2. Fuhrmann, M., & Berejikian, J. D. (2012). Disaggregating Noncompliance: Abstention versus Predation in the Nuclear Nonproliferation Treaty. Journal of Conflict Resolution, 56(3), 355–381. 
+    - Can we explain the choice of predation (join NPT but go after nukes) vs abstention (don't join NPT and go after nukes); constraints on the executive reduce predation
+    - ASSIGN: p355-363, 372-374
+
+
+
+---
+
+background-image: url('libs/Images/05_1-Earth_Bombs.jpg')
+background-size: 100%
+background-position: center
+class: bottom
+
+.center[.size45[.content-box-blue[Based on its design, what is the likelihood that the NPT will succeed?]]]
+
+???
+
+Let's talk key takeaways from last class on the NPT.
+
+### What are the most substantive obligations in the treaty?
+
+### - How precise are they?
+
+<br>
+
+### Based on the design of the NPT, what is an appropriate test of "success"?
+
+### - Is it preventing all nuclear proliferation? Why or why not?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[.content-box-white[**Today**]]
+
+<br>
+
+.size40[
+**Has the NPT reduced nuclear proliferation?**
+
+1. Jo and Gartzke (2007). "Determinants of Nuclear Weapons Proliferation." *Journal of Conflict Resolution*.
+
+2. Fuhrmann & Berejikian (2012) "Disaggregating Noncompliance: Abstention versus Predation in the Nuclear Nonproliferation Treaty." *Journal of Conflict Resolution*.
+]
+
+???
+
+For today you read the arguments to two attempts to evaluate the effectiveness of the NPT.
+
+- Both articles come from the Journal of Conflict Resolution which is very high quality source for this subject
+
+<br>
+
+*Split class in half, assign to each article*
+
+<br>
+
+Each article proposes and tests a specific model of how the world works.
+
+- **SLIDE**
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-white[**Has the NPT reduced nuclear proliferation?**]]]
+
+<br>
+
+.size45[
+1. Jo and Gartzke (2007): What are the key mechanisms that explain nuclear proliferation?
+
+2. Fuhrmann & Berejikian (2012): What are the key mechanisms that explain why some leaders cheat on the NPT?
+]
+
+???
+
+Ok, groups I want you to diagram the model for us on the board.
+
+- For Jo and Gartzke (2007), what are the mechanisms they are testing to explain nuclear proliferation?
+
+- For Fuhrmann & Berejikian (2012), what explains why some leaders cheat on the NPT?
+
+<br>
+
+### Questions on your job?
+
+Get to it!
+
+<br>
+
+Group 1 present Jo and Gartzke (2007) argument.
+
+- (**SLIDE**: My version)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size35[.content-box-white[**Jo and Gartzke (2007): Model to Test**]]]
+
+.size30[
+- Two primary "determinants of nuclear proliferation": Opportunity and Willingness
+
+- Opportunity in three categories (four?)
+    - Do they have the technology/knowledge?
+    - Do they have the "nuclear fissile materials"?
+    - Do they have the "economic capacity"?
+    - Can they withstand the international pressure to stop?
+
+- Willingness aka "eagerness of a country to possess nuclear weapons"
+    - How insecure does the state feel? (big threats, isolation vs alliances)
+    - Does the leader need to distract their citizens?
+    - Are they an autocracy?
+    - Have they bound themselves to the NPT?
+    - Do they see a nuclear weapon as status improving?
+]
+
+???
+
+Interests
+- States (Leaders?) that want nuclear weapons
+
+Institutions
+- Significant international rules against proliferation (including economic sanctions)
+
+Interactions
+- 
+
+
+Qs
+1. Do we see any more generic statement of what the states want in the article? e.g. security or power? It seems like the unstated assumption is that everyone wants nukes assuming the opportunity is there and willingness conditions exist
+
+
+
+
+
+
+
+
+****Current****
+
+### What do we think of the model?
+
+### - Is it logical?
+
+### - Is it convincing?
+
+<br>
+
+### How do we use this model to make predictions in the world?
+
+I'm not clear enough on how the different pieces of this model fit together.
+
+- I get the sense you need all 3 (4) elements of "opportunity", but then do I only need one of the willingness conditions?
+
+<br>
+
+Let's now talk about how these authors test their model with data.
+
+- This semester we'll dip into each analysis focusing on three elements
+
+1. Where did the data come from?
+
+2. How did they operationalize the key concepts?
+
+3. What did they do to "analyze" the data?
+
+<br>
+
+**SLIDE**: Jo and Gartzke (2007) data sourcing
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-white[**Jo and Gartzke (2007): 1) Data Sources**]]]
+
+.size40[
+Outcome Variable(s)
+- Nuclear weapon programs and actual nuclear weapons depend on country-specific sources (see Data Notes Codebook)
+
+Key Predictors
+- Membership in the NPT obtained from the United States Arms Control and Disarmament Agency (1996)
+]
+
+???
+
+Lots of variables in the full analyses but our primary interest is in nuclear programs, nuclear weapons and the NPT
+
+Everybody open up the Codebook and Data Notes Document, p2-6, and take a look at those per country sources.
+
+### What do we think? Sound credible?
+
+<br>
+
+The NPT membership data seems MUCH less problematic.
+
+- Although I am surprised they didn't use the UN Treaty Database.
+
+<br>
+
+**SLIDE**: Ok, let's talk operationalization!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.content-box-white[.size45[**Jo and Gartzke (2007): 2) Operationalizations**]]]
+
+.size45[
+NPT Membership
+- Dummy variable: 1 = ratified the NPT
+
+NPT (system effect)
+- "...the proportion of NPT joiners to the total number of states in the world"
+]
+
+???
+
+Operationalization simply means taking a concept and converting it into a definition that allows for measurement.
+
+- So, here we see membership in the NPT represented using a dichotomous variable: 1 vs 0
+
+### Anybody want to argue we need to consider more levels of membership than this?
+- (What about signed but didn't ratify?)
+
+<br>
+
+### Ok, what do you think of measuring the system wide effects of the NPT by calculating the proportion of the world that has joined the treaty?
+
+### - Pros and cons?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.content-box-white[.size45[**Jo and Gartzke (2007): 2) Operationalizations**]]]
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/05_2-Jo_Gartzke2007-Table1.png")
+```
+]
+
+.pull-right[
+.size25[
+NPROGRAM (declared nuclear states)
+- The year in which the highest decision maker in a given state authorized (or terminated) a nuclear weapons program
+
+NPROGRAM (non-declared states)
+- The year in which a suspect state’s nuclear activities are seen to increase noticeably
+    - nuclear reactor construction or purchase,
+    - uranium milling or enrichment plant construction,
+    - plutonium reprocessing facility construction
+]]
+
+???
+
+Ok, here's the NPROGRAM variable.
+
+- This is meant to represent whether or not a state has a nuclear weapons production program.
+
+### What do you think? Is this sufficiently clear and high quality enough to be relied on for testing the model?
+
+<br>
+
+#### NOTES on NPROGRAM
+- "We regard the year in which the highest decision maker in a given state authorized a nuclear weapons program as the year in which the state first possesses a nuclear weapons program" (1). 
+- "Similarly, we assume that the year in which the highest decision maker terminated an existing nuclear weapons program is effectively the final year of the program" (1). 
+
+- "Reasonably reliable dates are available for declared nuclear states’ nuclear weapons programs. Little if any clear information can be obtained for non-declared states, however, since such programs are often of necessity
+clandestine. For unofficial nuclear weapons states (nuclear weapons programs that are not recognized in the NPT), we adopt the year in which a suspect state’s nuclear activities are seen to increase noticeably as the beginning year of their weapons program" (1-2).
+
+- Footnote 2: "Nuclear activities include nuclear reactor construction or purchase, uranium milling or enrichment plant construction, and plutonium reprocessing facility construction, but exclude small nuclear research reactor construction or purchase intended (and used) for basic nuclear research."
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.content-box-white[.size45[**Jo and Gartzke (2007): 2) Operationalizations**]]]
+
+.pull-left[
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/05_2-Jo_Gartzke2007-Table1.png")
+```
+]
+
+.pull-right[
+.size25[
+NWEAPON
+- Does a state have the "necessary nuclear weapon components ready to be assembled" (footnote 7)
+]]
+
+???
+
+Ok, here's the NWEAPON variable.
+
+- This is meant to represent whether or not a state has a nuclear weapon (or the components ready to be assembled).
+
+### What do you think? Is this sufficiently clear and high quality enough to be relied on for testing the model?
+
+<br>
+
+#### NOTES on NWEAPON
+- Footnote 7: "Pinpointing the date of de facto nuclear status remains controversial. We use the criteria of whether a state has necessary nuclear weapon components ready to be assembled."
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.content-box-white[.size50[**Jo and Gartzke (2007): 3) Analyses**]]]
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '74%'}
+knitr::include_graphics("libs/Images/05_2-Jo_Gartzke2007-Table3a.png")
+```
+
+???
+
+Last step, evaluate "what" they actually did with all this data
+- The analyses!
+
+
+
+General Notes
+- cross-section time series data
+- 1939 to 1992
+- country-year observations
+- probit with robust SEs (results in Table 1)
+
+We focus on Table 3 which are the real world probabilities generated by the big fancy statistical model.
+
+- $Pr(Y_2 = 1)$ is the probability of having a nuclear weapons program
+- $Pr(Y_1 = 1|Y_2 = 1)$ is the probability of having nuclear weapons conditional on having a nuclear weapons program
+
+p185 focuses on NPT effects
+- "modest or marginal impacts on nuclear proliferation"
+
+- Joining the NPT lowers the likelihood of having nuclear weapons from 10% to 8%
+    - A small sounding decrease but a relative risk reduction of 23%!
+
+- The NPT system effects are pretty small and hard to interpret
+    - Slightly more likely to have a program, slightly less likely to have a weapon
+    - Authors suggest this may be due to how the NPT spreads civilian nuclear technology to parties.
+
+<br>
+
+### Which mechanisms have the biggest positive effect?
+
+### Which the smallest?
+
+<br>
+
+### Bottom line takeaways on the Jo and Gartzke piece? Are you convinced the NPT matters but maybe just a little bit?
+
+### What about the argument that the system effect works in the wrong direction? Could the nPT be making things worse?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-white[**Has the NPT reduced nuclear proliferation?**]]]
+
+<br>
+
+.size45[
+1. Jo and Gartzke (2007): What are the key mechanisms that explain nuclear proliferation?
+
+2. Fuhrmann & Berejikian (2012): What are the key mechanisms that explain why some leaders cheat on the NPT?
+]
+
+???
+
+Fuhrmann & Berejikian (2012) group, take it away!
+
+<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size35[.content-box-white[**Fuhrmann & Berejikian (2012): Model(s) to Test**]]]
+
+.size35[
+- Noncompliance in an NPT world means choosing a strategy of either abstention or predation
+
+- Predation: Get the benefits of the NPT (access to nuclear technology, aid, assistance and strategic benefits) and work to dodge the costs (IAEA monitoring, sanctions) 
+
+- Abstention: Shield yourself from the costs of the treaty, avoid tying your hands against regional rivals in an arms race, but no assistance!
+
+- Domestic institutions that constrain the executive (veto players, elections, etc.) make it riskier to choose predation
+]
+
+???
+
+So, you want nuclear weapons? Now you have to choose a strategy to get there.
+- Abstention: Abstention involves a decision to eschew cooperation and refrain from making a commitment in the first place
+- Predation: cheating on formal commitments
+
+### What do we think of the model?
+
+### - Is it logical?
+
+### - Is it convincing?
+
+<br>
+
+### How do we use this model to make predictions in the world?
+
+<br>
+
+**SLIDE**: Let's dig into the data!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**Fuhrmann & Berejikian (2012): 1) Data Sources**]]]
+
+.size45[
+- Time-series, cross-sectional data
+
+- 1968-2004
+
+- Uses Jo and Gartzke's (2007) data!
+
+- 18 countries, 285 country-year observations
+]
+
+???
+
+We've covered the heart of this with the last paper!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size40[.content-box-white[**Fuhrmann & Berejikian (2012): 2) Operationalizations**]]]
+
+.size35[
+Predation
+- 0 vs 1 = Nuclear program and member of the NPT
+
+Abstention
+- 0 vs 1 = Nuclear program and NOT member of the NPT
+
+Executive Constraints
+- "the degree of checks and balances between branches of a government"
+- 1 ("unlimited executive authority") to 7 ("executive parity or subordination")
+
+]
+
+???
+
+Predation: 
+- 1 = Country pursuing nuclear weapons and are they a member of the NPT?
+- Occurs in roughly 45% of the cases
+- This is the actual focus of the analysis
+
+Abstention: 
+- 1 = Country pursuing nuclear weapons and not a member of the NPT
+
+Executive Constraints
+- Polity IV Project
+- "...measures the degree of checks and balances between branches a government based on a 7-point scale" (363).
+- 1 = "unlimited executive authority
+    - Think DPRK, Libya or Iraq under Saddam
+- 7 = "executive parity or subordination"
+  - Think Western Europe, Australia, and the US (usually)
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '66%'}
+knitr::include_graphics("libs/Images/05_2-FandB2012-Table1.png")
+```
+
+???
+
+The data summarized
+
+### Look plausible?
+
+### How difficult to code the strategy variable?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/05_2-FandB2012-Table2.png")
+```
+
+???
+
+Analysis focuses on explaining predation (not abstention)
+
+Approach
+- probit analyses with Huber's robust standard errors for spatial dependence and clustering over states
+- Models 1-3 standard probits, Models 4 and 5 use a bivariate probit model
+
+Results
+- Executive constraints is significant and negative across all five models PLUS magnitude is "quite large" (367).
+
+- Model predicts a move of executive constraints from 1 (Libya, Iraq and DPRK) to only 3 (Egypt, Syria (2000—4), South Korea (1970-71), a small increase in constraints reduces the probability of predation by 66%!
+
+- Go from the mean of executive constraints to 1 sd above is a 93% reduction in risk of predation!
+
+<br>
+
+### Bottom line takeaways on the Fuhrmann & Berejikian (2012) piece? Are you convinced thinking about the NPT requires thinking about domestic politics?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-white[**Has the NPT reduced nuclear proliferation?**]]]
+
+<br>
+
+.size45[
+1. Jo and Gartzke (2007) "Determinants of Nuclear Weapons Proliferation"
+
+2. Fuhrmann & Berejikian (2012) "Disaggregating Noncompliance: Abstention versus Predation in the Nuclear Nonproliferation Treaty"
+]
+
+???
+
+### So, do we believe the NPT has effectively reduced nuclear proliferation? Why or why not?
+
+<br>
+
+SOOOO much more research on this topic...
+
+
+
+
+---
+
+Is this evidence in support of Mearsheimer or the Rational Design crew?
+
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size70[**Next Class**]
+
+.size50[
+1. ...
+
+2. The Convention Against Torture (CAT)
+    - Also review the reservations
+]
+
+???
+
+
+
+
+
+
+
