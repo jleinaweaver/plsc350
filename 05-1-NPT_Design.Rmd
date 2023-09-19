@@ -356,22 +356,23 @@ GROUPS: Start with Article 1 and summarize the obligations / delegations in it f
 <br>
 
 *ON BOARD*: Articles
-1a. Don't transfer nukes 
-1b. Don't help nuke development (precise! Don't assist, encourage or induce!)
 
-2a. Don't accept nukes
-2b. Don't manufacture nukes
-2c. Don't accept assistance in manufacture of nukes
+- 1a. Don't transfer nukes 
+- 1b. Don't help nuke development (precise! Don't assist, encourage or induce!)
 
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
+- 2a. Don't accept nukes
+- 2b. Don't manufacture nukes
+- 2c. Don't accept assistance in manufacture of nukes
+
+- 3.
+- 4.
+- 5.
+- 6.
+- 7.
+- 8.
+- 9.
+- 10.
+- 11.
 
 
 
