@@ -13,7 +13,7 @@ output:
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(tidyverse)
-#library(readxl)
+library(readxl)
 #library(stargazer)
 #library(kableExtra)
 #library(modelr)
@@ -49,7 +49,13 @@ class: middle
 ???
 
 ### Prep for Class
-1. ?
+1. Open rmd file so you can record treaty analysis notes from board
+
+<br>
+
+#### References
+- [UNTC Page](https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=IV-9&chapter=4&clang=_en)
+- [Treaty Text](https://treaties.un.org/doc/Treaties/1987/06/19870626%2002-38%20AM/Ch_IV_9p.pdf)
 
 <br>
 
@@ -62,24 +68,32 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size50[.content-box-white[**Semester Plan of Attack**]]
+.size55[.content-box-white[**Semester Plan of Attack**]]
 
-.size50[
-1. Basics of Analyzing International Institutions
+.size45[
+.textblue[**II. International Institutions for Mutual Restraint**]
 
-2. .textblue[**International Institutions for Mutual Restraint**]
+- The Treaty on the Non-Proliferation of Nuclear Weapons (NPT)
 
-3. International Institutions for Coordination
+- The Convention Against Torture (CAT)
 
-4. International Institutions for Aggregate Effort
+- Principal-Agent Theory
+
+- The International Criminal Court
 
 ]
 
 ???
 
-Last week international institutions to prevent nuclear proliferation.
+Second section of the class: International Institutions for Mutual Restraint
+
+- Last week international institutions to prevent nuclear proliferation.
+
+<br>
 
 ### Key takeaways? How are we, the world, doing with this problem?
+
+
 
 
 
@@ -94,22 +108,63 @@ class: top, center
 
 ???
 
-This week's plan
+This week's plan is to explore the international effort to stop the government use of torture.
 
-- Today we analyze the design of the CAT
+- Today we summarize and analyze the treaty 
 
 - Thursday we explore the debate about whether the CAT has been effective or not
 
 <br>
 
-**SLIDE**: Let's set the table by discussing the AI report
+**SLIDE**: We'll organize our work similarly to how we did it last week.
+
+
 
 ---
 
-background-image: url('libs/Images/06_1-AmnestyReportLogo.png')
-background-size: 70%
+background-image: url('libs/Images/06_1-CAT_Convention1_blurred_filtered.png')
+background-size: 100%
 background-position: center
-class: slideblue
+class: middle
+
+.center[.size50[.content-box-white[The Convention Against Torture (CAT) (1984)]]]
+
+.size45[
+
+<br>
+
+.content-box-white[1) What is the current state of the problem?]
+
+.content-box-white[2) What is the treaty designed to do?]
+
+.content-box-white[3) What is the likelihood that this design will succeed?]
+]
+
+???
+
+Three broad questions although the nature of this treaty will lead us to attack each in slightly different ways.
+
+<br>
+
+**SLIDE**: Let's dive into our first question...
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size55[.content-box-purple[1) What is the current state of the problem?]]]
+
+<br>
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics("libs/Images/06_1-AmnestyReportLogo.png")
+```
 
 ???
 
@@ -123,6 +178,10 @@ background-image: url('libs/Images/background-blue_cubes_lighter3.png')
 background-size: 100%
 background-position: center
 class: middle
+
+.center[.size55[.content-box-purple[1) What is the current state of the problem?]]]
+
+<br>
 
 .pull-left[
 ```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
@@ -145,7 +204,9 @@ knitr::include_graphics("libs/Images/06_1-AmnestyReportLogo.png")
 
 ???
 
-Each group presents their key takeaways from their region including details from individual country cases
+GROUPS: What are your key takeaways from the region and the individual country cases
+
+- PRESENT and BRIEFLY DISCUSS each
 
 <br> 
 
@@ -155,7 +216,7 @@ Each group presents their key takeaways from their region including details from
 
 ---
 
-background-image: url('libs/Images/06_1-CAT_Convention1.jpg')
+background-image: url('libs/Images/06_1-CAT_Convention1_blurred_filtered.png')
 background-size: 100%
 background-position: center
 class: middle, center
@@ -176,144 +237,52 @@ class: middle, center
 I'm not trying to be flippant here.
 - International law for mutual restraint means deciding that there are some issues states and their citizens cannot decide for themselves.
 
+<br>
+
 Given everything we just discussed from the AI report I want you to reflect on two things
 
-1. Is this problem clear enough and serious enough to merit international law infringing on state sovereignty?
-
-2. Is this a problem international law is likely to be effective in solving? 
+### 1) Is this problem clear enough and serious enough to merit international law infringing on state sovereignty?
 
 <br>
 
-Think about everything we've covered over the last five weeks.
-
-- In a few minutes we'll go around the room and share your answers.
-
-
-
----
-
-background-image: url('libs/Images/background-columns.png')
-background-size: 100%
-background-position: center
-
-.left-column[
-.size35[
-**KLS Design Choices**
-
-Membership
-
-Scope
-
-Centralization
-
-Control
-
-Flexibility
-]]
-
-.right-column[
-.size35[
-1. **Identify**
-    - Find us **two examples** of this design issue being addressed? 
-
-2. **Code**
-    - Are they attacking this problem with hard or soft law? 
-
-3. **Analyze the Problem**
-    - What do we learn about the problem from these designs? 
-]]
-
-???
-
-Option 1
-
-
-
-
-Membership
-- Art 26
-
-Scope
-- Good discussion of the definition in Art 1
-- Art 3 a different thing? Extra-territoriality
-- Same in Art 16
-
-Centralization
-- Art 18
-
-Make sure to discuss Arts 21 and 22 which are held up by Hathaway (2007) as important enough to be a separate DV from simple CAT ratification
-
-(- Art 21 is oversight by states)
-(- Art 22 is oversight by individuals)
-
-It strikes me that Art 21 is more similar to CAT ratification.
-- Both of those open you to oversight and negotiation with other states.
-
-Art 22 threatens to open you to something very different.
-- It empowers non-state actors to make serious claims on your behavior!
-
-
-
-
-
-
-#### KLS Notes
-p763
-Membership rules ( MEMBERSHIP )
-- "Who belongs to the institution? Is membership exclusive and restrictive, like the G-7’s limitation to rich countries? Or is it inclusive by design, like the UN? Is it regional, like ASEAN, or is it universal? Is it restricted to states, or can NGOs join?" (770).
-
-Scope of issues covered ( SCOPE )
-- "What issues are covered?" (770).
-
-Centralization of tasks ( CENTRALIZATION )
-- "Are some important institutional tasks performed by a single focal entity or not? Scholars often misleadingly equate centralization with centralized enforcement. We use the term more broadly to cover a wide range of centralized activities. In particular we focus on centralization to disseminate information, to reduce bargaining and transaction costs, and to enhance enforcement" (771).
-
-Rules for controlling the institution ( CONTROL )
-- "How will collective decisions be made? Control is determined by a range of factors, including the rules for electing key officials and the way an institution is financed. We focus on voting arrangements as one important and observable aspect of control" (772).
-
-Flexibility of arrangements ( FLEXIBILITY )
-- "How will institutional rules and procedures accommodate new circumstances? Institutions may confront unanticipated circumstances or shocks, or face new demands from domestic coalitions or clusters of states wanting to change important rules or procedures. What kind of flexibility does an institution allow to meet such challenges?" (773).
-
-
-
-DO ANY OF THESE DESIGN CHOICES OR PROBLEMS STAND OUT AS MOST VITAL? WHY OR WHY NOT?
-- IN OTHER WORDS, COULD WE RANK THESE IN IMPORTANCE?
-
-
-
-
+### 2) Is this a problem international law is likely to be effective in solving? Why or why not?
 
 
 
 
 ---
 
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-image: url('libs/Images/06_1-CAT_Convention1_blurred_filtered.png')
 background-size: 100%
 background-position: center
-class: middle, center
+class: middle
 
-.size55[**Treaty Design Analysis**]
-
-.size40[**The Convention Against Torture (CAT) (1984)**]
+.size50[.center[.content-box-white[**The Convention Against Torture (CAT) (1984)**]]]
 
 <br>
 
-.pull-left[
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
-```
-]
+.size50[
+.content-box-white[2) What is the treaty designed to do?]
 
-.pull-right[
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
-```
+.content-box-white[Part 1: The Key Rules]
+
+.content-box-white[Part 2: The Committee]
+
+.content-box-white[Part 3: Participation]
 ]
 
 ???
 
-Option 2
+Our second task for today is to summarize the treaty in terms of its design.
+
+- We'll follow a similar path to last week but we'll match our work to the three parts of the treaty
+
+<br>
+
+*SPLIT class into small groups (3), NEW PARTNERS!*
+
+- Go sit with your group
+
 
 
 
@@ -324,62 +293,197 @@ background-size: 100%
 background-position: center
 class: middle
 
-```{r, echo = FALSE, fig.align='center', out.width = '70%'}
-knitr::include_graphics("libs/Images/02_2-Legalization_Table1.png")
+.center[.size45[.content-box-white[**The Convention Against Torture (CAT) (1984)**]]]
+
+<br>
+
+.center[.size40[.content-box-white[Part 1: The Key Rules (Art 1-16)]]]
+
+<br>
+
+.pull-left[
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table2.png")
 ```
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table3.png")
+```
+]
 
 ???
 
-* Give each of these discussions room to breathe *
+GROUPS: Start by summarizing the key obligations in Part I of the treaty
 
-GIVEN ALL OF THIS, WHERE WOULD YOU PLACE THE CAT ON THE HARD TO SOFT LAW DIMENSION? WHY?
+- ID the rules and classify each article by level of precision
 
-(Level 3? High obligation and precision, low delegation?)
+<br>
 
+*ON BOARD: (save space for three parts of treaty)
 
-
-ARE WE CLEAR ON WHAT THE AIMS OF THE TREATY ARE?
-- ARE THEY RELATED TO THE LOFTY LANGUAGE IN THE PREAMBLE OR SOMETHING ELSE?
-
-
-
-BASED ON THE OBSTACLES IT FACES AND THE DESIGN YOU REVIEWED, HOW CONFIDENT SHOULD WE BE THAT THE CAT WILL ACHIEVE ITS AIMS?
+- BUILD and DISCUSS the LIST
 
 
 
 
 ---
 
-background-image: url('libs/Images/06_1-ViennaConv_Reservations.png')
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
 background-size: 100%
 background-position: center
+class: middle
 
-???
-
-Ok, let's now talk treaty reservations.
-
-Refresher from the Shaw (2008) chapter a few weeks back
-
-Best case: Encourages wider participation by allowing states to modify their obligations on minor issues.
-
-Worst case: Completely ruins the agreement and thoroughly complicates state interactions
-
-Must be distinguished from "other statements ... not intended to have the legal effect of a reservation, such as understandings, political statements or interpretive declarations" (915).
-
-Must be aware that simple declarations are very different from "conditional interpretive declarations". Former is usually a statement for domestic application / interpretation, the latter specifies an obligation is conditional on some clarification. The latter is a reservation.
-
-Vienna Art 20 has the rules for whether a reservation is acceptable. Not an easy answer as it depends on the context of the situation and the degree to which the reservation messes with the object and purpose of the treaty. At the weak end an objection to a reservation may just modify the relationship between the reserving and the objecting state and only as it pertains to the article being reservation-ed. At the strong end reservations can be nullified if deeply problematic or unacceptable to the other states.
-
-In general, if you don't object within 12 months of the reservation you've accepted it.
+.center[.size45[.content-box-white[**The Convention Against Torture (CAT) (1984)**]]]
 
 <br>
 
-WHAT RULES DOES THE CAT (1984) HAVE THAT PERTAIN TO RESERVATIONS?
+.center[.size40[.content-box-white[Part 2: The Committee (Art 17-24)]]]
 
-(SLIDE)
-- Art 28: Committee investigates torture
-- Art 29: Reservation approval process
-- Art 30: Dispute resolution by arbitration
+<br>
+
+```{r, echo = FALSE, fig.align='center', out.width = '50%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table4.png")
+```
+
+???
+
+GROUPS: Focus your summary of Part II on summarizing the delegation in the treaty
+
+- There are absolutely obligations in this part and precision matters too, but I want us to focus on trying to summarize how substantial this delegation appears to be.
+
+<br>
+
+*ON BOARD: (save space for three parts of treaty)
+
+- BUILD and DISCUSS the LIST
+
+<br>
+
+*Make sure to discuss Art 21 and Art 22 which are held up by Hathaway (2007) as important enough to be a separate DV from simple CAT ratification!*
+
+- Art 21: Do you accept oversight by states?
+
+- Art 22: Do you accept oversight by individuals?
+
+- Both of those open you to oversight and negotiation with other states BUT Art 22 threatens to open you to something very different: It empowers non-state actors to make serious claims on your behavior!
+
+<br>
+
+### That done, were there any state obligations that stood out for you in Part II that we want to add to our list?
+
+- BUILD and DISCUSS the LIST
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**The Convention Against Torture (CAT) (1984)**]]]
+
+<br>
+
+.center[.size40[.content-box-white[Part 3: Participation (Art 25-33)]]]
+
+<br>
+
+.pull-left[
+```{r, echo = FALSE, fig.align='center', out.width = '90%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table2.png")
+```
+
+```{r, echo = FALSE, fig.align='center', out.width = '80%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table3.png")
+```
+
+]
+
+.pull-right[
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/02_2-Legalization_Table4.png")
+```
+]
+
+???
+
+Groups, let's finish by reviewing Part III of the treaty.
+
+- Most treaties include basic boilerplate language about joining the treaty but the CAT has some possibly important stuff in here.
+
+- Read through Part III and let me know if anything stands out.
+
+<br>
+
+*ON BOARD*: (save space for three parts of treaty)
+
+- BUILD and DISCUSS the LIST
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**Vienna Convention on the Law of Treaties (1969)**]]]
+
+<br>
+
+```{r, echo = FALSE, fig.align='center', out.width = '100%'}
+knitr::include_graphics("libs/Images/06_1-ViennaConv_Reservations_Defined.png")
+```
+
+.size35[
+Art 19: Formulation of reservations
+
+Art 20: Acceptance of and objection to reservations
+
+Art 21: Legal effects of reservations and of objections to reservations
+
+Art 22: Withdrawal of reservations and of objections to reservations 
+]
+
+???
+
+Let's now talk treaty reservations.
+
+- Refresher from the Shaw (2008) chapter a few weeks back
+
+- "“reservation” means a unilateral statement, however phrased or named, made by a State, when signing, ratifying, accepting, approving or acceding to a treaty, whereby it purports to exclude or to modify the legal effect of certain provisions of the treaty in their application to that State;" (Art 2)
+
+- These articles try to make clear how reservations can and cannot be made
+
+- Reservations are different from "statements ... not intended to have the legal effect of a reservation, such as understandings, political statements or interpretive declarations" (915).
+
+- Reservations are also different from statements meant to guide domestic application / interpretation.
+
+- Vienna Art 20 has the rules for whether a reservation is acceptable. Not an easy answer as it depends on the context of the situation and the degree to which the reservation messes with the object and purpose of the treaty. 
+    - At the weak end an objection to a reservation may just modify the relationship between the reserving and the objecting state and only as it pertains to the article being reservation-ed. At the strong end reservations can be nullified if deeply problematic or unacceptable to the other states.
+    - In general, if you don't object within 12 months of the reservation you've accepted it.
+
+<br>
+
+### Questions on these general rules of reservations?
+
+<br>
+
+- Best case scenario: Allowing reservations encourages wider participation by allowing states to modify their obligations on minor issues.
+
+- Worst case scenario: Completely ruins the agreement and thoroughly complicates state interactions
+
+<br>
+
+**SLIDE**: CAT reservation rules...
 
 <br>
 
@@ -425,161 +529,178 @@ class: top, middle
 
 ???
 
-HOW SUBSTANTIAL A SET OF LOOPHOLES DOES THIS MAKE POSSIBLE IN THE CAT?
+### How substantial a set of loopholes does this make possible in the CAT?
 
-- DO ANY OF THESE THINGS HIT DIRECTLY ON THE ELEMENTS YOU IDENTIFIED TODAY AS IMPORTANT DESIGN ELEMENTS OF THE CAT?
-
-
-
-
-Let's look at some of the specific reservations to the CAT!
-
-Everybody open the link in the syllabus and scan through the reservations attached below the table of dates.
-
-First, let's locate examples of what Shaw (2008) would classify as 'simple declarations.'
-
-* ON BOARD or YOU HIGHLIGHT ON THE SCREEN *
-
-
-
-
-Now, let's try to find examples that seriously alter the design of the CAT.
-
-GIVE ME EXAMPLES OF STATES WITH RESERVATIONS THAT YOU BELIEVE MOST SUBSTANTIALLY ALTER THE CAT.
-
-* ON BOARD *
-
-* Really encourage these discussions *
-
-
-
-
-Pakistan opts out of the main things allowed.
-
-- IS THIS A RESERVATION THE OTHER STATE PARTIES SHOULD HAVE FORBIDDEN? WHY OR WHY NOT?
-
-
-
-US offers extensive reservations including about the definition of torture in Art 1.
-
-- IS THIS A RESERVATION THE OTHER STATE PARTIES SHOULD HAVE FORBIDDEN? WHY OR WHY NOT?
-
-
-
-
-
----
-
-background-image: url('libs/Images/background-columns.png')
-background-size: 100%
-background-position: center
-
-.left-column[
-.size35[
-**KLS Design Choices**
-
-Membership
-
-Scope
-
-Centralization
-
-Control
-
-Flexibility
-]]
-
-.right-column[
-.size35[
-1. **Identify**
-    - Find us **two examples** of this design issue being addressed? 
-
-2. **Code**
-    - Are they attacking this problem with hard or soft law? 
-
-3. **Analyze the Problem**
-    - What do we learn about the problem from these designs? 
-]]
-
-???
-
-WHEN WE COMPARE AND CONTRAST ALL OF THESE RESERVATIONS, WHAT CAN WE CONCLUDE ABOUT HOW STATES HAVE APPROACHED PARTICIPATING IN THE CAT?
-
-- WHICH KLS DESIGN TASKS APPEAR TO HAVE BEEN TARGETED THE MOST BY THESE STATES?
-
-
-
-
-
-
-
----
-
-background-image: url('libs/Images/background-columns.png')
-background-size: 100%
-background-position: center
-
-.left-column[
-.size35[.textblack[
-**KLS Design Choices**
-
-Membership
-
-Scope
-
-Centralization
-
-Control
-
-Flexibility
-]]]
-
-.right-column[
-```{r, echo = FALSE, fig.align = 'center', out.width = '85%'}
-knitr::include_graphics("libs/Images/02_2-Legalization_Table1.png")
-```
-]
-
-???
-
-ULTIMATELY, AND GIVEN THESE RESERVATIONS, SHOULD WE RECLASSIFY THE CONVENTION AGAINST TORTURE? WHY OR WHY NOT?
-
-- IN TERMS OF HARD VS SOFT LAW?
-
-- IN TERMS OF KLS TASKS?
+### - Do any of these things hit directly on the elements you identified today as important design elements of the CAT?
 
 <br>
 
-* ON BOARD *
+Let's look at some of the specific reservations to the CAT!
 
-GIVEN OUR EXTENSIVE ANALYSIS OF THE TREATY'S DESIGN AND THE ATTACHED RESERVATIONS, WHAT SHOULD WE EXPECT THE EFFECT OF THE CAT TO BE ON THE INTERNATIONAL COMMUNITY?
+- Everybody open the link in the syllabus and scan through the reservations attached below the table of dates.
 
-- WHAT SPECIFIC THINGS SHOULD WE EXPECT THIS TREATY TO ACCOMPLISH?
+<br>
 
-* force this discussion *
+First, let's locate examples of what Shaw (2008) would classify as 'simple declarations.'
 
+- *ON BOARD or YOU HIGHLIGHT ON THE SCREEN*
 
+<br>
 
-IN TERMS OF EFFECTIVENESS, CAN WE COME UP WITH DESIGN BASED HYPOTHESES WE SHOULD TEST?
+Now, let's try to find examples that seriously alter the design of the CAT.
 
+### Give me examples of states with reservations that you believe most substantially alter the CAT.
 
-# Class notes 2/22/19
-1. Committee discussions: Are they talking?
-2. Committee discussions: Follow on activity?
-3. Domestic law changed (post-ratification or near it?) AND only a fair test in countries whose domestic laws were previously weaker than the CAT
-4. Extraditions consistent with CAT rules about who you can't send suspects to?
-- This may speak to why states ratify and then opt out of everything they can.
+- *ON BOARD or on screen*
+
+- *Really encourage these discussions*
+
+<br>
+
+### Should the state parties have rejected Pakistan's reservation? Why or why not?
+
+<br>
+
+### What about the US reservations to the torture definition in Art 1? Are these going too far? Why or why not?
+
 
 
 
 ---
 
-background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
 background-size: 100%
 background-position: center
 class: middle
 
-.size70[**Next Class**]
+.center[.size40[.content-box-white[**Koremenos, Lipson & Snidal (2001): Rational Design**]]]
+
+.size40[
+- Rational design
+
+- Shadow of the future
+
+- Transaction costs
+
+- Risk aversion
+
+Therefore, states design international institutions to facilitate and strengthen international cooperation.
+]
+
+???
+
+Let's once again shift back to the Rational Design article by Koremenos, Lipson & Snidal (2001).
+
+### Does the design of the CAT offer support for the key premises in those authors model of international cooperation? Why or why not?
+
+- *Talk to your group, then report back!*
+
+<br>
+
+#### Notes
+- Rational design: States and other international actors, acting for self-interested reasons, design institutions purposefully to advance their joint interests.
+- Shadow of the future: The value of future gains is strong enough to support a cooperative arrangement.
+- Transaction costs: Establishing and participating in international institutions is costly.
+- Risk aversion: States are risk-averse and worry about possible adverse effects when creating or modifying international institutions.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size45[.content-box-white[**The Convention Against Torture (CAT) (1984)**]]]
+
+<br>
+
+```{r, echo = FALSE, fig.align='center', out.width = '80%'}
+knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
+```
+
+???
+
+Let's now use the Rational Design Conjectures to analyze the design of the NPT.
+
+### Given the design of the treaty, what do we learn about the biggest challenges facing this effort to achieve international cooperation?
+
+- *Talk to your group, then report back!*
+
+
+
+
+---
+
+class: middle
+
+```{r, fig.retina=3, fig.align='center', out.width='95%', fig.height=6, fig.width=10, cache=TRUE}
+# Use V-dem to map current torture levels
+d <- read_excel("../../Data/V-Dem/V-Dem-CY-Core_csv_v13/V_Dem_Personal_Integrity_Rights-1789-2022.xlsx", guess_max = 10000, na = "NA") |>
+  filter(year == 2022)
+
+## Make a map
+## Use rnaturalearth to define world map data
+worldmap <- rnaturalearth::ne_countries(scale = 'medium', type = 'countries', returnclass = 'sf')
+
+# Match codes
+d$newcode1 <- countrycode::countrycode(d$COWcode, origin = "cown", destination = "iso3c")
+
+# Merge data
+d10 <- left_join(worldmap, d, by = c("adm0_a3" = "newcode1"))
+
+# Audit missing data
+d10$v2cltort_ord[d10$name == "Kosovo"] <- 3
+d10$v2cltort_ord[d10$name == "S. Sudan"] <- 1
+d10$v2cltort_ord[d10$name == "Serbia"] <- 3
+
+d10 |>
+  ggplot() +
+  geom_sf(aes(fill = factor(v2cltort_ord))) +
+  labs(fill = "", title = "V-Dem's 'Freedom From Torture' (2022)") +
+  theme(legend.position = "right") +
+  scale_fill_manual(values = c("red", "pink", "khaki", "skyblue", "blue"), na.value = "darkgrey")
+```
+
+???
+
+Map is using latest data from the V-Dem project
+
+- This variable measures a country-year by the level of torture being practiced
+
+- 0: Not respected by public authorities. Torture is practiced systematically and is incited and approved by the leaders of government.
+
+- 1: Weakly respected by public authorities. Torture is practiced frequently but is often not incited or approved by top leaders of government. At the same time, leaders of government are not actively working to prevent it.
+
+- 2: Somewhat. Torture is practiced occasionally but is typically not approved by top leaders of government.
+
+- 3: Mostly respected by public authorities. Torture is practiced in a few isolated cases but is not incited or approved by top government leaders.
+
+- 4: Fully respected by public authorities. Torture is non-existent.
+
+<br>
+
+### Given everything we've discussed today, is it fair to evaluate the CAT in terms of the level of torture happening within countries after ratification? Why or why not?
+
+<br>
+
+### Focusing on the design of the treaty itself, what are "fair" tests of the effectiveness of the CAT?
+
+### - In other words, based on what the treaty is ACTUALLY DESIGNED TO DO, what evidence would we need to argue the treaty has worked?
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles.jpg')
+background-size: 100%
+background-position: center
+class: middle
+
+.size50[.content-box-white[**Next Class: Has the CAT been effective?**]]
 
 .size40[
 1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
@@ -591,11 +712,23 @@ class: middle
 
 ???
 
-Your job is to read the arguments and conclusions in these three articles
+Next class we dive into the academic literature that tries to answer this question!
 
-- Be ready to diagram the argument in class
+<br>
 
-- Give the analyses a skim too!
+Your job to get ready for class is simply to identify the argument being tested
+
+- Who are the interests the paper is focusing on?
+
+- What are the institutions that structure their behavior?
+
+- What are the interactions that complicate their behavior?
+
+<br>
+
+In class we'll diagram and discuss those models and then review the analyses together.
+
+### Questions on the assignment?
 
 
 
