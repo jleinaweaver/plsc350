@@ -325,6 +325,27 @@ GROUPS: Start by summarizing the key obligations in Part I of the treaty
 
 - BUILD and DISCUSS the LIST
 
+<br>
+
+### Is Article 1's definition of torture an obligation or something else?
+- (It is the precision that makes the rest of Part 1 possible)
+- Without the clear definition in 1, all the other article obligations are dramatically reduced
+
+### Why does the definition include the list of use cases for torture ("for such purposes as...")? Why not just make the definition the first half of sentence 1 alone?
+- (Spit-balling: If you don't narrow it down like this it could be applied to many different situations states aren't focused on here, e.g. cuts to social welfare benefits could cause harm)
+
+<br>
+
+#### Class Notes - 2023-09-26
+- Art 2.1 (make torture a domestic crime)
+- Art 3.1 (no extradition to countries where torture is likely)
+- Art 11 (Must enshrine domestic rules for interrogations)
+- Art 13 (prisoners have the right to request investigations for maltreatment)
+- Art 14 (Enforcible right to compensation for torture)
+- Art 15 (No testimony may be compelled or used through torture)
+- Art 16 (Domestic ban must be applied to all territories controlled)
+
+
 
 
 
@@ -375,7 +396,10 @@ GROUPS: Focus your summary of Part II on summarizing the delegation in the treat
 
 - BUILD and DISCUSS the LIST
 
+<br>
 
+#### Class Notes - 2023-09-26
+- ?
 
 
 ---
