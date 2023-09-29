@@ -53,36 +53,64 @@ class: middle
 
 <br>
 
+*Today let's put more work on the groups: Have them diagram the model and then take a stab at the analyses*
+
+- *Give them a bunch of time for each part of this*
+
+
+
 
 
 ---
 
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-image: url('libs/Images/07_2-ICC.webp')
 background-size: 100%
 background-position: center
-class: middle, center
+class: top, left
 
-.size55[**Treaty Design Analysis**]
+.right-column[
+.size30[
+.content-box-white[
+**Rome Statute of the International Criminal Court (1998)**
 
-.size40[**The Rome Statute of the ICC**]
+**Article 1: The Court**
 
-<br>
-
-.pull-left[
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("libs/Images/02_2-Legalization_Fig1.png")
-```
-]
-
-.pull-right[
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
-```
-]
+An International Criminal Court (‘the Court’) is hereby established. It shall be a permanent institution and shall have the power to exercise its jurisdiction over persons for the most serious crimes of international concern, as referred to in this Statute, and shall be complementary to national criminal jurisdictions. The jurisdiction and functioning of the Court shall be governed by the provisions of this Statute.
+]]]
 
 ???
 
-### Key takeaways from last class on the design of the ICC?
+Let's hit some of the key takeaways from last class on the design of the ICC
+
+### 1) Why did the world need a permanent criminal court?
+- (Ad hoc approach was inconsistent, selective, a distraction and lacked legitimacy.)
+
+- (**Inconsistency**: If justice is inconsistent then it is less likely to influence the calculations of "bad" leaders)
+    
+- (**Selective justice**: Aren't these just examples of "justice" by the victors?)
+    
+- (**Distraction**: Transparent cover for failure by the major powers to stop the crimes themselves)
+    
+- (**Lack legitimacy**: What right does the SC have to create international courts? None specified in Charter.)
+    
+<br>
+
+### 2) In what specific ways is the ICC a good example of delegation using PA theory?
+- **Elements of Delegation**: Always governed by a contract, limited in time or scope, must be revocable and the roles are mutually constitutive
+
+- **Benefits of Delegation**: Divide the labor & create gains from specialization, Managing policy externalities, Facilitating collective decision-making, Resolving disputes, Enhancing credibility, Creating policy bias
+
+- **Control Mechanisms**: Rules vs Discretion, Monitoring and Reporting Requirements, Screening and Selection Procedures, Institutional Checks and Balances, Sanctions
+
+<br>
+
+### 3) Finally, how substantial an act of delegation is the ICC?
+
+### - In other words, how well can state principals control the behavior of the agent or avoid its focus if unwanted?
+- How effectively can states delay / obstruct an investigation they do not want?
+- How independent is the ICC prosecutor?
+- How big a threat is ICC enforcement?
+- How independent are the judges?
 
 
 
@@ -93,57 +121,74 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size70[**Has the ICC been effective?**]
+.center[.size65[.content-box-purple[**Has the ICC been effective?**]]]
 
 .size45[
 1. Hillebrecht (2016) "The Deterrent Effects of the International Criminal Court: Evidence from Libya"
 
 2. Hillebrecht & Straus (2017) "Who Pursues the Perpetrators? State Cooperation with the ICC"
-
 ]
+
+<br>
+
+.center[.size55[.content-box-purple[**Diagram the Argument**]]]
 
 ???
 
-For today you read the arguments to two attempts to evaluate the effectiveness of the ICC
+For today you read the arguments to two attempts to evaluate the effectiveness of the ICC.
 
 <br>
 
 *Split class in half, assign to each article*
 
-Before I ask each group to diagram the argument in their paper, let's all agree on the end point of each, e.g. the conclusions.
+- Sit with your group!
 
-### Groups, what is the key conclusion in your paper?
-- (**SLIDE**)
+<br>
+
+We've now done this exercise a few times so today I'll put a bit more on each of you.
+
+- To start you'll have 15 minutes to diagram the argument on the board
+
+- Ok, get going on your diagrams!
+
 
 
 
 ---
 
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
 background-size: 100%
 background-position: center
 class: middle
 
-.size70[**Has the ICC been effective?**]
+.center[.size65[.content-box-purple[**Has the ICC been effective?**]]]
 
 <br>
 
-.size45[
-1. Hillebrecht (2016): ICC involvement in a conflict reduces "the level of mass atrocities committed" 
+.size45[.content-box-purple[**Diagram the Analyses**]
 
-2. Hillebrecht & Straus (2017): State leaders consider domestic politics and international costs when deciding whether or not to cooperate with the ICC 
+1. Where does the data come from?
+
+2. How are they analyzing the data?
+
+3. What do they conclude?
 ]
 
 ???
 
-Ok, groups I want you to diagram the model that explains this conclusion us on the board!
+Each group will now have 15 minutes to add your diagram of the analysis on the board.
 
 <br>
 
-### Questions on your job?
+### Questions on the task?
 
-Get to it!
+- Let's go!
 
+<br>
+
+Ok, Hillebrecht (2016) group, take it away!
+
+- (**SLIDES**: My version)
 
 
 
@@ -154,80 +199,65 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size70[**Has the ICC been effective?**]
-
-<br>
-
-.size45[
-1. **Hillebrecht (2016): ICC involvement in a conflict reduces "the level of mass atrocities committed"**
-
-2. Hillebrecht & Straus (2017): State leaders consider domestic politics and international costs when deciding whether or not to cooperate with the ICC
-]
-
-???
-
-Group 1 present Hillebrecht (2016) argument.
-
-- (**SLIDE**: My version)
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size30[.content-box-white[**Hillebrecht (2016): Model to Test**]]]
+.center[.size35[.content-box-white[**Hillebrecht (2016): The Model**]]]
 
 .size30[
-- Deterrence of human rights abuses depends on "the likelihood of accountability, rather than the severity of the punishment" (624)
+Interests
+- Individuals who would like to commit atrocities but fear accountability more than the severity of any punishment
 
-- The likelihood of accountability depends on "the willingness and ability of domestic and international actors to turn suspected war criminals over to the ICC" (624)
+Institutions
+- Domestic accountability depends on the rule of law being enforced
+- International accountability can be provided by the ICC 
 
-- The likelihood of accountability depends on the international community providing "the political and financial capital needed to initiate, investigate, and try cases at the ICC" (625).
-
-- The likelihood of accountability depends on the ICC making "it clear that
-investigations and trials will take place in a timely manner" (625).
-
-Therefore, "Action at the ICC will lead to a decrease in the violence committed during a conflict, particularly government-sponsored killing of civilians" (626).
+Interactions
+- ICC deterrent effect increases with 1) fewer asylum options, 2) more political capital, 3) more financial capacity and 4) more timely trials
 ]
 
 ???
 
-Premise 1
+Bottom line here: ICC involvement in a conflict reduces "the level of mass atrocities committed"
+
+- Finally a good result!
+
+<br>
+
+### Group 1, what do you think? Am I missing anything you'd like to add?
+
+- Paper combines interactions 2 and 3 but I think they are distinct mechanisms. You buying that?
+
+<br>
+
+### Is this a logical model? Why or why not?
+
+<br>
+
+### What kinds of specific predictions about the world does this model make?
+
+<br>
+
+### Old Notes
+Premise 1: Deterrence of human rights abuses depends on "the likelihood of accountability, rather than the severity of the punishment" (624)
 - The first chunk of this section (623-624 before "With those caveats in place") is an argument to support the first premise here.
 - Hillebrecht is trying to convince you that deterrence comes from the likelihood of accountability NOT punishment
-    - In other words, even if the ICC is hampered in a million ways from getting its hands on you it can still change your behavior.
-    - The threat of prosecution for human rights violations has been increasing across time (at both domestic and international levels)
-    - Each prosecution of a human rights abuser sets an important precedent that no one is above the law (rule of law) and human rights law will be enforced
-    - "the domestic criminal justice literature has found increasing support for the deterrent effect of criminal accountability"
+- In other words, even if the ICC is hampered in a million ways from getting its hands on you it can still change your behavior.
+- The threat of prosecution for human rights violations has been increasing across time (at both domestic and international levels)
+- Each prosecution of a human rights abuser sets an important precedent that no one is above the law (rule of law) and human rights law will be enforced
+- "the domestic criminal justice literature has found increasing support for the deterrent effect of criminal accountability"
 
-Premise 2
+Premise 2: The likelihood of accountability depends on "the willingness and ability of domestic and international actors to turn suspected war criminals over to the ICC" (624)
 - "the number of states willing to host wanted war criminals is shrinking"
 - "Moreover, transfer to The Hague might be preferable to facing punishment at home, as Qaddafi’s own death later went on to show."
 - States must show they are willing to allow their own citizens to be prosecuted
 - States must also not shield "allies and trading partners"
 
-Premise 3
+Premise 3: The likelihood of accountability depends on the international community providing "the political and financial capital needed to initiate, investigate, and try cases at the ICC" (625).
 
-Premise 4
+Premise 4: The likelihood of accountability depends on the ICC making "it clear that
+investigations and trials will take place in a timely manner" (625).
 - Only three judgements so far (2016), it is picking up the pace more recently
 
-<br>
+Therefore, "Action at the ICC will lead to a decrease in the violence committed during a conflict, particularly government-sponsored killing of civilians" (626).
 
-### What do we think of the model?
-
-### - Is it logical?
-
-### - Is it convincing?
-
-### - How do we use this model to make predictions in the world?
-
-<br>
-
-**SLIDE**: Quick trip through the data analysis starting with the source of the data!
 
 
 
@@ -247,34 +277,36 @@ class: middle
 **Predictor Variables**
 1. ICC Actions in Libya
     - 7 separate dummies
+    
 2. ICC Actions (cumulative)
 ]
 
 ???
 
-*Walk through the data collected and how it measured*
+### What do we think of the outcome variable here? Is this a valid and reliable measure of atrocities? Why or why not?
+
+<br>
 
 - "ACLED uses source materials from local, regional, national, and continental news media, NGO reports, and Africa-focused news reports" 628.
+
 - "This means that while the victims could be considered combatants in other contexts, in these events they are noncombatants. The ACLED data are conservative in their counting for fatalities and only include numbers of fatalities when explicitly reported by their source materials. When sources conflict, ACLED uses the lower count."
+
 - Footnote 10: "The ACLED data are conservative in their counting of civilian casualties, but this does not imply that it is a biased undercount. Rather, the ACLED data triangulate accounts of civilian deaths from a number of sources, thereby mitigating potential over- or undercounting biases that might result from only relying on major newspapers or local NGOs. The fact that ACLED is conservative in its counting of civilian casualities should make it even more likely to see an effect of the ICC on lowering the civilian casualty count" (628).
+
 - ACLED also includes data on whether the perpetrator was a government agent or rebel (630).
 
-7 dummies see table 1 (622)
+<br>
+
+### What do we think of the predictor variables here? Are these valid and reliable measures of threat by the ICC? Why or why not?
+
+<br>
+
 - "(1) when the ICC issued a statement regarding the potential crimes against humanity in Libya, (2) when the UN Security Council referred the case to the ICC, (3) when the ICC opened the investigation, (4) when the ICC assigned the case to a chamber, (5) when the ICC requested that the chamber issue arrest warrants, (6) when the ICC issued the warrants, and (7) when the ICC asked INTERPOL for help with the arrests." (629) 
+
 - OMITS: news briefing and "Libya’s receipt of the arrest warrants and subsequent meeting about the arrest warrants in June 2011 due to the redundancy of those events with aforementioned actions"
 
-Cumulative
-- "This cumulative measure is predicated on the idea that each of the ICC’s actions builds on previous actions. The ICC’s actions are sequential and path dependent, meaning that the ICC cannot, for example, issue arrest warrants without first getting a referral.
+- Cumulative: "This cumulative measure is predicated on the idea that each of the ICC’s actions builds on previous actions. The ICC’s actions are sequential and path dependent, meaning that the ICC cannot, for example, issue arrest warrants without first getting a referral.
 
-
-<br>
-
-### Strengths and weaknesses of these data choices?
-
-<br>
-
-### What should we expect to see in the data if Hathaway (2007) is right?
-- (**SLIDE**)
 
 
 
@@ -285,27 +317,31 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.content-box-white[.size40[**Hillebrecht (2016): 3) Analysis**]]]
+.center[.size50[.content-box-white[**Hillebrecht (2016): Analysis**]]]
 
-<br>
-
-.pull-left[
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+```{r, echo = FALSE, fig.align = 'center', out.width = '70%'}
 knitr::include_graphics("libs/Images/08_1-Hillebrecht2016-Figure2.png")
 ```
-]
-
-.pull-right[
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("libs/Images/08_1-Hillebrecht2016-Table4.png")
-```
-]
 
 ???
 
+Figure 2. ICC actions and fatalities in attacks against civilians.
+
+- Libya case across time
+
+- "Figure 2 provides an overview of ICC interventions and the daily number
+of fatalities incurred during attacks on civilians with the ICC’s interventions
+into the conflict."
+
+- y-axis is in the log scale so 
+    - ln(2) = 7 deaths
+    - ln(4) = 54 deaths
+    - ln(6) = 403 deaths
+
 <br>
 
-### Bottom line takeaways on the Hillebrecht (2016) piece?
+Not gonna lie, this does not strike me as the easiest piece of supporting evidence to interpret.
+
 
 
 
@@ -316,14 +352,48 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size70[**Has the ICC been effective?**]
+.center[.size50[.content-box-white[**Hillebrecht (2016): Analysis**]]]
 
 <br>
 
-.size45[
-1. Hillebrecht (2016): ICC involvement in a conflict reduces "the level of mass atrocities committed"
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/08_1-Hillebrecht2016-Table4.png")
+```
 
-2. **Hillebrecht & Straus (2017): State leaders consider domestic politics and international costs when deciding whether or not to cooperate with the ICC**
+???
+
+Model 2 is a negative binomial regression
+
+- Includes a 1 day lag
+
+- ICC actions all negative and significant!
+
+<br>
+
+### So, per Hillebrecht (2016), has the ICC been effective?
+
+- Yes (at least according to the Libya case)
+
+- "The results of this analysis suggest that the ICC’s involvement in Libya had a negative and statistically significant effect on the number of fatalities. The results suggest that the ICC can, in fact, serve as a deterrent of violence against civilians, particularly government-sponsored civilian casualties, during ongoing conflict. When the ICC became involved in Libya, through issuing statements and arrest warrants, and all of its actions in between, actors on the ground took note and improved their human rights practices. It is important to stress that the ICC’s involvement did not stop violence against civilians in Libya but rather that it correlated to a decrease in the violence" (632).
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size60[.content-box-purple[**Has the ICC been effective?**]]]
+
+<br>
+
+.size50[
+1. Hillebrecht (2016) "The Deterrent Effects of the International Criminal Court: Evidence from Libya"
+
+2. Hillebrecht & Straus (2017) "Who Pursues the Perpetrators? State Cooperation with the ICC"
 ]
 
 ???
@@ -336,6 +406,7 @@ Hillebrecht & Straus (2017) group, take it away!
 
 
 
+
 ---
 
 background-image: url('libs/Images/background-blue_cubes_lighter3.png')
@@ -343,19 +414,33 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.size30[.content-box-white[**Hillebrecht & Straus (2017): Model to Test**]]]
+.center[.size35[.content-box-white[**Hillebrecht & Straus (2017): The Model**]]]
 
-.size35[
+.size30[
+Interests
+- ?
+
+Institutions
+- ?
+
+Interactions
+- ?
+]
+
+???
+
+Bottom line here: Therefore, leaders consider ICC cooperation as a function of who specifically is being indicted / investigated and the potential international costs of noncooperation.
+
+<br>
+
+#### Old Notes
 1. The International Legal Lasso: Cooperate if the ICC will indict your opposition
 
 2. The Downstream Threat of Accountability: Cooperate if the ICC will investigate the opposition first
 
 3. Potential Costs of Noncooperation: Cooperate if you depend on forreign aid, foreign direct investment, and international trade
 
-Therefore, leaders consider ICC cooperation as a function of who specifically is being indicted / investigated and the potential international costs of noncooperation .
-]
-
-???
+<br>
 
 - "...the fundamental idea that political elites' cooperation with the ICC is predicated on their ability to balance the risk of being prosecuted themselves with their willingness to use cooperation to advance their own political agenda" (167).
 - Cooperate with ICC to "remove or undermine their domestic opposition" and "advance their international reputation" (167)
