@@ -35,10 +35,8 @@ class: middle
 
 <br>
 
-.size50[**Today's Agenda: The UN system has problems...**
-- Horne, Robinson & Lloyd (2020)
-- Binder & Heupel (2015)
-- Dreher, Lang, Rosendorff & Vreeland (2022)
+.size50[**Today's Agenda: Reforming the UN**
+- Let's make the UN more effective!
 ]
 
 <br>
@@ -54,390 +52,67 @@ class: middle
 
 <br>
 
+Let's reform the UN! Find us a published argument that proposes a specific reform of the United Natons (e.g. changes in the power of the GA, the use of the veto in the SC, the membership of the SC, how peacekeeping gets paid for and staffed, how the UN budget is paid for, etc.). Make sure you can explain how, in specific terms, this reform would work, why it would be beneficial and how you might convince the members of the UN to accept the reform. No overlap in specific proposal!
 
+Bring to class a proposal of a specific reform of the UN (e.g. changes in the power of the GA, the use of the veto in the SC, the membership of the SC, peacekeeping, budgeting, etc.). 
+- How specifically would it work?
+- Why would it beneficial? To whom?
+- Why is it a feasible change? How would you sell it?
 
----
+Articles you found that are relevant
+1. Reform the Veto
+- Keaten (2018): "...outgoing U.N. human rights chief said Monday that the Security Council’s five permanent members wield too much power at the United Nations, warning the imbalance must change to avert possible “collapse” of the world body “at great cost to the international community.”
+- Wenaweser & Alavi (2020). Innovating to Restrain the Use of the Veto in the United Nations Security Council): Very concisely lays out two "reasonable" reforms of the veto power: 1) The ACT Code of Conduct limits the veto for genocide/war crimes/crimes against humanity, 2) GA oversight of vetos
+- The ACT code of conduct: U.N. Doc. A/70/621–S/2015/978
+- The “French/Mexican initiative”: Link 1
+2. Membership Reforms
+- G4 (2006) A/60/L.46: Adds 6 PNVM seats (permanent non-veto members), 4 non-permanent with regional representation baked in
+- AU (1995) UN GA A/59/L.67 proposal to add seats AND extend the veto
+3. Strengthen the GA
+- https://archive.globalpolicy.org/un-reform/un-reform-topics/reform-of-the-general-assembly.html
 
-background-image: url('libs/Images/10_1-United-Nations.jpg')
-background-size: 100%
-background-position: center
-class: bottom
+4. Defense of the status quo (US perspective)
+- Abrams (2021) Biden Is Working to Undermine America’s Authority at the U.N.
 
-.center[.content-box-blue[.size50[What is the United Nations?]]]
+“Uniting for Consensus” Group proposal: Adds a bunch of non-permanent, no veto states bc they argue adding permanent members creates independent power sources
+- "Seventy-seven years of UN history “shows permanent members are accountable only to themselves,” Massari said. A new permanent member would only “expand the club of privilege, or oligopoly.” https://www.passblue.com/2023/02/14/italy-is-hopeful-about-un-reform-as-long-as-its-proposal-leads-the-way/
 
-???
+https://link.springer.com/article/10.1007/s11127-017-0468-2
+Brainstorming Topics:
+- Abolish the SC / transfer powers to the GA
+- Make all UNSC seats non-permanent?
+- What criteria should we use to decide who is permanent on the SC?
+- Debate each of the most likely candidates: Germany, India, Brazil, Japan, ?
+- Should the French seat go the EU? 
 
-### At this point, what is our sense of the UN? 
+https://carnegieendowment.org/files/Patrick_et_al_UNSC_Reform_v2_1.pdf
 
-### - If someone asked you what the UN is, what would you tell them?
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size45[.content-box-white[**What is the United Nations (UN)?**]]]
-
-.pull-left[
-.size30[
-1. General Assembly
-
-2. Security Council
-
-3. International Court of Justice
-
-4. The Secretariat
-
-5. Economic, Social & Cultural Council (ECOSOC)
-
-6. Commission on the Status of Women (CSW)
-
-7. And more...
-]]
-
-.pull-right[
-```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("libs/Images/02_2-Legalization_Table1.png")
-```
-]
-
-???
-
-The UN is kind of an umbrella term for a BUNCH of very different institutions!
-
-### Where on the legalization table running from hard to soft law would we place each of these international institutions? Why?
-
-<br>
-
-### Bottom line, how much power has been delegated to the UN?
-
-<br>
-
-For the last few weeks we've been analyzing the design and effectiveness of the UN.
-
-- This week I want to talk problems and possible reforms to address them.
 
 
 
 ---
 
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-image: url('libs/Images/background-blue_triangles.jpg')
 background-size: 100%
 background-position: center
 class: middle
 
-.size45[
-Rep. Mario Diaz-Balart (R-Fla), Chairman of the House Appropriations subcommittee that oversees foreign aid:
-
-"What’s the role of the Human Rights Council? To pursue and to promote human rights, yet they have among the world’s worst human rights abusers [on the council]," the Florida Republican said. "It would be funny if for the fact it weren't so dangerous and again that we're spending so much money on that" ([Oswald 2023, Feb 1](https://rollcall.com/2023/02/01/house-foreign-aid-cardinal-sanguine-on-fiscal-2024-funding/)).
-]
-
-???
-
-Comments made in Feb of this year as an example of common criticisms of the UN you hear on cable news or coming out of Congress.
-
-- While these sound substantive (e.g. China is bad, spending is bad), they don't actually engage with the institutions in a useful way.
-
-1. Countries that violate human rights can get onto the Human Rights Commission because that's how it was designed
-    - Weirdly, that's a feature of the system and not a bug. The states are the principal and the UN is the agent! That's how delegation works in international law!
-
-    - A UN that doesn't invite "bad" states to the table couldn't do the things we ask it to do.
-
-    - OPINION: Criticizing the UN (global forum for problem-solving) for not being NATO (just our friends can play) is kind of stupid.
-
-2. We have to pay for things we want in the world and the Human Rights Council budget is miniscule
-    - Human Rights Council baseline budget was $133 million in 2022, US portion approx $29 million [OHCHR](https://www.ohchr.org/en/about-us/funding-and-budget)
-    
-    - In FY2023 the US House budgeted $810 million as an allowance for House members to run their offices ([FY2023 deets](https://demandprogress.org/legislative-branch-funding-breakdown-in-the-fy-2023-omnibus-bill/))
-    
-    - OPINION: $29 million is a number so small most Congresspeople ignore it if it were to pay for ANYTHING else. Heck, in FY2023 the US House budgeted $810 million as an allowance for House members to run their offices ([FY2023 deets](https://demandprogress.org/legislative-branch-funding-breakdown-in-the-fy-2023-omnibus-bill/)) which represents a $35 million increase from last year.
-
-<br>
-    
-### NOTES
-- The US provides approximately 22% of the UN budget ([CFR](https://www.cfr.org/article/funding-united-nations-what-impact-do-us-contributions-have-un-agencies-and-programs)) but that's because we have BY FAR the largest economy in the world and we designed the damn thing.
-- In 2021 our $12.5 billion paid for peacekeeping, the International Atomic Energy Agency, the World Health Organization (WHO)and many, many other institutions that generate significant value for us.
-- In a 4.1 trillion dollar US budget (FY2022) that amounts to .3%
-- In FY2023 the US House budgeted $810 million as an allowance for House members to run their offices ([FY2023 deets](https://demandprogress.org/legislative-branch-funding-breakdown-in-the-fy-2023-omnibus-bill/)) which represents a $35 million increase from last year.
-
-
-
----
-
-background-image: url('libs/Images/background-blue_triangles_flipped.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**The UN System has problems**]
+.size65[**Let's reform the UN!**]
 
 .size40[
-1. Horne, Robinson & Lloyd (2020): The Relationship between Contributors’ Domestic Abuses and Peacekeeper Misconduct in United Nations Peacekeeping Operations
-
-2. Binder & Heupel (2015): The Legitimacy of the UN Security Council: Evidence from Recent General Assembly Debates
-
-3. Dreher, Lang, Rosendorff & Vreeland (2022): Bilateral or Multilateral? International Financial Flows and the Dirty-Work Hypothesis
+Bring to class a proposal of a specific reform of the UN (e.g. changes in the power of the GA, the use of the veto in the SC, the membership of the SC, peacekeeping, budgeting, etc.). 
+- How specifically would it work?
+- Why would it beneficial? To whom?
+- Why is it a feasible change? How would you sell it?
 ]
 
 ???
 
-For today you read three research arguments that identify serious problems with the UN in useful ways!
+No overlap in specific proposals.
 
-<br>
+- first-come, first-served!
 
-*Split class in thirds, assign to each article*
 
-Before I ask each group to diagram the argument in their paper, let's all agree on the end point of each, e.g. the conclusions.
-
-### Groups, what is the key conclusion in your paper?
-- (**SLIDE**)
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**The UN System has problems**]
-
-.size45[
-1. Horne, Robinson & Lloyd (2020): "Bad" states provide peacekeepers who do bad things.
-
-2. Binder & Heupel (2015): The UNSC faces a legitimacy crisis in terms of its procedures and performance.
-
-3. Dreher, Lang, Rosendorff & Vreeland (2022): The US uses different kinds of foreign aid to buy the votes of non-permanent members of the UNSC. 
-]
-
-???
-
-Ok, groups I want you to diagram the model that explains this conclusion us on the board!
-
-<br>
-
-### Questions on your job?
-
-Get to it!
-
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size70[**The UN System has problems**]
-
-.size45[
-1. **Horne, Robinson & Lloyd (2020): "Bad" states provide peacekeepers who do bad things.**
-
-2. Binder & Heupel (2015): The UNSC faces a legitimacy crisis in terms of its procedures and performance.
-
-3. Dreher, Lang, Rosendorff & Vreeland (2022): The US uses different kinds of foreign aid to buy the votes of non-permanent members of the UNSC. 
-]
-
-???
-
-Group 1 present Horne, Robinson & Lloyd (2020) argument.
-
-- (**SLIDE**: My version)
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size30[.content-box-white[**HRL (2020): Model to Test**]]]
-
-.size30[
-1. Domestic military behavior predicts international military behavior
-
-2. Militaries that harm their own people (violence or corruption) are more likely populated by individuals amenable to targeting the innocent
-
-3. Some states contribute their "best" troops to peacekeeping and others their "worst."
-
-4. There is huge demand for peacekeeping which means the "bad" almost certainly outnumber the "good."
-
-5. UN mistakenly focuses its "misconduct prevention" on "peacekeeper training" which isn't at all the actual problem.
-
-Therefore, "bad" states provide peacekeepers who do bad things.
-]
-
-???
-
-Whole theory section on p236
-
-Premise 1: Domestic military behavior predicts international military behavior
-- Militaries are likely to perform internationally in the same ways as they do domestically (good or bad).
-- "...the abusive behavior of militaries and governments in their own countries should predict their behavior when deployed abroad as part of a PKO" (236).
-    1. Violence: "For states that either (1) routinely use their militaries to terrorize their own populations or (2) are unable or unwilling to curb abuses by these forces operating domestically, similar behavior is expected when these forces are deployed in PKOs."
-    2. Corruption: "Similarly, for states where official corruption is the norm, the uniformed agents of the state are expected to engage in corrupt acts when deployed."
-- Opposite applies too: "This pattern should stand in contrast with states boasting self-restrained and accountable militaries routinely used in ways consistent with the public good and rule of law."
-
-Premise 2: Militaries that harm their own people (violence or corruption) are more likely populated by individuals amenable to targeting the innocent
-- "Bad" militaries are likely populated by dangerous individuals (those amenable to violence against citizens or corruption)
-- Selection effect in "who is recruited for and who seeks entry into military service."
-    - Demand-side: "...systems where military forces are engaged in regular misconduct—be it unlawful violence or nonviolent corruption—should seek to recruit individuals amenable to these behaviors."
-    - Supply-side: "...individuals drawn to opportunities for unaccountable violence and/or graft should seek entry into states’ security services in places where a uniform offers these rewards."
-    
-Premise 3: Some states contribute their "best" troops to peacekeeping and others their "worst."
-- Best: "...to gain operational experience, national prestige, or moral influence at the
-UN or to equip troops at the UN’s expense (Bellamy and Williams 2010, 58–65)."
-- Worst: Some states see sending peacekeepers as a chance for "simple profit, opportunities for extraction, or even temporarily removing bad actors from their own countries."
-- The UN does a bad job tying reimbursement to peacekeeper behavior
-    - "...the UN’s system of unaccountable reimbursements to TCCs (such that reimbursements may or may not go to the costs of equipping and fielding the state’s PKO contingent), as well as procedures for allotting mission subsistence allowances, which provide perverse incentives for both states and individuals to join a PKO (Pyman et al. 2013, 36)."
-- "Arguments from selectorate theory suggest that militaries may capitalize on the resources and training gained through peacekeeping activities to increase their capacity for domestic repression—meaning even TCCs incentivized sending their best troops may have a propensity for misconduct in the field (Levine, Mackay, and Nasirzadeh 2016)."
-
-Premise 4: There is huge demand for peacekeeping which means the "bad" almost certainly outnumber the "good"
-- "However, the unexpected demand for post–Cold War peacekeeping, combined with the withdrawal of the western powers from most operations..."
-
-Premise 5: UN mistakenly focuses its "misconduct prevention" on "peacekeeper training" which isn't at all the actual problem.
-- "If our argument is correct, lack of education about what constitutes abuse is not the main source of misconduct among peacekeepers, and preemptive or remedial training may not be the answer to the problem of misconduct. Such misconduct ranges from low-level fraud to highly organized abuses of the most serious kind."
-- "Sadly, most documented misconduct appears to be a conscious choice."
-
-<br>
-
-### What do we think of the model?
-
-### - Is it logical?
-
-### - Is it convincing?
-
-### - How do we use this model to make predictions in the world?
-
-<br>
-
-**SLIDE**: Quick trip through the data analysis starting with the source of the data!
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.size30[.content-box-white[**HRL (2020): 1) Sources & 2) Operationalizations**]]]
-
-.size30[
-**Outcome Variable: Military Peacekeeper Misconduct**
-- Peacekeeper Attribute Project (PKAT) Dataset
-- Annual count in 3 types:
-    - Category 1 SEA: Crimes of a sexual nature
-    - Category 1 Non-SEA: Felony-type crimes
-    - Category 2: Lesser abuses
-
-**Predictor Variables**
-- Political Terror Scores for the PKO
-    - Levels 1 (the good) to 5 (the bad)
-- Control of Corruption scores for the PKO
-    - -2.5 ("very poor") to 2.5 ("very good")
-]
-
-???
-
-*Walk through the data collected and how it measured*
-
-*Many of these notes come from separate Appendix (saved in Readings folder)*
-
-- Category 1 SEA: "In this definition, sexual abuse is “[a]ctual or threatened physical intrusion of a sexual nature, whether by force or under unequal or coercive conditions. All sexual activity with a minor (a person under the age of 18) is considered as sexual abuse.” Sexual exploitation consists of “[a]ny actual or attempted abuse of position of vulnerability, differential power or trust, for sexual purposes, including, but not limited to, profiting monetarily, socially, or politically from the sexual exploitation of another. This includes acts such as transactional sex, solicitation of transactional sex, and exploitative relationships” (UN Missions—Key Terms n.d.) (237)."
-- Category 1 Non-SEA: "...misconduct generally considered felonious in western systems of justice and oftentimes of behavior normally associated with organized crime" (237).
-    - "cases involving risk of loss of life to staff or others; abuse of authority or staff; conflict of interest; gross mismanagement; bribery/corruption; illegal mineral trade; trafficking with prohibited goods; life threat/murder; abuse or torture of detainees; arms trade; physical assault; forgery, embezzlement; major theft/fraud; use, possession or distribution of illegal narcotics; waste of substantial resources; entitlement fraud; [and] procurement violations. (UN Missions – Other Misconduct n.d.)"
-- Category 2: "...lesser abuses more characteristic of misdemeanor-level crime, ethical violations, or administrative incompetence" (237).
-    - "discrimination; harassment; sexual harassment; abuse of authority; abusive behavior;3 basic misuse of equipment or staff; simple theft/fraud; infractions of regulations, rules or administrative issuances; traffic-related violations; conduct that could bring the UN to disrepute; breaking curfew; contract disputes; [and] basic
-mismanagement. (UN Missions – Other Misconduct n.d.)" (237).
-
-“The PTS seeks to measure political terror. We define political terror as violations of basic human rights to the physical integrity of the person by agents of the state within the territorial boundaries of the state in question.” 
-- PTS scores come from three sources, each calculated on a 5-point ordinal scale, where 5 indicates the highest category of political violence against a population:
-- PTS_A: Based on Amnesty International’s State of World’s Human Rights;
-- PTS_H: Based on Human Rights Watch’s World Report;
-- PTS_S: Based on the U.S. State Department’s Country Reports on Human Rights Practices.
-- PTS_MISSION is coded as the average of PTS_A, PTS_H, and PTS_S.
-
-Corruption:  CORR_MISSION_MIL:  
-- Control of Corruption scores for the PKO, weighted by military contributor force size. 
-- From the World Bank’s Worldwide Governance Indicators, this indicator measures “perceptions of the extent to which public power is used for private gain.”1 Control of Corruption scores range from -2.5 to 2.5, with a score of -2.5 indicating perceptions that state control of corruption is very poor, and a score of 2.5 indicating perceptions that state control over corruption is very good.
-
-<br>
-
-### Strengths and weaknesses of these data choices?
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-white[.size40[**HRL (2020): 3) Analysis**]]]
-
-```{r, echo = FALSE, fig.align = 'center', out.width = '54%'}
-knitr::include_graphics("libs/Images/12_1-HRL2020-Appendix_A.png")
-```
-
-???
-
-- Analysis across twenty-nine UN PKOs in existence in twenty-five host countries from 2009 to 2016.
-- Unit of analysis is mission year (n = 151)
-
-Appendix A
-- "The vast majority of allegations, about 73 percent of the total since 2007, fall into Category 2. About 42 percent of mission years reported no Category 1 allegations (including SEAs); slightly fewer than half of all observations reported no Category 1 allegations of any kind. By contrast, only about one-third of observations reported no Category 2 allegations" (237).
-
-
-
----
-
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.center[.content-box-white[.size30[**HRL (2020): 3) Analysis**]]]
-
-.pull-left[
-```{r, echo = FALSE, fig.align = 'center', out.width = '75%'}
-knitr::include_graphics("libs/Images/12_1-HRL2020-Fig1.png")
-```
-
-```{r, echo = FALSE, fig.align = 'center', out.width = '75%'}
-knitr::include_graphics("libs/Images/12_1-HRL2020-Fig5.png")
-```
-]
-
-.pull-right[
-```{r, echo = FALSE, fig.align = 'center', out.width = '75%'}
-knitr::include_graphics("libs/Images/12_1-HRL2020-Fig2.png")
-```
-
-```{r, echo = FALSE, fig.align = 'center', out.width = '75%'}
-knitr::include_graphics("libs/Images/12_1-HRL2020-Fig6.png")
-```
-]
-
-???
-
-
-
-
-<br>
-
-### Bottom line takeaways on the Horne, Robinson & Lloyd (2020) piece?
 
 
 
@@ -944,6 +619,12 @@ class: middle
 
 
 
+
+
+
+
+
+
 ---
 
 background-image: url('libs/Images/background-blue_triangles.jpg')
@@ -951,22 +632,19 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size65[**Next Class: Let's reform the UN!**]
+.size65[**Next Class: The Kyoto Protocol**]
 
 .size40[
-Bring to class a proposal of a specific reform of the UN (e.g. changes in the power of the GA, the use of the veto in the SC, the membership of the SC, peacekeeping, budgeting, etc.). 
-- How specifically would it work?
-- Why would it beneficial? To whom?
-- Why is it a feasible change? How would you sell it?
+1. Lanchbery (1997): "What to Expect from Kyoto"
+
+2. The IPCC (1995) "Second Assessment Report"
+
+3. Data-Kyoto_Protocol_Negotiation.xlsx
+
+4. The Kyoto Protocol (1997)
 ]
 
 ???
-
-No overlap in specific proposals.
-
-- first-come, first-served!
-
-
 
 
 

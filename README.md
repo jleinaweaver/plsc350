@@ -42,9 +42,9 @@ Data, slides and errata for my class at Drury University (PLSC 350: Internationa
 
 11-2-CEDAW_CSW_Effectiveness.html
 
-12-1-UN_Problems.html
+12-1-Reform_Peacekeeping.html
 
-12-2-UN_Reform_Proposals.html
+12-2-Reform_UNSC.html
 
 13-1-KyotoProtocol_Design.html
 
