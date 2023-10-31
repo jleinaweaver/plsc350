@@ -864,13 +864,11 @@ class: middle
 
 .size70[.content-box-purple[**Next Class**]]
 
-.size40[
-1. Horne, Robinson & Lloyd (2020): The Relationship between Contributors’ Domestic Abuses and Peacekeeper Misconduct in United Nations Peacekeeping Operations
+<br>
 
-2. Binder & Heupel (2015): The Legitimacy of the UN Security Council: Evidence from Recent General Assembly Debates
-
-3. Dreher, Lang, Rosendorff & Vreeland (2022): Bilateral or Multilateral? International Financial Flows and the Dirty-Work Hypothesis
-]
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/11_2-Assignment.png")
+```
 
 ???
 
@@ -884,7 +882,6 @@ Give the class a warning about the Horne, Robinson & Lloyd (2020)
 
 - The theory sections is totally safe but the introduction tries to help you see why this is a big deal and that subject is a tough one.
 
-- Also, give me a head's up before next class if you have concerns about digging into this literature. I can make sure you are in a different group.
 
 
 
