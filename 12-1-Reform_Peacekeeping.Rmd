@@ -518,6 +518,44 @@ knitr::include_graphics("libs/Images/12_1-HRL2020-Fig5.png")
 
 ???
 
+These three figures present the findings from the regression analyses as marginal effects plots.
+
+- Figures 1, 3 and 5 here focus on the effect of increasing a TCCs PTO score
+    - Remember, PTS runs 1-5 and the higher the number the more human rights violations by the government against the people
+
+- The y-axes represent the count of reported misconduct cases in a given country for a given year
+
+- The top-middle Figure is the predicted count of category 1 violations including SEAs
+
+- The bottom-left figure is the predicted count of category 1 violations excluding SEAs
+
+- The bottom-right is the count of lesser abuses
+
+<br>
+
+What do we learn from these results?
+
+### First, describe the results to me. What do we see?
+
+- All three curves include positive slopes
+
+- All three jump around PTS > 2
+
+<br>
+
+### Now go deeper, try analyzing these figures.
+
+- Y-axis scales differ quite a bit (magnitude of crimes per type differ considerably) 
+
+- Confidence interval spreads differ across the types
+
+- Why do none of the plots include the highest PTS scores?
+
+
+<br>
+
+#### Notes
+
 Figures
 - 1) Expected Category 1 allegations among PKO military forces including SEAs, by the weighted Political Terror scores of the PKO military force
 
@@ -553,6 +591,28 @@ knitr::include_graphics("libs/Images/12_1-HRL2020-Fig6.png")
 
 ???
 
+These three figures repeat the last three but now the x-axis is differing levels of corruption.
+
+- Higher numbers = less corrupt
+
+<br>
+
+What do we learn from these results?
+
+### First, describe the results to me. What do we see?
+
+<br>
+
+### Now go deeper, try analyzing these figures.
+
+<br>
+
+### Bottom line takeaways on the Horne, Robinson & Lloyd (2020) piece?
+
+<br>
+
+#### Notes
+
 Figures
 - 2) Expected Category 1 allegations among PKO military forces including SEAs, by the weighted Corruption scores of the PKO military force
 
@@ -561,9 +621,29 @@ Figures
 - 6) Expected Category 2 allegations among PKO military, by the weighted Corruption scores of the PKO military force
 
 
-<br>
 
-### Bottom line takeaways on the Horne, Robinson & Lloyd (2020) piece?
+
+---
+
+background-image: url('libs/Images/12_1-UN_Peacekeeping.jpg')
+background-size: 100%
+background-position: center
+class: top, center
+
+.size45[.content-box-white[**How should we reform UN peacekeeping?**]]
+
+???
+
+Ok, let's hear your reform proposals!
+
+*ON BOARD*
+
+1. What specific problems does your reform target?
+
+2. What specific action should be taken?
+
+3. How feasible is this change?
+
 
 
 
