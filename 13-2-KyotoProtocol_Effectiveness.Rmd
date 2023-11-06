@@ -62,9 +62,44 @@ class: middle
 ???
 
 ### Prep for Class
-1. ?
+1. ...
 
 <br>
+
+This week we've begun exploring international institutions for aggregate effort.
+
+### Refresh my memory, what is an aggregate effort institution?
+- (By aggregate effort we mean outcomes that depend on the contributions of all states)
+
+- For our work, we'll be analyzing international institutions focused on fighting climate change
+
+
+
+
+---
+
+background-image: url('libs/Images/13_1-UNFCCC_Conference.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+???
+
+We started by discussing three of the important legacies of the 1992 United Nations Framework Convention on Climate Change
+
+### What three important elements did we note were established in that treaty?
+
+1. Article 2 clearly states the "ultimate objective": "...prevent dangerous anthropogenic interference with the climate system"
+
+2. Article 3 lays out the key principles that were selected to guide our efforts
+    - States should act to protect the system, BUT must also protect the developing world and protect economic development
+
+3. States listed in Annex I and II represent the "rich" world who are responsible to do the most and help pay for the efforts of the developing world.
+
+<br>
+
+A substantial framing exercise PLUS the UNFCCC creates the outline of what could become important delegated agents in the future.
+
 
 
 
@@ -98,36 +133,62 @@ knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
 
 ???
 
+Let's apply legalization to our work last class.
+
+### How significant are the obligations in the Kyoto Protocol?
+
+<br>
+
+### How precise are the rules?
+
+<br>
+
+### How substantial is the delegation?
+
+<br>
+
+### Bottom line, is the Kyoto Protocol "hard" or "soft" law?
+
+<br>
+
+### Anything else from last class you want to discuss before we dig into your analyses?
+
+
 
 
 ---
 
-background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-image: url('libs/Images/background-blue_triangles2.png')
 background-size: 100%
 background-position: center
 class: middle
 
-.center[.size50[.content-box-white[**Evaluating the Kyoto Protocol (1997)**]]]
+.center[.size40[.content-box-purple[**Evaluating the Effectiveness of the Kyoto Protocol**]]]
 
-.size40[
-1. Which countries saw the biggest percentage declines in GHG emissions by 2012? Which the biggest increases?
-2. Did signatory states see bigger declines in emissions than non-signatory states?
+.size35[
+1. Which countries saw the biggest changes in GHG emissions by 2012? (biggest increases and biggest decreases)
+
+2. Did signatory states see bigger declines than non-signatory states?
+
 3. Did ratifying states see bigger declines in emissions than non-participant states?
+
 4. Did states that ratified more quickly cut emissions more than those who ratified more slowly?
+
 5. Did Annex B states that ratified see bigger declines in emissions than other states?
 ]
 
 ???
 
-Your job was to be ready to do three things today
+For today I asked you to answer these questions and to be ready to explain how you did it and your confidence in the answers.
 
-1. Give us your answer to these questions,
+<br>
 
-2. Explain how you answered the question, and
+### Everybody ready to go?
 
-3. Explain how confident you are in each answer you are providing.
+<br>
 
-IS EVERYBODY READY TO GO?
+**SLIDE**: Arguably, if we were going to turn our work this week into a research paper we would need to establish at least three key points
+
 
 
 
@@ -138,42 +199,43 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.size50[.content-box-white[**Evaluating the Kyoto Protocol (1997)**]]]
+.center[.size50[.content-box-white[**Making an Argument**]]]
 
-<br>
+.center[.size50[.content-box-white[**Was the Kyoto Protocol Effective?**]]]
 
 .size45[
-1. Are changes in emissions since 1990 a good proxy for climate action?
-
-2. Did signatories, ratifiers and faster ratifiers see bigger declines in emissions?
-
-3. Did treaty obligations matter for state behavior on climate change?
+1. Changes in emissions since 1990 are a good proxy for the climate actions in the Kyoto Protocol
 ]
 
 ???
 
-We will use your work today to answer three somewhat broader questions about these treaties.
+Our first job is to make clear that the outcome data we have is appropriate for the research question we are trying to answer.
 
-1. Are changes in emissions since 1990 a good proxy for climate action?
-    - In other words, is this the "right" data for thinking about internaitonal climate change actions?
-
-2. Did signatories, ratifiers and faster ratifiers see bigger declines in emissions?
-    - In other words, did the states who participated in international cooperation on these issues behave differently than those who didn't?
-
-3. Did treaty obligations matter for state behavior on climate change?
-    - Ultimately, did the top-down emissions limits imposed by Kyoto translate into developed world action on climate change.
+- "Appropriate" is both a theoretical AND an empirical problem.
 
 <br>
 
-Three important questions so let's get to it!
+In terms of theory:
 
-- Let's work in groups of three today.
+- We need to make an argument that our chosen outcome variable, changes in emissions, usefully represents the kinds of actions incentivized by the Kyoto Protocol
 
-- Everybody stand up and form a group of three with people you haven't worked much with yet this semester!
+- The Kyoto Protocol was aimed at encouraging a broad array of climate actions by states: reporting, financing, technology transfers, etc.
 
-- Go sit together.
+### - Do we believe the sum of these climate actions equals changes in emissions levels? Why or why not?
 
-- BUT don't get too comfortable, we're going to keep moving!
+<br>
+
+In terms of empirics:
+
+- We need to demonstrate that our chosen outcome variable, changes in emissions, actually varies across the states in the sample.
+
+- If all the states essentially produce the same changes, then there's nothing for us to explain
+
+- In other words, we couldn't show any effect of the Kyoto Protocol because the states behaved the same regardless of the treaty
+
+<br>
+
+**SLIDE**: Let's keep going with this!
 
 
 
@@ -184,35 +246,35 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.size30[.content-box-white[**1) Are changes in emissions since 1990 a good proxy for climate action?**]]]
+.center[.size40[.content-box-white[**1) Are changes in emissions since 1990 a good proxy for climate action?**]]]
 
 .size40[
-Which countries saw the biggest percentage declines in GHG emissions by 2012? And which had the biggest increases?
+Which countries saw the biggest changes in GHG emissions by 2012? (biggest increases and biggest decreases)
 
 1. **How** did you answer these questions?
+
 2. **What** are your answers?
-3. Is this **a good measure** of of climate action?
+
+3. How **confident** are you in the answers?
 ]
 
 ???
 
-Group Discussion 1: Are changes in emissions since 1990 a good proxy for climate action?
+Groups, dive into this first question and get ready to report back.
 
-Which countries saw the biggest percentage declines in GHG emissions by 2012? And which had the biggest increases?
+- Your job is to make sure everyone understands HOW to answer this question with data, PLUS your answers, PLUS your confidence in them
 
-Take 10 minutes with your group to discuss:
+<br>
 
-1. How did you answer these questions?
-2. What are your answers?
-3. Is this a good measure of of climate action?
+Let's first gather approaches
 
+### - Groups, how did you answer the question?
 
+<br>
 
-** Class Discuss **
+### What did you find?
 
-OK, HOW DID YOU ANSWER THIS QUESTION?
-
-(SLIDE: top 10 tables)
+- (**SLIDE**: top 10 tables)
 
 
 
@@ -224,35 +286,41 @@ background-position: center
 class: middle
 
 .pull-left[
+.center[.size40[.content-box-white[**Biggest Decreases**]]]
+
 ```{r}
 # Identify top 10 and bottom 10
 d %>%
   select(Country, ghg_2012) %>%
   arrange(ghg_2012) %>%
-  slice(1:15) |>
-  kbl(align = c('l', 'c'))
+  slice(1:10) |>
+  kbl(align = c('l', 'c')) |>
+  kable_styling(font_size = 30)
 ```
 ]
 
 .pull-right[
+.center[.size40[.content-box-white[**Biggest Increases**]]]
+
 ```{r}
 d %>%
   select(Country, ghg_2012) %>%
   arrange(desc(ghg_2012)) %>%
-  slice(1:15) |>
-  kbl(align = c('l', 'c'))
+  slice(1:10) |>
+  kbl(align = c('l', 'c')) |>
+  kable_styling(font_size = 30)
 ```
 ]
 
 ???
 
-AND, BASED ON YOUR DISCUSSION IN THE GROUP, IS THIS A GOOD MEASURE OF OF CLIMATE ACTION?
+### Anybody know what's going on with Equitorial Guinea? 
 
 <br>
 
-### Anybody know what's going on with Equitorial Guinea? 
+**IMPORTANT**: Always investigate your outliers!
 
-Always investigate your outliers!
+<br>
 
 - [Per OPEC](https://www.opec.org/opec_web/en/about_us/4319.htm), Equitorial Guinea discovered its massive oil reserves only in 1996.
 
@@ -264,10 +332,18 @@ Always investigate your outliers!
 
 <br>
 
+Our top ten lists show us that there is a significant difference between the two extremes, but 
 
-DID ANYBODY TRY SUMMARIZING OR VISUALIZING THE OUTCOME VARIABLE ON ITS OWN?
+- This doesn't answer the question about whether or not this variable is empirically appropriate across the whole range of states
 
-(SLIDE)
+- The extremes can differ while the bulk of observations cluster together in the middle and that would still be a problem
+
+<br>
+
+(*OPTIONAL*) Everybody try making a histogram of ghg_2012
+
+- **SLIDE**: Let's visualize the entire outcome variable
+
 
 
 
@@ -278,7 +354,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
 # Visualize 2012
 d %>%
   ggplot(aes(x = ghg_2012)) +
@@ -292,15 +368,27 @@ d %>%
 
 ???
 
-### HOW DOES THIS HELP US ANSWER THE QUESTION?
+This is a histogram of emissions changes in the dataset.
 
-### - IS THIS A GOOD MEASURE OF OF CLIMATE ACTION? Why or why not?
+### Remind me, what is a histogram?
+- (A bar plot for numeric data with counts of binned numbers)
 
 <br>
 
-We can also zoom in on the heart of this variation and ask it about the line between cuts and increases. 
+So, this shows us the variation in the outcome variable across all of the observations.
 
-SLIDE
+- Let's analyze this visualization
+
+<br>
+
+### First, simply describe for me what you see here.
+
+<br>
+
+This can be tough to analyze given how extreme the outlier is.
+
+- **SLIDE**: Let's ignore EG in order to focus on the bulk of the variation
+
 
 
 
@@ -311,7 +399,7 @@ background-size: 100%
 background-position: center
 class: middle
 
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%', cache=TRUE}
 # Visualize 2012
 x1 <- table(d$ghg_2012 < 0)
 
@@ -320,26 +408,27 @@ d %>%
   geom_histogram(bins = 30, color = "white") +
   theme_bw() +
   labs(x = "Greenhouse Gas Emissions (% 1990)", y = "Count") +
-  annotate("text", x = 600, y = 25, 
-           label = str_c("States Cutting Emissions\n", x1[[2]], " / ", x1[[1]]+x1[[2]], " = ", round(x1[[2]]/(x1[[1]]+x1[[2]])*100, 1), "%"),
-           size = 5) +
   xlim(-200, 1000)
+  # annotate("text", x = 600, y = 25, 
+  #          label = str_c("States Cutting Emissions\n", x1[[2]], " / ", x1[[1]]+x1[[2]], " = ", round(x1[[2]]/(x1[[1]]+x1[[2]])*100, 1), "%"),
+  #          size = 5)
 ```
 
 ???
 
-We can also zoom in on the heart of this variation and ask it about the line between cuts and increases. 
+### Describe for me what you see here
 
-LOTS OF VARIATION HERE TO EXPLAIN, RIGHT?
+### - How much variation across the states in the world?
 
-States differ quite a bit on this measure which gives us a lot to work with.
+<br>
 
+### Now, go deeper: Analyze the visualization
 
+### - What does this tell us about how the states in the world are doing regarding their carbon emissions?
 
+<br>
 
-We can also visualize the emissions after grouping them using a map.
-
-SLIDE
+- (**SLIDE**: Proportion cutting emissions)
 
 
 
@@ -350,7 +439,42 @@ background-size: 100%
 background-position: center
 class: middle
 
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%', cache=TRUE}
+# Visualize 2012
+x1 <- table(d$ghg_2012 < 0)
+
+d %>%
+  ggplot(aes(x = ghg_2012)) +
+  geom_histogram(bins = 30, color = "white") +
+  theme_bw() +
+  labs(x = "Greenhouse Gas Emissions (% 1990)", y = "Count") +
+  xlim(-200, 1000) +
+  annotate("text", x = 600, y = 25,
+           label = str_c("States Cutting Emissions\n", x1[[2]], " / ", x1[[1]]+x1[[2]], " = ", round(x1[[2]]/(x1[[1]]+x1[[2]])*100, 1), "%"),
+           size = 5)
+```
+
+???
+
+States differ quite a bit on this measure which gives us a lot to work with.
+
+- This variation means we can usefully ask, does the Kyoto Protocol explain the differences betweeen the 33% who make cuts and the 66% who don't?
+
+<br>
+
+**SLIDE**: We can also visualize the emissions after grouping them using a map.
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
 d2 <- d |>
   mutate(
     GHG_cat = case_when(
@@ -396,19 +520,25 @@ Here I've created three groups:
 
 3. Emissions above 100% are in red.
 
-ANY SURPRISES ON THIS MAP? ANYTHING OF NOTE?
+<br>
 
+Note that I am not creating these groups based on the Annex B thresholds.
 
+- My interest here was to see if emissions are going down, not if the arbitrary thresholds are being met.
 
+<br>
 
-SO, BOTTOM LINE, IS THIS A USEFUL WAY TO MEASURE COUNTRIES ACTIONS ON CLIMATE CHANGE?
+### Any surprises on this map? Anything of note?
 
+<br>
 
+### So, bottom line, are we convinced that emissions changes represent an appropriate  way to measure countries actions on climate change in both theoretical and empirical terms? Why or why not?
 
+<br>
 
 Alright, everybody stand up and find a new group!
 
-Go!
+- Go!
 
 
 
@@ -419,36 +549,21 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.size30[.content-box-white[2) Did signatories, ratifiers and speedy ratifiers see bigger declines in emissions?]]]
+.center[.size50[.content-box-white[**Making an Argument**]]]
 
-.size40[
-1. **How** did you answer these questions?
-2. **What** are your answers?
-3. What are the **pros and cons** of testing the effectiveness of the Kyoto Protocol in these ways?
+.center[.size50[.content-box-white[**Was the Kyoto Protocol Effective?**]]]
+
+.size45[
+1. Changes in emissions since 1990 are a good proxy for the climate actions in the Kyoto Protocol
+
+2. Treaty participants (signatories, ratifiers and faster ratifiers) saw bigger declines in emissions
 ]
 
 ???
 
-Group Discussion 2: New groups take 10 minutes to discuss your answers to the treaty participation questions.
+Our second task is to to demonstrate that the states that participated with the Kyoto Protocol changed their behavior more than those that didn't.
 
-1. How did you answer these questions?
-
-2. What are your answers?
-
-3. What are the pros and cons of testing the effectiveness of the UNFCCC / Kyoto Protocol in these ways?
-
-
-
-
-** Class Discuss **
-
-OK, WHAT WERE YOUR ANSWERS TO THIS QUESTION?
-
-HOW DID YOU DO IT?
-
-
-
-**SLIDE**: Your analyses...
+- This is where we begin to connect our key predictor variables (signature, ratification and speed of ratification) to the outcome (emissions changes)
 
 
 
@@ -460,32 +575,180 @@ background-size: 100%
 background-position: center
 class: middle
 
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='47%'}
-## Show them how to shift from histogram to box plot (intuition)
+.center[.size40[.content-box-white[**2) Did treaty participants see bigger declines in emissions?**]]]
+
+.size40[
+Check the emissions cuts of the signatories, ratifiers and speedy ratifiers
+
+1. **How** did you answer these questions?
+
+2. **What** are your answers?
+
+3. How **confident** are you in the answers?
+]
+
+???
+
+Groups, dive into this second question and get ready to report back.
+
+- Your job is to make sure everyone understands HOW to answer this question with data, PLUS your answers, PLUS your confidence in them
+
+<br>
+
+Let's first gather approaches
+
+### - Groups, how did you answer the question?
+
+<br>
+
+### And what did you find?
+
+<br>
+
+I think comparing the groups will be easier with box plots
+
+- **SLIDE**: So, let's do a crash course in box plots
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+# Overlay box plot on histogram
+#summary(d$ghg_2012)
+#(summary(d$ghg_2012)[[5]] - summary(d$ghg_2012)[[2]]) * 1.5
+
 d %>%
   ggplot(aes(x = ghg_2012)) +
   geom_histogram(bins = 30, color = "white") +
   theme_bw() +
-  labs(x = "Greenhouse Gas Emissions (% 1990)", y = "") +
-  coord_cartesian(xlim = c(-250, 3000))
-```
-
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='47%'}
-# Box plot
-d %>%
-  ggplot(aes(y = 1, x = ghg_2012)) +
-  geom_boxplot() +
-  theme_bw() +
-  labs(x = "Greenhouse Gas Emissions (2012 as % 1990)", y = "") +
-  coord_cartesian(xlim = c(-250, 3000))
-  
-# summary(d$ghg_2012[d$Signed == "Signed"])
-# summary(d$ghg_2012[d$Signed != "Signed"])
+  labs(x = "Greenhouse Gas Emissions (% 1990)", y = "",
+       title = "REMEMBER: A histogram is a bar plot of binned numbers") +
+  coord_cartesian(xlim = c(-250, 1000))
 ```
 
 ???
 
-Explain intuition of how to read a box plot
+Whereas a histogram tries to show you the shape of the full distribution, 
+
+<br>
+
+The purpose of a box plot is to focus our attention on the middle part only
+
+- Think of it like a summary of the distribution
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+d %>%
+  ggplot(aes(x = ghg_2012)) +
+  geom_histogram(bins = 30, color = "black", fill = "white") +
+  theme_bw() +
+  labs(x = "Greenhouse Gas Emissions (% 1990)", y = "",
+       title = "Make it white to make overlapping lines easier to read") +
+  coord_cartesian(xlim = c(-250, 1000))
+```
+
+???
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+d %>%
+  ggplot(aes(x = ghg_2012)) +
+  geom_histogram(bins = 30, color = "black", fill = "white") +
+  theme_bw() +
+  labs(x = "Greenhouse Gas Emissions (% 1990)", y = "",
+       title = "Add a line for the median (middle value)") +
+  coord_cartesian(xlim = c(-250, 1000)) +
+  annotate("segment", x = summary(d$ghg_2012)[[3]], xend = summary(d$ghg_2012)[[3]], y = 20, yend = 40, color = "red", linewidth = 2)
+
+```
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+d %>%
+  ggplot(aes(x = ghg_2012)) +
+  geom_histogram(bins = 30, color = "black", fill = "white") +
+  theme_bw() +
+  labs(x = "Greenhouse Gas Emissions (% 1990)", y = "",
+       title = "Add a box for the middle 50% of values") +
+  coord_cartesian(xlim = c(-250, 1000)) +
+  annotate("rect", xmin = summary(d$ghg_2012)[[2]]-18, xmax = summary(d$ghg_2012)[[5]]+12, ymin = 20, ymax = 40, fill = "cyan2", color = "red") +
+  annotate("segment", x = summary(d$ghg_2012)[[3]], xend = summary(d$ghg_2012)[[3]], y = 20, yend = 40, color = "red", linewidth = 2)
+```
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+d %>%
+  ggplot(aes(x = ghg_2012)) +
+  geom_histogram(bins = 30, color = "black", fill = "white") +
+  theme_bw() +
+  labs(x = "Greenhouse Gas Emissions (% 1990)", y = "",
+       title = "Add whiskers for the next closest values (1.5 x IQR)") +
+  coord_cartesian(xlim = c(-250, 1000)) +
+  annotate("segment", x = summary(d$ghg_2012)[[1]], xend = summary(d$ghg_2012)[[5]] + IQR(d$ghg_2012, na.rm = TRUE) * 1.5, y = 30, yend = 30, color = "red") +
+  annotate("rect", xmin = summary(d$ghg_2012)[[2]]-18, xmax = summary(d$ghg_2012)[[5]]+12, ymin = 20, ymax = 40, fill = "cyan2", color = "red") +
+  annotate("segment", x = summary(d$ghg_2012)[[3]], xend = summary(d$ghg_2012)[[3]], y = 20, yend = 40, color = "red", linewidth = 2)
+```
+
+???
+
+And here is the box plot.
+
+- The dark line the middle value
+
+- The box represents the middle 50% of the distribution
+
+- The whiskers point towards the extremes
+
+<br>
+
+### Questions on reading a box plot?
+
+<br>
+
+**SLIDE**: Alright, let's use the tool to answer our questions
+
+
 
 
 
@@ -510,15 +773,26 @@ class: middle
 
 # Box plot
 d %>%
-  ggplot(aes(x = Signed, y = ghg_2012)) +
-  geom_hline(yintercept = 0, color = "red", linewidth=1.25) +
+  ggplot(aes(y = Signed, x = ghg_2012)) +
+  geom_vline(xintercept = 0, color = "red", linewidth=1.25) +
   geom_boxplot() +
   theme_bw() +
   labs(x = "", y = "", 
        title = "Did signatory states see bigger declines in emissions?",
        subtitle = "Greenhouse Gas Emissions (2012 as % 1990)") +
-  coord_cartesian(ylim = c(-100, 300)) +
-  scale_x_discrete(labels = c("Didn't Sign\n(n = 108)", "Signed\n(n = 79)"))
+  coord_cartesian(xlim = c(-100, 300)) +
+  scale_y_discrete(labels = c("Didn't Sign\n(n = 108)", "Signed\n(n = 79)"))
+
+# d %>%
+#   ggplot(aes(x = Signed, y = ghg_2012)) +
+#   geom_hline(yintercept = 0, color = "red", linewidth=1.25) +
+#   geom_boxplot() +
+#   theme_bw() +
+#   labs(x = "", y = "", 
+#        title = "Did signatory states see bigger declines in emissions?",
+#        subtitle = "Greenhouse Gas Emissions (2012 as % 1990)") +
+#   coord_cartesian(ylim = c(-100, 300)) +
+#   scale_x_discrete(labels = c("Didn't Sign\n(n = 108)", "Signed\n(n = 79)"))
 ```
 
 ???
@@ -553,30 +827,32 @@ class: middle
 
 # Box plot
 d %>%
-  ggplot(aes(x = Ratified, y = ghg_2012)) +
-  geom_hline(yintercept = 0, color = "red") +
+  ggplot(aes(y = Ratified, x = ghg_2012)) +
+  geom_vline(xintercept = 0, color = "red") +
   geom_boxplot(varwidth = TRUE) +
   theme_bw() +
   labs(x = "", y = "", 
        title = "Did ratifying states see bigger declines in emissions?", 
        subtitle = "Greenhouse Gas Emissions (2012 as % 1990)") +
-  coord_cartesian(ylim = c(-100, 300)) +
-  scale_x_discrete(labels = c("Didn't Ratify\n(n = 1)", "Ratified\n(n = 186)")) +
-  annotate("text", x = 1, y = 200, label = "USA! USA! USA!") +
-  annotate("segment", x = 1, xend = 1, y = 175, yend = 15, arrow = arrow(angle = 25), color = "red")
+  coord_cartesian(xlim = c(-100, 300)) +
+  scale_y_discrete(labels = c("Didn't Ratify\n(n = 1)", "Ratified\n(n = 186)")) +
+  annotate("text", y = 1, x = 200, label = "USA!\nUSA!\nUSA!") +
+  annotate("segment", y = 1, yend = 1, x = 175, xend = 15, arrow = arrow(angle = 25), color = "red")
 
 # summary(d$ghg_2012[d$Ratified == "Ratified"])
 ```
+
+???
 
 ### Did ratifying states see bigger declines in emissions?
 
 <br>
 
-### IS THIS ALMOST UNIVERSAL PARTICIPATION A STRONG VOTE OF EFFECTIVENESS FOR KYOTO? WHY OR WHY NOT?
+### Is this almost universal participation a strong vote of effectiveness for Kyoto? Why or why not?
 
-(SLIDE: Scatter plot by time to ratify)
+- (**SLIDE**: Scatter plot by time to ratify)
 
-(SLIDE: Scatter plot by time to ratify omitting equitorial guinea outlier)
+- (**SLIDE**: Scatter plot by time to ratify omitting equitorial guinea outlier)
 
 
 
@@ -605,9 +881,9 @@ d %>%
 
 ???
 
-ARE WE SURPRISED BY THIS VISUALIZATION?
+### Are we surprised by this visualization?
 
-- WHY WOULDN'T TIME TO RATIFY VARY WITH EMISSION LEVELS?
+### - Why wouldn't time to ratify vary with emission levels?
 
 
 
@@ -640,19 +916,17 @@ d_test %>%
 
 Remove the outlier and swap the sign of the slope!
 
-### what happened to the slope of the line?
+### What happened to the slope of the line?
 
 <br>
 
-BOTTOM LINE ON THIS DISCUSSION, WHAT ARE THE PROS AND CONS OF TESTING THE EFFECTIVENESS OF THE UNFCCC / KYOTO PROTOCOL IN THESE WAYS?
+### Bottom line on this discussion, what are the pros and cons of testing the effectiveness of the UNFCCC / Kyoto Protocol in these ways?
 
-
-
+<br>
 
 Alright, everybody stand up and find a new group!
 
-Go!
-
+- Go!
 
 
 
@@ -664,39 +938,63 @@ background-size: 100%
 background-position: center
 class: middle
 
-.center[.size30[.content-box-white[**3) Did treaty obligations matter for state behavior on climate change?**]]]
+.center[.size50[.content-box-white[**Making an Argument**]]]
 
-.size40[
-1. **How** did you answer these questions?
-2. **What** are your answers?
-3. What are the **pros and cons** of testing the effectiveness of the Kyoto Protocol in these ways?
+.center[.size50[.content-box-white[**Was the Kyoto Protocol Effective?**]]]
+
+.size45[
+1. Changes in emissions since 1990 are a good proxy for the climate actions in the Kyoto Protocol
+
+2. Treaty participants (signatories, ratifiers and faster ratifiers) saw bigger declines in emissions
+
+3. Annex B states significantly changed their emissions behavior
 ]
 
 ???
 
-Group Discussion 3: New groups take 10 minutes to discuss your answers to the treaty obligation question.
+Our final piece of the argument is to see if the data shows Annex B states do in fact take the lead on emissions cuts.
 
-Did treaty obligations, meaning Annex B cuts, matter for state behavior on climate change?
-
-1. How did you answer these questions?
-
-2. What are your answers?
-
-3. What are the pros and cons of testing the effectiveness of the UNFCCC / Kyoto Protocol in these ways?
+- We know the UNFCCC and Kyoto Protocols put the onus on them, so do they accomplish the most?
 
 
 
 
-** Class Discuss **
+---
 
-OK, WHAT WERE YOUR ANSWERS TO THIS QUESTION?
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
 
-HOW DID YOU DO IT?
+.center[.size40[.content-box-white[**3) Did treaty obligations matter for state behavior on climate change?**]]]
 
+.size40[
+Check the emissions cuts of the Annex B signatories, ratifiers and speedy ratifiers
 
+1. **How** did you answer these questions?
 
-** Your Analyses **
+2. **What** are your answers?
 
+3. How **confident** are you in the answers?
+]
+
+???
+
+Groups, dive into this final question and get ready to report back.
+
+- Your job is to make sure everyone understands HOW to answer this question with data, PLUS your answers, PLUS your confidence in them
+
+<br>
+
+Let's first gather approaches
+
+### - Groups, how did you answer the question?
+
+<br>
+
+### And what did you find?
+
+- (**SLIDE**)
 
 
 ---
@@ -759,9 +1057,7 @@ xrat %>%
 
 ???
 
-(SLIDE: bar plots for signature and ratification x annex B)
-
-IS THIS EVIDENCE THE TREATY OBLIGATIONS MATTERED FOR PARTICIPATION? WHY OR WHY NOT?
+### Is this evidence the treaty obligations mattered for participation? Why or why not?
 
 
 
@@ -789,12 +1085,16 @@ d %>%
 
 ???
 
-(SLIDE: scatter plot time to ratify by annex b and not)
+### Does this indicate the developed world considered their emissions before ratifying Kyoto?
 
-DOES THIS INDICATE THE DEVELOPED WORLD CONSIDERED THEIR EMISSIONS BEFORE RATIFYING KYOTO?
+- (Not exactly)
 
-(Not exactly)
 - Almost all the dots are on year 4.
+
+<br>
+
+**SLIDE**: Box plots emissions by rat + Annex B
+
 
 
 
@@ -805,36 +1105,33 @@ background-size: 100%
 background-position: center
 class: middle
 
-```{r, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
 d %>%
   filter(ccode != 'USA') %>%
-  ggplot(aes(x = Annex_B, y = ghg_2012)) +
-  geom_hline(yintercept = 0, color = "red") +
+  ggplot(aes(y = Annex_B, x = ghg_2012)) +
+  geom_vline(xintercept = 0, color = "red") +
   geom_boxplot(varwidth = TRUE) +
-  theme_minimal() +
+  theme_bw() +
   labs(x = "", y = "", title = "Greenhouse Gas Emissions (2012 as % 1990, omit the USA)") +
-  scale_x_discrete(labels = c("Annex B", "Non-Annex B")) +
-  coord_cartesian(ylim = c(-100, 300))
+  scale_y_discrete(labels = c("Annex B", "Non-Annex B")) +
+  coord_cartesian(xlim = c(-100, 300))
 ```
 
 ???
 
-(SLIDE: Box plots emissions by rat + Annex B)
+### What does this indicate for us?
 
-> summary(d$GHG_1990_2012[d$Annex_B == "Annex B"])
-   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
--74.657 -27.544 -10.013 -11.198   3.716  68.735       2
+```{r}
+summary(d$ghg_2012[d$Annex_B == "Annex B"])
 
-> summary(d$GHG_1990_2012[d$Annex_B != "Annex B"])
-   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
- -77.99   19.89   65.74  116.94  126.21 2519.02      22
+summary(d$ghg_2012[d$Annex_B != "Annex B"])
+```
 
-WHAT DOES THIS INDICATE FOR US?
+<br>
 
-
+### Bottom line on this discussion, what are the pros and cons of testing the effectiveness of the UNFCCC / Kyoto Protocol in these ways?
 
 
-BOTTOM LINE ON THIS DISCUSSION, WHAT ARE THE PROS AND CONS OF TESTING THE EFFECTIVENESS OF THE UNFCCC / KYOTO PROTOCOL IN THESE WAYS?
 
 
 
@@ -853,49 +1150,14 @@ knitr::include_graphics("libs/Images/13_2-Baetting_Cover.png")
 
 Shift to a published academic report trying to answer these same questions!
 
+<br>
+
 Baettig, Michèle B, Simone Brander and Dieter M. Imboden. (2008). “Measuring countries' cooperation within the international climate change regime.” Environmental Science & Policy. 11(6), pp. 478–489.
 
 - An attempt to identify "cooperative countries" in the world of climate governance.
 
 - "Cooperative countries within the international climate regime are countries that commit to common goals within the framework of the UNFCCC and implement measures in line with those agreements" (Baettig, Brander and Imboden 2008, 479).
 
-
----
-
-background-image: url('libs/Images/13_2-Baettig_oldslide1.png')
-background-size: 100%
-background-position: center
-
-???
-
-States Generally...
-- Committed more promptly and completely to the UNFCCC than KP
-- Don't tend to meet their reporting obligations
-
-Developed States
-- Pay their financial contributions on average more frequently than developing
-- Annex B ratified KP more often and faster
-
-Developing States
-- Evaluated "more positively" in terms of emissions trajectories
-
-Level of Cooperation (Low to High): USA, Australia, Russia, Canada, Brazil, China, India, South Africa, and large European countries.
-
-
-
----
-
-background-image: url('libs/Images/13_2-Baettig_oldslide2.png')
-background-size: 100%
-background-position: center
-
-???
-
-We'll begin by focusing on the participation conclusions.
-
-- States committed more to the UNFCCC than KP, and
-
-- Ratified KP more often and faster (Annex B)
 
 
 
@@ -907,18 +1169,19 @@ background-position: center
 
 ???
 
-### Evaluate the operationalization of these concepts/measures?
+The first thing these authors test is "commitment" to the UNFCCC and KP.
+
+- They construct an indicator for each that combines the ratification dummy with a measure of ratification 
+
+<br>
+
+They argue the conclusion of this is that states committed "more" to the UNFCCC than to the Kyoto Protocol
+
+<br>
+
+### What do you think of this approach to evaluating the effectiveness of these institutions and this conclusion?
 
 
----
-
-background-image: url('libs/Images/13_2-Baettig_oldslide4.png')
-background-size: 100%
-background-position: center
-
-???
-
-Now we focus on the conclusion about states not meeting their reporting obligations.
 
 
 ---
@@ -929,18 +1192,20 @@ background-position: center
 
 ???
 
-### Evaluate the operationalization of these concepts/measures?
+Next the authors examine how well states have met their reporting obligations.
 
+- Per Art 12.1 of the UNFCCC: Each member must regularly submit a "National Communication (NC)" about the development of its anthropogenic emissions and the national steps taken or envisaged for climate protection"
 
----
+- This indicator measures whether and how fast each member state submitted its most recent report.
 
-background-image: url('libs/Images/13_2-Baettig_oldslide6.png')
-background-size: 100%
-background-position: center
+<br>
 
-???
+They argue the conclusion of this is that states don't tend to meet their reporting obligations 
 
-The conclusion is that developed states make more frequent financial contributions, on average.
+<br>
+
+### What do you think of this approach to evaluating the effectiveness of these institutions and this conclusion?
+
 
 
 
@@ -952,24 +1217,37 @@ background-position: center
 
 ???
 
-### Evaluate the operationalization of these concepts/measures?
+Next the authors examine how well developed states have done in making their required financial contributions.
+
+- They argue that this shows developing states indeed meeting their financial obligations (on average).
+
+<br>
+
+### What do you think of this approach to evaluating the effectiveness of these institutions and this conclusion?
+
 
 
 ---
 
-background-image: url('libs/Images/13_2-Baettig_oldslide8.png')
+background-image: url('libs/Images/13_2-Baettig_oldslide13.png')
 background-size: 100%
 background-position: center
 
 ???
 
-Now we ramp up the difficulty quite a bit!
+The authors final test focuses on emissions, but with a twist!
 
-The conclusion is that developing states are doing better in terms of their emissions trajectories.
+<br>
 
-This one will need some set-up.
+Essentially, the authors assume the existence of an Environmental Kuznet's Curve.
 
-SLIDE
+### Has anybody ever heard of the Environmental Kuznet's Curve?
+
+<br>
+
+(**SLIDE**)
+
+
 
 
 
@@ -981,21 +1259,21 @@ background-position: center
 
 ???
 
-HAS ANYBODY EVER HEARD OF THE ENVIRONMENTAL KUZNET'S CURVE?
-
 Simon Kuznets was an economist who studied economic inequality in the 50s and 60s.
 
-Hypothesis: economic development and economic inequality follow an inverted U-shaped relationship
+- His hypothesis: economic development and economic inequality follow an inverted U-shaped relationship
 
-* Describe logic starting from state with no income to one with lots... *
+- As an economy grows from the beginning, inequality grows too.
 
-As an economy grows from the beginning, inequality grows too.
+- At a certain point economic growth stops driving inequality and eventually additional growth begins to shrink that inequality.
 
-At a certain point economic growth stops driving inequality and eventually additional growth begins to shrink that inequality.
+- The micro-causes of this aren't always clear, but the general idea is that rising wealth and standards of living lead to demands by the population for more services and better amenities.
 
-The micro-causes of this aren't always clear, but the general idea is that rising wealth and standards of living lead to demands by the population for more services and better amenities.
+<br>
 
-DOES THAT MAKE SENSE?
+### Does that make sense?
+
+
 
 
 ---
@@ -1008,17 +1286,21 @@ background-position: center
 
 Somewhat later on, other economists began to apply this logic to models of pollution.
 
-As incomes rose so too does pollution until a certain level is reached and then societal demands for a cleaner environment get louder.
+- As incomes rose so too does pollution until a certain level is reached and then societal demands for a cleaner environment get louder.
 
-Eventually, regulations follow and future economic growth actually lowers pollution.
+- Eventually, regulations follow and future economic growth actually lowers pollution.
+
+<br>
 
 A ton of literature exists debating the EKC and trying to find evidence of it all over the place.
 
-The general takeaway has been that this trend seems to occur but primarily just on pollutants that are visible and most costly (e.g. smog, lake or river pollution leading to fish kills or sickness, etc.).
+- The general takeaway has been that this trend seems to occur but primarily just on pollutants that are visible and most costly (e.g. smog, lake or river pollution leading to fish kills or sickness, etc.).
 
-DOES THE BASIC INTUITION MAKE SENSE?
+<br>
 
-IS IT CLEAR WHY THE EKC ONLY SEEMS TO WORK FOR SOME TYPES OF POLLUTION AND NOT OTHERS?
+### Does the basic intuition make sense?
+
+### Is it clear why the ekc only seems to work for some types of pollution and not others?
 
 
 
@@ -1032,21 +1314,22 @@ background-position: center
 
 What these authors did was model the EKC for CO2 emissions in 13 EU states across time (1870-2002).
 
-They calculated an EU average for each year and then modeled it using a cubic polynomial function.
+- They calculated an EU average for each year and then modeled it using a cubic polynomial function.
 
-* See p481 *
+<br>
 
 And, indeed, it does seem to show an inverted U relationship.
 
-So, first of all, that's pretty cool to see!
+- So, first of all, that's pretty cool to see!
 
-
+<br>
 
 They used this to establish a baseline of development.
 
-Countries could be compared to this trend line to see if they are developing a cleaner economy faster than the EU did.
+- Countries could be compared to this trend line to see if they are developing a cleaner economy faster than the EU did.
 
-In other words, given your current level of development is your country emitting more or fewer CO2 emissions than the avg of these EU 13 at a comparable point in their development?
+- In other words, given your current level of development is your country emitting more or fewer CO2 emissions than the avg of these EU 13 at a comparable point in their development?
+
 
 
 ---
@@ -1059,11 +1342,13 @@ background-position: center
 
 Technically, they do this comparison two ways.
 
-First, the "level" component compares your current emissions (1990-1992) to the EU's EKC.
+- First, the "level" component compares your current emissions (1990-1992) to the EU's EKC.
 
-Second, the "trend" component compares the slope of your line from 1990 to 2002 to the EU's slope over that time period.
+- Second, the "trend" component compares the slope of your line from 1990 to 2002 to the EU's slope over that time period.
 
-QUESTIONS ON THIS?
+<br>
+
+### Questions on this?
 
 
 
@@ -1075,53 +1360,29 @@ background-position: center
 
 ???
 
-### Evaluate the operationalization of these concepts/measures?
+That brings us back to their results which, they argue, show:
 
+- Developing states appear to be doing their part
 
+- Among the 16 lowest assessed countries (score (0.2) there are five OPEC states (Kuwait, Qatar, Saudi Arabia, Libia, and Iraq) and five AI countries (Australia, Canada, United States, Belgium, and Finland), but no LDC.
 
----
+<br>
 
-background-image: url('libs/Images/13_2-Baettig_oldslide14.png')
-background-size: 100%
-background-position: center
+### All in all, how good did we do with our tests as compared to this published research?
 
-???
+<br>
 
-Alright, so all of this adds up to an index of cooperation that produces this conclusion.
+Pretty good, right?!
 
-The level of cooperation (low to high): USA, Australia, Russia, Canada, Brazil, China, India, South Africa, and large European countries
+<br>
 
-How confident should we be in this ranking?
+### Bottom line, was the Kyoto Protocol effective?
 
-Let's evaluate this together!
+- A mixed bag
 
+- Not sure how much credit it should get for poor countries staying poor...
 
----
-
-background-image: url('libs/Images/13_2-Baettig_oldslide15.png')
-background-size: 100%
-background-position: center
-
-???
-
-FIRST, AS A TEST OF EFFECTIVENESS ARE WE CONVINCED ALL THESE SHOULD BE INCLUDED? WHY OR WHY NOT?
-
-* See p486, 4.3.1 selection of indicators *
-
-
-
-SECOND, HOW DID THE AUTHORS WEIGHT THE INDICATORS IN THE INDEX AND HOW DID THEY TEST THE ROBUSTNESS?
-
-* See p486, 4.3.3 Weighting *
-
-(- Considered a bunch of different approaches and claims very high correlations across them all, >0.96)
-
-(- Equal weighting of all indicators)
-(- Equal weighting of all subindicators)
-(- Equal weighting of all indicators except for the Emission Indicator
-with a triple weight)
-(- Equal weighting of all indicators except the Emission Indicator with a triple weight and the Reporting Indicator with a double weight)
-(- Weights according to a Principal Component Analysis with two factors: i) 4 measures of UNFCCC and ii) emissions.)
+- On the other hand, our data does show evidence of emissions cuts
 
 
 
@@ -1132,9 +1393,9 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size65[**Next Class: The Paris Agreement**]
+.size65[.content-box-white[**Next Class: The Paris Agreement**]]
 
-.size40[
+.size45[
 1. Dimitrov (2016): "The Paris Agreement on Climate Change: Behind Closed Doors"
 
 2. The IPCC (1995) "AR6 Synthesis Report"
@@ -1146,7 +1407,7 @@ class: middle
 
 ???
 
-
+Next week we shift to the latest treaty in the global climate regime: The Paris Agreement!
 
 
 
