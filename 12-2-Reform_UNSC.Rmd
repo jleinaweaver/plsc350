@@ -189,14 +189,18 @@ In essence, Binder and Heupel argue that the UNSC's power depends on its perceiv
 
 - While it has been granted considerable institutional authority, the follow-through of all its decisions basically depend on the compliance of the rest of the world
 
-- If over time, the UNSC:
-    - broadens its own authority, 
-    - denies states equal participation, 
-    - lacks transparency, 
-    - is dominated by the great powers, and 
-    - denies accountability, ...
+<br>
 
-- We shouldn't be surprised when other states become hostile to it, work to constrain it or simply begin to ignore it.
+If over time, the UNSC:
+- broadens its own authority, 
+- denies states equal participation, 
+- lacks transparency, 
+- is dominated by the great powers, and 
+- denies accountability, ...
+
+<br>
+
+THEN we shouldn't be surprised when other states become hostile to it, work to constrain it or simply begin to ignore it.
 
 <br>
 
@@ -258,12 +262,11 @@ class: middle
 .size40[
 **Outcome Variable**
 
-- Source: "GA debates on Security Council annual reports" 
-    - 1991, 1994, 1997, 2000, 2003, 2006, and 2009
-
 - "Evaluative statements by UN member states on the Security Council"
 
-- Types of Legitimacy: Legal, Procedural and Performance
+- Source: "GA debates on Security Council annual reports" 
+
+- 1991, 1994, 1997, 2000, 2003, 2006, and 2009
 ]
 
 ???
@@ -284,14 +287,6 @@ After receiving the report the GA discusses it publicly
 - They then hand coded each evaluative statement made by a member state about the UNSC
     - Was the statement positive or negative?
     
-    - What type of legitimacy was being evaluated: Legal, Procedural or Performance
-    
-    - Legal legitimacy refers to how clearly the UNSC operates within the confines of its institutional authority
-    
-    - Procedural legitimacy refers to how well the UNSC allows for equal participation, transparency, accountability and is not being dominated by great powers
-    
-    - Performance legitimacy refers to how well the UNSC is seen to be fulfilling its purposes.
-
 <br>
 
 **SLIDE**: Example
@@ -308,13 +303,8 @@ Why are the statements meaningful?
 - States provide (or remove) legitimacy to the UNSC through public statements
 - "When making evaluative claims about the Security Council, states may ascribe legitimacy to it or they may reject its legitimacy on different grounds. We distinguish three such grounds as stressed by different legitimacy theories, namely legal legitimacy, procedural legitimacy, and performance legitimacy" (240).
 - "In international politics, legitimation may occur through public statements, diplomatic exchanges, or practical support (Westra 2010:523); states may also apply strategies of delegitimation when they condemn a powerful state or revoke support from it in international institutions (Walt 2005). Some scholars focus on how subordinates legitimate power holders (Beetham 1991:19)" (240).
-
-**Legitimacy Indicators**
-- Legal: 1) Article 39, 2) Chapter VII, 3) Instruments, 4) Competence
-- Procedural: 1) Participation, 2) Transparency, 3) Accountability, 4) Great power dominance
-- Performance: 1) Mandate, 2) Great power restraint, 3) Human rights
-
-
+    
+    
 
 ---
 
@@ -330,15 +320,49 @@ class: middle
 .size40[
 **Example: Columbia's Representative (2006)**
 
-"We would also like to underscore the importance of the Council’s focusing its efforts on threats to international peace and security. Diluting the Council’s
-agenda with issues that are not directly related to its mandate . . . calls into question the legitimacy of its functions."
+"We would also like to underscore the importance of the Council’s focusing its efforts on threats to international peace and security. Diluting the Council’s agenda with issues that are not directly related to its mandate . . . calls into question the legitimacy of its functions."
 ]
 
 ???
 
-Binder and Heupel coded this statement as legal legitimacy (“Article 39”) and negative.
+### Would you call this a positive or negative evaluation? Why?
 
-### Make sense?
+- (B&H call this a negative evaluation)
+
+<br>
+
+**SLIDE**: They also classify each statement as a "type" of legitimacy
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size55[.content-box-white[**Binder & Heupel (2015): Data**]]]
+
+.size40[
+**Outcome Variable**
+
+- "Evaluative statements by UN member states on the Security Council"
+
+- Source: "GA debates on Security Council annual reports" 
+
+- 1991, 1994, 1997, 2000, 2003, 2006, and 2009
+
+- **Types of Legitimacy: Legal, Procedural and Performance**
+]
+
+???
+
+- Legal legitimacy refers to how clearly the UNSC operates within the confines of its institutional authority
+    
+- Procedural legitimacy refers to how well the UNSC allows for equal participation, transparency, accountability and is not being dominated by great powers
+    
+- Performance legitimacy refers to how well the UNSC is seen to be fulfilling its purposes.
 
 <br>
 
@@ -353,6 +377,13 @@ Binder and Heupel coded this statement as legal legitimacy (“Article 39”) an
 <br>
 
 #### Notes
+
+**Legitimacy Indicators**
+- Legal: 1) Article 39, 2) Chapter VII, 3) Instruments, 4) Competence
+- Procedural: 1) Participation, 2) Transparency, 3) Accountability, 4) Great power dominance
+- Performance: 1) Mandate, 2) Great power restraint, 3) Human rights
+
+Binder and Heupel coded this statement as legal legitimacy (“Article 39”) and negative.
 
 "The study of public rhetoric is challenging. It is difficult to ascertain whether statements made are in line with sincere beliefs or whether they are made strategically as part of a “stage performance” (242). But authors argue it is useful because:
 1. "First, providing reasons and justification for positions in the public sphere is not only an important political act in itself (Kratochwil 1989; Hurd 1999:391), but it is also revealing with regard to the beliefs held by the intended audience" (242).
