@@ -68,6 +68,8 @@ class: middle
 
 This week we've begun exploring international institutions for aggregate effort.
 
+<br>
+
 ### Refresh my memory, what is an aggregate effort institution?
 - (By aggregate effort we mean outcomes that depend on the contributions of all states)
 
@@ -86,6 +88,8 @@ class: middle, center
 ???
 
 We started by discussing three of the important legacies of the 1992 United Nations Framework Convention on Climate Change
+
+<br>
 
 ### What three important elements did we note were established in that treaty?
 
@@ -185,9 +189,25 @@ For today I asked you to answer these questions and to be ready to explain how y
 
 ### Everybody ready to go?
 
+### - Are you getting more comfortable thinking about data?
+
+### - Manipulating a spreadsheet?
+
 <br>
 
-**SLIDE**: Arguably, if we were going to turn our work this week into a research paper we would need to establish at least three key points
+In essence, I see this list as the kinds of data analyses we would need to perform if we wanted to write a research paper analyzing the effectiveness of the Kyoto Protocol
+
+- Specifically, I think we would need to establish three broad arguments
+
+<br>
+
+To do this I'm going to put you in NEW groups!
+
+- Time to stretch our legs!
+
+- *ASSIGN STUDENTS TO NEW GROUPS*
+
+
 
 
 
@@ -209,19 +229,19 @@ class: middle
 
 ???
 
-Our first job is to make clear that the outcome data we have is appropriate for the research question we are trying to answer.
+The first important task for our research paper would be to make clear that the outcome data we have is appropriate for the research question we are trying to answer.
 
 - "Appropriate" is both a theoretical AND an empirical problem.
 
 <br>
 
-In terms of theory:
+**In terms of theory** we need to make an argument that the specific actions required by the Kyoto Protocol (e.g. financing, technology transfers, greater reporting of emissions, etc.) would lead to actual cuts in emissions
 
-- We need to make an argument that our chosen outcome variable, changes in emissions, usefully represents the kinds of actions incentivized by the Kyoto Protocol
+<br>
 
-- The Kyoto Protocol was aimed at encouraging a broad array of climate actions by states: reporting, financing, technology transfers, etc.
+### GROUPS, do you believe the sum of the climate actions required by the Kyoto Protocol will produce changes in emissions levels? Why or why not?
 
-### - Do we believe the sum of these climate actions equals changes in emissions levels? Why or why not?
+- Get ready to report back!
 
 <br>
 
@@ -233,9 +253,6 @@ In terms of empirics:
 
 - In other words, we couldn't show any effect of the Kyoto Protocol because the states behaved the same regardless of the treaty
 
-<br>
-
-**SLIDE**: Let's keep going with this!
 
 
 
@@ -260,9 +277,15 @@ Which countries saw the biggest changes in GHG emissions by 2012? (biggest incre
 
 ???
 
-Groups, dive into this first question and get ready to report back.
+Groups, dive into this question and get ready to report back.
 
-- Your job is to make sure everyone understands HOW to answer this question with data, PLUS your answers, PLUS your confidence in them
+- Your job is to make sure:
+
+1. Everyone in your group can do this analysis,
+
+2. They understand the results, and 
+
+3. Can discuss how confident they are in the answer
 
 <br>
 
@@ -316,11 +339,29 @@ d %>%
 
 ### Anybody know what's going on with Equitorial Guinea? 
 
+- (**SLIDE**)
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("libs/Images/13_2-EG_Oil_Production.png")
+```
+
+???
+
+*Figure from Worldometers*
+
 <br>
 
 **IMPORTANT**: Always investigate your outliers!
-
-<br>
 
 - [Per OPEC](https://www.opec.org/opec_web/en/about_us/4319.htm), Equitorial Guinea discovered its massive oil reserves only in 1996.
 
@@ -330,7 +371,44 @@ d %>%
 
 - [Per IMF](https://www.imf.org/external/pubs/ft/scr/2006/cr06233.pdf) the economy has exploded since then!
 
-<br>
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.pull-left[
+.center[.size40[.content-box-white[**Biggest Decreases**]]]
+
+```{r}
+# Identify top 10 and bottom 10
+d %>%
+  select(Country, ghg_2012) %>%
+  arrange(ghg_2012) %>%
+  slice(1:10) |>
+  kbl(align = c('l', 'c')) |>
+  kable_styling(font_size = 30)
+```
+]
+
+.pull-right[
+.center[.size40[.content-box-white[**Biggest Increases**]]]
+
+```{r}
+d %>%
+  select(Country, ghg_2012) %>%
+  arrange(desc(ghg_2012)) %>%
+  slice(1:10) |>
+  kbl(align = c('l', 'c')) |>
+  kable_styling(font_size = 30)
+```
+]
+
+???
 
 Our top ten lists show us that there is a significant difference between the two extremes, but 
 
@@ -362,8 +440,7 @@ d %>%
   theme_bw() +
   labs(x = "Greenhouse Gas Emissions (% 1990)", y = "") +
   annotate("text", x = 2500, y = 25, label = "Equitorial\n Guinea") +
-  annotate("segment", x = 2500, xend = 2500, y = 20, yend = 5, arrow = arrow(angle = 25), color = "red") +
-  annotate("text", x = 1200, y = c(65, 60, 55), label = c(str_c("Min: ", min(d$ghg_2012, na.rm = T)), str_c("Median: ", median(d$ghg_2012, na.rm = T)), str_c("Max: ", max(d$ghg_2012, na.rm = T))), hjust = 0, size = 4.5)
+  annotate("segment", x = 2500, xend = 2500, y = 20, yend = 5, arrow = arrow(angle = 25), color = "red")
 ```
 
 ???
@@ -408,10 +485,8 @@ d %>%
   geom_histogram(bins = 30, color = "white") +
   theme_bw() +
   labs(x = "Greenhouse Gas Emissions (% 1990)", y = "Count") +
-  xlim(-200, 1000)
-  # annotate("text", x = 600, y = 25, 
-  #          label = str_c("States Cutting Emissions\n", x1[[2]], " / ", x1[[1]]+x1[[2]], " = ", round(x1[[2]]/(x1[[1]]+x1[[2]])*100, 1), "%"),
-  #          size = 5)
+  xlim(-200, 1000) +
+  annotate("text", x = 600, y = c(32, 30, 28), label = c(str_c("Min: ", min(d$ghg_2012, na.rm = T)), str_c("Median: ", median(d$ghg_2012, na.rm = T)), str_c("Max: ", max(d$ghg_2012, na.rm = T))), hjust = 0, size = 4.5)
 ```
 
 ???
@@ -475,6 +550,7 @@ background-position: center
 class: middle
 
 ```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+## V1: 3 groups
 d2 <- d |>
   mutate(
     GHG_cat = case_when(
