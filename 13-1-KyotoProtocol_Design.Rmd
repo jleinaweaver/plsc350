@@ -101,9 +101,17 @@ Over the last three weeks we explored the complex international institution: The
 
 <br>
 
-### Any big, 30,000 foot view takeaways about the United Nations?
+Let's do a quick refresher tied to PA theory
 
-### - Do you come away from our work with a greater appreciation for the institution? Why or why not?
+### What are the benefits of delegation according to PA theory?
+- (1. Divide the labor & create gains from specialization, 2. Managing policy externalities, 3. Facilitating collective decision-making, 4. Resolving disputes, 5. Enhancing credibility, 
+6. Creating policy bias)
+
+<br>
+
+### Pick one of these benefits and give me a specific function/institution within the UN that provides it.
+
+- (ICJ: Specialization, resolving disputes)
 
 
 
@@ -191,7 +199,9 @@ Everybody open the [UN General Assembly Resolution 43/53 of 6 December 1988](htt
 
 ### - What are the key elements from the GA resolution?
 
-- ?
+- (Clause 5. Who are they and what is their mission? A body of the WMO)
+- (Clause 6. Urges global cooperation)
+- (Clause 10. Initial requests for a reoport, topics to include)
 
 <br>
 
@@ -200,6 +210,8 @@ Now go to the Foreword in the SAR and review the process by which the report was
 ### Based on the design in the GA Resolution and the steps outlined in the Foreward, how confident should we be in the conclusions made by the IPCC?
 
 ### - Strengths and weaknesses?
+
+- 
 
 
 

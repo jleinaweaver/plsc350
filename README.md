@@ -50,12 +50,12 @@ Data, slides and errata for my class at Drury University (PLSC 350: Internationa
 
 13-2-KyotoProtocol_Effectiveness.html
 
-14-1-Thnks-Paris_Design.html
+13-Thanksgiving-Paris_Design.html
 
-14-2-Paris_NDC_Effectiveness.html
+14-1-Paris_NDC_Effectiveness.html
 
-14-3-Wrap_Up.html
+14-2-Wrap_Up.html
 
-15-1-Paper3_Brainstorming.html
+15-1-Paper3_Session1.html
 
-15-2-Paper3_Workshop.html
+15-2-Paper3_Session2.html
