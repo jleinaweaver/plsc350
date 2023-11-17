@@ -139,23 +139,19 @@ knitr::include_graphics("libs/Images/03_2-KLS_Table1.png")
 
 Let's apply legalization to our work last class.
 
-### How significant are the obligations in the Kyoto Protocol?
+### How significant are the obligations, precision and delegation in the Kyoto Protocol?
 
 <br>
 
-### How precise are the rules?
+### Is the Kyoto Protocol "hard" or "soft" law?
 
 <br>
 
-### How substantial is the delegation?
+### Which rational design conjectures are implicated by the Kyoto Protocol?
 
 <br>
 
-### Bottom line, is the Kyoto Protocol "hard" or "soft" law?
-
-<br>
-
-### Anything else from last class you want to discuss before we dig into your analyses?
+- Great example of "Flexibility due to uncertainty about the world" and "Flexibility due to distribution problems"
 
 
 
@@ -209,9 +205,6 @@ To do this I'm going to put you in NEW groups!
 
 
 
-
-
-
 ---
 
 background-image: url('libs/Images/background-blue_cubes_lighter3.png')
@@ -225,6 +218,8 @@ class: middle
 
 .size45[
 1. Changes in emissions since 1990 are a good proxy for the climate actions in the Kyoto Protocol
+
+    - Theory
 ]
 
 ???
@@ -243,13 +238,36 @@ The first important task for our research paper would be to make clear that the 
 
 - Get ready to report back!
 
+- Go!
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_cubes_lighter3.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.center[.size50[.content-box-white[**Making an Argument**]]]
+
+.center[.size50[.content-box-white[**Was the Kyoto Protocol Effective?**]]]
+
+.size45[
+1. Changes in emissions since 1990 are a good proxy for the climate actions in the Kyoto Protocol
+    - Theory
+    
+    - Empirics
+]
+
+???
+
+In terms of empirics: We need to demonstrate that our chosen outcome variable, changes in emissions, actually varies across the states in the sample.
+
 <br>
 
-In terms of empirics:
-
-- We need to demonstrate that our chosen outcome variable, changes in emissions, actually varies across the states in the sample.
-
-- If all the states essentially produce the same changes, then there's nothing for us to explain
+If all the states essentially produce the same changes, then there's nothing for us to explain
 
 - In other words, we couldn't show any effect of the Kyoto Protocol because the states behaved the same regardless of the treaty
 
@@ -289,13 +307,21 @@ Groups, dive into this question and get ready to report back.
 
 <br>
 
-Let's first gather approaches
+*After they get started interrupt with:*
 
-### - Groups, how did you answer the question?
+### Groups, how are we attacking this question?
+
+### - What specific data analyses should we perform?
 
 <br>
 
-### What did you find?
+1. Sort the column ghg_2012 from highest to smallest
+
+2. Make a histogram of ghg_2012
+
+<br>
+
+Back to work!
 
 - (**SLIDE**: top 10 tables)
 
@@ -361,7 +387,13 @@ knitr::include_graphics("libs/Images/13_2-EG_Oil_Production.png")
 
 <br>
 
-**IMPORTANT**: Always investigate your outliers!
+### Vital note: You must always investigate your outliers
+
+- If there is an error, fix it or remove it
+
+- If the observation is outside the scope of the study, address it
+
+<br>
 
 - [Per OPEC](https://www.opec.org/opec_web/en/about_us/4319.htm), Equitorial Guinea discovered its massive oil reserves only in 1996.
 
@@ -370,6 +402,20 @@ knitr::include_graphics("libs/Images/13_2-EG_Oil_Production.png")
 - 2006-2007 went from 12m to 1.1 billion barrels per year!
 
 - [Per IMF](https://www.imf.org/external/pubs/ft/scr/2006/cr06233.pdf) the economy has exploded since then!
+
+<br>
+
+### So, do we need to remove Equitorial Guinea?
+
+### - Is it outside the scope of the question or not?
+
+<br>
+
+I lean towards saying to remove it.
+
+- This oil discovery was completely unexpected, massively distortionary and all happened AFTER the Kyoto negotiation.
+
+- Not sure we should critique a treaty for failing to deal with a problem that didn't exist when it was designed
 
 
 
@@ -418,9 +464,7 @@ Our top ten lists show us that there is a significant difference between the two
 
 <br>
 
-(*OPTIONAL*) Everybody try making a histogram of ghg_2012
-
-- **SLIDE**: Let's visualize the entire outcome variable
+**SLIDE**: Let's visualize our histograms!
 
 
 
@@ -665,15 +709,19 @@ Check the emissions cuts of the signatories, ratifiers and speedy ratifiers
 
 ???
 
-Groups, dive into this second question and get ready to report back.
+Groups let's start by agreeing on HOW we want to analyze this question
 
-- Your job is to make sure everyone understands HOW to answer this question with data, PLUS your answers, PLUS your confidence in them
+### What should we make?
+
+*ON BOARD*
+
+- Compare mean emissions in signatory vs non-signatory
+- Compare median emissions in signatory vs non-signatory
+- Scatterplot: time to ratify and ghg_2012
 
 <br>
 
-Let's first gather approaches
-
-### - Groups, how did you answer the question?
+Back to work!
 
 <br>
 
@@ -696,6 +744,11 @@ background-position: center
 class: middle
 
 ```{r, cache=TRUE, fig.retina=3, fig.asp=0.618, fig.align='center', out.width='92%'}
+# summary(d$ghg_2012[!is.na(d$Kyoto_Sig)])
+# summary(d$ghg_2012[is.na(d$Kyoto_Sig)])
+
+
+
 # Overlay box plot on histogram
 #summary(d$ghg_2012)
 #(summary(d$ghg_2012)[[5]] - summary(d$ghg_2012)[[2]]) * 1.5

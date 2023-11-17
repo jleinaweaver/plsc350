@@ -36,7 +36,7 @@ class: middle
 <br>
 
 .center[.size70[
-Working on the Final Paper
+Final Paper: Problem Selection
 ]]
 
 <br>
@@ -48,7 +48,7 @@ Working on the Final Paper
 ???
 
 ### Prep for Class
-1. check Canvas submissions
+1. Check Canvas submissions
 
 <br>
 
@@ -62,116 +62,111 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size40[.content-box-blue[**Final Paper: Reform Proposal**]]
+.center[.size40[.content-box-blue[**Solve a Problem with an International Institution**]]]
 
-.size40[
-Select one of the international institutions we studied this semester and propose a **specific** and **feasible** reform that would improve its functioning. 
+.size35[
+Write a report that identifies, analyzes and attempts to address a significant problem using an international institution.
 
-Your proposal must be rooted in the actual design of the institution and discuss how it could be pursued without losing important members or inspiring great opposition. 
+1. What is the problem and why is it important?
 
-Do not assume the reader of your report is familiar with the institution you are reforming so make sure to introduce and summarize it in your paper.
+2. Find an example of an international institution that has sought to address this problem in the past. What did it do and how effective was it?
+
+3. Based on the tools we've explored (legalization, the rational design conjectures and PA theory) and the cases we've analyzed, what specific elements would you suggest for the design of a new international institution meant to address your chosen problem?
 ]
 
 ???
 
-IF you choose the UN and your paper overlaps with the work we did on reforms in class the bar for you will be much higher than with the other institutions.
+### Questions on the assignment?
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size55[.content-box-blue[**For Today: Problem Selection**]]
+
+.size45[
+1. What is the problem you are targeting?
+
+2. Why is it "important"? (Provide one piece of evidence)
+
+3. Explain one prior attempt to address this problem with an international institution (Provide one piece of evidence)
+]
+
+???
+
+*Split into groups of 4*
+
+GROUPS, 20 mins, work as a sounding board for each member
+
+- Take about 5 mins per person
+
+- Hear them out and give them feedback on their proposal
+    - Is their problem specific and detailed enough?
+    
+    - Are you convinced it is important? Why or why not?
+    
+    - What do you learn from the historical case?
+
+<br>
+
+Find new groups and do it again!
+
+- 20 mins to hear the different projects and offer constructive feedback
+
+<br>
+
+INDIVIDUALS, reflect on the feedback and the different projects you heard about and take notes
+
+- Outline the first two sections of your paper
+
+<br>
+
+**SLIDE**: Assignment for next class
+
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle
+
+.size40[.content-box-blue[**For Next Class: Brainstorming Design Elements**]]
+
+.size35[
+1. What is the problem you are targeting?
+
+2. What important lessons did you learn from the historical case?
+
+3. Describe the characteristics of the new institution
+    - In terms of legalization, what do you suggest regarding the degree of hard or soft obligations, precision and delegation?
+    - In terms of rational design, which of the conjectures do you recommend we apply to the design of the new institution?
+    - In terms of PA theory, what delegation benefits might be most relevant and which control mechanisms would be needed to make them feasible?
+]
+
+???
+
+My hope is that your answers to these questions are directly informed by our discussions today
+
+- Also, the more you can connect your answers to Q2 to your proposals in Q3, the better!
+
+<br>
 
 ### Questions on the assignment?
 
 <br>
 
-**SLIDE**: I'm reserving our two classes next week for working on the final paper.
 
 
 
 
----
-
-background-image: url('libs/Images/background-blue_triangles_flipped.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size55[.content-box-blue[**For Today**]]
-
-.size45[
-1. Your selected international institution
-
-2. ARGUE: Explain the specific aspect or functioning of the institution you believe needs to be reformed. 
-
-3. BRAINSTORM: 3-5 ideas for a specific reform that could help to address your chosen problem
-]
-
-???
-
-### Everybody ready to go?
-
-<br>
-
-
-
----
-
-background-image: url('libs/Images/background-blue_triangles_flipped.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size55[.content-box-blue[**For Today**]]
-
-.size45[
-1. **Your selected international institution**
-
-2. **ARGUE: Explain the specific aspect or functioning of the institution you believe needs to be reformed.** 
-
-3. BRAINSTORM: 3-5 ideas for a specific reform that could help to address your chosen problem
-]
-
-???
-
-Go around the room to hear responses to first two pieces of today's assignment: What institution and what's your argument?
-
-- As you listen, be ready to give feedback on the argument.
-
-- Have they identified a clear "problem" that should be addressed?
-
-- Can we help them sharpen up the diagnosis?
-
-
-
----
-
-background-image: url('libs/Images/background-blue_triangles_flipped.png')
-background-size: 100%
-background-position: center
-class: middle
-
-.size55[.content-box-blue[**For Today**]]
-
-.size45[
-1. Your selected international institution
-
-2. ARGUE: Explain the specific aspect or functioning of the institution you believe needs to be reformed. 
-
-3. **BRAINSTORM: 3-5 ideas for a specific reform that could help to address your chosen problem**
-]
-
-???
-
-Form small groups
-
-- Take turns sharing your brainstormed lists
-
-- Group, help them pick what to focus on!
-
-<br>
-
-### Report Back: How's it going?
-
-<br>
-
-Thursday writing workshop in class
-
-- Start writing so you can get feedback!
 
 
