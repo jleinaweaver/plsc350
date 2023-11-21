@@ -52,6 +52,8 @@ Data, slides and errata for my class at Drury University (PLSC 350: Internationa
 
 13-Thanksgiving-Paris_Design.html
 
+14-1-CONDENSED-Paris_Agreement.html
+
 14-1-Paris_NDC_Effectiveness.html
 
 14-2-Wrap_Up.html
