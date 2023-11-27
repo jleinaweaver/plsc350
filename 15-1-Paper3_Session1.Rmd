@@ -131,7 +131,6 @@ INDIVIDUALS, reflect on the feedback and the different projects you heard about 
 
 
 
-
 ---
 
 background-image: url('libs/Images/background-blue_triangles_flipped.png')
@@ -146,23 +145,35 @@ class: middle
 
 2. What important lessons did you learn from the historical case?
 
-3. Describe the characteristics of the new institution
-    - In terms of legalization, what do you suggest regarding the degree of hard or soft obligations, precision and delegation?
-    - In terms of rational design, which of the conjectures do you recommend we apply to the design of the new institution?
-    - In terms of PA theory, what delegation benefits might be most relevant and which control mechanisms would be needed to make them feasible?
+3. Make suggestions for the design of the new institution
+    - Legalization: Level of obligation, precision and delegation?
+    
+    - Rational design: Which conjectures are most relevant/useful?
+    
+    - PA theory: What delegation benefits (and relevant control mechanisms) do you suggest?
 ]
 
 ???
 
+Fleshed out:
+- In terms of legalization, what do you suggest regarding the degree of hard or soft obligations, precision and delegation?
+
+- In terms of rational design, which of the conjectures do you recommend we apply to the design of the new institution?
+
+- In terms of PA theory, what delegation benefits might be most relevant and which control mechanisms would be needed to make them feasible?
+
+<br>
+
 My hope is that your answers to these questions are directly informed by our discussions today
 
-- Also, the more you can connect your answers to Q2 to your proposals in Q3, the better!
+- Also, for a coherent argument I expect that your big ideas in parts 1 and 2 here directly connect to your arguments in part 3!
 
 <br>
 
 ### Questions on the assignment?
 
-<br>
+
+
 
 
 
