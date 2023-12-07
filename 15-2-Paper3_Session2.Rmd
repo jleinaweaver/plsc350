@@ -76,7 +76,138 @@ Write a report that identifies, analyzes and attempts to address a significant p
 
 ???
 
+Aim is three sections, each making a complete argument.
+
+<br>
+
 ### Questions on the assignment?
+
+<br>
+
+For today I asked you to collect your ideas for each part of the assignment.
+
+- I'd like us to use our time today to shape each component and get feedback on your arguments
+
+<br>
+
+Since we explored parts 1 and 2 on Monday, let's warm up by hitting those elements again quickly.
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size65[.content-box-blue[**Section 1**]]
+
+.size40[
+<br>
+]
+
+.size65[What is the problem and why is it important?]
+
+???
+
+Section 1 of the paper focuses on you making an argument that the problem you have selected is an important one.
+
+- This ensures both that it is worthy of our time AND
+
+- That your design choices in Section 3 are informed by the actual specifics of the problem itself.
+
+<br>
+
+In a moment we'll go around the room so you can give us your outline for Section 1.
+
+- In other words, what I want to hear are the premises you have selected to support this conclusion
+
+<br>
+
+**SLIDE**: Put even simpler...
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size65[.content-box-blue[**Section 1**]]
+
+.size40[
+<br>
+]
+
+.size65[Give us three reasons this is an important problem for the international community to address]
+
+???
+
+### Questions on what I'm looking for?
+
+- Take a minute to get ready.
+
+- Go!
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size65[.content-box-blue[**Section 2**]]
+
+.size40[
+<br>
+]
+
+.size55[Find an example of an international institution that has sought to address this problem in the past. 
+
+What did it do and how effective was it?]
+
+???
+
+Section 2 of the paper asks you to analyze a specific example from history of the international community trying to address your chosen problem.
+
+- Both a valuable opportunity for me to see what you've learned about evaluating institutional effectiveness, AND
+
+- Another chance for you to root your Section 3 design in material that speaks to the real-world challenges of the problem
+
+
+
+
+---
+
+background-image: url('libs/Images/background-blue_triangles_flipped.png')
+background-size: 100%
+background-position: center
+class: middle, center
+
+.size65[.content-box-blue[**Section 2**]]
+
+.size40[
+<br>
+]
+
+.size65[Give us three policy design lessons learned from your historical case]
+
+???
+
+Here I'm using "lessons" as a synonym for premises!
+
+<br>
+
+### Questions on what I'm looking for?
+
+- Take a minute to get ready.
+
+- Go!
 
 
 
@@ -88,30 +219,30 @@ background-size: 100%
 background-position: center
 class: middle
 
-.size40[.content-box-blue[**For Next Class: Brainstorming Design Elements**]]
+.center[.size50[.content-box-blue[**Section 3: Brainstorming Design Elements**]]]
 
-.size35[
-1. What is the problem you are targeting?
+<br>
 
-2. What important lessons did you learn from the historical case?
-
-3. Describe the characteristics of the new institution
-    - Legalization: Level of obligation, precision and delegation?
+.size40[
+Describe the characteristics of the new institution
+- Legalization: Level of obligation, precision and delegation?
     
-    - Rational design: Which conjectures are most relevant/useful?
+- Rational design: Which conjectures are most relevant/useful?
     
-    - PA theory: What delegation benefits (and relevant control mechanisms) do you suggest?
+- PA theory: What delegation benefits (and relevant control mechanisms) do you suggest?
 ]
 
 ???
 
-At this point I want you getting feedback in pairs
-
-- So, pair up and give feedback on the other person's work for today
+This one is tougher to do as a group so let's split into pairs.
 
 <br>
 
-Let's make sure to do this a few times in different pairs, so let's do 15 minutes at a time (x3)
+Assuming each of these tools represents a premise in your Section 3 argument, get feedback from your partner on how you propose we design our new institution.
+
+<br>
+
+### Questions on what I'm asking you to do?
 
 - Go!
 
