@@ -12,7 +12,11 @@ library(readxl)
 
 <br>
 
-I. Basics of Analyzing International Institutions
+**Section 1: Analyzing International Institutions**
+
+<br>
+
+**Do international institutions matter?**
 
 - Using "Legalization" to analyze international institutions (Abbott, Keohane, Moravcsik, Slaughter & Snidal 2000)
 
@@ -26,7 +30,9 @@ Justin Leinaweaver (Fall 2026)
 
 **Prep for Class**
 
-1. Full article notes in Zotero and distributed among slides below
+1. Check Canvas submissions
+
+2. Full article notes in Zotero and distributed among slides below
 
 <br>
 

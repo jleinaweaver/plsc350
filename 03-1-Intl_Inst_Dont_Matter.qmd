@@ -12,11 +12,13 @@ library(readxl)
 
 <br>
 
-**I. Basics of Analyzing International Institutions**
+**Section 1: Analyzing International Institutions**
 
-Do international institutions matter?
+<br>
 
-- Mearsheimer's (1994) Argument and Case Studies
+**Do international institutions matter?**
+
+- Mearsheimer's (1994) Argument
 
 <br>
 
@@ -32,137 +34,11 @@ Justin Leinaweaver (Fall 2026)
 
 <br>
 
-Let's kick off our work today by recapping the very important material we covered last week.
-
-:::
-
-
-
-## The Statute of the International Court of Justice (ICJ) {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
-
-**Article 38**
-
-1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
-
-a. international conventions, whether general or particular, establishing rules expressly recognized by the contesting states; 
-
-b. international custom, as evidence of a general practice accepted as law; 
-
-c. the general principles of law recognized by civilized nations; 
-
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
-
-::: notes
-
-**What is this and why is it a useful answer to the question, what is international law?**
-
-- ICJ is the UN's main judicial organization and has two primary jobs:
-    1. Settle legal disputes between states
-    2. Give advisory opinions on legal questions referred to it by authorized United Nations organs and specialized agencies
-
-- Art 28 is the guidance states gave it for how to adjudicate international disputes
-
-So, this represents an explicit argument by the states in the UN system about:
-
-1. What "international laws" they want considered in disputes between them, AND
-
-2. How different sources of international law should take precedence over each other
-
-:::
-
-
-## The Statute of the International Court of Justice (ICJ) {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
-
-**Article 38**
-
-1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
-
-a. [**international conventions**]{style="color:blue;"}, whether general or particular, establishing rules expressly recognized by the contesting states; 
-
-b. international custom, as evidence of a general practice accepted as law; 
-
-c. the general principles of law recognized by civilized nations; 
-
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
-
-::: notes
-
-**Tell me something interesting about treaties as a source of international law.**
+The first section of our class this semester has focused on the foundational concepts, tools and ideas we need to analyze international institutions
 
 <br>
 
-**What kinds of problems are they good at solving?**
-
-<br>
-
-**What kinds are they ill-equipped to solve?**
-
-:::
-
-
-
-
-## The Statute of the International Court of Justice (ICJ) {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
-
-**Article 38**
-
-1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
-
-a. international conventions, whether general or particular, establishing rules expressly recognized by the contesting states; 
-
-b. [**international custom**]{style="color:blue;"}, as evidence of a general practice accepted as law; 
-
-c. the general principles of law recognized by civilized nations; 
-
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
-
-::: notes
-
-**Tell me something interesting about custom as a source of international law.**
-
-<br>
-
-**What kinds of problems are they good at solving?**
-
-<br>
-
-**What kinds are they ill-equipped to solve?**
-
-:::
-
-
-
-## The Statute of the International Court of Justice (ICJ) {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
-
-**Article 38**
-
-1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
-
-a. international conventions, whether general or particular, establishing rules expressly recognized by the contesting states; 
-
-b. international custom, as evidence of a general practice accepted as law; 
-
-c. [**the general principles of law**]{style="color:blue;"} recognized by civilized nations; 
-
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
-
-::: notes
-
-**Tell me something interesting about the general principles of law introduced to us by Cassese.**
-
-<br>
-
-<br>
-
-**What kinds of problems are they good at solving?**
-
-<br>
-
-**What kinds are they ill-equipped to solve?**
-
-<br>
-
-**Questions on these elements or sources?**
+**SLIDE**: To kick things off, we started with an introduction to the "old" legal order
 
 :::
 
@@ -170,40 +46,135 @@ d. subject to the provisions of Article 59, [.e. that only the parties bound by 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-**Abbott, Keohane, Moravcsik, Slaughter & Snidal (2000)**
+::: {.r-fit-text}
+**Hugo Grotius and the "Old" Legal Order**
+:::
 
-<br>
-
-![](Images/02_2-Legalization_Fig1.png){style="display: block; margin: 0 auto"}
+![](Images/03_2-economist_on_Grotius.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Last week we then shifted from sources of international law to one approach to analyzing international institutions.
+And who better to introduce us to the "old" legal order than the so-called "father of international law," Hugo Grotius?
 
-**What is "legalization" and how does it help us analyze international laws?**
+- **What were the key takeaways for you of studying the life and work of Hugo Grotius?**
 
-- Legalization gives us three dimensions across which international institutions can vary
-    - "Obligation means that states or other actors are bound by a rule or commitment or by a set of rules or commitments" (401).
-    
-    - Precision means that rules unambiguously define the conduct they require, authorize, or proscribe.
-    
-    - Delegation means that third parties have been granted authority to implement, interpret, and apply the rules; to resolve disputes; and (possibly) to make further rules
+- (Gets his big break when called upon to build a legal defense for Dutch piracy against the Portugese)
 
-- Each dimension is a matter degree meaning it runs from "softer" forms of law to "harder" forms
+- (Advanced a principle that individuals have the private right to wage war so long as it is done outside state jurisdiction and to defend a "right", e.g. a "just" cause)
 
-- Each dimension can vary independently meaning harder levels of obligation do not automatically move levels of precision or delegation
+- (Developed a version of international order and war that basically gave states the right to do anything, e.g. might makes right)
+
+- (He advanced "progressive" views about the equality of all people, BUT did it to justify economic exploitation)
 
 <br>
 
-**Any questions on legalization?**
+Pre-WWII, international law was basically a permission slip for state brutality
 
-- We'll be using this tool a great deal this semester and definitely starting next week!
+- If a state wants to take "it" and they succeed in doing so, then the international community must recognize "it" as theirs
 
 <br>
 
-**notes**
+After the wars and atrocities of the early 20th century things began to change rapidly
 
-- "Legalization" refers to a particular set of characteristics that institutions may (or may not) possess. These characteristics are defined along three dimensions: obligation, precision, and delegation. Obligation means that states or other actors are bound by a rule or commitment or by a set of rules or commitments. Specifically, it means that they are legally bound by a rule or commitment in the sense that their behavior thereunder is subject to scrutiny under the general rules, procedures, and discourse of international law, and often of domestic law as well. Precision means that rules unambiguously define the conduct they require, authorize, or proscribe. Delegation means that third parties have been granted authority to implement, interpret, and apply the rules; to resolve disputes; and (possibly) to make further rules" (401).
+- **SLIDE**: So, last week was our crash course in the letter of international law as it is understood by lawyers and judges
+
+:::
+
+
+
+
+## International law as a Textual Matter  {background-image="./Images/background-scales_justice_v3.png" .center}
+
+![](Images/03_2-legal_text.jpeg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+I think Cassese and Hollis did excellent jobs BOTH:
+
+1. Mapping out the textual basics of international law today, and
+
+2. Helping us see the many ways in which the structure of international law has evolved since the work of Grotius
+
+<br>
+
+**Recap for me, in what key ways has the system of international law changed since the "old" world order?**
+
+<br>
+
+- (The rise of new countries, especially socialist states and those in the developing world, put pressure on a system designed by, and primarily benefiting, old world powers)
+
+- (A slow but steady chipping away at a system built on never doing anything to interfere with state sovereignty into one that began to prioritize the needs of the international community)
+
+- (A significant attempt to codify customary law in order to clarify the rights and obligations of all states, BUT ALSO, to expand those rules to better reflect the interests of all states)
+
+- (A significant expansion of the idea that human rights and the laws of conscience are also a source of important rules, e.g. no genocide or slavery regardless of state practice)
+
+<br>
+
+**SLIDE**: So, after two weeks of work we can now define international law from the perspective of international lawyers!
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
+
+::: {.r-fit-text}
+**The Statute of the International Court of Justice (ICJ)**
+:::
+
+**Article 38**
+
+1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
+
+a. international conventions, whether general or particular, establishing rules expressly recognized by the contesting states; 
+
+b. international custom, as evidence of a general practice accepted as law; 
+c. the general principles of law recognized by civilized nations; 
+
+d. subject to the provisions of Article 59, judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
+
+::: notes
+
+**Remind me, what makes Article 38 of The Statute of the International Court of Justice such a good source for defining international law?**
+
+<br>
+
+(The ICJ is an international organization created as part of the UN system for adjudicating legal disputes between states)
+
+- (They recruit the best legal minds from around the world and then give them very precise instructions for how to do their jobs)
+
+- (THIS list represents an explicit listing of what, precisely, the UN community has come to define as "international law")
+
+<br>
+
+**As a quick recap, what did you find from our case studies last class?**
+
+- **Are you convinced the "general principles" in part C are as universal and binding as Cassese argues? Why or why not?**
+
+<br>
+
+In a sense, I think of these principles as an academic exercise that make perfect sense from a lawyer's perspective
+
+- He is generalizing from a sample of international instruments
+
+- Underpinning all of these instruments seems to be a perspective on what is appropriate state behavior 
+
+- So, I think he has usefully described a set of principles underpinning his sample
+
+- Does that mean the principles themselves can settle future conflicts? I'm skeptical
+
+- BUT, as a legal tool for adjudicating disputes in the ICJ I think it makes sense
+
+<br>
+
+And, of course, it turns out that all of this only scratches the surface of our interest in international law
+
+- As social scientists we have learned over and over again that actual human behavior depends on far more than just what the rules say
+
+- Our interest is in explaining actual outcomes in the political world and that means we need to restate the question
+
+- **SLIDE**
 
 :::
 
@@ -211,53 +182,65 @@ Last week we then shifted from sources of international law to one approach to a
 
 ## Do international institutions matter? {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/03_1-Boxing_v3.png){style="display: block; margin: 0 auto"}
+![](Images/03_1-Boxing_v2.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-This is our last week of new material in Section 1 of the class that focuses on the Basics of Analyzing International Institutions
+If we now have a pretty good idea about what international law is, we can now ask how and when it matters!
 
-- There's no escaping it, we simply have to engage with the academic debate about whether or not international law "matters" in a substantial way.
-
-<br>
-
-For Realists like Mearsheimer, international institutions are a sort-of affectation of the international community.
-
-- We see them all over the place and they often get invoked, but don't merit the weight we pretend they carry
-
-- Think of anything someone might wear, do or say meant entirely to impress other people.
+- In other words, under what conditions can an international institution actually change the behavior of sovereign states in the world?
 
 <br>
 
-**Per the reading for today, what is the central takeaway about international institutions Mearsheimer is trying to convince you to accept?**
+Shifting to explaining outcomes means shifting to doing science!
 
-- (**SLIDE**: International institutions "have minimal influence on state behavior" (7).)
+- Explaining "why" something happens requires theory, and so, this week is our crash course in a very old debate
+
+- **SLIDE**
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/03_1-Boxing_v4.png){style="display: block; margin: 0 auto"}
 
-Therefore, international institutions "have [minimal influence]{style="color:red;"} on state behavior" (Mearsheimer 1994, p7).
+## Do international institutions matter? {background-image="./Images/background-scales_justice_v3.png" .center}
+
+![](Images/03_1-Boxing_v6.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-**If this is the conclusion, how strong a stand is Mearsheimer taking here against the importance of international law?**
+This week we examine the roots of the academic debate about the impact of international institutions
 
-- **What does "minimal influence" mean to you?**
+- Today we read and reflect on Mearsheimer's argument as a representative of the realist paradigm
+
+- And next class we read and reflect on Keohane's argument as a representative of the institutionalist paradigm
+
+- Then on Friday we'll go find empirical evidence from current events to see which theory is more useful for explaining the real world
 
 <br>
 
-**SLIDE**: Before we unpack his argument and then analyze it with your cases, let's start by making sure we are on the same page with Mearsheimer when it comes to institutons.
+**As a preview of our work for today focusing on Mearsheimer's argument, what is his central conclusion?**
+
+- **In other words, according to Mearsheimer do international institutions matter?**
+
+- (God no!)
+
+- Therefore, international institutions "have minimal influence on state behavior" (Mearsheimer 1994, p7).
+
+<br>
+
+Before we dig into Mearsheimer's argument we need to take a quick detour into the word "institution"
+
+- Institution is the broad conceptual label we use in political science to describe the kinds of "rules" that are implemented in society
+
+- **SLIDE**: Here is Douglass North's very well known and oft cited definition
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## Do international institutions matter? {background-image="./Images/background-scales_justice_v3.png" .center}
 
 ![](Images/03_1-Boxing_v4.png){style="display: block; margin: 0 auto"}
 
@@ -269,49 +252,168 @@ Here is the definition of institution from Douglass North that I tend to see the
 
 <br>
 
-**Which of the sources in ICJ Art 38 does this classify as an institution?**
+**Per this definition, would North be comfortable describing customs, treaties and Cassese's fundamental principles all as institutions?**
 
-- (All of them!)
+- (Absolutely yes)
 
-Very broad definition encompassing both written and unwritten rules of behavior.
+- North's definition is intentionally very broad, encompassing both written and unwritten rules of behavior.
+
+- The idea here is to acknowledge that political scientists are interested in explaining how societies make and enforce rules regardless of the precise shape of those rules
+
+<br>
+
+As you probably noticed on p8, Mearsheimer explains that he really hates broad definitions of the word, "institution" and so he offers a VERY long definition of his own!
+
+- **SLIDE**: Let's compare and contrast!
+
+<br>
+
+...start by comparing North's definition to just the start of Mearsheimer's definition
+
+<br>
+
+Mearsheimer on broad definitions: "The concept is sometimes defined so broadly as to encompass all of international relations, which gives it little analytical bite. For example, defining institutions as "recognized patterns of behavior or practice around which expectations converge" allows the concept to cover almost every regularized pattern of activity between states, from war to tariff bindings negotiated under the General Agreement on Tariffs and Trade (GATT), thus rendering it largely meaningless" (p8).
 
 :::
 
 
 
-## {background-image="./Images/03_1-Boxing_v5.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
-"...as a set of rules that stipulate the ways in which states [should]{style="color:blue;"} cooperate and compete with each other" (Mearsheimer 1994, p8).
+**North (1990)**
 
-"Institutions are the [rules of the game]{style="color:blue;"} in a society or, more formally, are the [humanly devised]{style="color:blue;"} constraints that [shape human interaction]{style="color:blue;"}" (North 1990).
+- "Institutions are the [rules of the game]{style="color:blue;"} in a society or, more formally, are the [humanly devised]{style="color:blue;"} constraints that [shape human interaction]{style="color:blue;"}."
+
+**Mearsheimer (1994)**
+
+"I define institutions as a set of rules that stipulate the ways in which states should cooperate and compete with each other. They prescribe acceptable forms of state behavior, and proscribe unacceptable kinds of behavior. These rules are negotiated by states, and according to many prominent theorists, they entail the mutual acceptance of higher norms, which are 'standards of behavior defined in terms of rights and obligations.' These rules are typically formalized in international agreements, and are usually embodied in organizations with their own personnel and budgets. Although rules are usually incorporated into a formal international organization, it is not the organization per se that compels states to obey the rules. Institutions are not a form of world government. States themselves must choose to obey the rules they created. Institutions, in short, call for the 'decentralized cooperation of individual sovereign states, without any effective mechanism of command'" (8-9).
 
 ::: notes
 
-Here is Mearsheimer's definition of an institution
+To start, just focus on the similarities
 
-**Compare and contrast these for me.**
+- **Work with the person next to you and get ready to report back, in what ways are these two definitions focused on the same things?**
 
-- **How are they different? How the same?**
-
-- (General vs applied to international only)
-- (North’s is much broader.) 
-- (Mearsheimer’s definition seems intended to omit the kinds of informal rules we talked about like not wearing a hat in church.)
+- *PRESENT and DISCUSS*
 
 <br>
 
-**What does thinking about the differences between the two tell us about Mearsheimer’s world view?**
+(**SLIDE**: My highlights)
 
-- **Is Mearsheimer dismissing customary law here? Why or why not?**
+:::
 
-- (Incredibly revealing of how a neorealist looks at the world.)
-    - He wants you to focus on rules formally made by states and NOT those other types.
-    - If a state didn’t write it and agree to it then it doesn’t matter.
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
+
+**North (1990)**
+
+- "Institutions are the [rules of the game]{style="color:blue;"} in a society or, more formally, are the [humanly devised]{style="color:blue;"} constraints that [shape human interaction]{style="color:blue;"}."
+
+**Mearsheimer (1994)**
+
+"I define institutions as [a set of rules]{style="color:blue;"} that stipulate the ways in which states should cooperate and compete with each other. [They prescribe acceptable forms of state behavior, and proscribe unacceptable kinds of behavior]{style="color:blue;"}. These rules are negotiated by states, and according to many prominent theorists, they entail the mutual acceptance of higher norms, which are ['standards of behavior defined in terms of rights and obligations]{style="color:blue;"}.' These rules are typically formalized in international agreements, and are usually embodied in organizations with their own personnel and budgets. Although rules are usually incorporated into a formal international organization, it is not the organization per se that compels states to obey the rules. Institutions are not a form of world government. States themselves must choose to obey the rules they created. Institutions, in short, call for the 'decentralized cooperation of individual sovereign states, without any effective mechanism of command'" (8-9).
+
+::: notes
+
+On the one hand, and focusing just on these parts, these two definitions are quite similar
+
+- Sentence 1: Institutions as rules
+
+- Sentence 2: Rules shape interactions
+
+- Sentence 3: Rules typically either bestow rights or attach obligations
 
 <br>
 
-**Keep in mind, the way we define our most basic concepts are in and of themselves arguments we are making about how the world works**
+BUT, in almost every other part of this paragraph Mearsheimer wants to dramatically narrow the concept down
 
-- He may be framing the issue to weaken international institutions from the beginning!
+- **Work with the person next to you and get ready to report back, how specifically is Mearsheimer trying to change North's definition?**
+
+- *PRESENT and DISCUSS*
+
+<br>
+
+(**SLIDE**: My highlights)
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
+
+**North (1990)**
+
+- "Institutions are the [rules of the game]{style="color:blue;"} in a society or, more formally, are the [humanly devised]{style="color:blue;"} constraints that [shape human interaction]{style="color:blue;"}."
+
+**Mearsheimer (1994)**
+
+"I define institutions as [a set of rules]{style="color:blue;"} that stipulate the ways in which [states should cooperate and compete]{style="color:red;"} with each other. [They prescribe acceptable forms of state behavior, and proscribe unacceptable kinds of behavior]{style="color:blue;"}. These rules are [negotiated by states]{style="color:red;"}, and according to many prominent theorists, they entail the mutual acceptance of higher norms, which are ['standards of behavior defined in terms of rights and obligations]{style="color:blue;"}.' These rules are [typically formalized in international agreements]{style="color:red;"}, and are [usually embodied in organizations with their own personnel and budgets]{style="color:red;"}. Although rules are usually incorporated into a formal international organization, it is not the organization per se that compels states to obey the rules. [Institutions are not a form of world government. States themselves must choose to obey the rules they created]{style="color:red;"}. Institutions, in short, call for the 'decentralized cooperation of individual sovereign states, [without any effective mechanism of command']{style="color:red;"}" (8-9).
+
+::: notes
+
+In one sense, Mearsheimer's paragraph is simply identifying a subset of cases he wants to analyze
+
+- e.g. North defines "institution" and Mearsheimer narrows the field to focus just on "international institutions"
+
+- Think of the old saw: all thumbs are fingers, but not all fingers are thumbs
+
+- All international institutions are institutions, but not all institutions are international institutions
+
+<br>
+
+According to Mearsheimer, international institutions are:
+
+1. Focused on structuring state competition or cooperation,
+
+2. Created by states,
+
+3. Typically formalized in international agreements,
+
+4. Usually "embodied in" international organizations, and
+
+5. States must choose to obey the rules
+
+<br>
+
+**FIRST, in what ways is this consistent with our work last week on the sources of international law?**
+
+<br>
+
+**Now, in what specific ways does this conflict with our work last week on the sources of international law?**
+
+<br>
+
+The aim of this exercise is to enable us to measure if international institutions actually matter
+
+- I worry that the end of this definition makes that harder
+
+- A definition should be used to clarify meaning, e.g. to help the reader understand what it is we are trying to explain
+
+- Components of a definition should be relatively uncontroversial and tied to empirical reality
+
+- Asserting that international institutions are not a world government isn't clarifying the concept, it's making an argument about effectiveness
+
+- Limiting the cases to only those "negotiated" by states might exclude customs and principles that matter
+
+- Limiting the cases to only those with no "effective mechanisms of control" is setting up the analysis to conclude they don't matter
+
+<br>
+
+Bottom line, I don't think a research project that aims to measure the effectiveness of international law should require we only study cases between states with purely voluntary requirements
+
+- That seems like putting your thumb on the scale to find no effect
+
+<br>
+
+**Does all that make sense?**
+
+- I think that is why this definition has not caught on like he might have hoped!
+
+<br>
+
+**SLIDE**: Ok, enough preamble, let's get to the theory!
 
 :::
 
@@ -319,7 +421,9 @@ Here is Mearsheimer's definition of an institution
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
+::: {.r-fit-text}
 **The False Promise of International Institutions (Mearsheimer 1994)**
+:::
 
 - ?
 
@@ -329,7 +433,7 @@ Here is Mearsheimer's definition of an institution
 
 - ...
 
-Therefore, international institutions "have minimal influence on state behavior" (7).
+Therefore, international institutions are only an intervening variable in world politics ("have minimal influence on state behavior")
 
 ::: notes
 
@@ -339,57 +443,69 @@ The excerpt you read for today is primarily focused on elaborating the key assum
 
 <br>
 
-Our first job is to diagram the argument
-- Premises to the conclusion
+Your first job is to diagram the argument
 
-**Just to be clear, what do we mean by an assumption?**
+- e.g. to identify the set of premises that collectively build support for the conclusion
 
-- (A statement we do not intend to prove.)
-- (The pieces that combine to make an argument.)
-
-We use assumptions because otherwise it would be impossible to explain anything.
-
-- Have to start somewhere and assumptions let us skip some questions to focus on other ones.
+- So, what we're looking for here are the big ideas that Mearsheimer invokes to help build out the logic of his world view
 
 <br>
 
-ON YOUR OWN, take a few minutes to diagram this argument.
+**ON YOUR OWN**, take a few minutes to diagram this argument.
 
-- What are the key premises needed to support this conclusion.
+- What are the key premises needed to support this conclusion?
 
-<br>
-
-Share your diagram with the person next to you (or small groups).
-
-- Consolidate to one diagram of the argument
+- Focus on the explanation under the "Realism" header in the article
 
 <br>
 
-*ON BOARD*
+*Split class into four groups (maximize board space)*
 
-- Let's collect premises!
+- Go sit with your group!
 
-- **SLIDE**: One version of the argument...
+<br>
+
+Share your argument diagram with the rest of your group
+
+- Consolidate to one diagram of the argument and put it directly on the board!
+
+- Go!
+
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: One version of the argument
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
+::: {.r-fit-text}
 **The False Promise of International Institutions (Mearsheimer 1994)**
+:::
 
-- Powerful states create institutions to maintain or increase their power
+- In an anarchic and highly uncertain system, states must strategically focus on their own offensive capacity to survive
 
-- Institutions simply reflect the balance of power
+- International cooperation is risky for these states because of relative gains and worries about cheating
 
-- When the balance of power shifts so too should the institutions
+- International institutions can be used by powerful states to maintain or increase their power
 
-Therefore, international institutions "have minimal influence on state behavior" (7).
+- When the balance of power shifts, the institutions should change to better reflect the interests of the newly powerful
+
+Therefore, international institutions are only an intervening variable in world politics ("have minimal influence on state behavior")
 
 ::: notes
 
 **Are the premises clear?**
+
+<br>
+
+The bottom line: Institutions simply reflect the balance of power
 
 <br>
 
@@ -401,130 +517,82 @@ Therefore, international institutions "have minimal influence on state behavior"
 
 **Everybody have this written down?**
 
-- **SLIDE**: Assignment for today
+<br>
+
+**SLIDE**: Going back to Art 38
+
+<br>
+
+*My first attempt*
+
+- Key assumptions of offensive realism
+
+    - System is anarchic, states can hurt each other, uncertainty is high, states strategically focus on survival
+
+- Cooperation in this system is risky because of relative gains concerns and worries about cheating 
+
+- Powerful states may use institutions to maintain or increase their power
+
+    - Enshrine rules that make cooperation benefit the powerful 
+
+- When the balance of power shifts so too should the institutions that are operating
+
+Therefore, international institutions "have minimal influence on state behavior" (only an intervening variable)
 
 :::
 
 
 
 
-## For Today {background-image="./Images/background-scales_justice_v3.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
-![](Images/02_2-Assignment.png){style="display: block; margin: 0 auto"}
+::: {.r-fit-text}
+**The Statute of the International Court of Justice (ICJ)**
+:::
+
+**Article 38**
+
+1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
+
+a. international conventions, whether general or particular, establishing rules expressly recognized by the contesting states; 
+
+b. international custom, as evidence of a general practice accepted as law; 
+c. the general principles of law recognized by civilized nations; 
+
+d. subject to the provisions of Article 59, judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
 
 ::: notes
 
-In a moment I will ask each of you to introduce your case to us but I want to focus your presentation on analyzing Mearsheimer's argument.
+Put this all together for me
+
+- Cassese points to this list as a grand consensus by the international community of how international law can be used to settle disputes
 
 <br>
 
-**SLIDE**: Specifically, I want you to tell us three things.
+**What does Mearsheimer see in this list?**
+
+- (A strategic effort by the dominant powers in the global order, e.g. the United States, to maintain or extend its power)
+
+<br>
+
+**Based on what you've studied so far, is it plausible to you that all international law is simply an intervening variable between what powerful states want and what other states do?**
+
+<br>
+
+Let's stipulate that, indeed, the US and the West have designed most of the international institutions since WW2
+
+- HOWEVER, we have not always gotten what we want in disputes with other countries even when operating within these rules
+
+- **How might Mearsheimer explain the US not always getting its way when acting through international laws or organizations?**
+
+- (Maybe the US is like "the house" in a casino? The games are set up so we win 53% of the time which keeps everyone coming to the table and us always ahead?)
+
+<br>
+
+**SLIDE**: Going back to our international law quotes from Week 1
 
 :::
 
-
-
-## For Today {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/02_2-Assignment.png){style="display: block; margin: 0 auto"}
-
-1. What is the law? 
-
-2. What is the "failure"?
-
-3. Is it evidence consistent with one (or more) of Mearsheimer's premises?
-
-::: notes
-
-In other words, tell us the law, what the failure is and whether it is empirical support for one of Mearsheimer's premises.
-
-<br>
-
-Remember, we evaluate a model by its usefulness, and we evaluate its usefulness by its ability to explain and predict the real world.
-
-<br>
-
-HOWEVER, convincing people your model is valuable often hinges on finding empirical evidence showing its assumptions are consistent with reality
-
-- Technically, assumptions are assumed and so "truth" is irrelevant, but if your model's assumptions are bat-crap crazy no one else will adopt it and your "science" ends in a cul de sac.
-
-<br>
-
-**Make sense?**
-
-<br>
-
-**SLIDE**: Important note!
-
-:::
-
-
-
-## Don't Select on the DV {background-image="./Images/background-scales_justice_v3.png" .center}
-
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/03_1-selecting_on_the_DV_example.jpg)
-:::
-
-::: {.column width="50%"}
-![](Images/03_1-millionaire_tips.png)
-:::
-::::
-
-::: notes
-
-IMPORTANT research design note.
-
-- We are NOT testing Mearsheimer's argument!
-
-- Your cases represent an activity known as selecting on the dependent variable.
-
-<br>
-
-To test a research question (e.g. Do institutions matter?) you need variation on the outcome!
-
-- Unfortunately, you see books, articles and videos making this mistake ALL THE TIME
-
-<br>
-
-Oh wow, Elon Musk makes sure to read books and eat a healthy breakfast clearly that must be the path to riches!
-
-- Instead, follow 1,000 people's reading and eating habits and see if they correlate with wealth.
-
-<br>
-
-**Make sense?**
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/02_2-Assignment.png){style="display: block; margin: 0 auto"}
-
-1. What is the law? 
-
-2. What is the "failure"?
-
-3. Is it evidence consistent with one (or more) of Mearsheimer's premises?
-
-::: notes
-
-Our exercise is simply to evaluate if the premises appear consistent with empirical reality.
-
-- Even if they are we still haven't proved anything
-
-- Just made the case that this model might be useful stronger.
-
-<br>
-
-Ok, take a moment to prepare and then we'll go around the room!
-
-- PRESENT and DISCUSS each
-
-:::
 
 
 
@@ -533,7 +601,11 @@ Ok, take a moment to prepare and then we'll go around the room!
 
 "International law is that law that the [**wicked do not obey**]{style="color:red;"} and the [**righteous do not enforce**]{style="color:blue;"}" (Eban 1957).
 
+<br>
+
 "[**International law**]{style="color:red;"} is to law what [**professional wrestling**]{style="color:blue;"} is to wrestling" (Stephen Budiansky).
+
+<br>
 
 "...[**almost**]{style="color:red;"} all nations observe [**almost**]{style="color:red;"} all principles of international law and [**almost**] all of their obligations [**almost**]{style="color:red;"} all the time" (Henkin 1979). 
 
@@ -541,26 +613,47 @@ Ok, take a moment to prepare and then we'll go around the room!
 
 **Just curious, would Mearsheimer like any of the quotes from our first day of class? Why or why not?**
 
+- (Maybe the Budiansky quote if he believes international law is really just a fig leaf covering American power?)
+
+<br>
+
+
+**SLIDE**: For next class
+
 :::
 
 
 
 ## Next Class {background-image="./Images/background-scales_justice_v3.png" .center}
 
-Read the Koremenos, Lipson and Snidal (2001) excerpts, then...
+<br>
 
-![](Images/03_1-Assignment.png)
+::: {.r-fit-text}
+
+**Do international institutions matter?**
+
+- Keoheane's (1984) Argument
+
+:::
 
 ::: notes
 
-On the reading, make sure you understand the conjectures in Table 1 (p797)
+For next class I have assigned you chapters from Robert Keohane's incredibly important book
 
-<br>
+- Ponder saw it sitting on my desk and recognized it!
 
-CASES: Find us an example of an international law succeeding in achieving its aims in the world (e.g. someone crediting an international law for a good thing happening)
+- That's really saying something since he's an Americanist!
 
 <br>
 
 **Questions on the assignment?**
+
+<br>
+
+Canvas ASSIGNMENT: Keoheane's (1984) Argument
+
+1. How does Keohane define an international institution? How different is this from Mearsheimer's definition?
+2. What is Keohane's central argument about the impact of international institutions on the relations between states?
+3. What are the key assumptions underpinning Keohane's central argument (aim to identify at least three key ideas)?
 
 :::

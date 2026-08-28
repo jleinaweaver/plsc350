@@ -12,11 +12,13 @@ library(readxl)
 
 <br>
 
-**I. Basics of Analyzing International Institutions**
+**Section 1: Analyzing International Institutions**
 
-Do international institutions matter?
+<br>
 
-- Koremenos, Lipson and Snidal's (2001) Argument and Case Studies
+**Do international institutions matter?**
+
+- Keohane's (1984) Argument
 
 <br>
 
@@ -30,39 +32,13 @@ Justin Leinaweaver (Fall 2026)
 
 1. Check Canvas submissions
 
-2. **Save 10 minutes at end of class for paper assignment prep!**
+2. Move quickly through the recap material to get to the Keohane stuff
 
 <br>
 
-Last week we studied the sources and basic structures of international law.
+This week we have continued our work developing the concepts and tools we need for analyzing international institutions
 
-- To do this we rooted ourselves in Art 38 of the ICJ statutes.
-
-:::
-
-
-
-## The Sources of International Law {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/03_2-Legal_texts.jpg){style="display: block; margin: 0 auto"}
-
-::: notes
-
-**Based on our work last week, what would your answer be to the question, what is international law?**
-
-- (A combination of rules written in treaties, determined by custom or through the development of legal principles and expectations over time)
-
-<br>
-
-**And based on that answer, how different is domestic from international law?**
-
-- (Fairly similar in terms of source and composition)
-
-- (Both include written rules and customary rules)
-
-<br>
-
-**SLIDE**: Good that brought us up to our work this week focused a bit more on the impact or effectiveness of international law
+- **SLIDE**: Specifically, we have shifted to examining a VERY old debate in international relations
 
 :::
 
@@ -70,27 +46,89 @@ Last week we studied the sources and basic structures of international law.
 
 ## Do international institutions matter? {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/03_1-Boxing_v3.png){style="display: block; margin: 0 auto"}
+![](Images/03_1-Boxing_v6.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Last class we examined Mearsheimer's answer to the question: Do international institutions matter?
+As social scientists we know that human behavior depends on far more than just what the rules say we should do
 
-**What was Mearsheimer's answer?**
-
-- (international institutions "have minimal influence on state behavior")
+- And this debate, especially at the international level, has raged for a long, long time in international relations
 
 <br>
 
-**And how do we understand "minimal influence"?**
+Last class we unpacked Mearsheimer's answer to the question: Do international institutions matter?
 
-- (Some impact on state behavior and NOT just about weak states being bullied or strong states doing only what they planned to do anyway)
+- At its heart, Mearsheimer's argument is an offensive realist approach to explaining international political outcomes
+
+- **Remind me, what are the FIVE key assumptions of offensive realism Mearsheimer specified in the article?**
+
+1. (System is anarchic)
+2. (States can hurt each other (offensive capacity))
+3. (Uncertainty is high)
+4. (States are strategic)
+5. (States focused on survival)
 
 <br>
 
-**What was the essence of Mearsheimer's argument? Why does he believe international institutions don't matter very much?**
+**And when we apply these assumptions to this question, what is Mearsheimer's answer about institutions?**
 
-- (**SLIDE**)
+<br>
+
+(International institutions "have minimal influence on state behavior")
+
+- (Powerful states create institutions to lock-in or increase their power)
+
+- (Other states comply with the institutions BECAUSE the powerful states tell them to)
+
+- (The institutions are merely intervening variables and not causal AT ALL!)
+
+- (Powerful states -> Self-serving institutions -> Weak states change behavior)
+
+<br>
+
+**SLIDE**: Let's apply Mearsheimer's perspective to Article 38
+
+:::
+
+
+
+## International Law Created by Custom {background-image="./Images/background-scales_justice_v3.png" .center}
+
+![](Images/03_1-G7_leaders.webp){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**Give me an example of an international custom BECOMING international laws through the process described by Cassese**
+
+<br>
+
+**And what would Mearsheimer say is actually happening in these cases?**
+
+<br>
+
+**SLIDE**: Next up, treaties!
+
+:::
+
+
+
+## International Law Created by Treaties {background-image="./Images/background-scales_justice_v3.png" .center}
+
+![](Images/03_1-aachen-treaty-signing.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**Give me an example of one of the treaties you submitted last week**
+
+- **What was the problem and how did the states come together to solve it?**
+
+<br>
+
+**And what would Mearsheimer say is actually happening in these cases?**
+
+<br>
+
+**SLIDE**: We finally shifted to what Cassese describes as the "The Fundamental Principles Governing International Relations"
 
 :::
 
@@ -99,406 +137,129 @@ Last class we examined Mearsheimer's answer to the question: Do international in
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-**The False Promise of International Institutions (Mearsheimer 1994)**
+::: {.r-fit-text}
+**The "Fundamental Principles Governing International Relations"**
+:::
 
-- Powerful states create institutions to maintain or increase their power
-
-- Institutions simply reflect the balance of power
-
-- When the balance of power shifts so too should the institutions
-
-Therefore, international institutions "have minimal influence on state behavior" (7).
+- The Sovereign Equality of States (3.2)
+- Non-Intervention in the Int. / Ext. Affairs of Other States (3.3)
+- Prohibition of the Threat or Use of Force (3.4)
+- Peaceful Settlement of Disputes (3.5)
+- Respect for Human Rights (3.6)
+- Self-Determination of Peoples (3.7)
 
 ::: notes
 
-Offensive realism applied!
+**According to Cassese where does this list come from?**
 
-- Institutions are a reflection of power.
+- **How did he identify these "fundamental principles"?**
 
-<br>
+- (Identified from a "careful consideration of international practice")
 
-**How well did Mearsheimer's argument explain the failure cases you brought to last class?**
-
-- **In other words, and based on your cases, how often do international laws fail because powerful states can safely ignore them?**
+- And by "international practice" he includes: treaties, UN General Assembly resolutions, Declarations of states, Statements by government representatives in the UN, diplomatic practice and case law
 
 <br>
 
-**Did anybody have an example of a weak state ignoring an international law without punishment?**
+**Why does Cassese argue these principles belong on a list with customary laws and treaty laws?**
 
-- **Would such a case still fit in Mearsheimer's argument? Why or why not?**
+- (p48: All the fundamental principles have...) 
+
+1. universal scope (Applies to all and in all places)
+
+2. legally binding force (All states committed to these principles)
+
+<br>
+
+**And what would Mearsheimer say if you handed him this list if he asked you for an example of an international law?**
+
+<br>
+
+**SLIDE**: In sum
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
-![](Images/03_2-Dom_vs_Intl_Law.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Alright, back to the comparison question!
-
-<br>
-
-**Based just on the failure cases, in what ways are domestic and international law different?**
-
-1. (states must CHOOSE to bind themselves)
-    - Ratify a treaty, or develop customary law
-    - Not true of the laws we live under!
-
-2. (Punishment for violators is DEEPLY uncertain)
-    - In domestic law it is only somewhat uncertain!
-
-3. (Violations of international law may lead to punishment OR to changes in the law itself!)
-    - Getting caught for speeding repeatedly NEVER leads to an increase in speed limits just for you.
-
-<br>
-
-Today's reading on the rational design of international institutions will help us add even more things to the "how are they similar" list!
-
-- Koremenos, Lipson and Snidal have been part of a number of hugely influential research projects.
-    - In fact, we'll be seeing their names again next week.
-
-- These three are SUPER smart and this paper has opened up a huge and interesting research agenda into international institutions.
-
-<br>
-
-**What is the central conclusion of the KLS article you read for today?**
-
-- **How do they answer the question, do international institutions matter?**
-
-- (**SLIDE**)
-
+::: {.r-fit-text}
+**The Statute of the International Court of Justice (ICJ)**
 :::
 
+**Article 38**
 
+1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
 
-## {background-image="./Images/03_1-Boxing_v5.png" .center}
+a. international conventions, whether general or particular, establishing rules expressly recognized by the contesting states; 
 
-Therefore, international institutions "have [minimal influence]{style="color:red;"} on state behavior" (Mearsheimer 1994, p7).
+b. international custom, as evidence of a general practice accepted as law; 
 
-Therefore, states design international institutions to [facilitate and strengthen]{style="color:blue;"} international cooperation (KLS 2001).
+c. the general principles of law recognized by civilized nations; 
 
-::: notes
-
-KLS bottom-line argument: Therefore, states design international institutions to facilitate and strengthen international cooperation.
-
-<br>
-
-**On its face, are these conclusions incompatible with each other? Why or why not?**
-
-- (Best case scenario for Mearsheimer: Both could absolutely be true!)
-
-- (However, very unlikely given the costs in designing intl institutions)
-
-<br>
-
-**SLIDE**: Let's start with how KLS "set the table" by defining an institution.
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/03_1-Boxing_v4.png){style="display: block; margin: 0 auto"}
-
-"We define international institutions as [explicit]{style="color:blue;"} arrangements, [negotiated]{style="color:blue;"} among international actors, that [prescribe, proscribe]{style="color:blue;"}, and/or [authorize]{style="color:blue;"} behavior" (KLS 2001, p762).
+d. subject to the provisions of Article 59, judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
 
 ::: notes
 
-**What does "prescribe" mean?**
+**According to Mearsheimer's theory of international politics, what does Article 38 represent?**
 
-- (state authoritatively or as a rule that (an action or procedure) should be carried out.)
-    - To compel a behavior
-    - Do this
+- (The balance of power since WW2)
 
-**What about "proscribe"?**
-
-- (forbid)
-    - Don't do this
-
-**And "authorize"?**
-
-- (give official permission for or approval to (an undertaking or agent))
-- Create an agent to do this.
-
-:::
-
-
-
-## Defining International Law (Institutions) {background-image="./Images/background-scales_justice_v3.png" .center}
-
-"Institutions are the [rules of the game]{style="color:blue;"} in a society or, more formally, are the [humanly devised]{style="color:blue;"} constraints that [shape human interaction]{style="color:blue;"}" (North 1990).]
+- (A US dominated order that has enshrined its authority using these kinds of rules)
 
 <br>
 
-"...as a set of rules that stipulate the ways in which states [should]{style="color:blue;"} cooperate and compete with each other" (Mearsheimer 1994, p8).
-
-<br>
-
-"...[explicit]{style="color:blue;"} arrangements, [negotiated]{style="color:blue;"} among international actors, that [prescribe, proscribe]{style="color:blue;"}, and/or [authorize]{style="color:blue;"} behavior" (Koremenos, Lipson and Snidal 2001, 762).
-
-::: notes
-
-**How does this new definition alter our understanding of the key concept?**
-
-- **How is it different from North's or Mearsheimer's?**
-
-Mearsheimer 
-
-- uses the word rules but really what he means is power.
-
-- Rules are constructed and enforced by the powerful.
-
-- Their influence over state behavior cannot meaningfully be understood in the absence of powerful states.
-
-Koremenos, Lipson and Snidal
-
-- Explicitly focused on the international level (differs from North)
-
-- Arrangements can be created by "international actors," not just states.
-
-- These arrangements can be seen as holding power OVER those actors (compel or forbid action).
-
-- AND meaningful authority can be delegated to an agent (e.g. authorize!) who then acts on the same level as states
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-**Koremenos, Lipson & Snidal (2001): Rational Design**
-
-- Rational design
-
-- Shadow of the future
-
-- Transaction costs
-
-- Risk aversion
-
-Therefore, states design international institutions to facilitate and strengthen international cooperation.
-
-::: notes
-
-Starting on p780 KLS give us these four "Conjectures About Rational Design" which represent the key assumptions underpinning their key conclusion.
-
-<br>
-
-I'd like to step through these four assumptions as a class, but first, I will ask everyone to review the success cases on Canvas.
-
-- Let's load our discussion of this argument with real world examples!
-
-<br>
-
-**SLIDE**: Ok, let's start with the rational design assumption
-
-<br>
-
-<br>
-
-OLD PLAN
-
-*Split class into four groups: one per assumption*
-
-<br>
-
-Groups get ready to present your assumption to the class:
-
-1. What does this assumption mean?
-
-2. Use examples from your cases for today to evaluate if this assumption is consistent with reality.
-
-<br>
-
-Questions on the assignment?
-
-- Go!
-
-<br>
-
-**SLIDES** x 4
+**SLIDE**: Today we need to consider an alternative explanation!
 
 :::
 
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/03_2-Teamwork.avif){style="display: block; margin: 0 auto"}
-
-**1. Rational Design (KLS 2001)**
-
-::: notes
-
-**What does this assumption mean? Can you explain it to me in simple terms?**
-
-- (Rational design: States and other international actors, acting for self-interested reasons, design institutions purposefully to advance their joint interests.)
-
-<br>
-
-**Give me an example or two from our "success" cases that show states rationally designing international institutions.**
-
-<br>
-
-- Some international problems are too big for one state to address acting alone!
-    - Climate change, acid rain, etc
-    
-- Some international problems require coordination by multiple states
-    - International postal union, air traffic control, etc
-    
-<br>
-
-**SLIDE**: Shadow of the future
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/03_2-shadow_future.webp){style="display: block; margin: 0 auto"}
-
-**2. Shadow of the Future (KLS 2001)**
-
-::: notes
-
-**What does this assumption mean? Can you explain it to me in simple terms?**
-
-- (Shadow of the future: The value of future gains is strong enough to support a cooperative arrangement.)
-
-- Even if gains are small in the short-term, repeating them year and year compounds into significant amounts
-
-<br>
-
-**Give me an example or two from our "success" cases that show state cooperation that depends on the shadow of the future to work.**
-
-<br>
-
-**SLIDE**: Transaction costs
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/03_2-Design_Expenses.png){style="display: block; margin: 0 auto"}
-
-**3. Transaction Costs (KLS 2001)**
-
-::: notes
-
-**What does this assumption mean? Can you explain it to me in simple terms?**
-
-- (Transaction costs: Establishing and participating in international institutions is costly.)
-
-<br>
-
-**Give me an example or two from our "success" cases that show institutional design is costly.**
-
-<br>
-
-All institutions are costly
-
-- Designing, building, staffing and budgeting for the UN is incredibly costly
-
-- Precise rules are hard to write, agree and maintain!
-
-<br>
-
-**SLIDE**: Risk Aversion
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/03_2-risk_aversion.jpg){style="display: block; margin: 0 auto"}
-
-**4. Risk Aversion (KLS 2001)**
-
-::: notes
-
-**What does this assumption mean? Can you explain it to me in simple terms?**
-
-- (Risk aversion: States are risk-averse and worry about possible adverse effects when creating or modifying international institutions.)
-
-<br>
-
-**Examples from your "success" cases that support this assumption?**
-
-- Institutions with exit options
-
-- Treaties with threshold effects before binding rules applied
-    - See most environmental treaties
-    
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-**When do international institutions matter?**
-
-**Comparing Key Assumptions**
-
-<br>
+## Do international institutions matter? {background-image="./Images/background-scales_justice_v3.png" .center}
 
 :::: {.columns}
+
 ::: {.column width="50%"}
-**Mearsheimer (1994)**
-
-- Powerful states create institutions to maintain or increase their power
-
-- Institutions reflect and shift with the balance of power
+![](Images/03_2-keohane.jpg){width="350"}
 :::
 
 ::: {.column width="50%"}
-**KLS (2001)**
-
-- Rational design
-
-- Shadow of the future
-
-- Transaction costs
-
-- Risk aversion
+![](Images/03_2-after-hegemony-cover.jpg){width="350"}
 :::
+
 ::::
 
 ::: notes
 
-Let's compare and contrast with Mearsheimer's offensive realist argument.
+Robert Keohane's book *After Hegemony* is considered an absolute classic in political science
 
-**How much overlap is there across these assumptions?**
+- So much so that when Ponder saw it sitting on my desk he remembered reading it in school
 
-- (A lot!)
-
-- states are strategic
-
-- cooperation is hard (due to anarchy and uncertainty)
-
-- States are risk averse and fear their choices may come back to destroy them
+- That suggests it left a pretty impressive mark on his mind, although I didn't ask him if he enjoyed it...
 
 <br>
 
-**How are they distinctly different?**
+I know this was a tough read in terms of his style and general word choices
 
-- (Rational Design assumes that survival is not the only goal)
+- I had to look up words while redoing the reading
 
-- (Rational Design acknowledges the importance of time and repeated interactions in calculating benefits)
+- "Adventitious" to mean happening by chance? Really???
 
 <br>
 
-*Split class into groups (4)*
+HOWEVER, I am absolutely confident that the insights and arguments in this book are absolutely worth the effort.
 
-- Go sit with your group!
+- For those of you heading to grad school you will almost certainly be buying this book at some point down the road
+
+<br>
+
+Ok, let's start with the big picture
+
+- While Keohane is very interested in the question I have on the slide, he wants us to ask it differently
+
+- **In chapter 4, what are the different policy outcomes Keohane wants us differentiate between?**
+
+- (**SLIDE**: Harmony vs Cooperation vs Discord)
 
 :::
 
@@ -506,39 +267,232 @@ Let's compare and contrast with Mearsheimer's offensive realist argument.
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
-**Mearsheimer (1994)**
+::: {.r-fit-text}
+**Possible Policy Outcomes (e.g. the DV)**
 
-- Powerful states create institutions to maintain or increase their power
+- Harmony
 
-- Institutions reflect and shift with the balance of power
+- Discord
+
+- Cooperation
+
 :::
-
-::: {.column width="50%"}
-**KLS (2001)**
-
-- Rational design
-
-- Shadow of the future
-
-- Transaction costs
-
-- Risk aversion
-:::
-::::
-
-**Which model better explains the variation in our cases this week?**
 
 ::: notes
 
-GROUPS I want you to review ALL of our case studies from this week, both the successes and the failures.
-
-- Get ready to present an argument about which model better explains the data we have collected: Mearsheimer or KLS
+Keohane's interest is in explaining differences in world politics between harmony, discord and cooperation
 
 <br>
 
-**Questions on the assignment?**
+**How does Keohane define "harmony"?**
+
+- **In other words, what does the world look like if it is harmonious?**
+
+- ("Harmony refers to a situation in which actors' policies (pursued in their own self-interest without regard for others) automatically facilitate the attainment of others' goals" (51).)
+
+- (For example, think of the invisible hand in classical market economics. Individuals acting in their own self-interest within a well functioning market produces positive utility for everyone.)
+
+<br>
+
+So, harmony isn't the problem.
+
+- The problem is that in the absence of harmony we either institute cooperation or suffer through discord
+
+<br>
+
+**How does Keohane define the "bad" outcome, e.g. discord?**
+
+- ("a situation in which governments regard each others' policies as hindering the attainment of their goals, and hold each other responsible for these constraints" (52).")
+
+- This means a world in which:
+
+    1. a state's actions harm other states, AND 
+    
+    2. other states blame their harms on each other
+
+<br>
+
+**How does Keohane define cooperation?**
+
+- ("Cooperation" is a process of "policy coordination")
+
+- States in conflict, or facing a potential conflict, make adjustments in their policies in order to reduce the problem points between them
+
+- "intergovernmental cooperation takes place when the policies actually followed by one government are regarded by its partners as facilitating realization of their own objectives, as the results of a process of policy coordination (51-52).
+
+<br>
+
+Let's make sure we're all clear on these competing outcomes using your Canvas submissions on Q1
+
+- **How do we tell the difference between "cooperation" and "discord" in a real world policy area?**
+
+- **In other words, if this is the key outcome to explain, how hard is it to tell the successes from the failures?**
+
+- *PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: So now we can understand how Keohane wants to reframe our question
+
+:::
+
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Can international institutions facilitate cooperation?**
+:::
+
+![](Images/03_2-negotiation.jpeg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**Is this a harder or easier test of the effectiveness of international institutions? Why or why not?**
+
+<br>
+
+I think this is a MUCH harder test. 
+
+<br>
+
+**SLIDE**: If you want to convince Keohane an institution has "worked," meaning it has achieved "cooperation," then you have to show him...
+
+:::
+
+
+
+## Evidence of "cooperation" requires: {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+::: {.incremental}
+
+1. A point of conflict (or serious potential) between states
+
+2. BOTH sides have made adjustments (concessions), AND
+
+3. BOTH sides see the policies now being pursued BY OTHER STATES as helping them achieve their own goals
+
+:::
+
+::: notes
+
+**REVEAL x 3**
+
+1. A point of conflict (or serious potential) between states
+2. BOTH sides have made adjustments (concessions), AND
+3. BOTH sides see the policies now being pursued BY OTHER STATES as helping them achieve their own goals
+
+<br>
+
+So, Keohane is not messing around here
+
+- **Is everybody clear on the challenge of showing institutions "matter" in this framework?**
+
+<br>
+
+**If international institutions simply reflect the balance of power as Mearsheimer argues, then would Keohane argue that those institutions "matter"?**
+
+- (NOPE!)
+
+<br>
+
+So, Keohane's aim is to help us understand how "egoistic" states in a realist-style world can design international institutions that achieve REAL and SIGNIFICANT policy coordination
+
+<br>
+
+**SLIDE**: One more tweak to our question
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Can "international regimes" facilitate cooperation?**
+:::
+
+<br>
+
+An international regime is a "set of implicit or explicit **principles, norms, rules and decision-making procedures** around which actors expectations converge in a given area of international relations."
+
+::: notes
+
+Keohane prefers we use "international regime" instead of "international institution"
+
+- According to the book it seems to be that "international regimes" are meant to be a subset of the broader concept "institutions"
+
+<br>
+
+**What was your answer to Canvas Q2?**
+
+- **Does Keohane's "international regime" differ in any significant ways from the Douglass North's definition of an institution?**
+
+<br>
+
+I'll be honest, I don't have a good answer to this question
+
+- I suspect that North would accept that each of the four "distinct" components raised by Keohane are "institutions"
+
+- Keohane seems to be suggesting that the "institutions" he is interested in are complex and can only be understood if you consider all four of these things working together
+
+- I think this might be similar to how Hollis discussed the debate between those who think a treaty binds states to the words on the page vs those who think the broader context of the negotiation is also binding
+
+<br>
+
+So, for Keohane, studying international regimes requires thinking about all four of these elements:
+
+1. What are the common principles shared by these states?
+
+2. What are the norms operating in this issue area?
+
+3. What explicit rules of behavior have the states agreed?
+
+4. What decision-making procedures have been put in place to manage the regime going forward?
+
+<br>
+
+**Do those make sense?**
+
+<br>
+
+**SLIDE**: Enough preamble, let's get to Keohane's argument
+
+<br>
+
+*NOTES*
+
+An international regime is a "set of implicit or explicit principles, norms, rules and decision-making procedures around which actors expectations converge in a given area of international relations." 57
+
+The concept of international regime is complex because it is defined in terms of four distinct components: principles, norms, rules and decision-making procedures 59
+
+International regimes should not be interpreted as elements of a new international order "beyond the nation state." They should be comprehended chiefly as arrangements motivated by self-interest: as components of systems in which sovereignty remains a constitutive principle. This means that, as realists emphasize, they will be shaped largely by their most powerful members pursuing their own interests. 63
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**How can "international regimes" facilitate cooperation?**
+:::
+
+<br>
+
+"Like imperfect markets, world politics is characterized by institutional deficiencies that inhibit mutually advantageous cooperation. ... From the deficiency of the “self-help system” ... [we] derive a need for international regimes" (85-88).
+
+::: notes
+
+*Split class into four groups (maximize board space)*
+
+- Groups, use your Canvas Q3 submissions to build a list on the board
+
+- **In what specific ways can an international regime facilitate cooperation?**
 
 - Go!
 
@@ -546,248 +500,227 @@ GROUPS I want you to review ALL of our case studies from this week, both the suc
 
 *PRESENT and DISCUSS each*
 
+- (**SLIDE**: Your list...)
+
+<br>
+
+Canvas Q3. Chapter 6: List the specific ways that Keohane argues a "regime" can solve the problems of states and facilitate cooperation. Aim to identify at least THREE specific mechanisms institutions can provide.
+
+<br>
+
+*Keohane Chapter 6: A functional theory of international regimes*
+
+Like imperfect markets, world politics is characterized by institutional deficiencies that inhibit mutually advantageous cooperation. 85
+
+From the deficiency of the "self-help system"... We derive a need for international regimes. Insofar as they fill this need, international regimes perform the functions of establishing patterns of legal liability, providing relatively symmetrical information, and arranging the costs of bargaining so that specific agreements can be more easily made. Regimes are developed in part because actors in world politics believe that with such arrangements they will be able to make mutually beneficial agreements that would otherwise be difficult or impossible to attain. 88
+
+Legal Liability: 88-89
+
+- International regimes as "quasi-agreements" meaning they are legally unenforceable but, like contracts, help to organize relationships in mutually beneficial ways 
+- international regimes also resemble conventions meaning practices, regarded as common knowledge in a community, that actors conform to not because they are uniquely best, but because others conform to them as well 
+- what these arrangements have in common is that they are designed not to implement centralized enforcement of agreements, but rather to establish stable mutual expectations about others patterns of behavior and to develop working relationships that will allow the parties to adapt their practices to new situations. Contracts, conventions, and quasi agreements provide information and generate patterns of transaction costs: costs of reneging on commitments are increased, and the costs of operating within these frameworks are reduced. 
+- like contracts and quasi agreements, international regimes are frequently altered: their rules are changed, bent, or broken to meet the exigencies of the moment.
+
+Transaction Costs 89-92
+
+- ... International regimes alter the relative costs of transactions 
+- international regimes reduced transaction costs of legitimate bargains and increase them for illegitimate ones 
+- international regimes also affect transaction costs in the more mundane sense of making it cheaper for governments to get together to negotiate agreements 
+- once a regime has been established, the marginal cost of dealing with each additional issue will be lower than it would be without a regime 
+- clustering of issues under a regime facilitates side payments among these issues: more potential quids are available for the quo 
+
+Uncertainty and information 92-96
+
+- from the perspective of market failure theories, the informational functions of regimes are the most important of all 
+- in the absence of appropriate institutions, some mutually advantageous bargains will not be made because of uncertainty. 
+- three important sources of uncertainty are asymmetrical information, moral hazard, and irresponsibility 
+
+Asymmetrical information 93-95
+
+- asymmetrical information means that some actors may know more about a situation than others. Expecting that the resulting bargains would be unfair, "outsiders" will be reluctant to make agreements with "insiders" (Williamson 1975)
+- the problem of asymmetrical information only appears when dishonest behavior is possible. ... Not all communication reduces uncertainty, since communication may lead to asymmetrical or unfair bargaining outcomes as a result of deception.
+- as the market for lemons example suggests, and as we will see in more detail below, a government's reputation therefore becomes an important asset in persuading others to enter into agreements with it. 94
+- regimes provide information to members, thereby reducing risks of making agreements. 
+
+Moral Hazard 95-96
+
+- agreements May alter incentives in such a way is to encourage less cooperative behavior. Insurance companies face this problem of "moral hazard."
+- think about the problem of moral hazard in terms of banking. Governments cannot afford to let large Banks fail which means they often provide them insurance as a backstop, but that insurance encourages the bank to take on more risk to maximize profit which in turn increases the risks of failure.
+
+Irresponsibility 96
+
+- some actors may be irresponsible, making commitments that they may not be able to carry out. Governments or firms may enter into agreements that they intend to keep, assuming that the environment will continue to be benign; if adversity sets in, they may be unable to keep their commitments. 
+- Paraphrase: think of opening an insurance market where you don't adjust rates by health. People who are the sickest will be most likely to want to join and the people who are healthy least likely thus making for an unsustainable market because the insurance company will be paying out far more than it takes in. 
+- in international politics, self-selection means that for certain types of activities--such as sharing research and development information--weak states (with much to gain but little to give) may have more incentive to participate than strong ones, but less incentive actually to spend funds on research and development. Without the strong states, the enterprise as a whole will fail.
+
+Regimes and market failure 97
+
+- international regimes Help states to deal with all of these problems. As the principles and rules of a regime reduce the range of expected behavior, uncertainty declines, and as information becomes more widely available, the asymmetry of its distribution is likely to lessen. ... Thus international regimes are useful to governments. Far from being threats to governments (in which case it would be hard to understand why they exist at all), they permit governments to attain objectives that would otherwise be unattainable.
+
+Compliance with international regimes 98-106
+
+- international regimes are decentralized institutions. Decentralization does not imply an absence of mechanisms for compliance, but it does mean that any sanctions for violation of regime principles or rules have to be enacted by the individual members (Young 1979). The regime provides procedures and rules through which such sanctions can be coordinated. Decentralized enforcement of a regime rules and principles is neither swift nor certain.
+- the extent of international compliance should not be overstated 
+- Paraphrase: this all leads to a big question and a challenge for realism, if countries tend to meet most of their obligations why would they do that in circumstances where the rules might conflict with their own interests. 
+
+Why should States comply 1: the value of existing regimes 100-103
+
+- the importance of transaction costs and uncertainty means that regimes are easier to maintain than they are to create. 
+- once an international regime has been established, however, it begins to benefit from the relatively high and symmetrical level of information that it generates, and from the ways in which it makes regime supporting bargains easier to consummate. 
+- viewing international regimes as information providing and transaction cost reducing entities rather than as quasi-governmental rule makers helps us to understand such persistence. Effective international regimes facilitate informal contact and communication among officials. ... These trans governmental relationships may increase opportunities for cooperation in world politics by providing policymakers with high quality information about what their counterparts are likely to do. 
+- in these terms, international regimes embody sunk costs, and we can understand why they persist even when all members would prefer somewhat different mixtures of principles, rules, and institutions. 
+- paraphrase: the bottom line is that the high costs of regime building help existing regimes to persist
+
+Why should States comply 2: networks of issues and regimes 103-106
+
+- as the prisoners dilemma example suggests, social pressure, exercise through linkages, among issues, provides the most compelling set of reasons for governments to comply with their commitments. That is, egoistic governments May comply with rules because if they fail to do so, other governments will observe their behavior, evaluate it negatively, and perhaps take retaliatory action. 
+- disturbing one regime does not merely affect behavior in the issue area regulated by it, but is likely to affect other regimes in the network as well. For a government rationally to break the rules of a regime, the net benefits of doing so must outweigh the net costs of the effects of this action on other international regimes. 
+- think of this as retaliatory linkage 
+- paraphrase: even if a government isn't worried about retaliation they still have to worry about their behavior establishing bad precedents. "Governments worry about establishing bad precedents because they fear that their own rule violations will promote rule violations by others, even if no specific penalty is imposed on themselves."
+- the dilemmas of collective action are partially solved through the device of reputation... As long as it continuing series of issues is expected to arise in the future, and as long as actors monitor each other's behavior and discount the value of agreements on the basis of past compliance, having a good reputation is valuable even to the egoist whose role in collective activities is so small that she would bear few of the costs of her own malfactions. 
+- a good reputation makes it easier for a government to enter into advantageous international agreements; tarnishing that reputation imposes costs by making agreements more difficult to reach. 
+- for reasons of reputation, as well as fear of retaliation and concern about the effects of precedence, egoistic governments may follow the rules and principles of international regimes even when myopic self-interest counsels them not to.
+
 :::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .smaller}
+
+::: {.r-fit-text}
+**How can "international regimes" facilitate cooperation?**
+:::
+
+|      |      |
+|:-----|:-----|
+|*Legal Liability*|Coordination WITHOUT sacrificing autonomy|
+|*Transaction Costs*|Makes "good" deals cheaper and "bad" deals more expensive|
+|*Asymmetrical information*|Establish and reinforce reputations|
+|*Moral Hazard, Irresponsibility & Market Failure*|Regimes are sunk costs and usually worth protecting|
+||Promote trans governmental relationships that reinforce cooperation|
+||Create the possibility of retaliatory linkages|
+||Threaten to make bad actions turn into bad precedents|
+
+::: notes
+
+International regimes:
+
+*Note: The chapter walks through Moral Hazard, Irresponsibility and Market Failure as problems facing regimes or caused by regimes and then kind of addresses them in the "why do state comply" sections*
+
+1. *Legal Liability*: Coordination WITHOUT sacrificing autonomy
+
+    - (like quasi-agreements that provide benefits in the absence of centralized enforcement)
+
+2. *Transaction Costs*: Makes "good" deals cheaper and "bad" deals more expensive
+
+    - (e.g. cheaper to cooperate, more expensive to promote discord)
+
+3. *Asymmetrical information*: Establish and reinforce reputations
+
+    - (e.g. Provide information to members that makes cooperation less risky)
+
+4. *Problems created by regimes (Moral Hazard, Irresponsibility and Market Failure)*: Regimes are sunk costs and usually worth protecting
+
+    - (e.g. Maintaining an existing regime in the face of problems is cheaper than starting from scratch)
+
+5. *Problems created by regimes*: Promote trans governmental relationships that reinforce cooperation
+    
+    - (e.g. Effective international regimes facilitate informal contact and communication among officials. ... These trans governmental relationships may increase opportunities for cooperation in world politics by providing policymakers with high quality information about what their counterparts are likely to do.)
+    
+6. *Problems created by regimes*: Create the possibility of retaliatory linkages
+
+    - (e.g. That is, egoistic governments May comply with rules because if they fail to do so, other governments will observe their behavior, evaluate it negatively, and perhaps take retaliatory action.)
+    
+7. *Problems created by regimes*: Threaten to make bad actions turn into bad precedents
+
+    - (e.g. “Governments worry about establishing bad precedents because they fear that their own rule violations will promote rule violations by others, even if no specific penalty is imposed on themselves.”)
+
+<br>
+
+And so much more!
+
+- **How are we doing with all of this?**
+
+- **Any questions or clarifications needed on Keohane's argument?**
+
+<br>
+
+**SLIDE**: For next class
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/03_2-KLS_Table1.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-This takes us to the heart of this paper, the rational design conjectures
-
-- summarized by Table 1 (p797) but are explored in the bulk of the text
-
-<br>
-
-Remember, their argument assumes that states intentionally use institutional design to make cooperation possible.
-
-- These conjectures lay out a series of ways that can be accomplished
-
-- Each conjecture ties a specific design to a specific problem
-
-- So, if the area of cooperation is complicated by a serious enforcement problem, M1 tells us to consider restricting the membership of the institution
-
-<br>
-
-**SLIDE**: The design choices
-
+::: {.r-fit-text}
+**Next Class: A Comparative Case Study**
 :::
 
+<br>
 
+**International institutions...**
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+- Case 1: “have minimal influence on state behavior”
 
-![](Images/03_2-KLS_Table1b.png){style="display: block; margin: 0 auto"}
+- Case 2: can facilitate cooperation
 
 ::: notes
 
-The paper focuses on five specific design choices
+For next class I am asking you to go find us cases for a comparative case study
 
-- Not meant as an exhaustive list, but pretty darn thorough.
+- Remember, we test theory with empirical evidence!
 
-<br>
-
-When designing an institution you can:
-
-1. Adjust your membership rules to be more inclusive or more restrictive
-
-2. Adjust the scope of the issues covered to be broad or narrow
-
-3. Adjust the centralization of tasks (more vs less)
-
-4. Adjust the rules for controlling the institution, and
-
-5. Offer states who participate some flexibility in the arrangements
+- If your theory can't explain the real world then we need a better theory
 
 <br>
 
-**Any questions or need for clarificartion on the design choices?**
+FIRST, find us a recent example of an international institution EITHER failing in its stated goals OR succeeding in them ENTIRELY as a reflection of the balance of power in the world.
+
+- In other words, find us evidence that Mearsheimer's view of international institutions is "correct"
 
 <br>
 
-**Does anybody have an example from our case studies of one of these designs in action?**
+SECOND, find us a recent example of an international institution successfully performing one of the key mechanisms raised by Keohane in his functional theory of regimes (Chapter 6)
 
-<br>
-
-**SLIDE**: These design choices are made in order to address or overcome specific problems that arise in cooperation
-
-<br>
-
-**Notes**
-
-p763
-
-Membership rules ( MEMBERSHIP )
-
-- "Who belongs to the institution? Is membership exclusive and restrictive, like the G-7’s limitation to rich countries? Or is it inclusive by design, like the UN? Is it regional, like ASEAN, or is it universal? Is it restricted to states, or can NGOs join?" (770).
-
-Scope of issues covered ( SCOPE )
-
-- "What issues are covered?" (770).
-
-Centralization of tasks ( CENTRALIZATION )
-
-- "Are some important institutional tasks performed by a single focal entity or not? Scholars often misleadingly equate centralization with centralized enforcement. We use the term more broadly to cover a wide range of centralized activities. In particular we focus on centralization to disseminate information, to reduce bargaining and transaction costs, and to enhance enforcement" (771).
-
-Rules for controlling the institution ( CONTROL )
-
-- "How will collective decisions be made? Control is determined by a range of factors, including the rules for electing key officials and the way an institution is financed. We focus on voting arrangements as one important and observable aspect of control" (772).
-
-Flexibility of arrangements ( FLEXIBILITY )
-
-- "How will institutional rules and procedures accommodate new circumstances? Institutions may confront unanticipated circumstances or shocks, or face new demands from domestic coalitions or clusters of states wanting to change important rules or procedures. What kind of flexibility does an institution allow to meet such challenges?" (773).
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/03_2-KLS_Table1a.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-KLS identify four broad problems that complicate efforts to achieve international cooperation (p773-780)
-
-1. Disagreement over how it will be enforced?
-
-2. The levels of uncertainty in the problem
-    - (3 flavors: uncertainty in preferences, behavior, and the state of the world)
-
-3. Disagreement over who should be invited to participate? (Number)
-
-4. And how should disputes over the distribution of benefits be addressed?
-
-<br>
-
-**Any questions on the nature of these problems in an area of international cooperation?**
-
-<br>
-
-**Any of our case studies from this week show this problem in action?**
-
-<br>
-
-**SLIDE**: Ok, what's the point of this table?
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/03_2-KLS_Table1b.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Here's what I want you using this to do.
-
-- Think of this like a tool, like legalization, that helps you deeply analyze an international law.
-
-<br>
-
-If a treaty you are analyzing includes restrictive membership, that tells you something important about the problems those states are facing!
-
-- Restrictive membership means enforcement and uncertainty problems!
-
-- Otherwise, why restrict who can join?
-
-<br
-
-Each mechanism that is included in a treaty tells you something valuable about the challenges facing those states!
-
-<br>
-
-**Does that make sense?**
-
-- Your job when analyzing a treaty is to consider WHY the design choices have been made and this table can help you do that!
-
-<br>
-
-**SLIDE**: Next week we work on your first paper!
-
-:::
-
-
-
-## Paper 1 - Treaty Design Analysis {background-image="./Images/background-scales_justice_v3.png" .center}
-
-Submit a report that describes and analyzes a multilateral, international treaty.
-
-::: notes
-
-For the first paper everyone will select a new treaty to analyze.
-
-- I have made a big list available on Canvas that you can pick from.
-
-- You're welcome to find something else but the treaty you pick must be multilateral and not be one we are analyzing in class this semester
-
-<br>
-
-**SLIDE**: Your report will have three sections
-
-:::
-
-
-
-## Paper 1 - Treaty Design Analysis {background-image="./Images/background-scales_justice_v3.png" .center}
-
-Submit a report that describes and analyzes a multilateral, international treaty.
-
-1. Why was this treaty created? (e.g. what problem was it designed to address and why is the problem important?)
-
-2. What specifically does it do? Describe the design of the treaty using the dimensions of legalization and the rational design conjectures
-
-3. How effective has the treaty been in addressing the problem that motivated its creation?
-
-::: notes
-
-**Questions on the three sections?**
-
-<br>
-
-Now, I'm going to ask you to attack this assignment in small groups (3-4 people?)
-
-- Each group will focus on the same treaty
-
-- Your group means you have other people helping you research
-
-- Ultimately, it is your paper but the prep will be distributed
-
-<br>
-
-Let's figure out how to split the class into groups and pick treaties.
-
-- Then we'll talk about your assignment for Tuesday
-
-<br>
-
-**SLIDE**: Next class
-
-:::
-
-
-
-
-## For Next Class {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/03_2-Assignment_next_class.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Canvas: Read your selected treaty and then each member of the group must submit a post to the discussion board that includes:
-
-1. What is your treaty?
-
-2. Provide and explain one piece of evidence that helps you make the argument in Section 1 of the paper (Why was this treaty created?). Be sure to cite the evidence in APA format
-
-3. Based on your answer above, explain which of the KLS cooperation problems are likely to impact the design of your treaty (e.g. enforcement, uncertainty, number, and distribution)
+- In other words, find us evidence that regimes can facilitate cooperation
 
 <br>
 
 **Questions on the assignment?**
+
+- Submission prompts are on Canvas
+
+<br>
+
+Canvas DISCUSSION: Case Study 1 - Case Study 1 - International institutions “have minimal influence on state behavior”
+
+Find us a recent example of an international institution (custom, treaty or international organization) EITHER failing in its stated goals OR succeeding in them ENTIRELY as a reflection of the balance of power in the world. In other words, find us evidence that Mearsheimer's view of international institutions explains outcomes in the real world. You may not submit the same case claimed by someone else in class (e.g. specific action in response to a specific moment).
+
+1. What is the international institution you are evaluating?
+2. Submit the APA citation for a piece of evidence supporting your argument
+3. Briefly explain your argument (e.g. why is this an example of Mearsheimer being "right"?)
+
+Canvas DISCUSSION: Case Study 2 - Institutions can facilitate cooperation
+
+Find us a recent example of an international institution (custom, treaty or international organization) successfully performing one of the key mechanisms raised by Keohane in his functional theory of regimes (Chapter 6). You may not submit the same case claimed by someone else in class (e.g. specific mechanism by a specific regime).
+
+1. What is the international institution you are evaluating?
+2. Submit the APA citation for a piece of evidence supporting your argument
+3. Briefly explain your argument (e.g. why is this an example of Keohane's theory in action?)
 
 :::

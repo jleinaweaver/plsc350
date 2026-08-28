@@ -12,15 +12,15 @@ library(readxl)
 
 <br>
 
-**I. Basics of Analyzing International Institutions**
+**Section 1: Analyzing International Institutions**
 
 <br>
 
-**More Sources of International Law**
+**Sources of International Law**
 
-1. Customary Law
+- Custom
 
-2. Treaties
+<br>
 
 ::: r-stack
 Justin Leinaweaver (Fall 2026)
@@ -30,21 +30,208 @@ Justin Leinaweaver (Fall 2026)
 
 Prep for Class
 
-1. If needed. TBD
+1. Review Canvas submissions
+
+2. Readings
+    - Cassese (2005), read chapter 8
+    - Tannenwald (2005), read p5-14 (opening of the article), 33-36 (Analysis of the Taboo and Beyond the US case), & 46-49 (conclusion)
 
 <br>
 
-Last class we began our exploration of the sources of international law with what Cassese refers to as the "fundamental principles."
-
-- Today we add two additional sources: treaties and custom
-
-<br>
-
-So, what are the "sources" of international law?
-
-- **SLIDE**: Let's ask an authority!
+**SLIDE**: Last week we kicked off our exploration of international law by going very big picture
 
 :::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+![](Images/01_2-Peace-of-Westphalia-1648.jpg){.absolute top=0 width="550"}
+
+![](Images/01_2-treaty_versailles.avif){.absolute bottom=0 width="550"}
+
+![](Images/01_2-Yalta_Conference.jpg){.absolute right=0 width="400" top=0}
+
+![](Images/01_2-INF_Treaty.avif){.absolute right=0 width="400" bottom=0}
+
+::: notes
+
+In our first class together we focused on unpacking your prior assumptions about international law
+
+<br>
+
+We proposed answers to some of the big questions like:
+
+1. Why do states act on the international stage?
+
+2. What do they want or fear from the international community?
+
+<br>
+
+I assume that for most of you these assumptions were shaped by having studied international relations theory
+
+- Intro to IR is meant to introduce you to important ideas of international anarchy, collective action problems and various models of cooperation
+
+<br>
+
+In our second class we examined the historical roots of the subject dating back to Hugo Grotius
+
+- Called by many the "father of international law" his writings tended to organize and consolidate all of the rules that we now think of as the old world order
+
+<br>
+
+My hope is that these historical readings and discussions will help you as we move forward
+
+- Especially when you see how our readings this week juxtapose the old world and the new
+
+- When they say "old" they mean the world as described by Grotius!
+
+<br>
+
+This week we focus on the sources of international law
+
+- In other words, we try to answer the question of where do international laws come from
+
+- **SLIDE**: To do this, we're going to need to consult a lawyer
+
+:::
+
+
+
+
+## Antonio Cassese (1937 - 2011) {background-image="./Images/background-scales_justice_v3.png" .center}
+
+:::: {.columns}
+::: {.column width="45%"}
+![](Images/02_1-Cassese.webp)
+:::
+
+::: {.column width="55%"}
+- Judge, international lawyer and professor
+
+- First President of the International Criminal Tribunal for the former Yugoslavia
+
+- First President of the Special Tribunal for Lebanon
+:::
+::::
+
+::: notes
+
+This semester I've assigned you a few readings from the excellent second edition of Antonio Cassese's book, International Law.
+
+<br>
+
+Judge Cassese was one of the most distinguished international legal minds of the post-war era.
+
+<br>
+
+Following the genocide in Yugoslavia in the 1990s the UN needed a court to investigate and prosecute these crimes.
+
+- The UN created the International Criminal Tribunal for the former Yugoslavia (ICTY) and asked Judge Cassese to lead it
+
+<br>
+
+After the assasination of the Lebanese PM, Rafic Hariri, in 2005 as the region descended deeper into chaos, the international community again turned to Judge Cassese to investigate it.
+
+- Basically, whenever the international community needed help with international law, Judge Cassese was the go-to guy.
+
+<br>
+
+**SLIDE**: His style of writing...
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+Cassese, A. (2005). Chapter 8: International Law-Creation: Custom. *International Law*.
+
+![](Images/02_1-legal_writing.jpeg){style="display: block; margin: 0 auto"}
+
+
+::: notes
+
+**Big picture, what did you think of the Cassese chapter?**
+
+- **e.g. his style of writing, argumentation and use of evidence?**
+
+<br>
+
+He is very much a lawyer by training and practice
+
+- This means his writing mirrors what you would see in case law (e.g. judicial decisions)
+
+- Very much rooted in the letter of the law and the importance of precedent and consistency.
+
+- If you've ever read a Supreme Court ruling you've seen this style in practice.
+
+- If you want to go to law school, consider this a preview of the style!
+
+<br>
+
+Our perspective this semester will almost always begin with this kind of "letter of the law" approach
+
+- BUT, our ultimate interest as social scientists is to explain outcomes, not the intricacies of law.
+
+- This means we need to be comfortable understanding the legal arguments while never forgetting they are only one part of the puzzle
+
+- e.g. states act for many reasons and not just what the law says in writing!
+
+<br>
+
+**SLIDE**: My go-to example
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+![](Images/02_1-stop_sign.jpg){style="display: block; margin: 0 auto"}
+
+::: notes
+
+If your aim is to explain why some people stop at this stop sign and some do not you'll need to consider the letter of the law
+
+- The specific rules of stop signs in that state
+
+- The specific punishments for violating those rules
+
+<br>
+
+But you'll also need to consider
+
+- The design of the intersection and the surrounding area
+
+- The frequency of police patrols
+
+- The visibility of the sign
+
+- The amount of traffic
+
+- The alternative options for circumventing the stop sign (e.g. other routes)
+
+- The degree to which your drivers are rule followers or not
+
+- etc
+
+<br>
+
+**Make sense?**
+
+<br>
+
+Ok, our work this week is to identify the primary sources of international law
+
+- We want to explain outcomes, so we first need to know what the rules are
+
+<br>
+
+**SLIDE**: To get there, let's start with a detour to the ICJ
+
+:::
+
 
 
 
@@ -60,7 +247,7 @@ So, what are the "sources" of international law?
 
 The International Court of Justice (ICJ) is the principal judicial organ of the United Nations (UN).
 
-- Think SCOTUS for the UN
+- Think a supreme court for the UN
 
 - The Court is composed of 15 judges, who are elected for terms of office of nine years
 
@@ -74,29 +261,25 @@ Two main jobs:
     
 <br>
 
-**SLIDE**: Let me give you an example of each
+**SLIDE**: As a means to getting to the sources of international law, let me give you an example of international dispute settlement in action
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## The ICJ Settles Legal Disputes {background-image="./Images/background-scales_justice_v3.png" .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
-![](Images/02-1-Border_Dispute.png)
+![](Images/02-1-Africa.png)
 :::
 
 ::: {.column width="50%"}
-![](Images/02-1-Africa.png)
+![](Images/02-1-Border_Dispute.png)
 :::
 ::::
 
 ::: notes
-
-1. The ICJ is often called upon to settle legal disputes between states.
-
-<br>
 
 Here we see a map showing the section of East Africa where Kenya and Somalia share a border.
 
@@ -115,20 +298,12 @@ What do I mean by a "sea border"?
 - Up to 200 nautical miles is your exclusive economic zone (EEZ)
 
     - EEZ gives you rights for the purposes of exploring, exploiting, conserving, and managing natural resources of the seabed, subsoil, and waters above it (UNCLOS Part V).
+    
+- Lines directly offshore generally follow the land border and then, in east-west cases, parallel a line of latitude
 
 <br>
 
-Talk to me about the sea borders already on this map. 
-
-**How do territorial sea lines appear to be drawn?**
-
-- (Lines directly offshore, territorial sea, seem to directly follow the land border)
-
-**What about the EEZ, is that still following the land border?**
-
-- (Farther out, the EEZ, seems to adopt a straight line paralleling the latitutde line)
-
-**Why is the Kenya/Tanzania sea border seemingly longer than the Tanzania/Mozambique sea border?**
+**Why do you think the sea border between Kenya and Tanzania is so much longer than between Tanzania and Mozambique?**
 
 - (The Tanzania/Mozambique border is shorter as it runs into the territory of Comoros)
 
@@ -168,7 +343,7 @@ In case you've ever wondered why the US would work so hard to maintain control o
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## The ICJ Settles Legal Disputes {background-image="./Images/background-scales_justice_v3.png" .center}
 
 ![](Images/02_1-ICJ_Sea_Border_Kenya_Somalia.png){style="display: block; margin: 0 auto"}
 
@@ -184,106 +359,71 @@ Kenya and Somalia have been arguing about how to draw the sea border between the
 
 <br>
 
-**Per our brief and oversimplified analyses of other sea borders, what do you think Kenya's line is based on?**
+Kenya argues that this green line is the "correct" sea border based on:
 
-- (Parallel that latitude line!)
+1. Current practice (e.g. both states have long behaved like this is the border), and 
 
-Kenya argues that this is the "correct" sea border based on:
-
-1. Current practice e.g. both states have long behaved like this is the border (meaning Somalia has already acquiesced), and 
-
-2. If the ICJ decides they need a new sea border it should be drawn along the parallel of latitude (as you can kind of see in the sea borders to the south)
+2. A principle that sea borders should be drawn along the parallel of latitude (like the examples to their south) 
 
 <br>
 
-**And what about Somalia's preferred line?**
-
-- (Follow the territorial land border?)
-
-Somalia argues that:
-
-1. no maritime boundary currently exists between the two States, and 
-
-2. Asks ICJ to draw "an unadjusted equidistance line throughout all maritime areas" to achieve an "equitable result" (p18).
-    - Think of drawing lines from each territory out into the sea to the proposed border
-    - If each line segment is equally long (from the same point on land away from the border) then the sea border is equidistant (and possibly "fair")
+Somalia argues that this purple/blue line is the "correct" sea border because it follows the land border into the sea
 
 <br>
 
 So, in Aug 2014 Somalia files an application to the ICJ to settle this dispute
 
-- Kenya spends the next five years trying to prevent the ICJ from hearing the case and making a ruling (feeling pessismistic about their chances?)
+- Kenya spends the next five years trying to prevent the ICJ from hearing the case and making a ruling
+
+- **SLIDE**: You won't be shocked to hear who is happier in the end
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+![](Images/02_1-ICJ_Sea_Border_Kenya_Somalia.png){.absolute width="450" left=0 top=0}
+
+![](Images/02_1-ICJ_Sea_Border_Kenya_Somalia2.png){.absolute width="750" right=0 bottom=0}
+
+::: notes
+
+In October 2021 the ICJ released its judgment settling the border dispute between Kenya and Somalia. [LINK](https://www.icj-cij.org/sites/default/files/case-related/161/161-20211012-JUD-01-00-EN.pdf)
+
+- Somalia clearly much happier with the outcome than Kenya!
 
 <br>
 
-We'll come back to this example of the ICJ settling a dispute between states in a moment!
+**SLIDE**: And how did the judges decide this outcome?
 
 :::
 
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/02_1-UNGA_Climate_Resolution2.png){style="display: block; margin: 0 auto"}
+## {background-image="./Images/02_1-ICJ_Sea_Border_Kenya_Somalia2.png" .center}
 
-::: notes
-
-The second task: The ICJ is often asked for advisory opinions about international law from the UN and its member states
-
-<br>
-
-Here's our example: UN GA Resolution 77/276
-
-- In March of this year (2023) the UN GA asked the ICJ for an advisory opinion about climate change.
-
-- **SLIDE**: Specifically, the resolution asks two big questions
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/02_1-UNGA_Climate_Resolution2.png){style="display: block; margin: 0 auto"}
-
-1. What are the obligations of States under international law to ensure the protection of the climate system?
-
-2. What are the legal consequences for states that harm the climate system?
+![](Images/02_1-ICJ_Decision_Quote.png)
 
 ::: notes
 
-**Focusing just on the first question, any idea what happens if the ICJ rules that states are obligated to act to stop climate change?**
+According to the judges themselves the key basis for the decision was that both states had joined the UN Convention on the Law of the Sea.
+
+- That treaty includes specific language for adjudicating disputes like this one and so that was what they applied.
+
+- That one specific treaty served as the basis for this particular ruling
 
 <br>
 
-**And what if the ICJ decides states are legally responsible for climate harms they created or worsened?**
+But how did the judges decide that was the one piece of international law to focus on?
 
-<br>
+- Let me bounce this question back to you.
 
-This one will make some noise when it lands, and that means it's going to take a while for them to work through. [LINK](http://climatecasechart.com/non-us-case/request-for-an-advisory-opinion-on-the-obligations-of-states-with-respect-to-climate-change/)
+- **Why does Cassese focus on at the start of his chapter on customary law in terms of the ICJ?**
 
-- Oct 20, 2023 deadline for the UN and member states to submit written statements
-
-- Jan 22, 2024 deadline for written comments on the submitted statements
-
-:::
-
-
-
-## {background-image="./Images/02_1-ICJ2.webp" .center}
-
-::: notes
-
-Ok, fair question, why the detour to talk about an IO we have not yet studied?
-
-- Isn't this diving into the deep end of a subject we have only just started on?
-
-<br>
-
-Let me bounce this question back to you.
-
-- **Why does Cassese kick off his chapter on customary law by invoking and discussing the ICJ?**
+- **How does the ICJ define international law?**
 
 - (**SLIDE**)
 
@@ -291,7 +431,11 @@ Let me bounce this question back to you.
 
 
 
-## The Statute of the International Court of Justice (ICJ) {background-image="./Images/background-scales_justice_v3.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
+
+::: {.r-fit-text}
+**The Statute of the International Court of Justice (ICJ)**
+:::
 
 **Article 38**
 
@@ -303,13 +447,15 @@ b. international custom, as evidence of a general practice accepted as law;
 
 c. the general principles of law recognized by civilized nations; 
 
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
+d. subject to the provisions of Article 59, judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
 
 ::: notes
 
 Simply put, Article 38 is one answer to the question: What is international law?
 
-- Technically, this is how the UN System defines international law and given the centrality of that entity to international politics this represents a really useful answer to our question.
+- Technically, this is how the UN System defines international law
+
+- And since the UN is central to international politics today, this represents a really useful answer to our question
 
 <br>
 
@@ -348,106 +494,18 @@ Bottom line, the ICJ judges need concrete guidance for how to approach disputes 
 
 <br>
 
-**SLIDE**: Let's go back to our current examples to see this in action!
-
-:::
-
-
-
-## {background-image="./Images/02_1-ICJ_Sea_Border_Kenya_Somalia.png" .center}
-
-::: notes
-
-Let's return to the dispute between Kenya and Somalia.
-
-<br>
-
-The Kenyan side argument was essentially three part:
-
-1. This is the border currently being respected by both sides,
-
-2. Somalia agrees with them because its behavior shows them respecting the boundary (they "acquiesced"), and 
-
-3. This current status quo is the most "equitable" outcome (222).
-
-<br>
-
-The Somali side argument was simpler:
-
-1. There is no current maritime boundary between the states,
-
-2. The Court should use international law to draw one using the methods discussed in the UN Convention on the Law of the Sea.
-
-<br>
-
-**Given what you've learned about Art 38 today, who wins this case?**
-
-- (**SLIDE**)
-
-:::
-
-
-
-## {background-image="./Images/02_1-ICJ_Sea_Border_Kenya_Somalia2.png" .center}
-
-![]{Images/02_1-ICJ_Decision_Quote.png}{.absolute right=0}
-
-::: notes
-
-In October 2021 the ICJ released its judgment settling the border dispute between Kenya and Somalia. [LINK](https://www.icj-cij.org/sites/default/files/case-related/161/161-20211012-JUD-01-00-EN.pdf)
-
-- Somalia clearly much happier with the outcome than Kenya!
-
-<br>
-
-According to the judges themselves the key basis for the decision was that both states had joined the UN Convention on the Law of the Sea.
-
-- That treaty includes specific language for adjudicating disputes like this one and so that was what they applied.
-
-- The treaty overruled the argument based on custom
-
-<br>
-
-**Make sense?**
-
-<br>
-
-**SLIDE**: You can see Article 38 in action with the climate change advisory opinion case as well.
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/02_1-UNGA_ICJ_Framing.png){style="display: block; margin: 0 auto"}
-
-1. What are the obligations of States under international law to ensure the protection of the climate system?
-
-2. What are the legal consequences for states that harm the climate system?
-
-::: notes
-
-The UN GA Resolution requesting the advisory opinion offers the Court a list of sources they request it to consider.
-
-- And recognizing Art 38 they go in the same order: treaties, then customs, then fundamental principles.
-
-<br>
-
-**Kind of cool, right?**
-
-<br>
-
-**Given this list of relevant "international laws", does everybody see why this case is going to take forever to finish?**
+**SLIDE**: Continued
 
 :::
 
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
+::: {.r-fit-text}
 **The Statute of the International Court of Justice (ICJ)**
+:::
 
 **Article 38**
 
@@ -459,7 +517,7 @@ b. international custom, as evidence of a general practice accepted as law;
 
 c. the general principles of law recognized by civilized nations; 
 
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
+d. subject to the provisions of Article 59, judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
 
 ::: notes
 
@@ -467,41 +525,41 @@ So, here we have one answer to the question, "what is international law?"
 
 <br>
 
-**How similar is this to the way domestic law works in the United States?**
+Importantly, this is not very different from how domestic law works in the United States
+
+- While most domestic behavior in the US is covered by explicitly written laws, there are still many, many gray areas that are not covered
+
+- Domestic "law" includes acts of Congress, Supreme Court rulings, agency rules and procedures, etc
+
+- Judges often have to sort through all of this when settling disputes
 
 <br>
 
-It seems different, but you'd be suprised.
-
-- While most domestic behavior in the US is covered by explicitly written laws, there are still gray areas that are not covered
-
-- law too vague, behavior too new or unanticipated
-
-<br>
-    
-In those instances US courts will sometimes look to custom (e.g. "common law")
+In addition, when the usual sources of law are too vague for a case or a behavior is too new or unanticipated US courts will look to custom (e.g. "common law")
 
 - "That which derives its force and authority from the universal consent and immemorial practice of the people" [LINK](https://www.upcounsel.com/legal-def-common-law)
 
 - Think precedent: The law created by judges when deciding individual disputes or cases.
 
+<br>
+
 And if both those sources fail them, some US courts have looked to court decisions from other countries with similar systems to ours for ideas! 
 
-- Wacky side note, Louisiana is only US state not to follow English common law foundations. There's come from France.
+- Wacky side note, Louisiana is only US state not to follow English common law foundations. Theirs come from France.
 
 <br>
 
-Our job today and for the rest of the semester is to make sure we understand these sources more deeply.
-
-- **SLIDE**: Recap last week on fundamental principles 
+**SLIDE**: Today we focus on item (b) in this list, international custom
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
+::: {.r-fit-text}
 **The Statute of the International Court of Justice (ICJ)**
+:::
 
 **Article 38**
 
@@ -509,140 +567,21 @@ Our job today and for the rest of the semester is to make sure we understand the
 
 a. international conventions, whether general or particular, establishing rules expressly recognized by the contesting states; 
 
-b. international custom, as evidence of a general practice accepted as law; 
-
-c. [**the general principles of law recognized by civilized nations**]{style="color:blue;"}; 
-
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
-
-::: notes
-
-Last week we kicked off our exploration of international law by examining the fundamental principles!
-
-**What were our takeaways from that work with the Cassese chapter?**
-
-- Where do the seven principles come from?
-
-- Which of the seven principles seem "most" fundamental? Why?
-
-<br>
-
-Funnily enough, they seem to come from the first two items on this list, although they are a small selection of them.
-
-<br>
-
-List
-
-1. Sovereignty of States
-2. Equality of States
-3. Non-Intervention in the Int. / Ext. Affairs of Other States
-4. Prohibition of the Threat or Use of Force
-5. Peaceful Settlement of Disputes
-6. Respect for Human Rights
-7. Self-Determination of Peoples
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-**The Statute of the International Court of Justice (ICJ)**
-
-**Article 38**
-
-1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
-
-a. [**international conventions**]{style="color:blue;"}, whether general or particular, establishing rules expressly recognized by the contesting states; 
-
-b. [**international custom**]{style="color:blue;"}, as evidence of a general practice accepted as law; 
+b. [**international custom, as evidence of a general practice accepted as law;**]{style="color:blue;"}
 
 c. the general principles of law recognized by civilized nations; 
 
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
+d. subject to the provisions of Article 59, judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
 
 ::: notes
 
-For today I gave you readings on the two primary sources of international law: customary law and treaties.
+**Big picture, and according to Cassese, what is customary law?**
+
+- **How do we know it when we see it?**
 
 <br>
 
-*Split class into two groups*
-
-- Groups claim half the board!
-
-<br>
-
-**SLIDE**: I'd like each group to diagram and then present to us the basics of each type of international law.
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-:::: {.columns}
-::: {.column width="50%"}
-**Customary Law**
-
-![](Images/02_1-Customary_Law_Tapestry2.png)
-:::
-
-::: {.column width="50%"}
-**Treaty Law**
-
-![](Images/Images/02_1-treaty_peace.webp)
-:::
-::::
-
-1. Define it
-2. How is it made?
-3. Give us examples to illustrate it in practice
-
-::: notes
-
-Groups, work on the board and diagram each of these types of international law!
-
-- Get ready to present to us.
-
-1. Define it
-    - e.g. How do we know it when we see it?
-    
-2. How is it made?
-    - e.g. How do states "make" this kind of international law?
-    
-3. Give us examples to illustrate it in practice
-
-<br>
-
-**Questions?**
-
-<br>
-
-<br>
-
-**SLIDE**: Ok, Customary Law Group, walk us through your analyses!
-
-:::
-
-
-
-## Customary Law {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/02_1-Roman_Senate.jpg)
-
-::: notes
-
-**Group 1, define "custom" for us.**
-
-- A traditional and widely accepted way of behaving or doing something that is specific to a particular society, place, or time.
-
-- Long history of this kind of approach to law across the centuries and many different societies
-    - Maxim from the Roman Empire: "Via trita via tuta" meaning "beaten path, safe path" or "the well-worn way is the safe way."
-    
-    - Maxim from ancient India: "Immemorial Custom is transcendental Law"
-    
-    - Similar customs based laws passed throughout the Middle Ages as the "Canon Laws"
+Custom refers to a traditional and widely accepted way of behaving or doing something that is specific to a particular society, place, or time.
 
 <br>
 
@@ -656,42 +595,157 @@ Groups, work on the board and diagram each of these types of international law!
 
 <br>
 
-**SLIDE**: And how is customary law made?
+It turns out that respecting custom as a source of law has a LONG history across the world
+
+- **SLIDE**: Example from ancient India
 
 :::
 
 
 
-## Creating Customary Law {background-image="./Images/background-scales_justice_v3.png" .center}
+
+## The Long Roots of Customary Law {background-image="./Images/background-scales_justice_v3.png" .center}
+
+![](Images/02_1-ancient_india.jpg){style="display: block; margin: 0 auto"}
+
+::: {.r-fit-text}
+**Ancient Indian Maxim: "Immemorial Custom is transcendental Law"**
+:::
+
+::: notes
+
+The Manusmriti is an ancient legal and social text in Hinduism.
+
+- Tough to give a precise date, but some elements of it date back to 200 BC
+
+<br>
+
+Traditional norms practiced for generations carry inherent moral and legal weight.
+
+- In ancient Hindu law proven community usage took precedence over written laws or scriptures.
+
+<br>
+
+**SLIDE**: Example from Ancient Rome
+
+:::
+
+
+
+## The Long Roots of Customary Law {background-image="./Images/background-scales_justice_v3.png" .center}
+
+![](Images/02_1-Roman_Senate.jpg){style="display: block; margin: 0 auto"}
+
+::: {.r-fit-text}
+**Ancient Roman Maxim: "beaten path, safe path"**
+:::
+
+::: notes
+
+Under the Roman empire the expression was "via trita via tuta"
+
+- "beaten path, safe path" or "the well-worn way is the safe way."
+
+<br>
+
+Courts and judges used this phrase to respect old laws and past decisions.
+
+- They believed that sticking to established legal practices kept society stable and predictable.
+
+<br>
+
+**SLIDE**: Moving forward in time 
+
+:::
+
+
+
+## The Long Roots of Customary Law {background-image="./Images/background-scales_justice_v3.png" .center}
+
+![](Images/02_1-Customary_Law_Tapestry2.png){style="display: block; margin: 0 auto"}
+
+::: {.r-fit-text}
+**Medieval Canon Law: "Custom or law is a right established by habits"**
+:::
+
+::: notes
+
+In the Middle Ages (circa 1140 AD), canon law (ius canonicum) was the official legal system of the Catholic Church.
+
+- The expression was "Consuetudo aut lex est jus moribus constitutum"
+
+- Custom or law is a right established by habits
+
+<br>
+
+These laws explicitly recognized long-standing local customs as valid law
+
+- ...provided those customs did not contradict divine law or church doctrine.
+
+<br>
+
+So, customary law has a long history as a rule making force in both domestic and international systems
+
+- **SLIDE**: Let's now take this back into Cassese's work
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Creating Customary Law**
 
 1. Opinio necessitatis 
 
 2. No “strong and consistent” opposition 
 
 3. Opinio juris
+:::
 
 ::: notes
 
-Ok group, talk us through the process of creating customary law.
+So, how do we tell the difference between general *state practices*, meaning the things that states do, and *customary law*?
+
+- According to Cassese and other legal scholars customary law is “unconscious and unintentional lawmaking” (Hans Kelsen)
+
+- BUT it is still law-making!
 
 <br>
 
-1. **What is opinio necessitatis? Explain this to me in simple terms.**
+It can be useful to think of the process of customary law creation in three steps
+
+<br>
+
+**What is opinio necessitatis?**
+
+- **Try to explain this to me in simple terms.**
 
 - (opinion says it is necessary; practice dictated by necessity)
-- "opinion" means it is subjective to you
-- "necessity" means you believe you need to do it
+
+    - "opinion" means it is subjective to you
+
+    - "necessity" means you believe you need to do it
+
 - So, opinio necessitatis refers to things states do because they believe they need to.
 
-2. **What is meant by "strong and consistent" opposition and how does this follow from step 1?**
+<br>
+
+**What is meant by "strong and consistent" opposition and how does this follow from step 1?**
 
 - So, states are doing a specific thing because they believe they need to.
+
 - Over time more and more states also adopt this practice and no "strong" and "consistent" voices are raised to object.
 
-3. **What is meant by "opinio juris" and how does it follow from step 2?**
+<br>
 
-- 'practice dictated by law'
+**What is meant by "opinio juris" and how does it follow from step 2?**
+
+- ('practice dictated by law')
+
 - Over time, states come to do the "thing" adopted in steps 1 and 2 not because of need but because they come to accept it is because they are supposed to do it!
+
 - Even without a treaty, a custom can become so embedded in the system that states obey it BECAUSE it is the custom and not just because they want to.
 
 <br>
@@ -700,11 +754,15 @@ Ok group, talk us through the process of creating customary law.
 
 <br>
 
-Group, what examples do you have for us?
+**What examples of this do you see in the reading?**
+
+- (1. State control over the resources beneath the high seas but on their continental shelf)
+
+- (2. Acceptable state behaviors in outer space)
 
 <br>
 
-**SLIDE**: Example - no murdering ambassadors!
+**SLIDE**: One of my favorite historical examples relates to ambassadors
 
 :::
 
@@ -712,7 +770,7 @@ Group, what examples do you have for us?
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/02_1-Lord_George_China.jpg)
+![](Images/02_1-Lord_George_China.jpg){style="display: block; margin: 0 auto"}
 
 ::: notes
 
@@ -722,12 +780,19 @@ This illustration depicts the British Ambassador, Lord George Macartney, visitin
 
 <br>
 
-**Step 1: In the pre-WWII era, why might states have stationed ambassadors in other states? What is the opinio necessitatis for having ambassadors?**
+**Step 1: In the pre-WWII era, why might states have stationed ambassadors in other states?**
+
+- **What is the opinio necessitatis for having ambassadors?**
 
 - (Keep the lines of communication open)
+
 - (Encourage trade)
+
 - (Create new opportunities for cooperation)
+
 - (Keep alliances in place; prevent war)
+
+<br>
 
 Note that none of these are because international law says you have to!
 
@@ -737,12 +802,19 @@ Let's say Britain attacks China.
 
 - e.g. a trade dispute turns hostile leads to naval battle, deaths and loss of economic goods.
 
-**If you are the Chinese emperor, why not send Mccartney's head back to the king in a bag?**
+- **If you are the Chinese emperor, why not send Mccartney's head back to the king in a bag?**
+
+<br>
 
 - (Again, opinio necessitatis in action.)
-    - May need him to negotiate a peace.
-    - Likely retribution against your ambassador in Britain.
-    - Would make peacefully ending the conflict MUCH harder.
+
+- May need him to negotiate a peace.
+
+- Likely retribution against your ambassador in Britain.
+
+- Would make peacefully ending the conflict MUCH harder.
+    
+<br>
 
 **Can everyone see treating ambassadors as safe from harm is practice by necessity?**
 
@@ -754,7 +826,27 @@ Let's say Britain attacks China.
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/02_1-Diplomatic_Immunity_Meme.png)
+::: {.r-fit-text}
+**Customary International Law: Diplomatic Immunity**
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](Images/02_1-diplomatic-immunity.jpg)
+:::
+
+::: {.column width="50%"}
+<br>
+
+1. Opinio necessitatis 
+
+2. No “strong and consistent” opposition 
+
+3. Opinio juris
+:::
+
+::::
 
 ::: notes
 
@@ -767,6 +859,7 @@ From here we see the development of the customary law related to diplomatic immu
 **Step 2: Why would we not expect a "strong and consistent" opposition to develop on the question of not murdering ambassadors when countries make you mad?**
 
 - Ambassadors prove useful so more and more states exchange them.
+
 - Even when things go bad between two states, states recognize that their anger is not productively taken out on the other side's ambassador.
 
 <br>
@@ -780,43 +873,22 @@ From here we see the development of the customary law related to diplomatic immu
 **So, based on the chapter, what do we understand customary international law to be?**
 
 - (A process of taking "the way states do things because they want to" and eventually coming to interpret them as binding rules of behavior)
+
 - (Not normally a deliberate process, more like 'unconscious and unintentional lawmaking')
+
 - (Normally binding on all states whether they want them to or not!)
 
 <br>
 
-**Questions on customary law?**
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/02_1-treaty_peace.webp)
-:::
-
-::: {.column width="50%"}
-**Treaty Law**
-
-1. Define it
-
-2. How is it made?
-
-3. Give us an example of this type in action
-:::
-::::
-
-::: notes
-
-Ok, Treaty Law Group, take it away!
+**Big picture questions on the traditional process of creating customary law?**
 
 <br>
 
-**SLIDE**: treaty definition from Vienna Convention on the Law of Treaties (1969)
+This all represents the traditional process of creating customary law
+
+- BUT, there are some extra complications from the chapter we need to flag
+
+- **SLIDE**
 
 :::
 
@@ -824,23 +896,29 @@ Ok, Treaty Law Group, take it away!
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-**Vienna Convention on the Law of Treaties (1969)**
-
-"'treaty' means an international agreement concluded between States in written form and governed by international law, whether embodied in a single instrument or in two or more related instruments and whatever its particular designation" (Article 2).
-
-::: notes
-
-- "A treaty is basically an agreement between parties on the international scene" (903). 
-
-- "There are no specific requirements of form in international law for the existence of a treaty, although it is essential that the parties intend to create legal relations as between themselves by means of their agreement" (905).
-
-- Synonyms for treaty: convention, protocol, act, charter, covenant, pact, concordat, etc.
-
-- Fundamental Principle: "pacta sunt servanda" (agreements must be kept)
+### How does the traditional process change when humanitarian issues are at stake?
 
 <br>
 
-**SLIDE**: And how is treaty law made?
+1. Opinio necessitatis 
+
+2. No “strong and consistent” opposition 
+
+3. Opinio juris
+
+::: notes
+
+**First, how does the traditional process of creating customary law change when humanitarian issues are at stake?**
+
+- **In other words, how does the Martens Clause from the 1899 Hague Peace Conference change these three steps?**
+
+- (**SLIDE**)
+
+<br>
+
+Until a more complete code of the laws of war is issued, the High Contracting Parties think it right to declare that in cases not included in the Regulations adopted by them, populations and belligerents remain under the protection and empire of the principles of international law, as they result from the usages established between civilized nations, from the laws of humanity and the requirements of the public conscience.
+
+- Convention with respect to the laws of war on land (Hague II), 29 July 1899
 
 :::
 
@@ -848,55 +926,53 @@ Ok, Treaty Law Group, take it away!
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-**How are treaties made?**
+### How does the traditional process change when humanitarian issues are at stake?
 
-- "Treaties may be made or concluded by the parties in virtually any manner they wish. There is no prescribed form or procedure..." (907)
+<br>
 
-- Bind yourself (ratification) or no obligations created
-    - Do nothing: No rules attached
-    
-    - Signature: Don't actively undermine the rules
-    
-    - Ratification: The binding decision
+1. ~~Opinio necessitatis~~ The “laws of humanity”
+
+2. ~~No “strong and consistent” opposition~~ (?)
+
+3. Opinio juris
 
 ::: notes
 
-Only binds a state that chooses to bind themselves to it (910).
+The participants knew they couldn't draft a complete set of the rules of war and wanted to make clear that individuals are entitled to protections
 
-- Ratification: Bound by the rules
-- Signature: Don't actively undermine the rules
-- None: Do whatever the hell you want
+- According to Cassese, the massive scope of this change was unintentional
 
-<br>
+- It made sense to them given the high stakes and the difficulty of anticipating all possible future conflicts, BUT
 
-Interestingly, in basically all states in the world, the ratification threshold includes some selection of powerful people BESIDES the chief executive.
-
-- Democracies: Legislatures
-
-- Autocracies: Wealthy and military
+- This opens a HUGE problem for standard conceptions of international law
 
 <br>
 
-**Why do you think essentially all states, even dictatorships, moved to a status where consent by more than just the leader is needed to bind a state to international law?**
+**Why is this a problem for states?**
 
-1. (Protection for other states against uncertainty.)
-    - Need to know your state is committed and not just until the next election.
-    - Assures buy-in from the wider society for the deal.
-    - Means a change in leadership SHOULD be less likely to upend tons of international law.
-
-2. (Protection for the leader from an angry populace?)
-    - Spreads the blame across the elites.
-
-3. (Protection for the leader from those who might wish to replace them.)
-    - Gives elites a seat at the table.
-    
-<br>
-
-**Group, what examples do you have for us?**
+- **How does this transform customary international law?**
 
 <br>
 
-**SLIDE**: Interestingly, customary law directly informed the writing of the Vienna Convention!
+- (Completely changes what we mean by "custom" or "practice" as a rather uncontroversial source of the rules)
+
+- (The structures of customary law were not designed to support rules that did NOT reflect common practice or behavior)
+
+- This is really something entirely different...
+
+<br>
+
+**SLIDE**: What about objections during rule creation?
+
+<br>
+
+8.2.3 Custom in international humanitarian law
+
+- The Martens Clause (Hague Peace Conference 1899): “Until a more complete code of the laws of war is issued, the High Contracting Parties think it right to declare that in cases not included in the Regulations adopted by them, populations and belligerents remain under the protection and empire of the principles of international law, as they result from the usages established between civilized nations, from the laws of humanity and the requirements of the public conscience.”
+
+- Big impact (not necessarily anticipated by the drafters): This puts the “laws of humanity” and the “dictates of public conscience” on the same footing as state practice (‘usus’) as “historical sources of ‘principles of international law’”
+
+- So, in terms of only humanitarian law, the state practice requirement is reduced and the opinio piece is elevated. Otherwise we would have to wait for atrocities to happen before creating the international legal structure to prevent those same atrocities from happening again.
 
 :::
 
@@ -904,205 +980,150 @@ Interestingly, in basically all states in the world, the ratification threshold 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-**Innovations from the Vienna Convention on the Law of Treaties (1969)**
+### Do customary rules require the support of all states at their birth?
 
-- Reservations allowed (Art 19-23)
+<br>
 
-- Standards for interpretation (Art 31)
+1. Opinio necessitatis (or the “laws of humanity”)
 
-- Can't force weak states to join (Art 52)
+2. [No “strong and consistent” opposition]{style="color:red;"}
 
-- Treaties cannot violate jus cogens (Art 53, 64)
+3. Opinio juris
 
 ::: notes
 
-*Vienna Convention* [LINK](https://legal.un.org/ilc/texts/instruments/english/conventions/1_1_1969.pdf)
+**What is your sense of the second step during customary law formation?**
 
-**What are treaty reservations and how do they impact treaty law? (p913-925)**
-
-- Best case: Encourages wider participation by allowing states to modify their obligations on minor issues.
-- Worst case: Completely ruins the agreement and thoroughly complicates state interactions
-- Vienna Art 20 has the rules for whether a reservation is acceptable.
-    - At the weak end an objection to a reservation may just modify the relationship between the reserving and the objecting state and only as it pertains to the article being reservation-ed. 
-    - At the strong end reservations can be nullified if deeply problematic or unacceptable to the other states.
-    - In general, if you don't object within 12 months of the reservation you've accepted it.
-    
-<br>
-
-The last three points can all be grouped together under the label, powerful states cannot exploit weak states using treaties.
-
-**Why did the standards for interpretation need to evolve?**
-
-- Art 31.1: "A treaty shall be interpreted in good faith in accordance with the ordinary meaning to be given to the terms of the treaty in their context and in the light of its object and purpose." 
-    - Shocking that this needed to be established in law
-
-**What does it mean to say that treaties cannot violate jus cogens?**
-
-- Jus cogens = "Compelling law" aka "peremptory norms"
-    - Norms / customary laws that cannot be appealed, modified or ignored.
-- Examples: aggression, colonial domination, slavery, genocide, apartheid, massive pollution of atmosphere or seas, racial discrimination, torture, war crimes, crimes against humanity.
-
-So, you can't use a treaty to create international laws committing genocide, war crimes, etc.
-
-- Kind of a big deal change (unfortunate it was needed)
+- **Does EVERY state have to opt in?**
 
 <br>
 
-**Any questions on the basics of treaty law?**
-
-- TONS more in the chapter but this is a good basis for us.
+**Can states opt out of new customary rules?**
 
 <br>
 
-**NOTES**
+**SLIDE**: Let's end today with your Canvas arguments
 
-The Making of Treaties
+<br>
 
-Formalities (907-909)
+8.2.4 Do customary rules require the support of all states at their birth?
 
-- "Treaties may be made or concluded by the parties in virtually any manner they wish. There is no prescribed form or procedure..." (907)
-- There are some rules that apply to the creation of international conventions: To represent a state in a treaty negotiation a person must have "full powers" (see Art 7 of Convention), but being head of state automatically confers such authority per the ICJ's previous rulings.
+- “For a rule to take root in international dealings it is sufficient for a majority of States to engage in a consistent practice corresponding with the rule and to be aware of its imperative need. States shall be bound by the rule even if some of them have been indifferent, or relatively indifferent, to it…” Think of landlocked states and the laws of the sea.
+- “…no national or international court dealing with the question of whether an international rule had taken shape on a certain matter has ever examined the views of all States of the world” (162)
 
-Consent (909-913)
+8.2.5 Objection by states to the formation of a customary rule
 
-- "...since states may (in the absence of a rule being also one of customary law) be bound only by their consent" (910).
-- Text of agreement must be "adopted" by negotiators (Art 9)
-- Then each state must signify its intent to be bound by the treaty
-- Art 11: Signature, exchange of instruments, ratification, acceptance, approval, accession or whatever other procedure the states agree on. (910)
-
-Other Shaw (2008) sections
-
-- Entry into Force (925-926)
-- Application of Treaties (926-930)
-- The amendment and modification of treaties (930-932)
-- Treaty interpretation (932-938)
-- Invalidity, Termination and Suspension of the operation of treaties (939-953)
-- Dispute Settlement (952-953)
-- Treaties between states and IOs (953-955)
+- The “so-called theory of the ‘persistent objector’ … holds that a state that “dissociates itself from a nascent rule is not bound by it.” 
+- This seems currently untenable for two reasons: 1) Current international relations are much more “community oriented” and less “individualistic” than they used to be. It is extremely difficult to stand alone against the “strong pressure of the vast majority of members of the community”; 2) There is no firm support for this theory in either state practice or international case law
+- Strong opposition to a new rule from a “major Power” may prevent or slow down its formation, but that is a question of process rather than legal entitlement. 
+- This seems to be an evolution of the international legal system whereby custom can bind you even if you object to it!
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## The Nuclear Taboo (Tannenwald 2005) {background-image="./Images/background-scales_justice_v3.png"}
 
-:::: {.columns}
-::: {.column width="50%"}
-**Customary Law**
+![](Images/02_1-Tannenwald.webp){.absolute left=0 width="400"}
 
-![](Images/02_1-Customary_Law_Tapestry2.png)
-:::
+![](Images/02_1-nukes.jpg){.absolute right=0 bottom=0 width="400"}
 
-::: {.column width="50%"}
-**Treaty Law**
-
-![](Images/02_1-treaty_peace.webp)
-:::
-::::
-
-<br>
-
-What are the [**strengths**]{style="color:blue;"} and [**weaknesses**]{style="color:red;"} of this approach to problem solving?
+![](Images/02_1-Nuclear_Taboo_Book.jpeg){.absolute right=350 bottom=75 width="315"}
 
 ::: notes
 
-*ON BOARD*: Groups time to make two lists!
+**According to Tannenwald, what is the "nuclear taboo"?**
+
+- ("The nuclear taboo refers to a de facto prohibition against the first use of nuclear weapons" p8)
+
+- ("...nuclear weapons have come to be defined as abhorrent and unacceptable weapons of mass destruction, with a taboo on their use. This taboo is associated with a widespread revulsion toward nuclear weapons and broadly held inhibitions on their use", p5)
 
 <br>
 
-Customary Law
+*Split class in half, work directly on the board*
 
-- unconscious, unintentional and binding on all members
-- Cons: Hard / impossible to create, slow to generate
-- Pros: Very powerful if truly internalized
+- Canvas Arg 1: What is the strongest argument you can make that the "nuclear taboo" is customary international law? 
 
-Treaty Law
+- Canvas Arg 2: What is the strongest argument you can make that the "nuclear taboo" is NOT customary international law? 
 
-- Codified, explicit and binding only on those who agree
-- Cons: Slow to make
-- Pros: 
+<br>
+
+*PRESENT and DISCUSS each*
+
+<br>
+
+**SLIDE**: Next class
+
+<br>
+
+*Tannenwald Notes*
+
+Tannenwald refers to this as a taboo which is apparently a stronger prohibition than a norm.  
+
+- "In reality, however, nuclear weapons have to be defined as abhorrent and unacceptable weapons..." (5)  
+
+-  "...a widespread revulsion toward nuclear weapons and broadly held inhibitions on their use" (5).  
+
+-  "...severely delegitimized and are practically unthinkable policy options" (5).  
+
+-  Pursued in opposition to the US who wanted to protect its right to use these weapons for defense.  
+
+-  "The nuclear taboo refers to a de facto prohibition against the first use of nuclear weapons" (8).  
+
+-  Taboo is even stronger prohibition than a norm: It is a danger, it is prohibited, it carries awful consequences (8) AND people believe it is taboo (9)  
+
+-  It is also a "bright line" norm. Once anyone violates it the entire world is changed.  
+
+-  Unlike other taboos it is not legalized (the NPT 1968 authorizes some states to have nukes)  
+
+-  Evidence that people believe it is a taboo in discourse, institutions and behavior  
+
+-  No explicit legal prohibition on the use of nukes like there is for chemical weapons HOWEVER legal restrictions gradually chipping away at it (10) e.g. nuclear weapons-free zones, arms control agreements  
+
+Four pathways of the taboo's development  
+
+1. Societal pressure (grassroots groups and moral consciousness raising)  
+2. Normative power politics (states use rhetoric and diplomacy to delegitimize nukes)  
+3. The role of individual state decisionmakers  
+4. Iterated behavior over time "IS SIMILAR TO THE NOTION OF CUSTOM IN INTERNATIONAL LAW." Nonuse over timefor whatever reasons--deterrence, lack of readiness, scarcity of bombs, moral inhibitions or contingency--becomes a convention and a convention eventually gives rise to a normative obligation (13).  
+
+-  Although the taboo is widespread today it is probably not universal (34).  
+
+Counter-arguments  
+
+1. Scott Sagan: It's a "tradition of nonuse" not a taboo (36). A matter of prudence not normative concerns
+
+2. The taboo is a weapon of the strong against the strong, not the weak against the strong (39). The soviets and the Chinese pushed for the taboo because it would harm the US more than them because they relied more on conventional forces than nukes.  
+
+3. What taboo? States maintain arsenals and game plan for their use. (40)
+
+P1 - the role of a global antinuclear weapons movement  
+
+P2 - nonuclear states opposition  
+
+P3 - Cold War power politics
+
+
+
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## For Next Class {background-image="./Images/background-scales_justice_v3.png" .center}
 
-**The Statute of the International Court of Justice (ICJ)**
+<br>
 
-**Article 38**
+**Sources of International Law: Treaties**
 
-1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
+1. Excerpts from Cassese (2005) and Hollis (2012)
 
-a. international conventions, whether general or particular, establishing rules expressly recognized by the contesting states; 
+2. Bring The Vienna Convention on the Law of Treaties (1969)
 
-b. international custom, as evidence of a general practice accepted as law; 
-
-c. the general principles of law recognized by civilized nations; 
-
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
+3. Canvas: Find us an interesting treaty to discuss
 
 ::: notes
 
-Ok, how are we doing?
-
-<br>
-
-**Does everybody now have a good sense of how to answer the question "what is international law"?**
-
-**How about answering questions about the "sources of international law"?**
-
-<br>
-
-Not bad for week 2!
-
-**SLIDE**: Most importantly, now that you know this, you too can react to every argument you hear about "international law" with...
-
-:::
-
-
-
-## {background-image="./Images/02_1-Princess_Bride.gif" .center}
-
-::: notes
-
-Some people use "international law" as an argument that they think settles big problems just by existing
-
-- They are certainly overstating the impact and omitting the vital context to any situation
-
-<br>
-
-Others mock "international law" or equate it with some nefarious plot by the "world community" to conquer America
-
-- But international law is way less nefarious than its opponents argue
-
-- If international law is treaties, then it only binds you if you choose it.
-
-- If international law is custom, then it only binds you if the behavior is an accepted custom.
-
-- If international laws are the general principles everyone accepts, then you've already accepted them.
-    
-<br>
-
-**Make sense?**
-
-:::
-
-
-
-## Next Class {background-image="./Images/02_1-Princess_Bride.gif" .center}
-
-Abbott, Keohane, Moravcsik, Slaughter & Snidal (2000). The Concept of Legalization. *International Organization*. 54(3), 401–419.
-
-Bring to Class: 
-
-- See treaties listed on Modules in Canvas
-
-::: notes
-
-We need a method/tool/alphabet for helping us analyze/compare treaties:
-
-- Legalization to classify international treaties
 
 :::
 
