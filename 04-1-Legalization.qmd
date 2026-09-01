@@ -32,112 +32,205 @@ Justin Leinaweaver (Fall 2026)
 
 1. Check Canvas submissions
 
-2. Full article notes in Zotero and distributed among slides below
+2. Open RStudio so you can record answers from class applying legalization to the Slavery convention for future years
 
 <br>
 
-Let's start today by reviewing how far we've come already!
-
-- **SLIDE**: Art 38 of The Statute of the ICJ
+The first section of our class has focused on getting you up to speed on the concepts and tools we need to analyze international institutions
 
 <br>
 
-**Big picture notes**
+We have spent the first three weeks focused on defining and understanding the concepts of international law and international institutions
 
-- "Legalization" refers to a particular set of characteristics that institutions may (or may not) possess. These characteristics are defined along three dimensions: obligation, precision, and delegation. Obligation means that states or other actors are bound by a rule or commitment or by a set of rules or commitments. Specifically, it means that they are legally bound by a rule or commitment in the sense that their behavior thereunder is subject to scrutiny under the general rules, procedures, and discourse of international law, and often of domestic law as well. Precision means that rules unambiguously define the conduct they require, authorize, or proscribe. Delegation means that third parties have been granted authority to implement, interpret, and apply the rules; to resolve disputes; and (possibly) to make further rules" (401).
-- Table 1 rank ordering is more a suggestion not a "strict ordering"
+- To do this we have been reading, exploring and analyzing the work of a diverse set of scholars including historians, judges, law professors and political scientists
+
+- **SLIDE**: All of this has been an effort to answer this question...
 
 :::
+
 
 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-**The Statute of the International Court of Justice (ICJ)**
-
-**Article 38**
-
-1. The Court, whose function is to decide in accordance with international law such disputes as are submitted to it, shall apply: 
-
-a. [**international conventions**]{style="color:blue;"}, whether general or particular, establishing rules expressly recognized by the contesting states; 
-
-b. [**international custom**]{style="color:blue;"}, as evidence of a general practice accepted as law; 
-
-c. the [**general principles of law**]{style="color:blue;"} recognized by civilized nations; 
-
-d. subject to the provisions of Article 59, [.e. that only the parties bound by the decision in any particular case,] judicial decisions and the teachings of the most highly qualified publicists of the various nations, as subsidiary means for the determination of rules of law. 
+::: {.r-fit-text}
+**What is international law?**
+:::
 
 ::: notes
 
-Over the last two classes we worked on answering the question: What is international law?
+Take a minute, talk to the people around you and get ready to report back your answer to this question
 
-- We did this by rooting ourselves in Art 38 of the Statute of the International Court of Justice (ICJ)
-
-<br>
-
-Let's talk big takeaways from those classes
-
-**Overall, how would you explain what international law is to someone else?**
+- *DISCUSS*
 
 <br>
 
-**How different is this, really, from domestic law?**
-
-- Different in at least one HUGE way: enforcement by the state vs enforcement by the participants
-
-- HOWEVER, many similarities: Treaties as written rules, custom and principle like judicial precedent and English common law
-
-<br>
-
-**For the purposes of solving international problems, when should we focus on using treaties and when on custom?**
-
-- **Pros and cons of each?**
-
-<br>
-
-**Did our work last class change how you feel about Cassese's "fundamental principles"? Why or why not?**
-
-<br>
-
-Remember, according to Cassese these are "fundamental" because they are universal in scope and legally binding.
-
-- If all of them are rooted in well established custom then hasn't he made his argument successfully?
+**SLIDE**: Let's reframe our different sources from the last three weeks as competing answers to this question
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## What is international law? {background-image="./Images/background-scales_justice_v3.png" .center}
 
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/02_2-Slavery_Convention_Cover.png)
-:::
+<br>
 
-::: {.column width="50%"}
-![](Images/02_2-UNGA_Moratorium_Death_Penalty.png)
+International law is...
+
+::: {.incremental}
+
+- A tool for justifying the actions of states outside their borders (Grotius)
+
+- A substantial body of rules underpinned by coherent principles built through state practice (Cassese and Hollis)
+
+- An intervening variable for explaining outcomes (Mearsheimer)
+
+- A set of tools meant to facilitate policy coordination (Keohane)
 :::
-::::
 
 ::: notes
 
-Our next job is to explore tools we can use to help us understand, analyze and compare international institutions.
+**How would Hugo Grotius answer this question?**
+
+- (**REVEAL**: International law is a tool for justifying the actions of states outside their borders)
+
+- (Under the "old" legal order a set of rules that allowed states to take what they want and have their conquests accepted as "just", e.g. might makes right)
 
 <br>
 
-In our first class of the semester we took a look at two VERY different types of international law.
+**How would Hugo Cassese answer this question?**
 
-- The Slavery Convention which is clearly a treaty, and
+- (**REVEAL**: International law is a substantial body of rules underpinned by coherent principles built through state practice and legal principle)
 
-- A resolution from the UN General Assembly which is a recommendation made by the members of an international organization
+- (An umbrella term referring to rules established EITHER through international custom, international treaty or referring to the principles underpinning international relations of the last 75 years)
 
 <br>
 
-These two examples differ in many, many ways, but not all of those differences matter as much to us.
+**How would Mearsheimer answer this question?**
 
-- What we need are tools that help us cut through the differences in order to identify the variation that is most important, and 
+- (**REVEAL**: International law is an intervening variable for explaining outcomes) 
+- (A fig leaf covering the interests of powerful states applied to the weak states)
 
-- Some way to measure those differences so we can analyze and compare them on more equal terms
+<br>
+
+**How would Keohane answer this question?**
+
+- (**REVEAL**: International law is a set of tools meant to facilitate policy coordination IN THE ABSENCE OF CENTRALIZED ENFORCEMENT)
+
+<br>
+
+**SLIDE**: The good news...
+
+:::
+
+
+
+
+## What is international law? {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+International law is...
+
+- A tool for justifying the actions of states outside their borders (Grotius)
+
+- A substantial body of rules underpinned by coherent principles built through state practice (Cassese and Hollis)
+
+- An intervening variable for explaining outcomes (Mearsheimer)
+
+- A set of tools meant to facilitate policy coordination (Keohane)
+
+::: notes
+
+The good news is that this debate does not need to remain purely normative or theoretical
+
+- Each of these claims are empirical in nature and that means we can use data to evaluate them!
+
+- The exercise for us is to use data to evaluate HOW and WHETHER international rules impact important political outcomes between AND within states
+
+<br>
+
+**For example, and focusing on the contrast here between Griotius and the legal scholars (Cassese and Hollis), what measurable outcomes would we expect to see in the world?**
+
+- (Do states behave like international rules are binding on their behavior?)
+
+    - e.g. state X takes action Y that is consistent with the obligations of an international institution
+
+    - Even better if they claim they are doing it BECAUSE of the obligation!
+
+    - Cassese predicts states should consistently behave like international law "matters" and invoke it as the reasons for their actions
+    
+- (Do states ever transform domestic rules to be more consistent with international ones?)
+
+<br>
+
+**If Mearsheimer is right, what measurable outcomes would we expect to see in the world?**
+
+- (Does international law transform meaningfully to mimic changes in the balance of power?)
+
+- e.g. International institution Y changes in response to demands by powerful states
+
+<br>
+
+**If Keohane is right, what measurable outcomes would we expect to see in the world?**
+
+- (Can we find concrete examples of treaty designs tailored to address specific collective action problems?
+    
+- (If we can, have those designs enabled meaningful policy coordination or not?)
+
+- e.g. problem X prevents cooperation UNTIL institution Y is established?
+
+<br>
+
+So, that is our next job.
+
+- We want to actually test these big ideas using data from the real world
+
+- In other words, can we find evidence that international institutions matter?
+
+<br>
+
+**SLIDE**: An important first step for us will be to dig into some specifics!
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+::: {.r-fit-text}
+**Was the Slavery Convention (1926) effective?**
+:::
+
+![](Images/04_1-Walk_Free_Global_Slavery_Index.png){.absolute right=0 bottom=0 width="850"}
+
+![](Images/02_2-Slavery_Convention_Cover.png){.absolute left=0 top=175 width="300"}
+
+::: notes
+
+For today I asked each of you to bring a copy of the 1926 Slavery Convention to class
+
+- This international institution was designed to end slavery and that seems like a pretty clear and easy to measure goal!
+
+<br>
+
+On the right is a map showing where slavery is prevalent in the world today as produced by the human rights organization Walk Free.
+
+- Rather than continuing to debate "international law" purely in the abstract, our focus now shifts to asking if specific international institutions like this convention actually had measurable impacts in the world
+
+<br>
+
+In order to evaluate these possible impacts, we need tools for unpacking an international institution
+
+- Treaties tend to include a LOT of words, and we need methods for identifying their key elements
+
+- Over the next two weeks I'll introduce you to two tools designed to help us identify the key parts of a treaty or organization for these purposes
+
+- This week we focus on the concepts of legalization and next week the rational design conjectures.
+
+<br>
+
+**SLIDE**: Enough stalling, let's work with our first tool
 
 :::
 
@@ -178,12 +271,25 @@ Two **VERY important** notes on this tool:
     - Example: The UNFCCC got the world to agree on a goal of averting dangerous climate change. Wasn't a binding rule BUT it completely structured the design of each new climate change treaty!
     
 2. NONE of this is about making an effectiveness argument
+
     - Does the law "work" is a very important question that legalization can help you explore BUT not answer
 
 <br>
 
 **Any questions on the broad strokes of the tool?**
 
+<br>
+
+Let's talk through each dimension
+
+- **SLIDE**: Starting with obligation
+
+<br>
+
+*Big picture notes*
+
+- "Legalization" refers to a particular set of characteristics that institutions may (or may not) possess. These characteristics are defined along three dimensions: obligation, precision, and delegation. Obligation means that states or other actors are bound by a rule or commitment or by a set of rules or commitments. Specifically, it means that they are legally bound by a rule or commitment in the sense that their behavior thereunder is subject to scrutiny under the general rules, procedures, and discourse of international law, and often of domestic law as well. Precision means that rules unambiguously define the conduct they require, authorize, or proscribe. Delegation means that third parties have been granted authority to implement, interpret, and apply the rules; to resolve disputes; and (possibly) to make further rules" (401).
+- Table 1 rank ordering is more a suggestion not a "strict ordering"
 :::
 
 
@@ -196,9 +302,7 @@ Two **VERY important** notes on this tool:
 
 ::: notes
 
-Ok, talk me through the "Obligation" dimension
-
-**What would it mean to evaluate a treaty in terms of its "obligations"?**
+**What does it mean to evaluate a treaty in terms of its "obligations"?**
 
 - "Obligation means that states or other actors are bound by a rule or commitment or by a set of rules or commitments" (401).
 
@@ -208,7 +312,7 @@ Ok, talk me through the "Obligation" dimension
 
 - Are they merely suggestions or absolute commandments?
 
-- Think: States shall or states must vs states are encouraged to...
+- Think: States "shall" or states "must" vs states "are encouraged to"...
 
 <br>
 
@@ -216,22 +320,35 @@ Ok, talk me through the "Obligation" dimension
 
 <br>
 
-**Per the reading, what are "conditions on obligation in row 2?**
+**Per the reading, what are "conditions on obligation" in row 2?**
 
 - (Treaties often specify that no one is bound by any rules until enough other states have also joined the treaty)
+
     - An effort to avoid a first mover disadvantage
-
-**What are "contingent obligations"?**
-
-- (A way to soften hard obligations using contingent conditions: You must cut your climate emissions BUT based on national capabilities)
-
-**And what are "escape clauses"?**
-
-- (Another way to soften hard obligations allowing states to ignore a rule or leave a treaty under certain circumstances: You may infringe on civil liberties during national emergencies)
 
 <br>
 
-**Reading Notes**
+**What are "contingent obligations"?**
+
+- (A way to soften hard obligations using contingent conditions)
+
+- (e.g. You must cut your climate emissions BUT based on national capabilities)
+
+<br>
+
+**And what are "escape clauses"?**
+
+- (Another way to soften hard obligations allowing states to ignore a rule or leave a treaty under certain circumstances)
+
+- (e.g. You may infringe on civil liberties during national emergencies)
+
+<br>
+
+**SLIDE**: Let's practice!
+
+<br>
+
+*Reading Notes*
 
 Obligation (Table 2 p410)
 
@@ -246,24 +363,28 @@ Obligation (Table 2 p410)
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
+::: {.r-fit-text}
+**Evaluating the obligations in the Slavery Convention (1926)**
+:::
+
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](Images/02_2-Slavery_Convention_Cover.png)
 :::
 
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](Images/02_2-Legalization_Table2.png)
 
 **Levels**: 
 
 High, Medium or Low
-]]
+
 :::
 ::::
 
 ::: notes
 
-Let's now use this dimension of legalization to classify the Slavery Convention we examined last week.
+Let's now use this dimension of legalization to classify the Slavery Convention
 
 - Start by working in small groups (2-3)
 
@@ -279,9 +400,13 @@ Let's now use this dimension of legalization to classify the Slavery Convention 
 
 <br>
 
-**FA23**
+**FA26**
 
 - ?
+
+<br>
+
+**SLIDE**: Next dimension: precision
 
 :::
 
@@ -295,8 +420,6 @@ Let's now use this dimension of legalization to classify the Slavery Convention 
 
 ::: notes
 
-Ok, talk me through the "Precision" dimension
-
 **What would it mean to evaluate a treaty in terms of its "precision"?**
 
 - "A precise rule specifies clearly and unambiguously what is expected of a state or other actor (in terms of both the intended objective and the means of achieving it) in a particular set of circumstances. In other words, precision narrows the scope for reasonable interpretation" (412).
@@ -309,10 +432,13 @@ Ok, talk me through the "Precision" dimension
 
 <br>
 
-**Other Reading Notes**
+**SLIDE**: Practice
 
-Precision (Table 3 p415)
+<br>
 
+*Other Reading Notes*
+
+- Precision (Table 3 p415)
 - Precise rules are often highly elaborated or dense (although not always)
 - "The more "rule-like" a normative prescription, the more a community decides ex ante which categories of behavior are unacceptable; such decisions are typically made by legislative bodies. The more "standard-like" a prescription, the more a community makes this determination ex post, in relation to specific sets of facts; such decisions are usually entrusted to courts" (413).
 - Given the absence of "judicial, quasi-judicial, and administrative authorities" in most areas of IR, imprecise rules are often left to interpretation by the states themselves.
@@ -324,24 +450,28 @@ Precision (Table 3 p415)
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
+::: {.r-fit-text}
+**Evaluating the precision of the Slavery Convention (1926)**
+:::
+
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](Images/02_2-Slavery_Convention_Cover.png)
 :::
 
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](Images/02_2-Legalization_Table3.png)
 
 **Levels**: 
 
 High, Medium or Low
-]]
+
 :::
 ::::
 
 ::: notes
 
-Let's now use this dimension of legalization to classify the Slavery Convention we examined last week.
+Let's now use this dimension of legalization to classify the Slavery Convention
 
 - Start by working in small groups (2-3)
 
@@ -361,6 +491,10 @@ Groups, how do you classify the precision of this treaty?
 
 - ?
 
+<br>
+
+**SLIDE**: Final dimension, delegation
+
 :::
 
 
@@ -369,11 +503,9 @@ Groups, how do you classify the precision of this treaty?
 
 **Operationalizing Legalization**
 
-![](Images/Images/02_2-Legalization_Table4.png)
+![](Images/02_2-Legalization_Table4.png)
 
 ::: notes
-
-Ok, talk me through the "Delegation" dimension
 
 **What would it mean to evaluate a treaty in terms of its "delegation"?**
 
@@ -386,6 +518,10 @@ Ok, talk me through the "Delegation" dimension
 <br>
 
 **Any questions on the levels of delegation suggested by Table 4?**
+
+<br>
+
+**SLIDE**: Practice
 
 <br>
 
@@ -407,18 +543,22 @@ Delegation (Table 4 p)
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
+::: {.r-fit-text}
+**Evaluating the delegation in the Slavery Convention (1926)**
+:::
+
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](Images/02_2-Slavery_Convention_Cover.png)
 :::
 
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](Images/02_2-Legalization_Table4.png)
 
 **Levels**: 
 
 High, Medium or Low
-]]
+
 :::
 ::::
 
@@ -442,98 +582,20 @@ Let's now use this dimension of legalization to classify the Slavery Convention 
 
 - ?
 
+<br>
+
+**SLIDE**: Let's step back and think about these dimensions as a summary of this convention
+
 :::
+
 
 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/Images/02_2-Legalization_Table4.png)
-
-::: notes
-
-**Where does this put the Slavery Convention on Table 1?**
-
-- Remember, Table 1 rank ordering is more a suggestion not a "strict ordering"
-
-<br>
-
-**SLIDE**: Let's jump to a different treaty so we can think more deeply about delegation.
-
+::: {.r-fit-text}
+**Applying Legalization to the Slavery Convention (1926)** 
 :::
-
-
-
-## {background-image="./Images/02_2-whaling.jpg" .center}
-
-![](Images/Images/02_2-IWC-logo.png)
-
-::: notes
-
-Everybody open up the International Convention for the Regulation of Whaling (1946)
-
-- This is the convention that created the International Whaling Commission (IWC)
-
-<br>
-
-**Has anybody ever heard of the IWC?**
-
-<br>
-
-This is the organization that established the whaling moratorium in 1986
-
-- An astoundingly effective policy that saved many whale populations BUT ALSO pissed off whaling countries around the world!
-
-- It's actually led some whaling countries to leave the organization so they could continue whaling
-
-    - Japan left in 2019
-    - Norway formally objected and has set its own catch limits
-    - Iceland left in 1992 and returned in 2002
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/02_2-IWC_Page1.png)
-:::
-
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table4.png)
-
-**Levels**: 
-
-High, Medium or Low
-]]
-:::
-::::
-
-::: notes
-
-Let's split the class in half
-
-- Side A focus on dispute resolution, Side B on rule making and implementation
-
-<br>
-
-*ON BOARD*
-
-Dispute Resolution
-
-- ?
-
-Rule making and Implementation
-
-- ?
-
-:::
-
-
-
-## Operationalizing Legalization {background-image="./Images/background-scales_justice_v3.png" .center}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -549,55 +611,19 @@ Rule making and Implementation
 
 ::: notes
 
-**Any questions on the dimensions of legalization?**
+Having now read through the convention using these three dimensions, I'd like you to step back and reflect on the tool itself
+
+- **Does the legalization tool produce a useful summary of the convention? Why or why not?**
+
+- e.g. Let's report back on your answers to Canvas Q1: *1. Based on the work we've done over the first three weeks of class, how confident are you that these three specific dimensions of legalization allow us to capture the important elements of an international institution? Are they missing anything you believe is important for understanding the impacts of international law? Be sure to explain your reasoning.*
 
 <br>
 
-**SLIDE**: Before we wrap up, I want to briefly highlight how some of these authors have also worked to conceptualize the differences between hard and soft law as a trade-off.
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-**Hard and Soft Law in International Governance**
-
-**(Abbott and Snidal 2000)**
-
-It is [**VERY**]{style="color:red;"} difficult to create [**hard**]{style="color:red;"} international institutions but they are valuable because they:
-
-- Make your commitments more credible,
-
-- Reduce transaction costs, and
-
-- Allows for incomplete contracting.
-
-::: notes
-
-Ken Abbott and Duncan Snidal wrote a companion piece in this issue of IO focused on the trade-offs in designing international law.
+**Is there anything in the convention that struck you as important but isn't represented by the three dimensions of legalization?**
 
 <br>
 
-Hard Law is very hard to make BUT:
-
-1. Makes your commitments more credible
-
-    - e.g. High precision means no self-serving interpretations of the rules,
-    - e.g. High obligation means violations are a big deal for your reputation,
-    - Violations can also be punished in more ways, appealed to international arbitration
-
-2. Reduces transaction costs (high delegation means disputes handled internally in the law, not by requiring a new law
-
-3. High delegation means no need to waste time/resources on complete contracting
-
-<br>
-
-So, obviously, hard law is the closest analogue we have to domestic law.
-
-- They are hard to make but come the closest to establishing clear, binding rules on the international level.
-
-- That does NOT mean soft law is bad.
+**SLIDE**: Placement as hard vs soft law
 
 :::
 
@@ -606,67 +632,70 @@ So, obviously, hard law is the closest analogue we have to domestic law.
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-**Hard and Soft Law in International Governance**
-
-**(Abbott and Snidal 2000)**
-
-Soft Law is the ultimate tool of compromise!
-
-- Typically achieves less than hard law, [**BUT**]{style="color:red;"}
-
-- Low contracting costs means deals [**WAY**]{style="color:red;"} easier / faster to make
+![](Images/02_2-Legalization_Table1.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Bottom line, hard law is more substantial than soft law BUT better to get any soft law on the books as a first step than fail to create a hard one and make no progress at all.
+This all brings us "back" to Table 1 in the paper
+
+- Using these three dimensions of legalization allows us to classify international institutions in a hierarchical manner
+
+- Those on the "high" end of each dimension we call "hard" law.
+
+- Those on the "low" end we think of as "soft" law.
 
 <br>
 
-**SLIDE**: *If time remains do another treaty, if not go to assignment for next time*
-
-:::
-
-
-
-## Operationalizing Legalization {background-image="./Images/background-scales_justice_v3.png" .center}
-
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table2.png)
-
-![](Images/02_2-Legalization_Table3.png)
-:::
-
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table4.png)
-:::
-::::
-
-**Treaty on the Prohibition of Nuclear Weapons (2017)**
-
-::: notes
-
-Groups, let's practice!
-
-- Analyze the Treaty on the Prohibition of Nuclear Weapons using legalization!
+**Based on our work in class today, where in Table 1 does the Slavery Convention fit? What is it comparable to?**
 
 <br>
 
-*ON BOARD*
+For the second Canvas question I asked you to reflect a bit on this table
+
+- The order of the rows in Table 1 suggest that some of the dimensions of legalization are more important than others for establishing "hard law". 
+
+- **According to this ordering which of the three dimensions of legalization are most important for moving an institution towards "hard law"?**
+
+- (Lines 5,6 and 7 give away the game: Obligation > Delegation > Precision)
+
+<br>
+
+**Do we agree with this rank ordering? Why or why not?**
+
+- NOTE that the authors admit that the rank ordering in Table 1 is more a suggestion than a "strict ordering"
+
+<br>
+
+**SLIDE**: For next class
 
 :::
+
+
+
 
 
 
 ## Next Class {background-image="./Images/background-scales_justice_v3.png" .center}
 
-Read the Mearsheimer (1994) excerpts, then...
+<br>
 
-![](Images/02_2-Assignment.png)
+**Practice with the Legalization Tool**
+
+- Analyze: The Treaty on the Prohibition of Nuclear Weapons (2017)
+
+- Bring to Class: The International Convention for the Regulation of Whaling (1946)
 
 ::: notes
 
+Before class you'll submit your analysis of the Treaty on the Prohibition of Nuclear Weapons to Canvas
 
+<br>
+
+Then bring the International Convention for the Regulation of Whaling (1946) to class
+
+<br>
+
+**Questions on any of our material from today or the assignment?**
 
 :::
 
