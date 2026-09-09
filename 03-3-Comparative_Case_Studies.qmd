@@ -52,45 +52,158 @@ Last week we defined international law using the perspective of judges and lawye
 
 ::: notes
 
-Our interest this week has been to flesh out our theoretical understanding of what impact international institutions can be expected to have on actual state behavior
+Our interest this week has been to add two important theories to your toolbox for understanding international politics
+
+- Mearsheimer (1994) gave us a crash course in how the realist paradigm thinks about international institutions
+
+- Keohane (1984) gave us a crash course in how the institutionalist paradigm thinks about international institutions
 
 <br>
 
-Mearsheimer, speaking for the realists, argued that international behavior follows the balance of power
+Our job for today is to make sure:
 
-- Powerful states make institutions to enshrine or expand their power
+1. We're clear on what these theories assume, AND 
 
-- Weak states follow those rules because they are weak, not because they are law
-
-<br>
-
-Keohane, speaking for the institutionalists, argued that self-interested states can use institutions to facilitate meaningful cooperation
-
-- And by cooperation we mean a very hard test of "policy coordination"
-
-- "intergovernmental cooperation takes place when the policies actually followed by one government are regarded by its partners as facilitating realization of their own objectives, as the results of a process of policy coordination (51-52).
+2. We are comfortable applying them to actual outcomes in the world.
 
 <br>
 
-Our job for today is to use empirical cases to examine the expectations of each theory
+Ultimately, theory is only as useful as it is accurate in making predictions about the real world
 
-- Ultimately, theory is only as useful as it is accurate in making predictions about the real world
+- SO, does reality look more like offensive realism or institutionalism?
 
-- SO, does reality look more like offensive realism or institutionalism? Let's find out!
-
-<br>
-
-**SLIDE**:
+- Let's find out!
 
 <br>
 
-*Other Notes*
-
-- Some of the debate relates to defining the key concept: North's "institution" vs Mearsheimer's "international institution" vs Keohane's "international regime"
-
-- Some of the debate relates to the different outcomes: Mearsheimer's test seems to be focused on stopping wars vs Keohane's "cooperation" vs "discord"
+**SLIDE**: First, let's make sure we're clear on the theories themselves
 
 :::
+
+
+
+## Do international institutions matter? {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+### What [baseline assumptions]{style="color:blue;"} about international politics do Mearsheimer and Keohane [agree]{style="color:blue;"} on?
+
+::: notes
+
+Everybody review your notes from this week
+
+- Focus on the theoretical rationale of each approach
+
+- Get ready to report back to me, what are the key assumptions that both Mearsheimer and Keohane appear to agree upon?
+
+- Go!
+
+<br>
+
+*ON BOARD: Column 1 - Points of Agreement*
+
+- Systemic anarchy
+
+- States have the capacity to hurt each other (offensive capacity)
+
+- States behave strategically (instrumental rationality)
+
+- High uncertainty (states can never be certain about the intentions of other states)
+
+<br>
+
+That is a ton of shared assumptions about the world!
+
+- **SLIDE**: Now add the other side!
+
+:::
+
+
+
+
+## Do international institutions matter? {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+### What [baseline assumptions]{style="color:red;"} about international politics do Mearsheimer and Keohane [disagree]{style="color:red;"} on?
+
+::: notes
+
+Get ready to report back to me, what are the key assumptions that both Mearsheimer and Keohane appear to disagree on?
+
+- Go!
+
+<br>
+
+*ON BOARD: Column 2 - Points of Disagreement*
+
+**Mearsheimer (1994)**
+
+- States fear for their survival
+
+- Cooperation without enforcement allows for cheating (threat to survival)
+
+- Cooperation without enforcement may produce unequal gains (relative gains threat to survival)
+
+**Keohane (1984)**
+
+- Cooperation, even without enforcement, can:
+
+- Coordinate behavior
+
+- Reduce transaction costs for preferred behaviors
+
+- Increase transaction costs for discouraged behaviors
+
+- Establish and reinforce reputations
+
+- Encourage continued good behavior through: sunk costs, transgovernmental friendships, retaliatory linkages and the fear of bad precedents
+
+<br>
+
+**Ok, so fundamentally, where do these two theories differ most substantially?**
+
+(**SLIDE**)
+
+:::
+
+
+
+## Do international institutions matter? {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
+
+**Both Theories Assume:**
+
+- Systemic anarchy
+- Offensive capacity
+- Strategic behavior
+- Uncertain intentions
+
+**Mearsheimer (1994)**
+
+- Cooperation in the absence of enforcement is a threat to your survival so states won't be willing to do it
+
+**Keohane (1984)**
+
+- Cooperation in the absence of enforcement can generate substantial positive outcomes so states will be willing to do it
+
+::: notes
+
+The fundamental disagreement is about the impacts of cooperation in the absence of enforcement
+
+- For Mearsheimer, that is a world in which you increase the threats to your survival so you won't do it
+
+- For Keohane, that is a world in which you can increase positive outcomes on the world stage and so you do it
+
+<br>
+
+**IS everybody clear on these points of agreement and differences?**
+
+<br>
+
+**SLIDE**: Alright, let's turn to the empirics!
+
+:::
+
 
 
 
@@ -98,15 +211,21 @@ Our job for today is to use empirical cases to examine the expectations of each 
 
 <br>
 
-**International institutions “have minimal influence on state behavior”**
+::: {.r-fit-text}
+
+**International institutions...**
+
+- **“...have minimal influence on state behavior”**
 
 VS 
 
-**International institutions can facilitate cooperation**
+- **...can facilitate cooperation ("policy coordination")**
+
+:::
 
 ::: notes
 
-For today, each of you went out and found us a piece of evidence that supports each of these competing theories
+For today, each of you went out and found us a piece of evidence that supports one of these competing theories
 
 <br>
 
@@ -116,9 +235,25 @@ For today, each of you went out and found us a piece of evidence that supports e
 
 - Group 2, you focus on the Keohane discussion board
 
-- GROUPS, what is the strongest case you can make that your assigned theory is more useful for explaining real world outcomes?
+<br>
 
-- Go!
+I am NOT asking you to adopt your assigned perspective as the "correct" one.
+
+- REMEMBER, these are theories meant to help us explain outcomes
+
+- The exercise for us is to see how well these theories explain some outcomes in the world
+
+<br>
+
+SO, groups, focus on the evidence submitted in your assigned discussion board
+
+- Build an argument on the board that helps us see in what cases this theory is most useful
+
+- What are the strongest pieces of evidence consistent with the theoretical perspective of each researcher
+
+- **Make sense?**
+
+- Make sure to write in complete sentences! Go!
 
 <br>
 
@@ -133,6 +268,25 @@ For today, each of you went out and found us a piece of evidence that supports e
 <br>
 
 **SLIDE**: For next class
+
+<br>
+
+Canvas DISCUSSION: Case Study 1 - Case Study 1 - International institutions “have minimal influence on state behavior”
+
+Find us a recent example of an international institution (custom, treaty or international organization) EITHER failing in its stated goals OR succeeding in them ENTIRELY as a reflection of the balance of power in the world. In other words, find us evidence that Mearsheimer's view of international institutions explains outcomes in the real world. You may not submit the same case claimed by someone else in class (e.g. specific action in response to a specific moment).
+
+1. What is the international institution you are evaluating?
+2. Submit the APA citation for a piece of evidence supporting your argument
+3. Briefly explain your argument (e.g. why is this an example of Mearsheimer being "right"?)
+
+Canvas DISCUSSION: Case Study 2 - Institutions can facilitate cooperation
+
+Find us a recent example of an international institution (custom, treaty or international organization) successfully performing one of the key mechanisms raised by Keohane in his functional theory of regimes (Chapter 6). You may not submit the same case claimed by someone else in class (e.g. specific mechanism by a specific regime).
+
+1. What is the international institution you are evaluating?
+2. Submit the APA citation for a piece of evidence supporting your argument
+3. Briefly explain your argument (e.g. why is this an example of Keohane's theory in action?)
+
 
 :::
 

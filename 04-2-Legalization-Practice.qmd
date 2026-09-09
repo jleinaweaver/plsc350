@@ -14,10 +14,6 @@ library(readxl)
 
 **Section 1: Analyzing International Institutions**
 
-<br>
-
-**Do international institutions matter?**
-
 - Practice applying "legalization" to international institutions
 
 <br>

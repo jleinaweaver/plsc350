@@ -14,10 +14,6 @@ library(readxl)
 
 **Section 1: Analyzing International Institutions**
 
-<br>
-
-**Do international institutions matter?**
-
 - Using "Legalization" to analyze international institutions (Abbott, Keohane, Moravcsik, Slaughter & Snidal 2000)
 
 <br>
@@ -119,7 +115,15 @@ International law is...
 
 <br>
 
-**SLIDE**: The good news...
+The good news is that this debate does not need to remain purely normative or theoretical
+
+- Each of these claims are empirical in nature and that means we can use data to evaluate them!
+
+- The exercise for us is to use data to evaluate HOW and WHETHER international rules impact important political outcomes between AND within states
+
+<br>
+
+**SLIDE**: For example, ...
 
 :::
 
@@ -132,25 +136,21 @@ International law is...
 
 International law is...
 
-- A tool for justifying the actions of states outside their borders (Grotius)
+- [A tool for justifying the actions of states outside their borders (Grotius)]{style="color:blue;"}
 
-- A substantial body of rules underpinned by coherent principles built through state practice (Cassese and Hollis)
+- [A substantial body of rules underpinned by coherent principles built through state practice (Cassese and Hollis)]{style="color:blue;"}
 
-- An intervening variable for explaining outcomes (Mearsheimer)
+- [An intervening variable for explaining outcomes (Mearsheimer)]{style="color:white;"}
 
-- A set of tools meant to facilitate policy coordination (Keohane)
+- [A set of tools meant to facilitate policy coordination (Keohane)]{style="color:white;"}
 
 ::: notes
 
-The good news is that this debate does not need to remain purely normative or theoretical
+Focus for the moment on the contrast between Grotius and the legal scholars, Cassese and Hollis
 
-- Each of these claims are empirical in nature and that means we can use data to evaluate them!
-
-- The exercise for us is to use data to evaluate HOW and WHETHER international rules impact important political outcomes between AND within states
+- **What measurable outcomes in the world could we collect that would help us settle this debate?**
 
 <br>
-
-**For example, and focusing on the contrast here between Griotius and the legal scholars (Cassese and Hollis), what measurable outcomes would we expect to see in the world?**
 
 - (Do states behave like international rules are binding on their behavior?)
 
@@ -164,6 +164,28 @@ The good news is that this debate does not need to remain purely normative or th
 
 <br>
 
+**SLIDE**: How about Mearsheimer's theory?
+
+:::
+
+
+
+## What is international law? {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+International law is...
+
+- [A tool for justifying the actions of states outside their borders (Grotius)]{style="color:white;"}
+
+- [A substantial body of rules underpinned by coherent principles built through state practice (Cassese and Hollis)]{style="color:white;"}
+
+- [An intervening variable for explaining outcomes (Mearsheimer)]{style="color:blue;"}
+
+- [A set of tools meant to facilitate policy coordination (Keohane)]{style="color:white;"}
+
+::: notes
+
 **If Mearsheimer is right, what measurable outcomes would we expect to see in the world?**
 
 - (Does international law transform meaningfully to mimic changes in the balance of power?)
@@ -171,6 +193,28 @@ The good news is that this debate does not need to remain purely normative or th
 - e.g. International institution Y changes in response to demands by powerful states
 
 <br>
+
+**SLIDE**: And Keohane?
+
+:::
+
+
+
+## What is international law? {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+International law is...
+
+- [A tool for justifying the actions of states outside their borders (Grotius)]{style="color:white;"}
+
+- [A substantial body of rules underpinned by coherent principles built through state practice (Cassese and Hollis)]{style="color:white;"}
+
+- [An intervening variable for explaining outcomes (Mearsheimer)]{style="color:white;"}
+
+- [A set of tools meant to facilitate policy coordination (Keohane)]{style="color:blue;"}
+
+::: notes
 
 **If Keohane is right, what measurable outcomes would we expect to see in the world?**
 

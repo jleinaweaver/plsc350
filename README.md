@@ -20,9 +20,9 @@ Data, slides and errata for my class at Drury University (PLSC350: International
 
 04-2-Legalization-Practice.html
 
-05-1-Rational_Design.html
+05-1-Rational_Design-Tool.html
 
-05-2-Rational_Design-Whaling.html
+05-2-Rational_Design-Theory.html
 
 05-3-Legalization_and_Rational_Design-Practice.html
 
