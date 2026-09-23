@@ -1,0 +1,494 @@
+---
+format: revealjs
+---
+
+## Today's Agenda {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r}
+# background-size="1920px 1080px"
+library(tidyverse)
+library(readxl)
+```
+
+<br>
+
+**Section 2: How effective have international institutions been in reducing the use of torture by governments around the world?**
+
+- The Convention Against Torture (CAT)
+
+- Part 3
+
+<br>
+
+::: r-stack
+Justin Leinaweaver (Fall 2026)
+:::
+
+::: notes
+
+**Prep for Class**
+
+1. Review Canvas submissions
+
+2. SAVE treaty analysis notes from board: CODING-The_Convention_Against_Torture.txt
+
+<br>
+
+Our work this week has focused on summarizing and analyzing the Convention Against Torture.
+
+- The CAT is an international institution designed to address the international problem of governments' use of torture against the people in their territories.
+
+<br>
+
+**SLIDE**: Recap Parts 1 and 2
+
+<br>
+
+**References**
+
+- [UNTC Page for ratifications and reservations](https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=IV-9&chapter=4&clang=_en)
+
+- [Treaty Text](https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-against-torture-and-other-cruel-inhuman-or-degrading)
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+**The Convention Against Torture (CAT) (1984)**
+
+- Part 1: The Key Rules (Art 1-16)
+- Part 2: The Committee (Art 17-24)
+
+:::: {.columns}
+::: {.column width="50%"}
+**Legalization**
+
+- Obligation
+
+- Precision
+
+- Delegation (dispute resolution)
+
+- Delegation (rule making / implementation)
+:::
+
+::: {.column width="50%"}
+**KLS Design Mechanisms**
+
+1. Membership rules
+
+2. Scope of issues
+
+3. Centralization of tasks
+
+4. Rules for control
+
+5. Flexibility of arrangements
+:::
+::::
+
+::: notes
+
+**What were your big picture takeaways from our work summarizing and analyzing Parts 1 and 2 of the convention?**
+
+<br>
+
+- **What were the primary complications the designers seemed to be trying to overcome?**
+
+- **Is the CAT soft or hard law?**
+
+- **What are the primary obligations of the treaty?**
+
+- **Did we successfully predict the design of the treaty last week?**
+
+<br>
+
+Today I want us to:
+
+1. Finish our basic analysis of the CAT,
+
+2. Discuss the nature of treaty reservations, and then
+
+3. Reflect on the reservations attached to the CAT by state ratifiers and ask if those reservations have changed the design of the treaty in important ways or not
+
+<br>
+
+**SLIDE**: Analysis of Part 3
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+**The Convention Against Torture (CAT) (1984)**
+
+- Part 3: Participation (Art 25-33)
+
+:::: {.columns}
+::: {.column width="50%"}
+**Legalization**
+
+- Obligation
+
+- Precision
+
+- Delegation (dispute resolution)
+
+- Delegation (rule making / implementation)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="45%"}
+**KLS Design Mechanisms**
+
+1. Membership rules
+
+2. Scope of issues
+
+3. Centralization of tasks
+
+4. Rules for control
+
+5. Flexibility of arrangements
+:::
+::::
+
+:::: notes
+
+Work with the people around you and let's wrap-up our analysis of Part 3 of the CAT
+
+- Most treaties include basic boilerplate language about joining the treaty but the CAT has some possibly important stuff in here.
+
+- Read through Part III and let me know if anything stands out.
+
+<br>
+
+*ON BOARD: (save space for three parts of treaty)*
+
+- *BUILD and DISCUSS the LIST*
+
+<br>
+
+**What elements of Part 3 of the treaty are connected to the design mechanisms proposed by KLS?**
+
+- **AND, what do those design choices suggest about the complications the CAT designers faced?**
+
+<br>
+
+**SLIDE**: Let's talk about treaty reservations
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Vienna Convention on the Law of Treaties (1969)**
+:::
+
+![](Images/06_1-ViennaConv_Reservations_Defined.png){style="display: block; margin: 0 auto"}
+
+<br>
+
+- Art 19: Formulation of reservations
+
+- Art 20: Acceptance of and objection to reservations
+
+- Art 21: Legal effects of reservations and of objections to reservations
+
+- Art 22: Withdrawal of reservations and of objections to reservations 
+
+:::: notes
+
+Malcom Shaw is a well-respected international lawyer and law professor whose textbook on International Law is used by law schools around the world
+
+- For today I asked you to read a handful of pages from Shaw (2008) on "Reservations to Treaties"
+
+<br>
+
+**Fun to be back in law school world, right?**
+
+<br>
+
+**According to Shaw, how do I tell if a statement submitted along with the ratification instrument is a reservation or not?**
+
+- Reservations are different from "statements ... not intended to have the legal effect of a reservation, such as understandings, political statements or interpretive declarations" (915).
+
+- Reservations are also different from statements meant to guide domestic application / interpretation.
+
+- One answer treats reservations as "conditional interpretive declarations": "...as referring to a situation where the state subjects its consent to be bound by the treaty to a specific interpretation of the treaty, or specific provisions of it" (916).
+
+<br>
+
+**According to Shaw, when is a reservation acceptable or not?**
+
+- (See Vienna Art 20)
+
+- Not an easy answer as it depends on the context of the situation and the degree to which the reservation messes with the "object and purpose" of the treaty. 
+
+- At the weak end an objection to a reservation may just modify the relationship between the reserving and the objecting state and only as it pertains to the article being reservation-ed. 
+
+- At the strong end reservations can be nullified if deeply problematic or unacceptable to the other states.
+
+- In general, if you don't object within 12 months of the reservation you've accepted it.
+
+<br>
+
+**Questions on these general rules of reservations?**
+
+<br>
+
+- Best case scenario: Allowing reservations encourages wider participation by allowing states to modify their obligations on minor issues.
+
+- Worst case scenario: Completely ruins the agreement and thoroughly complicates state interactions
+
+<br>
+
+**SLIDE**: CAT reservation rules...
+
+<br>
+
+**Vienna Convention Notes**
+
+Vienna Convention on the Law of Treaties (1969)
+ART 2(D)
+"'reservation' means a unilateral statement, however phrased or named, made by a State, when signing, ratifying, accepting, approving or acceding to a treaty, whereby it purports to exclude or to modify the legal effect of certain provisions of the treaty in their application to that State;"
+
+ART 19: FORMULATION OF RESERVATIONS
+("A State may, when signing, ratifying, accepting, approving or acceding to a treaty, formulate a reservation unless:
+(a) the reservation is prohibited by the treaty;
+(b) the treaty provides that only specified reservations, which do not include the reservation in question, may be made; or
+(c) in cases not falling under sub-paragraphs (a) and (b), the reservation is incompatible with the object and purpose of the treaty."
+
+ART 20: ACCEPTANCE OF AND OBJECTION TO RESERVATIONS
+ART 21: LEGAL EFFECTS OF RESERVATIONS AND OF OBJECTIONS TO RESERVATIONS
+ART 22: WITHDRAWAL OF RESERVATIONS AND OF OBJECTIONS TO RESERVATIONS
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
+
+::: {.r-fit-text}
+**The Convention Against Torture (CAT) (1984)**
+:::
+
+**Article 28**
+
+1) Each State may, at the time of signature or ratification of this Convention or accession thereto, declare that it does not recognize the competence of the Committee provided for in article 20. (Committee investigates allegations of systematic torture)
+
+**Article 29**
+
+1) Any State Party to this Convention may propose an amendment and file it with the Secretary-General of the United Nations. (Must be accepted by 2/3 of all parties)
+
+**Article 30**
+
+2) Each State may, at the time of signature or ratification of this Convention or accession thereto, declare that it does not consider itself bound by paragraph I of this article. (Dispute resolution by arbitration)
+
+:::: notes
+
+**How substantial a set of loopholes does this make possible in the CAT?**
+
+- **Do any of these things hit directly on the elements you identified today as important design elements of the CAT?**
+
+<br>
+
+Let's look at some of the specific reservations to the CAT!
+
+- Before class today I asked you to review the reservations submitted by state parties to the CAT
+
+<br>
+
+First, let's locate examples of what Shaw (2008) would classify as 'simple declarations.'
+
+- **Give me an example of some 'simple declarations.'**
+
+- *ON BOARD or YOU HIGHLIGHT ON THE SCREEN*
+
+<br>
+
+**In terms of carving out a loophole for torture, how many states opted out of Art 20?** (as authorized by CAT Art 28)
+
+- (Word search turns up 19 states)
+
+- **Any surprises on this list of countries?**
+
+- (Bahamas, China, Cuba, Dominica, Equatorial Guinea, Eritrea, Indonesia, Israel, Laos, Mauritania, Oman, Pakistan, Poland, Samoa, Saudi Arabia, St Lucia, Syria, UAE, Viet Nam)
+
+<br>
+
+Now, let's try to find examples that seriously alter the design of the CAT.
+
+**Give me examples of states with reservations that you believe most substantially alter the CAT.**
+
+- *ON BOARD or on screen*
+
+- *Really encourage these discussions*
+
+<br>
+
+**Should the state parties have rejected Pakistan's reservation? Why or why not?**
+
+<br>
+
+**What about the US reservations to the torture definition in Art 1? Are these going too far? Why or why not?**
+
+<br>
+
+The UNTC page also lists the submitted objections (e.g. state parties objecting to reservations made by other states)
+
+- **Find me a good objection! What's a really well articulated argument against a reservation?**
+
+<br>
+
+**SLIDE**: Back to the treaty design analysis
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**The Convention Against Torture (CAT) (1984)**
+:::
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+**Legalization**
+
+- Obligation
+
+- Precision
+
+- Delegation (dispute resolution)
+
+- Delegation (rule making / implementation)
+:::
+
+::: {.column width="50%"}
+**KLS Design Mechanisms**
+
+1. Membership rules
+
+2. Scope of issues
+
+3. Centralization of tasks
+
+4. Rules for control
+
+5. Flexibility of arrangements
+:::
+::::
+
+::: notes
+
+**Ok, given all of these reservations and opt-outs, should we change our analysis of the design of the CAT? Why or why not?**
+
+<br>
+
+- **Is it softer law than we thought just reading the instrument?**
+
+- **Were the complications more substantial than we assumed?**
+
+<br>
+
+**SLIDE**: Tests of effectiveness
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**The Convention Against Torture (CAT) (1984)**
+:::
+
+<br>
+
+**Questions of Effectiveness**
+
+::: {.incremental}
+1. What specific "things" could we identify in the world to see if the CAT is working as designed?
+
+2. What are the most likely obstacles to implementing the CAT?
+
+3. Bottom line, do we expect the CAT to reduce torture levels in the world?
+:::
+
+::: notes
+
+Ok, let's take ALL of this analysis on board and draw some conclusions based on the design of this international institution
+
+<br>
+
+**REVEAL**: What specific "things" could we identify in the world to see if the CAT is working as designed?
+
+- (Class notes 2/22/19)
+- Committee discussions: Are they talking?
+- Committee discussions: Follow on activity?
+- Domestic law changed (post-ratification or near it?) AND only a fair test in countries whose domestic laws were previously weaker than the CAT
+- Extraditions consistent with CAT rules about who you can't send suspects to?
+- This may speak to why states ratify and then opt out of everything they can.
+
+<br>
+
+**REVEAL**: What are the most likely obstacles to implementing the CAT?
+
+- (Getting states to participate?)
+- (Getting states to NOT opt out of oversight?)
+
+<br>
+
+**REVEAL**: Bottom line, do we expect the CAT to reduce torture levels in the world?
+
+- *DISCUSS*
+
+<br>
+
+**SLIDE**: For next class
+
+:::
+
+
+
+## For Next Class {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+**Bivariate Analyses of CAT Effectiveness**
+
+- How fast was the CAT ratified?
+
+- Does the CIRIGHTS data show CAT ratifiers reduced torture?
+
+- Does the V-Dem data show CAT ratifiers reduced torture?
+
+::: notes
+
+<br>
+
+Canvas ASSIGNMENT: Bivariate Analyses of CAT Effectiveness 
+
+Prepare for class by performing some simple data analyses. In each of the following be sure to explain BOTH the steps you took to answer the question AND your answer to each question.
+
+1. Dataset 1: How long did it take for a majority of the world's countries to ratify the CAT? How long to reach 3/4 of the countries in the dataset?
+2. Dataset 2: According to the CIRIGHTS data project, did countries that ratified the CAT reduce their use of torture in the following years?
+3. Dataset 3: According to the V-Dem data project, did countries that ratified the CAT reduce their use of torture in the following years?
+
+:::
+
+
+

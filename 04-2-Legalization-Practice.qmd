@@ -28,6 +28,10 @@ Justin Leinaweaver (Fall 2026)
 
 1. Review Canvas assignment
 
+2. Open treaty coding document: ...350-IOs_and_Law/2026-Fall/CODING-The_Slavery_Convention.txt
+
+3. Open the link to UNTC ratifiers of slavery convention for discussion: https://treaties.un.org/pages/viewdetails.aspx?src=treaty&mtdsg_no=xviii-2&chapter=18&clang=_en
+
 <br>
 
 **SLIDE**: Last class we began working with the legalization concept
@@ -74,7 +78,7 @@ A tool for summarizing the key elements of an international institution
 
 <br>
 
-**SLIDE**: Applied to our case
+**SLIDE**: Let's refresh these concepts using the Slavery Convention
 
 :::
 
@@ -101,53 +105,43 @@ A tool for summarizing the key elements of an international institution
 
 ::: notes
 
-**Summarize the Slavery Convention for me using the legalization dimensions**
+**Per your notes, are the obligations for participating states in the Slavery Convention closer to hard or soft law?**
 
-- *DISCUSS*
-
-<br>
-
-**Did we note if these three dimensions missed anything important?**
+- **Give me examples of specific obligations in the treaty!**
 
 <br>
 
-**How do these classifications help us design a test for evaluating the effectiveness of the Slavery Convention?**
+**Per your notes, how precise are the key obligations for participating states in the Slavery Convention?**
 
-- **In other words, if these are the key elements of the treaty, what could we find in the empirical world that would show us if the rules are "working" or not?**
-
-- *Encourage this discussion*
+- **Generally speaking, is this level of precision closer to hard or soft law? Why?**
 
 <br>
 
-**SLIDE**: In sum
+**Per your notes, how much delegation of dispute resloution is created by the Slavery Convention?**
 
-:::
+- (Very little: FIRST try to negotiate, then use ICJ or arbitration)
 
+<br>
 
+**And how much rule making and implementation power is delegated to third parties?**
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+- (None?)
 
-::: {.r-fit-text}
-**Applying Legalization to the Slavery Convention (1926)** 
-:::
-
-![](Images/02_2-Legalization_Table1.png){style="display: block; margin: 0 auto"}
-
-::: notes
+<br>
 
 **So, is the Slavery Convention an example of soft or hard law?**
 
-<br>
+- (A mix of both!)
 
-Two **VERY important** notes on this distinction
+- The Slavery Convention includes both hard law and soft law components
 
-1. Soft law is NOT an argument that the institutions don't exist
-
-2. Soft law is NOT an argument that the institutions don't matter
+- That's a very common outcome for designing international institutions
 
 <br>
 
-**SLIDE**: Abbott and Snidal paper
+But why?
+
+- **SLIDE**: Because each type carries different costs and benefits
 
 :::
 
@@ -217,9 +211,11 @@ So, obviously, hard law is the closest analogue we have to domestic law.
 
 Soft Law is the ultimate tool of compromise!
 
-- Typically achieves less than hard law, [**BUT**]{style="color:red;"}
+- Typically requires less than hard law, [**BUT**]{style="color:red;"}
 
 - Low contracting costs means deals [**WAY**]{style="color:red;"} easier / faster to make
+
+- Agreements can be updated to changing circumstances more easily
 
 ::: notes
 
@@ -245,7 +241,7 @@ And keep in mind that NONE of this is about making an effectiveness argument
 
 <br>
 
-**SLIDE**: Applied to data
+**SLIDE**: In sum
 
 :::
 
@@ -254,43 +250,7 @@ And keep in mind that NONE of this is about making an effectiveness argument
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
 ::: {.r-fit-text}
-**Did the Slavery Convention (1926) work?** 
-:::
-
-![](Images/04_1-Walk_Free_Global_Slavery_Index.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Now that you have read and analyzed the convention, let's go back to this map I showed you last class
-
-- This map shows where slavery is prevalent in the world today as produced by the human rights organization Walk Free
-
-- **Which countries stand out as the most problematic?**
-
-<br>
-
-**Based on your analysis of the convention, is this map the right test of effectiveness? Why or why not?**
-
-- [Link to UNTC listing of ratifiers](https://treaties.un.org/pages/viewdetails.aspx?src=treaty&mtdsg_no=xviii-2&chapter=18&clang=_en)
-
-<br>
-
-Ok, today I want us to keep practicing with the legalization tool
-
-- *Split class into four groups (maximize board space)*
-
-<br>
-
-**SLIDE**: Analyzing the Treaty on the Prohibition of Nuclear Weapons
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-::: {.r-fit-text}
-**Applying Legalization to the Treaty on the Prohibition of Nuclear Weapons (2017)** 
+**Applying Legalization to the Slavery Convention (1926)** 
 :::
 
 :::: {.columns}
@@ -307,18 +267,56 @@ Ok, today I want us to keep practicing with the legalization tool
 
 ::: notes
 
-Groups, get ready to report back on your pre-class work on Canvas
+**Somebody now make the argument that given the challenge of trying to abolish slavery in the world, a high obligation, low precision and low delegation institution is exactly the right tool for the job!**
 
-- Get your legalization classifications on the board and get ready to make your argument!
+- **e.g. think of Keohane and facilitating cooperation!**
 
 <br>
 
-*PRESENT and DISCUSS each*
+**If you wanted to update the convention for today's world, which of these three dimensions would you focus your efforts on? Why?**
 
-1. Obligations?
-2. Precision?
-3. Delegation?
-4. Bottom line: Hard vs Soft Law?
+- **Add obligations, increase precision or add delegation?**
+
+<br>
+
+Ok, let's keep practicing!
+
+- Before class each of you analyzed the Treaty on the Prohibition of Nuclear Weapons (2017)
+
+- **SLIDE**: Let's collect your analyses and discuss the treaty
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Treaty on the Prohibition of Nuclear Weapons (2017)** 
+:::
+
+::: {.incremental}
+
+1. What are the key obligations and how substantial are they?
+
+2. How precise are these obligations?
+
+3. How much delegation of dispute resolution?
+
+4. How much delegation of implementation and rule making?
+
+:::
+
+::: notes
+
+**REVEAL x 4**
+
+- *Track answers on the BOARD*
+
+<br>
+
+**Bottom line: Hard vs Soft Law?**
 
 <br>
 
@@ -326,13 +324,7 @@ Groups, get ready to report back on your pre-class work on Canvas
 
 <br>
 
-*Split class into four NEW groups!*
-
-- *Key to get them moving!*
-
-<br>
-
-**SLIDE**: Alright groups, time to analyze the ICRW
+**SLIDE**: If time remains, let's do this one more time...
 
 :::
 
@@ -381,40 +373,30 @@ The whaling moratorium is a BIG outcome that the designers of this convention ce
 
 
 
+
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
 ::: {.r-fit-text}
-**Applying Legalization to the International Convention for the Regulation of Whaling (1946)**
+**The International Convention for the Regulation of Whaling (1946)** 
 :::
 
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table2.png)
+1. What are the key obligations and how substantial are they?
 
-![](Images/02_2-Legalization_Table3.png)
-:::
+2. How precise are these obligations?
 
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table4.png)
-:::
-::::
+3. How much delegation of dispute resolution?
+
+4. How much delegation of implementation and rule making?
 
 ::: notes
 
-Groups, let's analyze the ICRW using legalization
+A short treaty, and what I really want to do is focus on delegation here
 
-- Make sure to REALLY focus on the delegation dimension
-
-- Get your analyses on the board!
+- *Track answers on the BOARD*
 
 <br>
 
-*PRESENT and DISCUSS each*
-
-1. Obligations?
-2. Precision?
-3. Delegation?
-4. Bottom line: Hard vs Soft Law?
+**Bottom line: Hard vs Soft Law?**
 
 <br>
 
@@ -453,4 +435,48 @@ You'll have a reading and a Canvas assignment for next class
 
 :::
 
+
+## Old slides
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Did the Slavery Convention (1926) work?** 
+:::
+
+![](Images/04_1-Walk_Free_Global_Slavery_Index.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Now that you have read and analyzed the convention, let's go back to this map I showed you last class
+
+- This map shows where slavery is prevalent in the world today as produced by the human rights organization Walk Free
+
+- **Which countries stand out as the most problematic?**
+
+<br>
+
+**Based on your analysis of the convention is this map the right test of effectiveness?**
+
+- **In other words, if these are the key elements of the treaty, what could we find in the empirical world that would show us if the rules are "working" or not?**
+
+<br>
+
+One other complication! 
+
+- Don't forget that treaties only bind the states that participate!
+
+- OPEN THE [LINK to UNTC listing of ratifiers](https://treaties.un.org/pages/viewdetails.aspx?src=treaty&mtdsg_no=xviii-2&chapter=18&clang=_en)
+
+<br>
+
+Ok, today I want us to keep practicing with the legalization tool
+
+- *Split class into four groups (maximize board space)*
+
+<br>
+
+**SLIDE**: Analyzing the Treaty on the Prohibition of Nuclear Weapons
+
+:::
 

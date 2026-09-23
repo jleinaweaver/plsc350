@@ -8,15 +8,25 @@ format: revealjs
 # background-size="1920px 1080px"
 library(tidyverse)
 library(readxl)
+library(kableExtra)
+
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(countrycode)
+
+# Input V-Dem
+d <- read_excel("../../Data/DATA-VDem16-Torture_and_Killing-1789-2025.xlsx", na = "NA")
+
+# Input old V-Dem for adding context to the Marqardt figures
+d2 <- read_excel("../../../../00-DATA_Teaching/V-Dem_Institute/Version-15/V_Dem_Personal_Integrity_Rights-1789-2024.xlsx", na = "NA")
 ```
 
 <br>
 
-**II. International Institutions for Mutual Restraint**
+**Section 2: How effective have international institutions been in reducing the use of torture by governments around the world?**
 
-- Design Analysis
-
-- The Convention Against Torture (CAT)
+- Defining and Measuring the Outcome: The V-Dem measures of torture 
 
 <br>
 
@@ -30,634 +40,695 @@ Justin Leinaweaver (Fall 2026)
 
 1. Review Canvas submissions
 
-2. Open rmd file so you can record treaty analysis notes from board
+2. Open the data in a spreadsheet or RStudio for the data exploration at end of class
 
 <br>
 
-**SLIDE**: Today we ...
+Let's always keep in mind, our big picture aim for this week is to answer an important research question:
+
+- How effective have international institutions been in reducing the use of torture by governments around the world?
 
 <br>
 
-**References**
+This week we are setting the table for this question by:
 
-- [UNTC Page](https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=IV-9&chapter=4&clang=_en)
-- [Treaty Text](https://treaties.un.org/doc/Treaties/1987/06/19870626%2002-38%20AM/Ch_IV_9p.pdf)
+- Discussing the importance of the problem on the world stage, and
+
+- Evaluating competing measures of the use of torture by governments around the world and across time
+
+<br>
+
+**SLIDE**: Last class we explored the CIRIGHTS data project
 
 :::
 
 
 
+## {background-image="Images/background-scales_justice_v3.png" .center}
 
-## Semester Plan of Attack {background-image="./Images/background-scales_justice_v3.png" .center}
-
-**II. International Institutions for Mutual Restraint**
-
-- The Treaty on the Non-Proliferation of Nuclear Weapons (NPT)
-
-- The Convention Against Torture (CAT)
-
-- Principal-Agent Theory
-
-- The International Criminal Court
-
-:::: notes
-
-Second section of the class: International Institutions for Mutual Restraint
-
-- Last week international institutions to prevent nuclear proliferation.
+![](Images/05-2-CIRIGHTS_Logo.png){style="display: block; margin: 0 auto"}
 
 <br>
 
-**Key takeaways? How are we, the world, doing with this problem?**
+"**Torture** refers to the purposeful inflicting of extreme pain, whether mental or physical, by government officials or by private individuals at the instigation of government officials" (p11).
+
+::: notes
+
+**From our work last class, what concerns do you have about the validity of the torture measure produced by CIRIGHTS?**
+
+- *"Validity is the term used to refer to the extent to which our measures correspond to the concepts they are intended to reflect" (Brians et al 2011, 105).*
+
+<br>
+
+**From our work last class, what concerns do you have about the reliability of the torture measure produced by CIRIGHTS?**
+
+- *"...we are assessing how stable the values" of a measure are (107).*
+
+<br>
+
+Bottom line on CIRIGHTS:
+
+1. **Are we comfortable using the CIRIGHTS data for cross-national analyses? (e.g. same year, different countries)**
+
+2. **Are we comfortable using the CIRIGHTS data for longitudinal analyses? (e.g. different year, same country)**
+
+3. **Are we comfortable using the CIRIGHTS data for cross-national, longitudinal analyses? (e.g. different years, different countries)**
+
+<br>
+
+**SLIDE**: Today we move to the V-Dem project
 
 :::
-
 
 
 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+### How effective have international institutions been in reducing the use of torture by governments around the world?
+
+<br>
+
+The V-Dem measure of torture is (NOT) sufficiently valid and reliable for answering our research question
+
+::: notes
+
+*Split class in half, and give each half the board*
+
+- Group 1 you focus on the affirmative case
+
+    - Why is the V-Dem measure of torture sufficiently valid and reliable for answering our research question?
+
+- Group 2 you focus on the negative case
+
+    - Why is the V-Dem measure of torture NOT sufficiently valid and reliable for answering our research question?
+
+<br>
+
+**Questions?**
+
+- Make sure your reasons are complete sentences and include page citations!
+
+- Go!
+
+<br>
+
+Groups, swap arguments
+
+- Is there anything you want to add to the other group's work?
+
+- Go!
+
+<br>
+
+**SLIDE**: Let's now talk about how V-Dem does post-measurement data processing!
+
+<br>
+
+*My Notes*
+
+- Two versions of the variable: Freedom from torture
+
+1. v2cltort
+
+    - V-Dem measurement model estimates (recommended for regression analysis)
+
+    - FAQ: "More precisely, the output of the measurement model is an interval-level point estimate of the latent trait that typically varies from –5 to 5, and its associated measurement error. These estimates are the best for use in statistical analysis."
+    
+2. v2cltort_ord
+
+    - Most likely ordinal value of model estimates on the original scale (recommended for substantive interpretation of graphs and data)
+    
+<br>
+
+![](Images/05_3-VDem_Torture_Instrument.png)
+
+<br>
+
+- Civil Liberties coding advice: "The following questions are focused on actual practices (de facto) rather than formal legal or constitutional rights (de jure). Note that if there is significant variation in the respect for a particular civil liberty across the territory, the score should reflect the "average situation" across the territorial scope of the country unit (for each period) as defined in the coder instructions" (p176).
+
+
+    
+
+:::
+
+
+
+## {background-image="Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Every Country-Year is Coded by Multiple Experts**
+:::
+
+![](Images/05_3-Marquardt2018-Fig2ab.png)
+
+::: notes
+
+The team behind V-Dem has published a bunch of research on their methods.
+
+- I'll pull some highlights from a 2018 article in Political Analysis to give you the intuition behind their work.
+
+- Marquardt & Pemstein (2018). IRT Models for Expert-Coded Panel Data. Political Analysis, 26(4), 431–456. 
+
+<br>
+
+Step 1 of their process is to get multiple country experts to use the instruments for a single country-year
+
+<br>
+
+Here I'm showing you histograms on the number of experts per country-year and the number of experts per observation in the dataset.
+
+- The project's goal is a minimum of five experts per country
+
+- Panel (a) shows
+    - The average is 12 experts/country
+    - Only 27 countries had fewer than the target
+
+- Panel (b) shows the number of expert ratings per variable
+    - Average is 6
+    - Each expert is allowed to skip measurements they don't feel confident in rating
+
+<br>
+
+**Everybody understand these histograms?**
+
+- **Per the methodology document on the V-Dem website, why do they use experts for this work?**
+
+- ("We use experts because many key features of democracy are not directly observable. For example, it is easy to observe whether or not a legislature has the legal right to investigate an executive. However, assessing the extent to which the legislature actually does so requires evaluation by experts with extensive conceptual and case knowledge.")
+
+<br>
+
+**What does that imply for the reliability of the data they produce?**
+
+<br>
+
+**SLIDE**: Their next challenge is to combine all these ratings to produce a single score
+
+:::
+
+
+
+## {background-image="Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**What do we do when the experts disagree?**
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](Images/05_3-V-Dem_Coding_Disagreements-Canada_v2.png)
+:::
+
+::: {.column width="50%"}
+```{r}
+# d_full |>
+#   filter(country_text_id == "CAN", year >= 1900) |>
+#   select(country_name, year, v2clkill:v2clkill_nr) |>
+#   View()
+
+# Canada data transformed model results back onto five point scale with 70% CI
+d2 |>
+  filter(country_text_id == "CAN", year %in% c(2015, 2005, 1995, 1985, 1975, 1965, 1955, 1945, 1935, 1925, 1915, 1905)) |>
+  select(year, v2clkill_nr, v2clkill_ord_codelow, v2clkill_ord, v2clkill_ord_codehigh) |>
+  kbl(align = 'c') %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 16)
+```
+:::
+::::
+
+::: notes
+
+Let's use Canada as an example of the challenge facing the researchers.
+
+- *NOTE: You remade all y axis labels to match the data*
+
+<br>
+
+On the left is a line plot of different coder ratings for the "Freedom from political killings" variable from 1900 to 2015.
+
+- The y-axis is the four point scale for "Freedom from political killings"
+    - Note they've take the 0-4 scale and made it 1-5 here
+
+- The x-axis is time in years
+
+<br>
+
+On the right is our tabular data with snapshots every ten years since 1905
+
+- This shows the number of experts who coded this variable in that year, the consensus result and a 70% confidence interval
+
+<br>
+
+In essence, the second step of the process is when all the expert ratings are fed into a model that uses the logic of Item Response Theory (IRT) to identify a consensus value (with CIs)
+
+- Essentially, IRT is an attempt to use observed outcomes to learn something about the underlying dynamics that produced them
+
+- In other words, V-Dem assumes each expert's coding tells us something about the natural world and combining them together gets us a better estimate of it.
+
+<br>
+
+**What do we notice here? Talk to me about the expert ratings of Canada.**
+
+- Almost total consensus on top score with one outlier consistently rating across time
+
+- The one outlier doesn't move the final rating or the CI
+
+- The researchers note that this outlier speaks to the reliability, or lack thereof, of the experts they recruit
+
+<br>
+
+**SLIDE**: Let's look at another case!
+
+:::
+
+
+
+## {background-image="Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**What do we do when the experts disagree?**
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](Images/05_3-V-Dem_Coding_Disagreements-Germany_v2.png)
+:::
+
+::: {.column width="50%"}
+```{r}
+# d_full |>
+#   filter(country_text_id == "CAN", year >= 1900) |>
+#   select(country_name, year, v2clkill:v2clkill_nr) |>
+#   View()
+
+# Canada data transformed model results back onto five point scale with 70% CI
+d2 |>
+  filter(country_text_id == "DEU", year %in% c(2015, 2005, 1995, 1985, 1975, 1965, 1955, 1945, 1935, 1925, 1915, 1905)) |>
+  select(year, v2clkill_nr, v2clkill_ord_codelow, v2clkill_ord, v2clkill_ord_codehigh) |>
+  kbl(align = 'c') %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 16)
+```
+:::
+::::
+
+::: notes
+
+Again, remember you have to add '1' to the scores in the table to match their line plot.
+
+**What do we notice here? Talk to me about the expert ratings of Germany.**
+
+- Compellingly, while the coders differ the trends they identify are very consistent
+
+    - Things get worse during the world wars and improve afterwards
+
+<br>
+
+**Per the FAQ on the V-Dem website, why do the researchers believe their instruments and approach helps minimize the role of expert bias in messing up the scores?**
+
+- (1. Experts are asked to code specific, low-level concepts not high level aggregates)
+
+- (2. Instruments are designed with specific levels for coding)
+
+- (3. The V-Dem Measurement Model (MM) already tries to adapt for experts to vary in terms of whether they tend to swing high or low vs others)
+
+- (4. Experts are trained and practice on hypothetical cases which helps tweak the model)
+
+- (5. Over time each expert leaves a tack record that can be evaluated and compared to others for future model tweaks)
+
+<br>
+
+Certainly doesn't end the problem but they are working on it!
+
+<br>
+
+**Questions on this?**
+
+<br>
+
+**SLIDE**: Let's look at a tougher case!
+
+:::
+
+
+
+## {background-image="Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**What do we do when the experts disagree?**
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+![](Images/05_3-V-Dem_Coding_Disagreements-Russia_v2.png)
+:::
+
+::: {.column width="50%"}
+```{r}
+# d_full |>
+#   filter(country_text_id == "CAN", year >= 1900) |>
+#   select(country_name, year, v2clkill:v2clkill_nr) |>
+#   View()
+
+# Canada data transformed model results back onto five point scale with 70% CI
+d2 |>
+  filter(country_text_id == "RUS", year %in% c(2015, 2005, 1995, 1985, 1975, 1965, 1955, 1945, 1935, 1925, 1915, 1905)) |>
+  select(year, v2clkill_nr, v2clkill_ord_codelow, v2clkill_ord, v2clkill_ord_codehigh) |>
+  kbl(align = 'c') %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), font_size = 16)
+```
+:::
+::::
+
+::: notes
+
+Russia is a particularly hard case for this variable, "freedom from political killing", but even here there are detectable trends in the data.
+
+**Talk to me about the line plot and the consensus scores in the table. How confident are we in these consensus scores?**
+
+<br>
+
+**Ok, what does this mean for us in terms of validity and reliability of the V-Dem measures?**
+
+1. Be careful using any country-year with small number of coders
+
+2. Definitely consider the CI when interpreting changes in a score
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+### How effective have international institutions been in reducing the use of torture by governments around the world?
+
+<br>
+
+::: {.fragment}
+
+Cross-national Comparisons: Same Year, Different Countries
+
+- How big a difference would you need to see in the scores between two countries in order to say they use torture differently?
+
+:::
+
+::: notes
+
+Ok, the bottom line question is, where do we end up with the V-Dem measure of torture?
+
+<br>
+
+HOWEVER, the correct answer is NOT represented by either argument on the board!
+
+- ALL measurements have uncertainty, your job is analyze the data to figure out HOW you can use it to answer your question
+
+<br>
+
+First, we need to say how we could use this data for cross-national comparisons
+
+- **REVEAL**
+
+- Same Year, Different Countries
+
+- **How big a difference would you need to see in the scores between two countries in order to say they use torture differently?**
+
+- *DISCUSS*
+
+<br>
+
+**SLIDE**: Longitudinal Comparisons
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+### How effective have international institutions been in reducing the use of torture by governments around the world?
+
+<br>
+
+Longitudinal Comparisons: Different Years, Same Country
+
+- How big a difference would you need to see in the scores across time within a single country in order to say their use of torture has changed over time?
+
+::: notes
+
+Longitudinal data includes measures for the same individuals but across time
+
+- **SO, how big a difference would you need to see in the scores across time within a single country in order to say their use of torture has changed over time?**
+
+- *DISCUSS*
+
+<br>
+
+**SLIDE**: Put it all together!
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+### How effective have international institutions been in reducing the use of torture by governments around the world?
+
+<br>
+
+Longitudinal, Cross-national Comparisons: Different Years, Different Countries
+
+- How big a difference would you need to see in the scores across time across different countries in order to say torture is being used differently across the globe and across time?
+
+::: notes
+
+**How could we use the CIRIGHTS torture data to describe the use of torture globally and across time?**
+
+- **How big a difference would you need to see in the scores across time across different countries in order to say torture is being used differently across the globe and across time?**
+
+- *DISCUSS*
+
+<br>
+
+**SLIDE**: Report back on your data analyses!
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+### How effective have international institutions been in reducing the use of torture by governments around the world?
+
+<br>
+
+Report back your findings from univariate analysis of the V-Dem torture data
+
+::: notes
+
+Report back findings from the data review on Canvas
+
+- What did you find in your univariate analyses? 
+
+- What do we learn about the countries in the world and their use of torture?
+
+- What did you do and what did you find?
+
+<br>
+
+- Current year analyses?
+
+- Across time analyses?
+
+<br>
+
+**SLIDE**: My version - global map, global trends, US trends
+
+<br>
+
+```{r, echo=TRUE, eval=TRUE}
+# Overall
+range(d$year)
+summary(d$v2cltort)
+table(d$v2cltort_ord)
+
+# Cross-national Comparisons: Same Year, Different Countries
+table(d$v2cltort_ord[d$year == 2025])
+summary(d$v2cltort[d$year == 2025])
+
+# Longitudinal Comparisons: Different Years, Same Country
+d |>
+  filter(country_text_id == "USA") |>
+  ggplot(aes(x = year, y = v2cltort)) +
+  geom_line(linewidth = .2) +
+  geom_point() +
+  theme_bw() +
+  scale_y_continuous(limits = c(-1, 3)) +
+  scale_x_continuous(breaks = seq(1780, 2025, 20))
+
+d |>
+  filter(country_text_id == "USA") |>
+  ggplot(aes(x = year, y = v2cltort_ord)) +
+  geom_line(linewidth = .2) +
+  geom_point() +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 4)) +
+  scale_x_continuous(breaks = seq(1780, 2025, 20))
+
+
+# Longitudinal, Cross-national Comparisons: Different Years, Different Countries
+d |>
+  filter(country_text_id %in% c("USA", "RUS")) |>
+  ggplot(aes(x = year, y = v2cltort_ord, color = country_text_id)) +
+  geom_line(linewidth = .2) +
+  geom_point() +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 4)) +
+  scale_x_continuous(breaks = seq(1780, 2025, 20))
+```
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+```{r, fig.align='center', fig.height=6}
+# Global map (2022)
+world <- ne_countries(scale = "medium", returnclass = "sf")
+d2 <- d |> filter(year == 2022)
+
+# countrycode::guess_field(world$adm0_a3)
+# world$extra_code <- countrycode::countrycode(sourcevar = world$adm0_a3, origin = "iso3c", destination = "iso3c")
+
+#countrycode::guess_field(d2$COWcode)
+#countrycode::guess_field(d2$unctry)
+d2$iso3c <- countrycode::countrycode(sourcevar = d2$COWcode, origin = "cown", destination = "iso3c")
+
+# countrycode::guess_field(d2$unctry)
+# d2$iso3c <- countrycode::countrycode(sourcevar = d2$unctry, origin = "iso3n", destination = "iso3c")
+
+d3 <- left_join(world, d2, by = c("adm0_a3" = "iso3c"))
+
+ggplot(data = d3) +
+  geom_sf(aes(fill = as.factor(v2cltort_ord))) +
+  labs(fill = "", title = "V-Dem: Freedom from Torture in 2022") +
+  scale_fill_manual(values = c("#CC2908", "#F788B3", "orange", "#88E3F7", "#4D70F0"))
+
+# 0 Not respected by public authorities
+# 1 Weakly respected by public authorities.
+# 2 Somewhat.
+# 3 Mostly respected by public authorities.
+# 4 Fully respected by public authorities
+```
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+```{r, fig.align='center', fig.height=6}
+# Global map (2025)
+world <- ne_countries(scale = "medium", returnclass = "sf")
+d2 <- d |> filter(year == 2025)
+
+# countrycode::guess_field(world$adm0_a3)
+# world$extra_code <- countrycode::countrycode(sourcevar = world$adm0_a3, origin = "iso3c", destination = "iso3c")
+
+#countrycode::guess_field(d2$COWcode)
+#countrycode::guess_field(d2$unctry)
+d2$iso3c <- countrycode::countrycode(sourcevar = d2$COWcode, origin = "cown", destination = "iso3c")
+
+# countrycode::guess_field(d2$unctry)
+# d2$iso3c <- countrycode::countrycode(sourcevar = d2$unctry, origin = "iso3n", destination = "iso3c")
+
+d3 <- left_join(world, d2, by = c("adm0_a3" = "iso3c"))
+
+ggplot(data = d3) +
+  geom_sf(aes(fill = as.factor(v2cltort_ord))) +
+  labs(fill = "", title = "V-Dem: Freedom from Torture in 2025") +
+  scale_fill_manual(values = c("#CC2908", "#F788B3", "orange", "#88E3F7", "#4D70F0"))
+
+# 0 Not respected by public authorities
+# 1 Weakly respected by public authorities.
+# 2 Somewhat.
+# 3 Mostly respected by public authorities.
+# 4 Fully respected by public authorities
+```
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+```{r, fig.align='center', fig.height=6}
+d |>
+  group_by(year) |>
+  summarize(
+    Torture0 = sum(v2cltort_ord == 0, na.rm = TRUE),
+    Torture1 = sum(v2cltort_ord == 1, na.rm = TRUE),
+    Torture2 = sum(v2cltort_ord == 2, na.rm = TRUE),
+    Torture3 = sum(v2cltort_ord == 3, na.rm = TRUE),
+    Torture4 = sum(v2cltort_ord == 4, na.rm = TRUE)
+  ) |>
+  pivot_longer(cols = Torture0:Torture4, names_to = "Levels", values_to = "Count") |>
+  ggplot(aes(x = year, y = Count, fill = Levels)) +
+  geom_col() +
+  scale_fill_manual(values = c("#CC2908", "#F788B3", "orange", "#88E3F7", "#4D70F0")) +
+  labs(x = "", y = "Country Count", title = "Global Trends in Torture (V-Dem)", fill = "") +
+  theme_bw()
+```
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+```{r, fig.align='center', fig.height=6}
+d |>
+  filter(country_name == "United States of America") |>
+  ggplot(aes(x = year, y = v2cltort_ord)) +
+  geom_rect(xmin = 1780, xmax = 2025, ymin = -.1, ymax = .5, fill = "#CC2908") +
+  geom_rect(xmin = 1780, xmax = 2025, ymin = .5, ymax = 1.5, fill = "#F788B3") +
+  geom_rect(xmin = 1780, xmax = 2025, ymin = 1.5, ymax = 2.5, fill = "orange") +
+  geom_rect(xmin = 1780, xmax = 2025, ymin = 2.5, ymax = 3.5, fill = "#88E3F7") +
+  geom_rect(xmin = 1780, xmax = 2025, ymin = 3.5, ymax = 4.1, fill = "#4D70F0") +
+  geom_line(linewidth = 2) +
+  theme_bw() +
+  scale_y_continuous(limits = c(0,4), breaks = 0:4) +
+  #scale_x_continuous(breaks = seq(1980, 2025, 5)) +
+  labs(x = "", title = "CIRIGHTS: Torture in the US") 
+```
+
+::: notes
+
+**SLIDE**: For next class
+
+:::
+
+
+
+
+
+## The Convention Against Torture (CAT) {background-image="./Images/background-scales_justice_v3.png" .center}
 
 ![](Images/06_1-CAT_Convention1.jpg){style="display: block; margin: 0 auto"}
 
-[**The Convention Against Torture (CAT) (1984)**]{style="color:white;"}
+::: notes
 
-:::: notes
-
-This week's plan is to explore the international effort to stop the government use of torture.
-
-- Today we summarize and analyze the treaty 
-
-- Thursday we explore the debate about whether the CAT has been effective or not
+Next week we dive into the Convention Against Torture!
 
 <br>
 
-**SLIDE**: We'll organize our work similarly to how we did it last week.
-
-:::
-
-
-
-
-## The Convention Against Torture (CAT) (1984) {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/06_1-CAT_Convention1_blurred_filtered.png){style="display: block; margin: 0 auto"}
-
-[1) What is the current state of the problem?]{style="color:white;"}
-
-[2) What is the treaty designed to do?]{style="color:white;"}
-
-[3) What is the likelihood that this design will succeed?]{style="color:white;"}
-
-:::: notes
-
-Three broad questions although the nature of this treaty will lead us to attack each in slightly different ways.
+To get ready, I'm asking you to read and begin to evaluate the CAT
 
 <br>
 
-**SLIDE**: Let's dive into our first question...
+Canvas Assignment: Summarizing the Convention Against Torture
 
-:::
+1. Classify the Convention Against Torture using the legalization concepts (obligation, precision and delegation). Be sure to cite specific parts of the treaty to support your classifications.
 
+2. Classify the Convention Against Torture using the dependent variables from the rational design article. Be sure to cite specific parts of the treaty to support your classifications.
 
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[1) What is the current state of the problem?]
-
-<br>
-
-![](Images/06_1-AmnestyReportLogo.png){style="display: block; margin: 0 auto"}
-
-:::: notes
-
-**Key overarching takeaways from the "Global Analysis" section?**
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[1) What is the current state of the problem?]
-
-<br>
-
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/06_1-AmnestyReportLogo.png){style="display: block; margin: 0 auto"}
-:::
-
-::: {.column width="50%"}
-**Regional Overviews**
-
-- Africa (p21)
-
-- Americas (p29)
-
-- Asia-Pacific (p37)
-
-- Europe and Central Asia (p45)
-:::
-::::
-
-:::: notes
-
-GROUPS: What are your key takeaways from the region and the individual country cases
-
-- PRESENT and BRIEFLY DISCUSS each
-
-<br> 
-
-**SLIDE**: Before we dig into the treaty let me ask you to reflect on our discussion so far.
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/06_1-CAT_Convention1_blurred_filtered.png){style="display: block; margin: 0 auto"}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-[Do we need an international law to ban torture?]
-
-:::: notes
-
-I'm not trying to be flippant here.
-
-- International law for mutual restraint means deciding that there are some issues states and their citizens cannot decide for themselves.
-
-<br>
-
-Given everything we just discussed from the AI report I want you to reflect on two things
-
-**1) Is this problem clear enough and serious enough to merit international law infringing on state sovereignty?**
-
-<br>
-
-**2) Is this a problem international law is likely to be effective in solving? Why or why not?**
-
-:::
-
-
-
-
-## {background-image="./Images/06_1-CAT_Convention1_blurred_filtered.png" .center}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-[2) What is the treaty designed to do?]
-
-[Part 1: The Key Rules]
-
-[Part 2: The Committee]
-
-[Part 3: Participation]
-
-:::: notes
-
-Our second task for today is to summarize the treaty in terms of its design.
-
-- We'll follow a similar path to last week but we'll match our work to the three parts of the treaty
-
-<br>
-
-*SPLIT class into small groups (3), NEW PARTNERS!*
-
-- Go sit with your group
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-Part 1: The Key Rules (Art 1-16)
-
-<br>
-
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table2.png){style="display: block; margin: 0 auto"}
-:::
-
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table3.png){style="display: block; margin: 0 auto"}
-:::
-::::
-
-:::: notes
-
-GROUPS: Start by summarizing the key obligations in Part I of the treaty
-
-- ID the rules and classify each article by level of precision
-
-<br>
-
-*ON BOARD: (save space for three parts of treaty)*
-
-- BUILD and DISCUSS the LIST
-
-<br>
-
-**Is Article 1's definition of torture an obligation or something else?**
-
-- (It is the precision that makes the rest of Part 1 possible)
-- Without the clear definition in 1, all the other article obligations are dramatically reduced
-
-**Why does the definition include the list of use cases for torture ("for such purposes as...")? Why not just make the definition the first half of sentence 1 alone?**
-
-- (Spit-balling: If you don't narrow it down like this it could be applied to many different situations states aren't focused on here, e.g. cuts to social welfare benefits could cause harm)
-
-<br>
-
-**Class Notes - 2023-09-26**
-
-- Art 2.1 (make torture a domestic crime)
-- Art 3.1 (no extradition to countries where torture is likely)
-- Art 11 (Must enshrine domestic rules for interrogations)
-- Art 13 (prisoners have the right to request investigations for maltreatment)
-- Art 14 (Enforcible right to compensation for torture)
-- Art 15 (No testimony may be compelled or used through torture)
-- Art 16 (Domestic ban must be applied to all territories controlled)
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-[Part 2: The Committee (Art 17-24)]
-
-![](Images/02_2-Legalization_Table4.png){style="display: block; margin: 0 auto"}
-
-:::: notes
-
-GROUPS: Focus your summary of Part II on summarizing the delegation in the treaty
-
-- There are absolutely obligations in this part and precision matters too, but I want us to focus on trying to summarize how substantial this delegation appears to be.
-
-<br>
-
-*ON BOARD: (save space for three parts of treaty)*
-
-- BUILD and DISCUSS the LIST
-
-<br>
-
-*Make sure to discuss Art 21 and Art 22 which are held up by Hathaway (2007) as important enough to be a separate DV from simple CAT ratification!*
-
-- Art 21: Do you accept oversight by states?
-
-- Art 22: Do you accept oversight by individuals?
-
-- Both of those open you to oversight and negotiation with other states BUT Art 22 threatens to open you to something very different: It empowers non-state actors to make serious claims on your behavior!
-
-<br>
-
-**That done, were there any state obligations that stood out for you in Part II that we want to add to our list?**
-
-- BUILD and DISCUSS the LIST
-
-<br>
-
-**Class Notes - 2023-09-26**
-- ?
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-[**The Convention Against Torture (CAT) (1984)**]]]
-
-<br>
-
-[Part 3: Participation (Art 25-33)]
-
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table2.png){style="display: block; margin: 0 auto"}
-
-![](Images/02_2-Legalization_Table3.png){style="display: block; margin: 0 auto"}
-:::
-
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table4.png){style="display: block; margin: 0 auto"}
-:::
-::::
-
-:::: notes
-
-Groups, let's finish by reviewing Part III of the treaty.
-
-- Most treaties include basic boilerplate language about joining the treaty but the CAT has some possibly important stuff in here.
-
-- Read through Part III and let me know if anything stands out.
-
-<br>
-
-*ON BOARD*: (save space for three parts of treaty)
-
-- BUILD and DISCUSS the LIST
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Vienna Convention on the Law of Treaties (1969)**]
-
-<br>
-
-![](Images/06_1-ViennaConv_Reservations_Defined.png){style="display: block; margin: 0 auto"}
-
-Art 19: Formulation of reservations
-
-Art 20: Acceptance of and objection to reservations
-
-Art 21: Legal effects of reservations and of objections to reservations
-
-Art 22: Withdrawal of reservations and of objections to reservations 
-
-:::: notes
-
-Let's now talk treaty reservations.
-
-- Refresher from the Shaw (2008) chapter a few weeks back
-
-- "“reservation” means a unilateral statement, however phrased or named, made by a State, when signing, ratifying, accepting, approving or acceding to a treaty, whereby it purports to exclude or to modify the legal effect of certain provisions of the treaty in their application to that State;" (Art 2)
-
-- These articles try to make clear how reservations can and cannot be made
-
-- Reservations are different from "statements ... not intended to have the legal effect of a reservation, such as understandings, political statements or interpretive declarations" (915).
-
-- Reservations are also different from statements meant to guide domestic application / interpretation.
-
-- Vienna Art 20 has the rules for whether a reservation is acceptable. Not an easy answer as it depends on the context of the situation and the degree to which the reservation messes with the object and purpose of the treaty. 
-    - At the weak end an objection to a reservation may just modify the relationship between the reserving and the objecting state and only as it pertains to the article being reservation-ed. At the strong end reservations can be nullified if deeply problematic or unacceptable to the other states.
-    - In general, if you don't object within 12 months of the reservation you've accepted it.
-
-<br>
-
-**Questions on these general rules of reservations?**
-
-<br>
-
-- Best case scenario: Allowing reservations encourages wider participation by allowing states to modify their obligations on minor issues.
-
-- Worst case scenario: Completely ruins the agreement and thoroughly complicates state interactions
-
-<br>
-
-**SLIDE**: CAT reservation rules...
-
-<br>
-
-**Vienna Convention Notes**
-
-Vienna Convention on the Law of Treaties (1969)
-ART 2(D)
-"'reservation' means a unilateral statement, however phrased or named, made by a State, when signing, ratifying, accepting, approving or acceding to a treaty, whereby it purports to exclude or to modify the legal effect of certain provisions of the treaty in their application to that State;"
-
-ART 19: FORMULATION OF RESERVATIONS
-("A State may, when signing, ratifying, accepting, approving or acceding to a treaty, formulate a reservation unless:
-(a) the reservation is prohibited by the treaty;
-(b) the treaty provides that only specified reservations, which do not include the reservation in question, may be made; or
-(c) in cases not falling under sub-paragraphs (a) and (b), the reservation is incompatible with the object and purpose of the treaty."
-
-ART 20: ACCEPTANCE OF AND OBJECTION TO RESERVATIONS
-ART 21: LEGAL EFFECTS OF RESERVATIONS AND OF OBJECTIONS TO RESERVATIONS
-ART 22: WITHDRAWAL OF RESERVATIONS AND OF OBJECTIONS TO RESERVATIONS
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-**Article 28**
-
-1) Each State may, at the time of signature or ratification of this Convention or accession thereto, declare that it does not recognize the competence of the Committee provided for in article 20. (Committee investigates allegations of systematic torture)
-
-**Article 29**
-
-1) Any State Party to this Convention may propose an amendment and file it with the Secretary-General of the United Nations. (Must be accepted by 2/3 of all parties)
-
-**Article 30**
-
-2) Each State may, at the time of signature or ratification of this Convention or accession thereto, declare that it does not consider itself bound by paragraph I of this article. (Dispute resolution by arbitration)
-
-:::: notes
-
-**How substantial a set of loopholes does this make possible in the CAT?**
-
-- **Do any of these things hit directly on the elements you identified today as important design elements of the CAT?**
-
-<br>
-
-Let's look at some of the specific reservations to the CAT!
-
-- Everybody open the link in the syllabus and scan through the reservations attached below the table of dates.
-
-<br>
-
-First, let's locate examples of what Shaw (2008) would classify as 'simple declarations.'
-
-- *ON BOARD or YOU HIGHLIGHT ON THE SCREEN*
-
-<br>
-
-Now, let's try to find examples that seriously alter the design of the CAT.
-
-**Give me examples of states with reservations that you believe most substantially alter the CAT.**
-
-- *ON BOARD or on screen*
-
-- *Really encourage these discussions*
-
-<br>
-
-**Should the state parties have rejected Pakistan's reservation? Why or why not?**
-
-<br>
-
-**What about the US reservations to the torture definition in Art 1? Are these going too far? Why or why not?**
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Koremenos, Lipson & Snidal (2001): Rational Design**]
-
-- Rational design
-
-- Shadow of the future
-
-- Transaction costs
-
-- Risk aversion
-
-Therefore, states design international institutions to facilitate and strengthen international cooperation.
-
-:::: notes
-
-Let's once again shift back to the Rational Design article by Koremenos, Lipson & Snidal (2001).
-
-**Does the design of the CAT offer support for the key premises in those authors model of international cooperation? Why or why not?**
-
-- *Talk to your group, then report back!*
-
-<br>
-
-**Notes**
-
-- Rational design: States and other international actors, acting for self-interested reasons, design institutions purposefully to advance their joint interests.
-- Shadow of the future: The value of future gains is strong enough to support a cooperative arrangement.
-- Transaction costs: Establishing and participating in international institutions is costly.
-- Risk aversion: States are risk-averse and worry about possible adverse effects when creating or modifying international institutions.
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-![](Images/03_2-KLS_Table1.png){style="display: block; margin: 0 auto"}
-
-:::: notes
-
-Let's now use the Rational Design Conjectures to analyze the design of the NPT.
-
-**Given the design of the treaty, what do we learn about the biggest challenges facing this effort to achieve international cooperation?**
-
-- *Talk to your group, then report back!*
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-```{r, fig.retina=3, fig.align='center', out.width='95%', fig.height=6, fig.width=10, cache=FALSE}
-library(readxl)
-library(tidyverse)
-
-# Use V-dem to map current torture levels
-d <- read_excel("../../Data/V-Dem/V-Dem-CY-Core_csv_v13/V_Dem_Personal_Integrity_Rights-1789-2022.xlsx", guess_max = 10000, na = "NA") |>
-  filter(year == 2022)
-
-## Make a map
-## Use rnaturalearth to define world map data
-worldmap <- rnaturalearth::ne_countries(scale = 'medium', type = 'countries', returnclass = 'sf')
-
-# Match codes
-d$newcode1 <- countrycode::countrycode(d$COWcode, origin = "cown", destination = "iso3c")
-
-# Merge data
-d10 <- left_join(worldmap, d, by = c("adm0_a3" = "newcode1"))
-
-# Audit missing data
-d10$v2cltort_ord[d10$name == "Kosovo"] <- 3
-d10$v2cltort_ord[d10$name == "S. Sudan"] <- 1
-d10$v2cltort_ord[d10$name == "Serbia"] <- 3
-
-d10 |>
-  ggplot() +
-  geom_sf(aes(fill = factor(v2cltort_ord))) +
-  labs(fill = "", title = "V-Dem's 'Freedom From Torture' (2022)") +
-  theme(legend.position = "right") +
-  scale_fill_manual(values = c("red", "pink", "khaki", "skyblue", "blue"), na.value = "darkgrey")
-```
-
-:::: notes
-
-Map is using latest data from the V-Dem project
-
-- This variable measures a country-year by the level of torture being practiced
-
-- 0: Not respected by public authorities. Torture is practiced systematically and is incited and approved by the leaders of government.
-
-- 1: Weakly respected by public authorities. Torture is practiced frequently but is often not incited or approved by top leaders of government. At the same time, leaders of government are not actively working to prevent it.
-
-- 2: Somewhat. Torture is practiced occasionally but is typically not approved by top leaders of government.
-
-- 3: Mostly respected by public authorities. Torture is practiced in a few isolated cases but is not incited or approved by top government leaders.
-
-- 4: Fully respected by public authorities. Torture is non-existent.
-
-<br>
-
-**Given everything we've discussed today, is it fair to evaluate the CAT in terms of the level of torture happening within countries after ratification? Why or why not?**
-
-<br>
-
-**Focusing on the design of the treaty itself, what are "fair" tests of the effectiveness of the CAT?**
-
-- **In other words, based on what the treaty is ACTUALLY DESIGNED TO DO, what evidence would we need to argue the treaty has worked?**
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Next Class: Has the CAT been effective?**]
-
-1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
-
-2. Vreeland (2008) "Political Institutions and Human Rights: Why Dictatorships Enter into the United Nations Convention Against Torture"
-
-3. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
-
-:::: notes
-
-Next class we dive into the academic literature that tries to answer this question!
-
-<br>
-
-Your job to get ready for class is simply to identify the argument being tested
-
-- Who are the interests the paper is focusing on?
-
-- What are the institutions that structure their behavior?
-
-- What are the interactions that complicate their behavior?
-
-<br>
-
-In class we'll diagram and discuss those models and then review the analyses together.
-
-**Questions on the assignment?**
+- Membership rules (MEMBERSHIP)
+- Scope of issues covered (SCOPE)
+- Centralization of tasks (CENTRALIZATION )
+- Rules for controlling the institution (CONTROL)
+- Flexibility of arrangements (FLEXIBILITY)
 
 :::

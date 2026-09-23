@@ -443,14 +443,17 @@ When designing an institution you can:
 Membership rules ( MEMBERSHIP )
 
 - "Who belongs to the institution? Is membership exclusive and restrictive, like the G-7’s limitation to rich countries? Or is it inclusive by design, like the UN? Is it regional, like ASEAN, or is it universal? Is it restricted to states, or can NGOs join?" (770).
+- "Membership rules determine who bene ts from an institution and who pays the costs. They work in several ways beyond simply reducing or enlarging size. By setting criteria for inclusion, for example, they affect the group’s homogeneity and asymmetries" (783).
 
 Scope of issues covered ( SCOPE )
 
 - "What issues are covered?" (770).
+- "International issues do not come as pre-packaged units. Instead, they are constructed and evolve in complicated ways. While the resulting issue scope partly derives from technological, cognitive-ideational, and other factors that are not analyzed here, rational institutional analysis can explain key patterns of linkage within institutions. We focus on the deliberate choices states make about which issues to include in an institutional framework. In particular, when do states bring together issues they might otherwise have dealt with separately?" (785)
 
 Centralization of tasks ( CENTRALIZATION )
 
 - "Are some important institutional tasks performed by a single focal entity or not? Scholars often misleadingly equate centralization with centralized enforcement. We use the term more broadly to cover a wide range of centralized activities. In particular we focus on centralization to disseminate information, to reduce bargaining and transaction costs, and to enhance enforcement" (771).
+- "International institutions can be centralized in a variety of ways. An international agency may have centralized information-gathering capacities, for example, without having centralized adjudicative or enforcement capacities" (787).
 
 Rules for controlling the institution ( CONTROL )
 
@@ -492,7 +495,11 @@ Flexibility of arrangements ( FLEXIBILITY )
 
 - **Where on the hard vs soft law scale is this?**
 
-- **Does low on the scale mean ineffective?**
+- (Hard obligations, soft on precision, basically no delegation)
+
+<br>
+
+- **Does "soft" law mean ineffective?**
 
 <br>
 
@@ -515,15 +522,20 @@ Flexibility of arrangements ( FLEXIBILITY )
 
 **Rational Design**
 
+::: {.incremental}
+
 1. Membership rules
 
 2. Scope of issues
 
 3. Centralization of tasks
 
+    - Disseminate info, reduce transaction costs, enhance enforcement, etc.
+
 4. Rules for control
 
 5. Flexibility of arrangements
+:::
 :::
 ::::
 
@@ -539,15 +551,42 @@ Groups, let's step through applying this tool to the Slavery Convention
 
 <br>
 
-**What are the membership rules of the Slavery Convention?**
+**REVEAL: What are the membership rules of the Slavery Convention?**
 
 - **Are they inclusive or exclusive?**
+
+<br>
+
+Slavery convention is very inclusive, everybody is invited
+
+- AND, since the convention 1) bans playing any role in the slave trade, and 2) encourages states to pressure non-participants, it even has the chance to impact non-participants!
+
+<br>
+
+*KLS Notes*
+
+- "Who belongs to the institution? Is membership exclusive and restrictive, like the G-7’s limitation to rich countries? Or is it inclusive by design, like the UN? Is it regional, like ASEAN, or is it universal? Is it restricted to states, or can NGOs join?" (770).
+- "Membership rules determine who benefits from an institution and who pays the costs. They work in several ways beyond simply reducing or enlarging size. By setting criteria for inclusion, for example, they affect the group’s homogeneity and asymmetries" (783).
 
 <br>
 
 **How broad or narrow is the scope of the Slavery Convention?**
 
 - **Which articles define and refine the scope?**
+
+<br>
+
+- Narrowly focused on slavery
+- Does impact shipping/trade a bit which is a bit further afield
+- Also allows prison labor as an attempt to encourage US and others to participate
+- But nothing crazy afield like tying tariff rates to compliance
+
+<br>
+
+*KLS Notes*
+
+- "What issues are covered?" (770).
+- "International issues do not come as pre-packaged units. Instead, they are constructed and evolve in complicated ways. While the resulting issue scope partly derives from technological, cognitive-ideational, and other factors that are not analyzed here, rational institutional analysis can explain key patterns of linkage within institutions. We focus on the deliberate choices states make about which issues to include in an institutional framework. In particular, when do states bring together issues they might otherwise have dealt with separately?" (785)
 
 <br>
 
@@ -561,11 +600,23 @@ Groups, let's step through applying this tool to the Slavery Convention
 
 <br>
 
+- Very little info sharing (states share updates on the domestic laws they create to ban slavery)
+- No scheduled meetings or discussions (COPs) so no obvious way to reduce transaction costs
+- No outside body other than ICJ ajudication, no meanginful enforcement
+
+<br>
+
 **What kinds of rules does the Slavery Convention include for controlling the institution?**
+
+- None? Basically no delegation
 
 <br>
 
 **Finally, does the Slavery Convention offer participants any flexibility in the arrangements?**
+
+- Prison labor allowed
+- Colonial exceptions - My commitments do not apply to my territories
+- Art 10: You can leave the treaty (denounce) with 1 year notice
 
 <br>
 

@@ -28,6 +28,8 @@ Justin Leinaweaver (Fall 2026)
 
 1. Check Canvas submissions
 
+2. Open the CODING notes in the main folder for the Slavery convention
+
 <br>
 
 **SLIDE**: Over the last two weeks I've been introducing you to tools meant to help us analyze international institutions
@@ -323,11 +325,13 @@ We reviewed these last class, so don't need to hit these in detail again
 
 **How many of these assumptions would Mearsheimer accept?**
 
-- (I think three of these four sound perfectly comfortable coming out of a realist's mouth)
+- (I think two or three of these four sound perfectly comfortable coming out of a realist's mouth)
 
-    - Rational design, transaction costs and risk aversion come very close to capturing the cheating and relative gains concerns important to Mearsheimer
+- Transaction costs and risk aversion come very close to capturing the cheating and relative gains concerns important to Mearsheimer
 
-- BUT, the shadow of the future is probably a deal-breaker
+- Rational design is a problem if it requires the pursuit of "joint" gains
+
+- Shadow of the future is almost certainly a deal-breaker
 
     - The prospect of future gains is directly tied to a fear about relative gains
     
@@ -510,6 +514,18 @@ Let's apply these insights to the Slavery Convention
 - **What does the design of the Slavery Convention suggest were the biggest complications facing the design of this institution?**
 
 - *DISCUSS*
+
+<br>
+
+- Must have been a severe distribution problem: Broad membership, Lots of flexibility
+
+<br>
+
+**Does Table 1 suggest something they could have tried to improve the effectiveness of the Slavery Convention?**
+
+- (If the problem is distribution, then broaden the scope!)
+
+- e.g. find new issues important to the non-participants that they do care about!
 
 <br>
 

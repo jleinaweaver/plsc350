@@ -28,7 +28,7 @@ Justin Leinaweaver (Fall 2026)
 
 1. Check Canvas submissions
 
-2. Open RStudio so you can record answers from class applying legalization to the Slavery convention for future years
+2. Track treaty coding in document: ...350-IOs_and_Law/2026-Fall/CODING-The_Slavery_Convention.txt
 
 <br>
 
@@ -444,12 +444,6 @@ Let's now use this dimension of legalization to classify the Slavery Convention
 
 <br>
 
-**FA26**
-
-- ?
-
-<br>
-
 **SLIDE**: Next dimension: precision
 
 :::
@@ -528,12 +522,6 @@ Let's now use this dimension of legalization to classify the Slavery Convention
 Groups, how do you classify the precision of this treaty?
 
 - Give us examples too!
-
-<br>
-
-**FA23**
-
-- ?
 
 <br>
 
@@ -619,12 +607,6 @@ Let's now use this dimension of legalization to classify the Slavery Convention 
 *ON BOARD*
 
 - Let's make a list of delegation elements and classify each one as either "High", "Medium" or "Low"
-
-<br>
-
-**FA23**
-
-- ?
 
 <br>
 
