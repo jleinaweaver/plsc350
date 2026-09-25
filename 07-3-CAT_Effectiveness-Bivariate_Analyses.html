@@ -33,6 +33,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="07-3-CAT_Effectiveness-Bivariate_Analyses_files/libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link href="07-3-CAT_Effectiveness-Bivariate_Analyses_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -137,7 +203,7 @@
 <p><br></p>
 <p><strong>Section 2: How effective have international institutions been in reducing the use of torture by governments around the world?</strong></p>
 <ul>
-<li>Simple bivariate data analyses</li>
+<li>Bivariate data analyses of CAT ratifications and torture outcomes</li>
 </ul>
 <p><br></p>
 <div class="r-stack">
@@ -155,7 +221,20 @@
 </ul></li>
 </ol>
 <p><br></p>
-<p><strong>SLIDE</strong>: Today we …</p>
+<p>Before class I asked you to perform data analyses in order to answer three broad questions that connect ratifying the CAT and the use of torture around the world</p>
+<ul>
+<li>Let’s use our time to report back on your work!</li>
+</ul>
+<p><br></p>
+<p>Our first two questions focus on performing univariate analyses on our main predictor variable: States binding themselves to the CAT</p>
+<ul>
+<li><p>We did a similar exercise last week but focused on the the outcome variable: torture</p></li>
+<li><p>Those exercises helped us think critically about the validity and reliability of the data we have,</p></li>
+<li><p>To identify where torture is a significant problem in the world today, AND</p></li>
+<li><p>To identify how torture has been changing across time</p></li>
+</ul>
+<p><br></p>
+<p><strong>SLIDE</strong>: So, let’s start by analyzing the speed of adoption for the CAT</p>
 <p><br></p>
 <p><strong>References</strong></p>
 <ul>
@@ -174,17 +253,84 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
-<h2></h2>
-<p>Canvas Q1: How long did it take for a majority of the world’s countries to ratify the CAT? How long to reach 3/4 of the countries in the dataset?</p>
-<aside class="notes">
-<p>Fall 2020 07-2</p>
+<section id="canvas-question-1" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2>Canvas Question 1</h2>
+<p><br></p>
+<h3 id="how-long-did-it-take-for-the-cat-to-enter-into-force-after-the-agreement-was-completed">How long did it take for the CAT to enter into force after the agreement was completed?</h3>
+<p><br></p>
+
+<img data-src="Images/07_3-CAT_Art27.png" style="display: block; margin: 0 auto" class="r-stretch"><aside class="notes">
+<p>The Convention Against Torture includes protections for states who are willing to ratify the treaty early</p>
 <ul>
-<li>Map of world with all rats by 2017</li>
-<li>Barplot: cumulative ratifications by year</li>
-<li>Barplot: cumulative ratifications by year + slope lines showing steep to start and slow to finish split around 2001</li>
-<li>Map of world with rats by year (yellow to red color showing early vs late)</li>
+<li><p>In many areas of international cooperation there is a first-mover disadvantage</p></li>
+<li><p>e.g.&nbsp;you are likely at a disadvantage if you bind yourself to rules that others have not yet bound themselves to</p></li>
+<li><p>So, the CAT does not require anything of participants until 30 days after the 20th state has bound itself to the treaty</p></li>
 </ul>
+<p><br></p>
+<p>Now, I know the front page of the treaty already gives you everything you need to answer this question</p>
+<ul>
+<li><p>e.g.&nbsp;the adoption date and the date the treaty went into force</p></li>
+<li><p>However, I asked you to calculate the date the treaty went into force using the data as a validation check on our data</p></li>
+</ul>
+<p><br></p>
+<p><strong>So, how did you use the data to calculate the date of entry into force?</strong></p>
+<ul>
+<li><strong>Talk me through your procedure</strong></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="" aria-label="1"></a><span class="co"># Spreadsheet: </span></span>
+<span id="cb1-2"><a href="" aria-label="2"></a><span class="co"># 1) Filter to binding states</span></span>
+<span id="cb1-3"><a href="" aria-label="3"></a><span class="co"># 2) sort by binding date</span></span>
+<span id="cb1-4"><a href="" aria-label="4"></a><span class="co"># 3) go to row 20, </span></span>
+<span id="cb1-5"><a href="" aria-label="5"></a><span class="co"># 4) add 30 days to 20th binding date</span></span>
+<span id="cb1-6"><a href="" aria-label="6"></a></span>
+<span id="cb1-7"><a href="" aria-label="7"></a><span class="co"># Find the 20th binding action</span></span>
+<span id="cb1-8"><a href="" aria-label="8"></a>bind20 <span class="ot">&lt;-</span> rats <span class="sc">|&gt;</span></span>
+<span id="cb1-9"><a href="" aria-label="9"></a>  <span class="fu">filter</span>(Binding <span class="sc">==</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-10"><a href="" aria-label="10"></a>  <span class="fu">arrange</span>(<span class="st">`</span><span class="at">Binding Date</span><span class="st">`</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-11"><a href="" aria-label="11"></a>  <span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">20</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-12"><a href="" aria-label="12"></a>  <span class="fu">slice_tail</span>(<span class="at">n =</span> <span class="dv">1</span>)</span>
+<span id="cb1-13"><a href="" aria-label="13"></a></span>
+<span id="cb1-14"><a href="" aria-label="14"></a>bind20 <span class="sc">|&gt;</span> <span class="fu">select</span>(country, <span class="st">`</span><span class="at">Binding Date</span><span class="st">`</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 2
+  country `Binding Date`     
+  &lt;chr&gt;   &lt;dttm&gt;             
+1 Denmark 1987-05-27 00:00:00</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="" aria-label="1"></a><span class="co"># Add 30 days</span></span>
+<span id="cb3-2"><a href="" aria-label="2"></a><span class="fu">ymd</span>(bind20<span class="sc">$</span><span class="st">`</span><span class="at">Binding Date</span><span class="st">`</span>) <span class="sc">+</span> <span class="dv">30</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "1987-06-26"</code></pre>
+</div>
+</div>
+<p><br></p>
+<p>So, Denmark was the 20th UN member state to bind itself to the CAT</p>
+<ul>
+<li><p>Binding date: May 27, 1987</p></li>
+<li><p>CAT enters into force 30 days later: June 26, 1987</p></li>
+</ul>
+<p><br></p>
+<p>With that date confirmed, now we can answer our first question</p>
+<ul>
+<li><strong>How long did it take for the CAT to enter into force after being adopted by the UN GA?</strong></li>
+</ul>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="" aria-label="1"></a><span class="co"># Subtract the date of adoption (928 days)</span></span>
+<span id="cb5-2"><a href="" aria-label="2"></a>(diff1 <span class="ot">&lt;-</span> <span class="fu">ymd</span>(bind20<span class="sc">$</span><span class="st">`</span><span class="at">Binding Date</span><span class="st">`</span>) <span class="sc">+</span> <span class="dv">30</span> <span class="sc">-</span> <span class="fu">ymd</span>(<span class="st">"1984-12-10"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Time difference of 928 days</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="" aria-label="1"></a><span class="co"># Convert to years</span></span>
+<span id="cb7-2"><a href="" aria-label="2"></a><span class="fu">as.numeric</span>(diff1<span class="sc">/</span><span class="dv">365</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2.542466</code></pre>
+</div>
+</div>
+<p><br></p>
+<p>Good warm-up, right?!</p>
+<p><br></p>
+<p><strong>SLIDE</strong>: Question 2</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -197,33 +343,103 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-1" class="slide level2 smaller" data-background-image="./Images/background-scales_justice_v3.png">
-<h2></h2>
-<div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Map (Current)</a></li><li><a href="#tabset-1-2">Map (By Year)</a></li><li><a href="#tabset-1-3">Rats (Cumulative)</a></li><li><a href="#tabset-1-4">Rats (Slopes)</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1">
-
-</div>
-<div id="tabset-1-2">
-
-</div>
-<div id="tabset-1-3">
-
-</div>
-<div id="tabset-1-4">
-
-</div>
-</div>
-</div>
+<section id="canvas-question-2" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2>Canvas Question 2</h2>
+<p><br></p>
+<h3 id="how-long-did-it-take-for-34-of-the-un-member-states-to-bind-themselves-to-the-cat">How long did it take for 3/4 of the UN member states to bind themselves to the CAT?</h3>
 <aside class="notes">
-<p>Fall 2020 07-2</p>
+<p><strong>Alright, hit me, how long did it take to 75% of UN member states to bind themselves to the CAT?</strong></p>
 <ul>
-<li>Map of world with all rats by 2017</li>
-<li>Barplot: cumulative ratifications by year</li>
-<li>Barplot: cumulative ratifications by year + slope lines showing steep to start and slow to finish split around 2001</li>
-<li>Map of world with rats by year (yellow to red color showing early vs late)</li>
+<li>(9,326 days of 25.6 years!)</li>
 </ul>
+<p><br></p>
+<p><strong>And who was the 75th percent ratifier?</strong></p>
+<ul>
+<li>(Pakistan)</li>
+</ul>
+<p><br></p>
+<p><strong>How did you figure it out?</strong></p>
+<ul>
+<li><strong>Talk me through your process</strong></li>
+</ul>
+<p><br></p>
+<p><strong>What did you learn from calculating the speed of ratification for countries around the world?</strong></p>
+<ul>
+<li><p><strong>Who ratified quickly and who didn’t? Any surprises?</strong></p></li>
+<li><p>(<strong>SLIDE</strong>: Some univariate results to discuss)</p></li>
+</ul>
+<p><br></p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="" aria-label="1"></a><span class="co"># What is 75% of the UN member states?</span></span>
+<span id="cb9-2"><a href="" aria-label="2"></a>(target1 <span class="ot">&lt;-</span> <span class="fu">nrow</span>(rats) <span class="sc">*</span> .<span class="dv">75</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 145.5</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="" aria-label="1"></a><span class="co"># Find the 75% binding action (146th binding action)</span></span>
+<span id="cb11-2"><a href="" aria-label="2"></a>bind75th <span class="ot">&lt;-</span> rats <span class="sc">|&gt;</span></span>
+<span id="cb11-3"><a href="" aria-label="3"></a>  <span class="fu">filter</span>(Binding <span class="sc">==</span> <span class="dv">1</span>) <span class="sc">|&gt;</span></span>
+<span id="cb11-4"><a href="" aria-label="4"></a>  <span class="fu">arrange</span>(<span class="st">`</span><span class="at">Binding Date</span><span class="st">`</span>) <span class="sc">|&gt;</span></span>
+<span id="cb11-5"><a href="" aria-label="5"></a>  <span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">146</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb11-6"><a href="" aria-label="6"></a>  <span class="fu">slice_tail</span>(<span class="at">n =</span> <span class="dv">1</span>)</span>
+<span id="cb11-7"><a href="" aria-label="7"></a></span>
+<span id="cb11-8"><a href="" aria-label="8"></a>bind75th <span class="sc">|&gt;</span> <span class="fu">select</span>(country, <span class="st">`</span><span class="at">Binding Date</span><span class="st">`</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 2
+  country  `Binding Date`     
+  &lt;chr&gt;    &lt;dttm&gt;             
+1 Pakistan 2010-06-23 00:00:00</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="" aria-label="1"></a><span class="co"># Pakistan binding date minus date of adoption</span></span>
+<span id="cb13-2"><a href="" aria-label="2"></a>(diff2 <span class="ot">&lt;-</span> <span class="fu">ymd</span>(bind75th<span class="sc">$</span><span class="st">`</span><span class="at">Binding Date</span><span class="st">`</span>) <span class="sc">-</span> <span class="fu">ymd</span>(<span class="st">"1984-12-10"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Time difference of 9326 days</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="" aria-label="1"></a><span class="co"># Convert to years</span></span>
+<span id="cb15-2"><a href="" aria-label="2"></a><span class="fu">as.numeric</span>(diff2<span class="sc">/</span><span class="dv">365</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 25.55068</code></pre>
+</div>
+</div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-5-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
+<p><em>Explain a cumulative sum bar plot to them</em></p>
+<p><br></p>
+<p><strong>What do we learn about the ratification of the CAT from this visualization?</strong></p>
+<p><br></p>
+<p><strong>SLIDE</strong>: Add lines of best fit</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-1" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-6-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
+<p><strong>Is it surprising to see two distinct phases of binding behavior? Why or why not?</strong></p>
+<p><br></p>
+<p><strong>SLIDE</strong>: Map of rats by year</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -238,13 +454,38 @@
 </section>
 <section id="section-2" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
-<p>Canvas Q2: According to the CIRIGHTS data project, did countries that ratified the CAT reduce their use of torture in the following years?</p>
+
+<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-7-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
+<p><strong>Any surprises here?</strong></p>
+<p><br></p>
+<p><strong>SLIDE</strong>: On to Question 3!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="canvas-question-3" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2>Canvas Question 3</h2>
+<p><br></p>
+<h3 id="according-to-the-cirights-data-project-did-countries-that-ratified-the-cat-reduce-their-use-of-torture-in-the-following-years">According to the CIRIGHTS data project, did countries that ratified the CAT reduce their use of torture in the following years?</h3>
 <aside class="notes">
+<p><strong>Alright, let’s share answers to this question and the techniques you applied to generate them!</strong></p>
 <ul>
-<li>Line plot across time: Ratifiers in three groups (1984 torture status 2s vs 1s vs 0s)</li>
-<li>Repeat above but add line of best fit</li>
-<li>Dot plot with line of best fit: Average torture score x years since ratification</li>
-<li>Line plot: Average torture score ratifiers vs non-ratifiers</li>
+<li><em>Go around the room to share</em></li>
+</ul>
+<p><br></p>
+<p><strong>SLIDE</strong>: My versions</p>
+<ul>
+<li>line plot - means</li>
+<li>Stacked bar plot: For each year count torture by level: 0, 1 and 2</li>
+<li>Avg effects after ratification</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -260,9 +501,160 @@
 </section>
 <section id="section-3" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
-<p>Canvas Q3: According to the V-Dem data project, did countries that ratified the CAT reduce their use of torture in the following years?</p>
-<aside class="notes">
 
+<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
+<section id="section-4" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
+<section id="section-5" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-10-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
+<p>In this visualization I am analyzing the behavior of states only AFTER they bind themselves to the CAT</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="canvas-question-4" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2>Canvas Question 4</h2>
+<p><br></p>
+<h3 id="according-to-the-v-dem-data-project-did-countries-that-ratified-the-cat-reduce-their-use-of-torture-in-the-following-years">According to the V-Dem data project, did countries that ratified the CAT reduce their use of torture in the following years?</h3>
+<aside class="notes">
+<p><strong>Alright, let’s share answers to this question and the techniques you applied to generate them!</strong></p>
+<ul>
+<li><em>Go around the room to share</em></li>
+</ul>
+<p><br></p>
+<p><strong>SLIDE</strong>: My versions</p>
+<ul>
+<li>line plot - means</li>
+<li>Stacked bar plot: For each year count torture by level: 0, 1 and 2</li>
+<li>Avg effects after ratification</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-6" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"><aside class="notes">
+<p>V-Dem Freedom from Torture (v2cltort) Ordinal Scale</p>
+<p>0: Torture is practiced systematically and approved by government leaders.</p>
+<p>1: Torture is frequent without top leader approval, but leaders fail to prevent it.</p>
+<p>2: Torture occurs occasionally without leadership approval.</p>
+<p>3: Torture is limited to isolated cases and unapproved by authorities.</p>
+<p>4: Torture is non-existent.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-7" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"><aside class="notes">
+<p>V-Dem Freedom from Torture (v2cltort) Ordinal Scale</p>
+<p>0: Torture is practiced systematically and approved by government leaders.</p>
+<p>1: Torture is frequent without top leader approval, but leaders fail to prevent it.</p>
+<p>2: Torture occurs occasionally without leadership approval.</p>
+<p>3: Torture is limited to isolated cases and unapproved by authorities.</p>
+<p>4: Torture is non-existent.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-8" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-13-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
+<p>In this visualization I am analyzing the behavior of states only AFTER they bind themselves to the CAT</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside class="notes">
+<p><br></p>
+<p>V-Dem Freedom from Torture (v2cltort) Ordinal Scale</p>
+<p>0: Torture is practiced systematically and approved by government leaders.</p>
+<p>1: Torture is frequent without top leader approval, but leaders fail to prevent it.</p>
+<p>2: Torture occurs occasionally without leadership approval.</p>
+<p>3: Torture is limited to isolated cases and unapproved by authorities.</p>
+<p>4: Torture is non-existent.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-2-1" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2>Section 2</h2>
+<p><br></p>
+<h3 id="how-effective-has-the-cat-been-in-reducing-the-use-of-torture-by-governments-around-the-world">How effective has the CAT been in reducing the use of torture by governments around the world?</h3>
+<ul>
+<li>Best answer so far?</li>
+</ul>
+</section>
+<section id="for-next-class" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2>For Next Class</h2>
+<p><br></p>
+
+<img data-src="Images/07_3-Hathaway2007_Title.png" style="display: block; margin: 0 auto" class="r-stretch"><aside class="notes">
+<p>Canvas ASSIGNMENT: Unpacking Hathaway’s (2007) argument and analyses</p>
+<p>Be ready to discuss the Hathaway article in class. To help you prepare for our discussion read the article and answer the following prompts:</p>
+<ol type="1">
+<li>What is the RQ?</li>
+<li>On what specific page numbers does Hathaway explain the central argument in the paper? (e.g.&nbsp;the proposed answer to the RQ)</li>
+<li>Big picture, what is the proposed answer to the question?</li>
+<li>On what specific page numbers does Hathaway explain and evaluate the sources of the data being analyzed?</li>
+<li>On what specific page numbers does Hathaway describe and explain the tests of the data?</li>
+<li>What is the bottom line conclusion of the paper? What does Hathaway think we know about the world now that we didn’t before?</li>
+</ol>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
