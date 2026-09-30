@@ -78,21 +78,41 @@ This week we are setting the table for this question by:
 
 - *"Validity is the term used to refer to the extent to which our measures correspond to the concepts they are intended to reflect" (Brians et al 2011, 105).*
 
+- *Class Notes Fall 2026*
+
+    - Omits non-citizens (and that could be a HUGE gap in our knowledge)
+    
+    - (Data sourcing relies heavily on US reports which might skew what precisely is being classified as torture and what isn't)
+
 <br>
 
 **From our work last class, what concerns do you have about the reliability of the torture measure produced by CIRIGHTS?**
 
 - *"...we are assessing how stable the values" of a measure are (107).*
 
+- *Class Notes Fall 2026*
+
+    - Only three level instrument might be too blunt a tool to reliably code countries or across time
+
 <br>
 
-Bottom line on CIRIGHTS:
+Bottom lines on CIRIGHTS:
 
 1. **Are we comfortable using the CIRIGHTS data for cross-national analyses? (e.g. same year, different countries)**
 
 2. **Are we comfortable using the CIRIGHTS data for longitudinal analyses? (e.g. different year, same country)**
 
 3. **Are we comfortable using the CIRIGHTS data for cross-national, longitudinal analyses? (e.g. different years, different countries)**
+
+<br>
+
+Ultimately, you as the researcher have to make the decision as to how you are comfortable using CIRIGHTS
+
+- I have seen researchers argue each level of CIRIGHTS is useful and moves of one are important
+
+- I have seen researchers collapse the two levels of torture into one and instead use it as a dichotomous variable
+
+- Moving forward, you make the argument as transaparently as possible so others can interpret your results
 
 <br>
 
@@ -613,6 +633,8 @@ ggplot(data = d3) +
   labs(fill = "", title = "V-Dem: Freedom from Torture in 2022", caption = "Source: V-Dem (2026)") +
   scale_fill_manual(values = c("#CC2908", "#F788B3", "orange", "#88E3F7", "#4D70F0"))
 
+#ggsave("Images/07_1-VIZ-VDEM-2022-global_map.png")
+
 # 0 Not respected by public authorities
 # 1 Weakly respected by public authorities.
 # 2 Somewhat.
@@ -693,6 +715,8 @@ d |>
   scale_y_continuous(limits = c(0,4), breaks = 0:4) +
   #scale_x_continuous(breaks = seq(1980, 2025, 5)) +
   labs(x = "", title = "V-Dem: Torture in the US", caption = "Source: V-Dem (2026)") 
+
+#ggsave("Images/07_1-VIZ-VDEM-USA_across_time.png")
 ```
 
 ::: notes

@@ -488,6 +488,8 @@ left_join(ciri2, base_torture, by = "country") |>
   labs(x = "", y = "Mean Torture Score", caption = "Source: CIRIGHTS (2024)\nNote: The lower the score, the greater the use of torture in that state", color = "Level at Binding", title = "Torture behavior by CAT participants after the binding action") +
   geom_smooth(se = FALSE, linewidth = .5, linetype = "dashed") +
   theme(legend.position = "bottom")
+
+#ggsave("Images/08_1-CIRI-Test_of_CAT.png")
 ```
 
 ::: notes
@@ -668,6 +670,8 @@ left_join(vdem2, base_torture, by = "country") |>
   theme(legend.position = "bottom")
 #+
 #  facet_wrap(~base_torture, scales = "free_y")
+
+#ggsave("Images/08_1-VDEM-Test_of_CAT.png")
 ```
 
 ::: notes

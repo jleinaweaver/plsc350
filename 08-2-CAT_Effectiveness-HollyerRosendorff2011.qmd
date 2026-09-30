@@ -12,11 +12,9 @@ library(readxl)
 
 <br>
 
-**II. International Institutions for Mutual Restraint**
+**Section 2: How effective have international institutions been in reducing the use of torture by governments around the world?**
 
-- Effectiveness Analysis
-
-- The Convention Against Torture (CAT)
+- Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
 
 <br>
 
@@ -28,50 +26,64 @@ Justin Leinaweaver (Fall 2026)
 
 **Prep for Class**
 
-1. ?
+1. Check Canvas submissions
 
 <br>
 
-**References**
-
-1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
-2. Vreeland (2008) "Political Institutions and Human Rights: Why Dictatorships Enter into the United Nations Convention Against Torture"
-3. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
+**SLIDE**: Our plan in Section 2 of the class
 
 :::
 
 
 
-## {background-image="./Images/06_1-CAT_Convention1_blurred_filtered.png" .center}
-[**The Convention Against Torture (CAT) (1984)**]
 
-<br>
+## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[Based on its design, what is the likelihood that the CAT will succeed?]]
+**How effective have international institutions been in reducing the use of torture by governments around the world?**
+
+- [Week 6: Defining and Measuring the Outcome]{style="color:gray;"}
+
+- [Week 7: The Convention Against Torture (CAT)]{style="color:gray;"}
+
+- **Week 8: Explaining the Effect of the CAT on Torture**
+
+- [Week 9: The International Criminal Court (ICC)]{style="color:gray;"}
+
+- [Week 10: Can the ICC help us reduce global torture?]{style="color:gray;"}
+
+- [Week 11: Case Studies of ICC Effectiveness]{style="color:gray;"}
 
 ::: notes
 
-Let's talk key takeaways from last class on the CAT.
+Our focus in Section 2 is on answering this research question
 
-**What are the most substantive obligations in the treaty?**
-
-- **How precise are they?**
+- And our work this week is to engage with some of the research published on this topic
 
 <br>
 
-**How substantial is the delegation in the treaty?**
+Anytime you are beginning a research project it is important to begin with the academic literature
 
 <br>
 
-**Based on the design of the CAT, what is an appropriate test of "success"?**
+You need to see how experts in the field:
+
+- Define the key concepts,
+
+- Design theories to answer the question,
+
+- Locate and evaluate data, 
+
+- Perform analyses to test their theories, and 
+
+- Draw conclusions from all their work
 
 <br>
 
-Keep the treaty design in mind as we evaluate the tests in today's articles.
+The more good quality research you read, the better able you will be to perform good quality research!
 
-- Ask yourself as we go, is this a "fair" test of treaty effectiveness?
+<br>
 
-- e.g. Is this test consistent with the design of the actual treaty?
+**SLIDE**: Last class...
 
 :::
 
@@ -79,165 +91,91 @@ Keep the treaty design in mind as we evaluate the tests in today's articles.
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Today: Has the CAT been effective?**]
+<br>
 
-1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
-
-2. Vreeland (2008) "Political Institutions and Human Rights: Why Dictatorships Enter into the United Nations Convention Against Torture"
-
-3. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
+![](Images/07_3-Hathaway2007_Title.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-For today you read the arguments in three attempts to evaluate the effectiveness of the CAT.
+Last class we dug into Oona Hathaway's (2007) research article that sought to explain why states choose to join human rights treaties like the Convention Against Torture
 
 <br>
 
-*Split class in thirds, assign to each article*
+**Remind me, why does Hathaway frame joining the CAT as a puzzle?**
+
+- (Because "they constitute the paradigmatic hard case...)
+
+- ("Human rights treaties do not offer states any obvious reciprocal benefits...")
+
+- ("It is much less obvious why a state would join an agreement that requires
+it to provide fair trials when all the state explicitly receives in return is a reciprocal promise by other members to treat their own citizens with similar respect.")
 
 <br>
 
-GROUPS, take a few minutes to do two things *ON THE BOARD*:
-
-1. Diagram the model in your paper in terms of its interests, institutions and interactions
-
-2. Give us your article's answer to the question, has the CAT been effective?
-
-<br>
-
-**Questions?**
-
-- Let's get to work!
-
-- *Go to the Hollyer & Rosendorff (2011) group and caution them they are working on a formal model paper.* Message: Just do your best!
-
-<br>
-
-Group 1 present Hathaway (2007) argument.
-
-- **SLIDE**: My version
-
-<br>
-
-**Notes**
-
-- **Interests**: "…[The] preferences of actors over the possible outcomes that might result from their political choices" (45).
-
-- **Institutions**: "A set of rules, known and shared by the community, that structure political interactions in particular ways" (67).
-
-- **Interactions**: "The ways in which the choices of two or more actors combine to produce political outcomes" (51).
+**SLIDE**: The model
 
 :::
-
 
 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
-[**Hathaway (2007): The Model**]
+**Hathaway (2007): The Model**
 
-Interests
+<br>
 
-- States want to join human rights treaties that are not costly (?)
+**Interests**: 
 
-Institutions
+- States will join human rights treaties whose benefits outweigh their costs
 
-- Most human rights treaties lack meaningful external enforcement
-- States vary in how much they empower actors inside and outside of government to enforce rules
+**Institutions**
 
-Interactions
+- Domestic: States vary in whether non-state actors can enforce treaty rules and the powers of the executive
 
-- Ratification may empower human rights advocacy groups to pressure the government
-- Ratification may empower transnational actors (aid, trade, or other) to pressure the government
+- International: No meaningful external enforcement
+
+**Interactions**
+
+- Domestic enforcement capacity matters for costs and benefits
+
+- Domestic collateral consequences matter for costs and benefits
+
+- Transnational collateral consequences matter for costs and benefits
 
 ::: notes
 
-Bottom line here: The decision to join a human rights treaty depends on the interaction of domestic institutions and the consequences of joining. 
+Ok, refresh my memory about the model
+
+- **What does it mean to say that domestic enforcement capacity matters?**
+
+    - (If domestic actors can punish you for bad behavior then you will be hesitant to sign up to new rules)
+
+- **What does it mean to say that domestic collateral consequences matters?**
+
+    - (More diluted power as the executive, more likely to join)
+    - (More NGOs, more pressure to join)
+
+- **What does it mean to say that transantional collateral consequences matters?**
+
+    - (Regional pressure matters)
+    - (New states may join to bolster their image as good actors)
+    - (Perverse incentive: Bad states more likely to join because no fear of bad consequences!)
 
 <br>
 
-**Group 1, what do you think? Am I missing anything you'd like to add?**
-
-- **Does Hathaway ever explicitly tell us WHY the state wants to join human rights treaties?**
-
-- (From my skim before class, it is not clear what motivates states to join these treaties in the first place)
-
-<br>    
-    
-**Is this a logical model? Why or why not?**
+**What do we like about this model?**
 
 <br>
 
-Hathaway's argument pushes us to think about the complexity of international law: 
+**Any concerns with the logic or mechanisms in the model?**
 
-- Effectiveness = Treaty design x domestic politics x international politics
-
-- The good: Treaties can influence behavior without international enforcement
-
-- The bad: Only works in states with domestic enforcement capabilities.
-    - If none, e.g. dictatorship, even hard law is likely ineffective. 
-
-- So,
-    - autocracies will ratify for reasons besides their use of torture.
-    - democracies will ratify ONLY if they don't torture and don't anticipate needing to torture in future.
+- **Is she leaving anything obvious out that bears on this question?**
 
 <br>
 
-Let's take a quick jog through the analyses!
+**Remind me, what did Hathaway find in her analysis?**
 
-<br>
-
-**Old Notes**
-
-- Domestic enforcement capacity matters
-    - Most human rights treaties create rules but include no meaningful international enforcement (592).
-    - More developed domestic systems empower actors inside and outside of government to enforce treaty rules (593).
-    
-- Collateral consequences matter
-    - Ratification may empower human rights advocacy groups to pressure the government (596).
-    - Ratification may empower transnational actors (aid, trade, or other) to pressure the government (596)
-
-- So, Hathaway (2007) expects states to consider these two dynamics BEFORE ratifying a treaty.
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Hathaway (2007): Data Sources & Operationalizations**]
-
-**Outcome Variables**
-
-- Ratification of the CAT (UNTC)
-- Acceptance of CAT Art. 21 and 22 (UNTC)
-
-**Predictor Variables**
-
-- Domestic Enforcement Capacity = Level of democracy from 0-10 (Polity IV)
-
-- Collateral Consequences = Count of human rights NGOs actively working (Human Rights Internet)
-
-- Government Use of Torture = CIRI Human Rights (based on reports from Amnesty International and the US State Department)
-
-::: notes
-
-**First of all, and based on our analyses of the design of the CAT, are we willing to consider these two outcomes as equally substantial commitments? Why or why not?**
-
-- Why separately examine Art 21 and 22? ("...create harder obligations than the other legal instruments examined here, for they establish more formal (if infrequently used) enforcement mechanisms" (592).)
-
-<br>
-
-*Walk them through the three predictors*
-
-<br>
-
-**In terms of accurately reflecting the mechanisms in the model, are we comfortable with these data choices? Why or why not?**
-
-<br>
-
-**What should we expect to see in the data if Hathaway (2007) is right?**
+- **Did the CAT work?**
 
 - (**SLIDE**)
 
@@ -245,131 +183,41 @@ Let's take a quick jog through the analyses!
 
 
 
+## {background-image="./Images/background-scales_justice_v3.png"}
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+![](Images/06_2-Hathaway2007-Fig1.png){.absolute width="550" left=0 top=0}
 
-[**Hathaway (2007): Domestic Enforcement Capacity Test**]
-
-<br>
-
-```{r, fig.align='center', fig.retina=3, out.width='80%', fig.asp = 0.618}
-tibble(
-  Democracy = 0:10,
-  torture = 1
-) |>
-  ggplot(aes(x = Democracy, y = torture)) +
-  geom_point(color = "white") +
-  geom_hline(yintercept = 1) +
-  #geom_line() +
-  coord_cartesian(ylim = c(0, 2)) +
-  labs(y = "Partial Effect of Torture") +
-  theme_bw() +
-  scale_x_continuous(breaks = 0:10)
-```
+![](Images/06_2-Hathaway2007-Fig4.png){.absolute width="550" right=0 bottom=0}
 
 ::: notes
 
-Before we dig into the figures in the paper, let's set up what we'll be looking at.
+1. Dictatorships who use torture are MORE likely to ratify the CAT (+40%)
 
-- The results in the paper come from a Cox Proportional Hazard Regression
+2. Democracies that don't torture are LESS likely to ratify (-30%)
 
-<br>
-
-This marginal effects plot allows us to visualize the effect of democracy and torture on the probability a state ratifies the CAT.
-
-- x-axis: Level of democracy
-
-- y-axis: Effect of increasing torture level on the likelihood of ratifying CAT
+3. Same general trends focused on Art 20 and Art 21 but weaker effects
 
 <br>
 
-Each point on the plot is a hazard ratio
+Hathaway's argument pushes us to think about the complexity of answering questions about treaty participation and effectiveness: 
 
-- Values > 1 on the y-axis are more likely ratifications by that kind of state
-
-- Values < 1 on the y-axis are less likely ratifications by that kind of state
-
-- And Values = '1' essentially means no effect
+- State actions towards human rights treaties depend on Treaty design x domestic politics x international politics
 
 <br>
 
-**Make sense?**
-
-:::
-
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Hathaway (2007): Domestic Enforcement Capacity Test**]
+The good news is that this model suggests treaties can influence behavior without international enforcement
 
 <br>
 
-```{r, fig.align='center', fig.retina=3, out.width='80%', fig.asp = 0.618}
-tibble(
-  Democracy = 0:10,
-  torture = 1.5
-) |>
-  ggplot(aes(x = Democracy, y = torture)) +
-  geom_point(color = "blue", size = 3) +
-  geom_line(color = "blue") +
-  geom_hline(yintercept = 1, linewidth = .3) +
-  coord_cartesian(ylim = c(0, 2)) +
-  labs(y = "Partial Effect of Torture") +
-  theme_bw() +
-  scale_x_continuous(breaks = 0:10)
-```
+The bad news is that depending on domestic enforcement means creating weird incentives
 
-::: notes
-    
-**So, if the analysis produced this line, what would it mean for the effects of democracy and torture on CAT ratifications?**
+- Bad states can happily join and celebrate a human rights treaty with little to fear from being bad
 
-- (Per this line, all countries (e.g. any level of democracy) who use torture are more likely to ratify the CAT)
+- Good states will be reticent to join for fear that they will end up losing some sovereignty on an issue they already are working on!
 
 <br>
 
-**Given that CAT aims to criminalize torture, what kind of line should we expect to see?**
-
-- (**SLIDE**)
-
-:::
-
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Hathaway (2007): Domestic Enforcement Capacity Test**]
-
-<br>
-
-```{r, fig.align='center', fig.retina=3, out.width='80%', fig.asp = 0.618}
-tibble(
-  Democracy = 0:10,
-  torture = .5
-) |>
-  ggplot(aes(x = Democracy, y = torture)) +
-  geom_hline(yintercept = 1, color = "darkgrey", linewidth = .4) +
-  geom_point(size = 3, color = "red") +
-  geom_line(color = "red") +
-  coord_cartesian(ylim = c(0, 2)) +
-  labs(y = "Partial Effect of Torture") +
-  theme_bw() +
-  scale_x_continuous(breaks = 0:10)
-```
-
-::: notes
-
-This line would indicate that for all countries, regardless of level of democracy, using torture makes them less likely to ratify the CAT (-50%).
-
-- If the CAT makes torture harder then we'd hope states that do it a lot would hesitate to join!
-
-<br>
-
-**Make sense?**
+**SLIDE**: We need more research on this topic!
 
 :::
 
@@ -377,349 +225,35 @@ This line would indicate that for all countries, regardless of level of democrac
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Hathaway (2007): Domestic Enforcement Capacity Test**]
+<br>
 
-![](Images/06_2-Hathaway2007-Fig1.png){style="display: block; margin: 0 auto"}
+![](Images/08_2-HollyerRosendorff2011-Cover.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-Ok, here's the real results.
+Mirror approach from last class
 
-**Ignore the dashed lines (confidence intervals) for a moment and tell me, what did Hathaway (2007) find?**
+- Question
 
-Figure 1
+- Where is the theory?
 
-- Dictatorships who use torture are MORE likely to ratify the CAT
-- Democracies that use torture are LESS likely to ratify
-- Democracy of 1, hazard ratio of 1.4 (+40%)
-- Democracy of 10, hazard ratio of .7 (-30%)
+- Who are the interests? institutions? interactions?
 
-<br>
 
-**SLIDE**: And here are the results for acceptance of Articles 21 and 22.
 
-:::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Hathaway (2007): Domestic Enforcement Capacity Test**]
 
-![](Images/06_2-Hathaway2007-Fig4.png){style="display: block; margin: 0 auto"}
 
-::: notes
 
-**Ignore the dashed lines (confidence intervals) for a moment and tell me, what did Hathaway (2007) find?**
 
-- Figure 2: Same general trend but weaker effect
 
-<br>
 
-**So, what does this mean for the Domestic Enforcement Capacity Test?**
 
-Domestic Enforcement Matters!
 
-- Regimes with no domestic enforcement feel free to ratify CAT and keep torturing
-
-- Regimes with strong domestic enforcement who torture are less likely to ratify CAT
-
-<br>
-
-She doesn't find compelling evidence for the collateral consequences hypothesis so we'll skip that.
-
-- e.g. more human rights NGOs matter for ratification
-
-:::
-
-
-
-
-## {background-image="./Images/06_1-CAT_Convention1_blurred_filtered.png" .center}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-[Per Hathaway (2007), has the CAT been effective?]
-
-::: notes
-
-**Group 1, what is Hathaway's answer to the question?**
-
-- (Yes and no!)
-
-- Overall she finds that countries who ratify the CAT experience more torture than those who don't, but this is likely a selection effect
-
-- In democracies (systems with domestic rule enforcement) the CAT provides meaningful rules against torture!
-    - If you use torture, you probably won't join
-
-- In dictatorships (systems without domestic enforcement) the CAT probably won't deter torture use so they feel free to join
-
-<br>
-
-**Make sense?**
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Today: Has the CAT been effective?**]
-
-1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
-
-2. Vreeland (2008) "Political Institutions and Human Rights: Why Dictatorships Enter into the United Nations Convention Against Torture"
-
-3. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
-
-::: notes
-
-Vreeland (2008) represents an attempt to explain the puzzle that Hathaway (2007) found.
-
-- Dictatorships having little domestic enforcement might make joining the CAT low risk, but why choose to take on any risk at all?
-
-<br>
-
-Vreeland (2008) group, take it away!
-
-<br>
-
-**SLIDE**: My version
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Vreeland (2008): The Model**]
-
-Interests
-
-- Dictatorships want political survival
-
-Institutions
-
-- Dictatorships vary in their openness to power sharing (opposition parties)
-- The international costs of ratifying the CAT are low (opt-out Art 21 & 22)
-
-Interactions
-
-- Dictatorships allow power sharing to "encapsulate" the opposition
-- In closed systems, torture is mostly unnecessary as a signalling tool
-- In open systems, torture is a useful tool if opposition gets out of line
-- In open systems, ratifying the CAT is a "relatively cheap concession"
-
-::: notes
-
-**Group 2, anything you want to add here?**
-
-<br>    
-    
-**Is this a logical model? Why or why not?**
-
-<br>
-
-**SLIDE**: To the data!
-
-<br>
-
-**Old Notes**
-
-- Political survival may require organized political parties or limited power sharing
-
-- Those groups demand concessions for them to support the government and the CAT is one available concession
-
-- If the dictator opts out of the optional Articles then the CAT is an incredibly cheap concession to make.
-
-- Torture is a rational, strategic choice (Wantchekon and Healy 1999) used to extract information and exert social control (Rejali 2007)
-
-- System openness (power sharing) determines the value of torture (if closed unnecessary, if open may be needed).
-
-- If the system is open to opposition parties, joining CAT is a "relatively cheap concession" (raises the costs of torture in small ways).
-
-Therefore, torture is a strategic tool in dictatorships and the CAT doesn't help in the worst cases.
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Vreeland (2008): Data Sources & Operationalizations**]
-
-**Outcome Variables**
-
-- Government Use of Torture = CIRI Human Rights Data
-- Signature and Ratification of the CAT (UNTC)
-
-**Predictor Variables**
-
-- Is the dictatorship "open" to multiple political parties? (Gandhi 2004)
-
-    - 1 = "if more than one party exists legally"
-    - 0 = "otherwise"
-
-
-::: notes
-
-Vreeland is jumping off from the observations made in Hathaway (2007).
-
-- Key here is to explain why dictatorships who torture are more likely to join the CAT and hinging the explanation on openness.
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Method: Survival Analysis**]
-
-![](Images/06_2-Survival_Curve_Example_Dogs.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Vreeland (2008) uses a survival analysis to test his model.
-
-- Survival analysis comes initially from medical research
-
-- For each time interval, survival probability is calculated as the number of subjects surviving divided by the number of patients at risk.
-
-<br>
-
-On the slide I'm showing you the results of an experiment comparing two diets for dogs.
-
-- The y-axis is the probability of survival (is the dog still alive?)
-
-- The x-axis is time
-
-<br>
-
-The blue line is the first diet, the red line is the second
-
-- At time 0 all of the subjects are alive so the probability of survival is 100%
-
-- After 5 years nearly 70% of the dogs on Diet 1 are alive compared to less than 20% on Diet 2
-
-<br>
-
-**So, what conclusion do these survival curves help us draw?
-- (Diet 1 is WAY better!)
-
-<br>
-
-**Make sense?**
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Vreeland (2008): Analyses**]
-
-![](Images/06_2-Vreeland2008-Fig3.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-Vreeland applies this method to ratifying the CAT
-
-- The y axis is "survival" meaning the probability of survival (e.g. states have NOT ratified)
-
-- The x axis is time
-
-<br>
-
-So, at time 0, 100% of the countries had not ratified the CAT.
-
-- As you trace the line to the right (across time) you see the number of states ratifying reducing the height of the line
-
-- IMPORTANTLY, the line falls MUCH faster for dictatorships with opposition parties!
-
-<br>
-
-**What is our takeaway from this survival analysis?**
-
-- (Dictatorships that face organized, domestic opposition are more likely to ratify the CAT!)
-<br>
-
-**Make sense?**
-
-<br>
-
-**Notes**
-
-- "As one moves across the x-axis, the lines descend, as more and more countries sign/ratify over time. Note that in both figures the dashed line, representing dictatorships with multiple parties, descends more rapidly than the solid line, which represents dictatorships without parties. Tests indicate that this difference is statistically significant for both signing and ratifying. Dictatorships with multiple political parties are more likely to enter into the CAT" (87).
-
-- A score of .5 would mean states ratifying at half the baseline rate.
-
-- A score of 2 would mean states ratifying at twice the baseline rate.
-
-:::
-
-
-
-## {background-image="./Images/06_1-CAT_Convention1_blurred_filtered.png" .center}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-[Per Vreeland (2008), has the CAT been effective?]
-
-::: notes
-
-**Group 2, what is Vreeland's answer to the question?**
-
-- (Not good)
-
-- The good: Dictatorships are incentivized to ratify the CAT when they face an organized opposition
-
-- The bad: Dictatorships facing an organized opposition are more likely to use torture!
-
-- In sum, for dictatorships torture is a strategic tool and the CAT doesn't help.
-
-<br>
-
-**Make sense?**
-
-<br>
-
-**SLIDE**: Next Argument
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Today: Has the CAT been effective?**]
-
-1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
-
-2. Vreeland (2008) "Political Institutions and Human Rights: Why Dictatorships Enter into the United Nations Convention Against Torture"
-
-3. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
-
-::: notes
-
-Hollyer & Rosendorff (2011) aim to finish what Hathaway and Vreeland started.
-
-- Hathaway showed us that domestic enforcement was key to making the CAT work
-
-- Vreeland showed us that dictatorships facing a domestic opposition have reasons to join CAT and keep torturing
-
-- H&R want to make clear that Vreeland didn't go far enough!
-
-<br>
-
-Hollyer & Rosendorff (2011) group, take it away!
+Hollyer & Rosendorff (2011) aim to continue what Hathaway started.
 
 <br>
 

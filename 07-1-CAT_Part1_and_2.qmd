@@ -103,18 +103,132 @@ From there we shifted our focus to measurement
 
 ## Measuring Torture {background-image="./Images/background-scales_justice_v3.png"}
 
-![](Images/05-2-CIRIGHTS_Logo.png){.absolute width="550" left=50}
+:::: {.columns}
+::: {.column width="50%"}
+![](Images/05-2-CIRIGHTS_Logo.png){width="550"}
+:::
 
-![](Images/07_1-VDem_Logo.png){.absolute width="550" right=50 bottom=0}
+::: {.column width="50%"}
+![](Images/07_1-VDem_Logo.png){width="550"}
+:::
+::::
+
+::: {.r-fit-text}
+
+**Which dataset is best for cross-national analyses?**
+
+- e.g. all the UN members behavior in a single year
+
+:::
+
+::: notes
+
+*DISCUSS*
+
+<br>
+
+Cross-national analyses
+
+- CIRIGHTS more centralized coding (e.g. same coders, lots of checks) AND common set of source documents for evidence
+
+- V-DEM with variation in who is an expert per country, what they rely upon to make their ratings and the number of coders per variable
+
+    - BUT explicit attempts to use modeling techniques to address and account for these variations
+
+<br>
+
+**SLIDE**: Longitudinal
+
+:::
 
 
-:::: notes
 
-Without getting too into the weeds here:
 
-1. **Any BIG concerns with the validity or reliability of the CIRIGHTS measure of torture?**
 
-2. **Any BIG concerns with the validity or reliability of the V-Dem measure of torture?**
+## Measuring Torture {background-image="./Images/background-scales_justice_v3.png"}
+
+:::: {.columns}
+::: {.column width="50%"}
+![](Images/05-2-CIRIGHTS_Logo.png){width="550"}
+:::
+
+::: {.column width="50%"}
+![](Images/07_1-VDem_Logo.png){width="550"}
+:::
+::::
+
+::: {.r-fit-text}
+
+**Which dataset is best for longitudinal analyses?**
+
+- e.g. ONE state across time
+
+:::
+
+::: notes
+
+*DISCUSS*
+
+<br>
+
+Longitudinal analyses
+
+- CIRIGHTS has a rather centralized coding system which should boost our confidence in across time ratings ()
+
+- V-DEM has different coders across the sample years (good that each are experts, but much variation)
+
+    - Explicit attempts to use modeling techniques to address and account for these variations
+    
+<br>
+
+**SLIDE**: And both
+
+:::
+
+
+
+
+## Measuring Torture {background-image="./Images/background-scales_justice_v3.png"}
+
+:::: {.columns}
+::: {.column width="50%"}
+![](Images/05-2-CIRIGHTS_Logo.png){width="550"}
+:::
+
+::: {.column width="50%"}
+![](Images/07_1-VDem_Logo.png){width="550"}
+:::
+::::
+
+### **Which dataset is best for longitudinal, cross-national analyses?**
+
+::: notes
+
+*DISCUSS*
+
+<br>
+
+My hope from this work is that you come to see that different data sources provide different costs and benefits
+
+- AND your role as a researcher means matching the dataset to the question you are asking
+
+<br>
+
+**SLIDE**: Key univariate findings?
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+![](Images/07_1-VIZ-cirights-2022-global_map.png){.absolute width="650" left=0 top=0}
+
+![](Images/07_1-VIZ-VDEM-2022-global_map.png){.absolute width="650" right=0 bottom=0}
+
+::: notes
+
+Univariate Analyses: Global
 
 <br>
 
@@ -126,7 +240,22 @@ Without getting too into the weeds here:
 
 <br>
 
-**Based on these datasets, how has the use of torture been changing across time?**
+**SLIDE**: The US case
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+![](Images/07_1-VIZ-cirights-USA_across_time.png){.absolute width="500" left=0 top=0}
+
+![](Images/07_1-VIZ-VDEM-USA_across_time.png){.absolute width="500" right=0 bottom=0}
+
+::: notes
+
+**What do we learn about torture in the US across time?**
 
 <br>
 
@@ -145,6 +274,18 @@ Without getting too into the weeds here:
 **What is the strongest argument we can make that torture is a serious INTERNATIONAL problem?**
 
 - **e.g. a problem requiring an international institution to address**
+
+<br>
+
+- (1. Human rights issues move to the front of the line for international law)
+
+    - Cassese's discussion of the Martens Clause from the 1899 Hague Peace Conference: When humanitarian issues are at stake, populations remain under the protection and empire of the principles of international law, as they result from the usages established between civilized nations, from **the laws of humanity and the requirements of the public conscience**.
+
+- (2. Torture often targets foreign nationals)
+
+- (3. States make this an international issue when they deport foreign nationals to third countries where torture is practiced)
+
+- (4. Investigating and punishing torture often requires cooperation with other countries, e.g. investigations, collecting witness testimony, extradition, etc)
 
 <br>
 
