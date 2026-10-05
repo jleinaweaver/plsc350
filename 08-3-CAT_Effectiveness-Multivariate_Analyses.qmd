@@ -8,15 +8,29 @@ format: revealjs
 # background-size="1920px 1080px"
 library(tidyverse)
 library(readxl)
+library(lubridate)
+
+# Data input
+# Format dates
+# Add years to ratify - 10 December 1984
+d <- read_excel("../../Data/DATA-CAT_VDem_Polyarchy-1980-2025.xlsx", na = "NA") |>
+  rename("signed_date" = `Signature Date`, "binding_date" = `Binding Date`) |>
+  mutate(
+    signed_date = ymd(str_remove(signed_date, " 00:00:00")),
+    binding_date = ymd(str_remove(binding_date, " 00:00:00")),
+    rat_delay = as.numeric(binding_date - ymd("1984-12-10")),
+    rat_delay_yrs = as.numeric(rat_delay / 365)
+  )
+
+d2 <- d |>
+  pivot_longer(cols = VDem_Torture1980:VDem_Torture2025, names_to = "torture_year", values_to = "torture", names_prefix = "VDem_Torture")
 ```
 
 <br>
 
-**II. International Institutions for Mutual Restraint**
+**Section 2: How effective have international institutions been in reducing the use of torture by governments around the world?**
 
-- Design Analysis
-
-- The Convention Against Torture (CAT)
+- Replicating and extending the findings of Hathaway (2007) and Hollyer and Rosendorff (2011)
 
 <br>
 
@@ -30,92 +44,15 @@ Justin Leinaweaver (Fall 2026)
 
 1. Review Canvas submissions
 
-2. Open rmd file so you can record treaty analysis notes from board
+2. DATA-CAT_VDem_Polyarchy-1980-2025.xlsx
+
+3. Have the V-Dem codebook if you need it
 
 <br>
 
-**SLIDE**: Today we ...
+This week we've been exploring some of the academic research that has investigated our research question
 
-<br>
-
-**References**
-
-- [UNTC Page](https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=IV-9&chapter=4&clang=_en)
-- [Treaty Text](https://treaties.un.org/doc/Treaties/1987/06/19870626%2002-38%20AM/Ch_IV_9p.pdf)
-
-:::
-
-
-
-
-## Semester Plan of Attack {background-image="./Images/background-scales_justice_v3.png" .center}
-
-**II. International Institutions for Mutual Restraint**
-
-- The Treaty on the Non-Proliferation of Nuclear Weapons (NPT)
-
-- The Convention Against Torture (CAT)
-
-- Principal-Agent Theory
-
-- The International Criminal Court
-
-:::: notes
-
-Second section of the class: International Institutions for Mutual Restraint
-
-- Last week international institutions to prevent nuclear proliferation.
-
-<br>
-
-**Key takeaways? How are we, the world, doing with this problem?**
-
-:::
-
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/06_1-CAT_Convention1.jpg){style="display: block; margin: 0 auto"}
-
-[**The Convention Against Torture (CAT) (1984)**]{style="color:white;"}
-
-:::: notes
-
-This week's plan is to explore the international effort to stop the government use of torture.
-
-- Today we summarize and analyze the treaty 
-
-- Thursday we explore the debate about whether the CAT has been effective or not
-
-<br>
-
-**SLIDE**: We'll organize our work similarly to how we did it last week.
-
-:::
-
-
-
-
-## The Convention Against Torture (CAT) (1984) {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/06_1-CAT_Convention1_blurred_filtered.png){style="display: block; margin: 0 auto"}
-
-[1) What is the current state of the problem?]{style="color:white;"}
-
-[2) What is the treaty designed to do?]{style="color:white;"}
-
-[3) What is the likelihood that this design will succeed?]{style="color:white;"}
-
-:::: notes
-
-Three broad questions although the nature of this treaty will lead us to attack each in slightly different ways.
-
-<br>
-
-**SLIDE**: Let's dive into our first question...
+**SLIDE**: We started with Oona Hathaway's (2007) article
 
 :::
 
@@ -124,114 +61,37 @@ Three broad questions although the nature of this treaty will lead us to attack 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[1) What is the current state of the problem?]
+<br>
+
+![](Images/07_3-Hathaway2007_Title.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+**What were Hathaway's conclusions?**
+
+- **When should we expect states to join a human rights treaty like the Convention Against Torture?**
+
+- (Democracies with weaker executives will be more likely to join)
+
+- (States with large NGO populations will be more likely to join)
+
+- (States surrounded by states that join will be more likely to join)
+
+- (New states may join to bolster their image as good actors)
+
+- (Perverse incentive 1: Bad states more likely to join because no fear of bad consequences)
 
 <br>
 
-![](Images/06_1-AmnestyReportLogo.png){style="display: block; margin: 0 auto"}
+**And what states should we expect to avoid ratifying the CAT?**
 
-:::: notes
+- (Democracies that torture, or see some value in targeted repression, should NOT join)
 
-**Key overarching takeaways from the "Global Analysis" section?**
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[1) What is the current state of the problem?]
+- (Perverse incentive 2: Good states afraid to join because fear of consequences or repercussions from added oversight (domestic and international))
 
 <br>
 
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/06_1-AmnestyReportLogo.png){style="display: block; margin: 0 auto"}
-:::
-
-::: {.column width="50%"}
-**Regional Overviews**
-
-- Africa (p21)
-
-- Americas (p29)
-
-- Asia-Pacific (p37)
-
-- Europe and Central Asia (p45)
-:::
-::::
-
-:::: notes
-
-GROUPS: What are your key takeaways from the region and the individual country cases
-
-- PRESENT and BRIEFLY DISCUSS each
-
-<br> 
-
-**SLIDE**: Before we dig into the treaty let me ask you to reflect on our discussion so far.
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/06_1-CAT_Convention1_blurred_filtered.png){style="display: block; margin: 0 auto"}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-[Do we need an international law to ban torture?]
-
-:::: notes
-
-I'm not trying to be flippant here.
-
-- International law for mutual restraint means deciding that there are some issues states and their citizens cannot decide for themselves.
-
-<br>
-
-Given everything we just discussed from the AI report I want you to reflect on two things
-
-**1) Is this problem clear enough and serious enough to merit international law infringing on state sovereignty?**
-
-<br>
-
-**2) Is this a problem international law is likely to be effective in solving? Why or why not?**
-
-:::
-
-
-
-
-## {background-image="./Images/06_1-CAT_Convention1_blurred_filtered.png" .center}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-[2) What is the treaty designed to do?]
-
-[Part 1: The Key Rules]
-
-[Part 2: The Committee]
-
-[Part 3: Participation]
-
-:::: notes
-
-Our second task for today is to summarize the treaty in terms of its design.
-
-- We'll follow a similar path to last week but we'll match our work to the three parts of the treaty
-
-<br>
-
-*SPLIT class into small groups (3), NEW PARTNERS!*
-
-- Go sit with your group
+**SLIDE**: Then last class we shifted to the article by Hollyer and Rosendorff from 2011
 
 :::
 
@@ -240,142 +100,29 @@ Our second task for today is to summarize the treaty in terms of its design.
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**The Convention Against Torture (CAT) (1984)**]
+<br>
+
+![](Images/08_2-HollyerRosendorff2011-Cover.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+H&R developed a formal model to help us understand how dictatorships would approach the Convention Against Torture
+
+- **What were their conclusions?**
+
+- (Dictators who torture join the CAT more than non-torturers)
+
+- (Dictators who join the CAT stay in office longer)
+
+- (Dictators fighting in civil wars who join the CAT see the opposition weaken in the following years)
+
+- (Dictators who join the CAT may increase or decrease their use of repression in future years)
+
+    - "This depends on the net result of two contrasting effects: the information effect of the CAT — by which opposition groups reduce their anti-regime efforts following signing — and the commitment effect — by which incumbent regimes cling more ferociously to power to avoid the post-tenure punishments associated with torture" (310).
 
 <br>
 
-Part 1: The Key Rules (Art 1-16)
-
-<br>
-
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table2.png){style="display: block; margin: 0 auto"}
-:::
-
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table3.png){style="display: block; margin: 0 auto"}
-:::
-::::
-
-:::: notes
-
-GROUPS: Start by summarizing the key obligations in Part I of the treaty
-
-- ID the rules and classify each article by level of precision
-
-<br>
-
-*ON BOARD: (save space for three parts of treaty)*
-
-- BUILD and DISCUSS the LIST
-
-<br>
-
-**Is Article 1's definition of torture an obligation or something else?**
-
-- (It is the precision that makes the rest of Part 1 possible)
-- Without the clear definition in 1, all the other article obligations are dramatically reduced
-
-**Why does the definition include the list of use cases for torture ("for such purposes as...")? Why not just make the definition the first half of sentence 1 alone?**
-
-- (Spit-balling: If you don't narrow it down like this it could be applied to many different situations states aren't focused on here, e.g. cuts to social welfare benefits could cause harm)
-
-<br>
-
-**Class Notes - 2023-09-26**
-
-- Art 2.1 (make torture a domestic crime)
-- Art 3.1 (no extradition to countries where torture is likely)
-- Art 11 (Must enshrine domestic rules for interrogations)
-- Art 13 (prisoners have the right to request investigations for maltreatment)
-- Art 14 (Enforcible right to compensation for torture)
-- Art 15 (No testimony may be compelled or used through torture)
-- Art 16 (Domestic ban must be applied to all territories controlled)
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**The Convention Against Torture (CAT) (1984)**]
-
-<br>
-
-[Part 2: The Committee (Art 17-24)]
-
-![](Images/02_2-Legalization_Table4.png){style="display: block; margin: 0 auto"}
-
-:::: notes
-
-GROUPS: Focus your summary of Part II on summarizing the delegation in the treaty
-
-- There are absolutely obligations in this part and precision matters too, but I want us to focus on trying to summarize how substantial this delegation appears to be.
-
-<br>
-
-*ON BOARD: (save space for three parts of treaty)*
-
-- BUILD and DISCUSS the LIST
-
-<br>
-
-*Make sure to discuss Art 21 and Art 22 which are held up by Hathaway (2007) as important enough to be a separate DV from simple CAT ratification!*
-
-- Art 21: Do you accept oversight by states?
-
-- Art 22: Do you accept oversight by individuals?
-
-- Both of those open you to oversight and negotiation with other states BUT Art 22 threatens to open you to something very different: It empowers non-state actors to make serious claims on your behavior!
-
-<br>
-
-**That done, were there any state obligations that stood out for you in Part II that we want to add to our list?**
-
-- BUILD and DISCUSS the LIST
-
-<br>
-
-**Class Notes - 2023-09-26**
-- ?
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-[**The Convention Against Torture (CAT) (1984)**]]]
-
-<br>
-
-[Part 3: Participation (Art 25-33)]
-
-:::: {.columns}
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table2.png){style="display: block; margin: 0 auto"}
-
-![](Images/02_2-Legalization_Table3.png){style="display: block; margin: 0 auto"}
-:::
-
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table4.png){style="display: block; margin: 0 auto"}
-:::
-::::
-
-:::: notes
-
-Groups, let's finish by reviewing Part III of the treaty.
-
-- Most treaties include basic boilerplate language about joining the treaty but the CAT has some possibly important stuff in here.
-
-- Read through Part III and let me know if anything stands out.
-
-<br>
-
-*ON BOARD*: (save space for three parts of treaty)
-
-- BUILD and DISCUSS the LIST
+**SLIDE**: Our work for today
 
 :::
 
@@ -384,69 +131,31 @@ Groups, let's finish by reviewing Part III of the treaty.
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Vienna Convention on the Law of Treaties (1969)**]
+**How effective have international institutions been in reducing the use of torture by governments around the world?**
+
+- [Week 6: Defining and Measuring the Outcome]{style="color:gray;"}
+
+- [Week 7: The Convention Against Torture (CAT)]{style="color:gray;"}
+
+- **Week 8: Explaining the Effect of the CAT on Torture**
+
+- [Week 9: The International Criminal Court (ICC)]{style="color:gray;"}
+
+- [Week 10: Can the ICC help us reduce global torture?]{style="color:gray;"}
+
+- [Week 11: Case Studies of ICC Effectiveness]{style="color:gray;"}
+
+::: notes
+
+We've now read and analyzed two pieces of literature that each sought to answer our research question.
+
+- I explained previously that engaging with the academic literature is a VITAL step to answering a research question
 
 <br>
 
-![](Images/06_1-ViennaConv_Reservations_Defined.png){style="display: block; margin: 0 auto"}
+It turns out there is one additional step that takes this engagement into even more useful places: replication and extension
 
-Art 19: Formulation of reservations
-
-Art 20: Acceptance of and objection to reservations
-
-Art 21: Legal effects of reservations and of objections to reservations
-
-Art 22: Withdrawal of reservations and of objections to reservations 
-
-:::: notes
-
-Let's now talk treaty reservations.
-
-- Refresher from the Shaw (2008) chapter a few weeks back
-
-- "“reservation” means a unilateral statement, however phrased or named, made by a State, when signing, ratifying, accepting, approving or acceding to a treaty, whereby it purports to exclude or to modify the legal effect of certain provisions of the treaty in their application to that State;" (Art 2)
-
-- These articles try to make clear how reservations can and cannot be made
-
-- Reservations are different from "statements ... not intended to have the legal effect of a reservation, such as understandings, political statements or interpretive declarations" (915).
-
-- Reservations are also different from statements meant to guide domestic application / interpretation.
-
-- Vienna Art 20 has the rules for whether a reservation is acceptable. Not an easy answer as it depends on the context of the situation and the degree to which the reservation messes with the object and purpose of the treaty. 
-    - At the weak end an objection to a reservation may just modify the relationship between the reserving and the objecting state and only as it pertains to the article being reservation-ed. At the strong end reservations can be nullified if deeply problematic or unacceptable to the other states.
-    - In general, if you don't object within 12 months of the reservation you've accepted it.
-
-<br>
-
-**Questions on these general rules of reservations?**
-
-<br>
-
-- Best case scenario: Allowing reservations encourages wider participation by allowing states to modify their obligations on minor issues.
-
-- Worst case scenario: Completely ruins the agreement and thoroughly complicates state interactions
-
-<br>
-
-**SLIDE**: CAT reservation rules...
-
-<br>
-
-**Vienna Convention Notes**
-
-Vienna Convention on the Law of Treaties (1969)
-ART 2(D)
-"'reservation' means a unilateral statement, however phrased or named, made by a State, when signing, ratifying, accepting, approving or acceding to a treaty, whereby it purports to exclude or to modify the legal effect of certain provisions of the treaty in their application to that State;"
-
-ART 19: FORMULATION OF RESERVATIONS
-("A State may, when signing, ratifying, accepting, approving or acceding to a treaty, formulate a reservation unless:
-(a) the reservation is prohibited by the treaty;
-(b) the treaty provides that only specified reservations, which do not include the reservation in question, may be made; or
-(c) in cases not falling under sub-paragraphs (a) and (b), the reservation is incompatible with the object and purpose of the treaty."
-
-ART 20: ACCEPTANCE OF AND OBJECTION TO RESERVATIONS
-ART 21: LEGAL EFFECTS OF RESERVATIONS AND OF OBJECTIONS TO RESERVATIONS
-ART 22: WITHDRAWAL OF RESERVATIONS AND OF OBJECTIONS TO RESERVATIONS
+- **SLIDE**: Replications are awesome
 
 :::
 
@@ -455,90 +164,51 @@ ART 22: WITHDRAWAL OF RESERVATIONS AND OF OBJECTIONS TO RESERVATIONS
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**The Convention Against Torture (CAT) (1984)**]
+**Replication is a phenomenal method for:**
 
-**Article 28**
+::: {.incremental}
 
-1) Each State may, at the time of signature or ratification of this Convention or accession thereto, declare that it does not recognize the competence of the Committee provided for in article 20. (Committee investigates allegations of systematic torture)
+1. Deepening your **understanding** of a research topic, 
 
-**Article 29**
+2. Providing a **public service** by rechecking published results,
 
-1) Any State Party to this Convention may propose an amendment and file it with the Secretary-General of the United Nations. (Must be accepted by 2/3 of all parties)
+3. Learning the **structure** of a publishable scientific analysis, and
 
-**Article 30**
-
-2) Each State may, at the time of signature or ratification of this Convention or accession thereto, declare that it does not consider itself bound by paragraph I of this article. (Dispute resolution by arbitration)
-
-:::: notes
-
-**How substantial a set of loopholes does this make possible in the CAT?**
-
-- **Do any of these things hit directly on the elements you identified today as important design elements of the CAT?**
-
-<br>
-
-Let's look at some of the specific reservations to the CAT!
-
-- Everybody open the link in the syllabus and scan through the reservations attached below the table of dates.
-
-<br>
-
-First, let's locate examples of what Shaw (2008) would classify as 'simple declarations.'
-
-- *ON BOARD or YOU HIGHLIGHT ON THE SCREEN*
-
-<br>
-
-Now, let's try to find examples that seriously alter the design of the CAT.
-
-**Give me examples of states with reservations that you believe most substantially alter the CAT.**
-
-- *ON BOARD or on screen*
-
-- *Really encourage these discussions*
-
-<br>
-
-**Should the state parties have rejected Pakistan's reservation? Why or why not?**
-
-<br>
-
-**What about the US reservations to the torture definition in Art 1? Are these going too far? Why or why not?**
+4. Practicing the **skills** needed to execute quantitative research
 
 :::
 
+::: notes
 
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Koremenos, Lipson & Snidal (2001): Rational Design**]
-
-- Rational design
-
-- Shadow of the future
-
-- Transaction costs
-
-- Risk aversion
-
-Therefore, states design international institutions to facilitate and strengthen international cooperation.
-
-:::: notes
-
-Let's once again shift back to the Rational Design article by Koremenos, Lipson & Snidal (2001).
-
-**Does the design of the CAT offer support for the key premises in those authors model of international cooperation? Why or why not?**
-
-- *Talk to your group, then report back!*
+**REVEAL x 4**
 
 <br>
 
-**Notes**
+Gary King at Harvard has been arguing for literal decades that replication is an excellent way to teach students to be scientists
 
-- Rational design: States and other international actors, acting for self-interested reasons, design institutions purposefully to advance their joint interests.
-- Shadow of the future: The value of future gains is strong enough to support a cooperative arrangement.
-- Transaction costs: Establishing and participating in international institutions is costly.
-- Risk aversion: States are risk-averse and worry about possible adverse effects when creating or modifying international institutions.
+- King, G. (1995). Replication, replication. *PS: Political Science & Politics*, 28(3), 444-452.
+
+- King, G. (2006). Publication, publication. *PS: Political Science & Politics*, 39(1), 119-125.
+
+<br>
+
+Even better for us, both articles this week are ripe for replication and extension
+
+- The data in the Hathaway article ended in 2005 and the Hollyer and Rosendorff data ended in 1998!
+
+    - Our V-dem data reaches to 2025!
+
+- The articles focused on the CIRIGHTS measure of torture which doesn't capture much variation in institutional approaches to terrorism
+
+    - Our V-Dem measures have five levels and way more global variation
+
+<br>
+
+So, let's use our work today to do some replicating and extending!
+
+- Before we share your replication work we need to clarify some things
+
+- **SLIDE**: Canvas Q1
 
 :::
 
@@ -547,117 +217,510 @@ Let's once again shift back to the Rational Design article by Koremenos, Lipson 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**The Convention Against Torture (CAT) (1984)**]
+**Can we use the electoral democracy index (v2x_polyarchy) from V-Dem to replicate and extend the analyses from this week?**
+
+::: {.fragment}
+- Hathaway's democracy focuses on weaker executives and institutions that allow non-state actors to hold the government accountable for breaking international laws
+:::
+
+::: {.fragment}
+- H&R's authoritarian regimes lack accountability institutions that allows "elites" to use force to hold onto power
+:::
+
+::: notes
+
+For the first Canvas question I asked you to think critically about the V-Dem measure of electoral democracy
+
+- The question for us is, can we use this measure to examine the specific mechanisms being studied in the research articles?
 
 <br>
 
-![](Images/03_2-KLS_Table1.png){style="display: block; margin: 0 auto"}
+Before we share your strengths and weaknesses, let's make sure we're on the same page in terms of targets
 
-:::: notes
+- **What specific mechanisms is Hathaway (2007) focused on under the label "democracy"?**
 
-Let's now use the Rational Design Conjectures to analyze the design of the NPT.
+- (**REVEAL**)
 
-**Given the design of the treaty, what do we learn about the biggest challenges facing this effort to achieve international cooperation?**
+-  (e.g. independent judiciary, opposition parties, etc)
 
-- *Talk to your group, then report back!*
+<br>
+
+- **What specific mechanisms are Hollyer and Rosendorff (2011) focused on under the label "authoritarian systems"?**
+
+- (**REVEAL**)
+
+- (e.g. independent judiciary, opposition parties, etc)
+
+<br>
+
+Ok, now let's talk strengths and weaknesses
+
+- **How close does the V-Dem electoral democracy index come to representing these mechanisms?**
+
+- (freedom of expression, v2x_freexp_altinf, p49-50)
+- (freedom of association, v2x_frassoc_thick, p50)
+- (suffrage, v2x_suffr, p50-51)
+- (clean elections, v2xel_frefair, p51)
+- (elected officials, v2x_elecoff, p51-52)
+
+<br>
+
+**SLIDE**: Classifying democracies and dictatorships using the V-Dem electoral democracy index
 
 :::
 
 
 
+## {background-image="./Images/background-scales_justice_v3.png"}
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-```{r, fig.retina=3, fig.align='center', out.width='95%', fig.height=6, fig.width=10, cache=FALSE}
-library(readxl)
-library(tidyverse)
-
-# Use V-dem to map current torture levels
-d <- read_excel("../../Data/V-Dem/V-Dem-CY-Core_csv_v13/V_Dem_Personal_Integrity_Rights-1789-2022.xlsx", guess_max = 10000, na = "NA") |>
-  filter(year == 2022)
-
-## Make a map
-## Use rnaturalearth to define world map data
-worldmap <- rnaturalearth::ne_countries(scale = 'medium', type = 'countries', returnclass = 'sf')
-
-# Match codes
-d$newcode1 <- countrycode::countrycode(d$COWcode, origin = "cown", destination = "iso3c")
-
-# Merge data
-d10 <- left_join(worldmap, d, by = c("adm0_a3" = "newcode1"))
-
-# Audit missing data
-d10$v2cltort_ord[d10$name == "Kosovo"] <- 3
-d10$v2cltort_ord[d10$name == "S. Sudan"] <- 1
-d10$v2cltort_ord[d10$name == "Serbia"] <- 3
-
-d10 |>
-  ggplot() +
-  geom_sf(aes(fill = factor(v2cltort_ord))) +
-  labs(fill = "", title = "V-Dem's 'Freedom From Torture' (2022)") +
-  theme(legend.position = "right") +
-  scale_fill_manual(values = c("red", "pink", "khaki", "skyblue", "blue"), na.value = "darkgrey")
+```{r, fig.asp=.618, fig.align='center'}
+d |>
+  filter(!is.na(polyarchy_median)) |>
+  ggplot(aes(y = polyarchy_median, x = reorder(country_text_id, polyarchy_median))) +
+  geom_point() +
+  geom_segment(aes(y = polyarchy_25th, yend = polyarchy_75th)) +
+  labs(x = "States", y = "Electoral Democracy Index", caption = "Source: V-Dem (2026)") +
+  scale_x_discrete(labels = NULL) +
+  theme_bw()
 ```
 
-:::: notes
+::: notes
 
-Map is using latest data from the V-Dem project
+My visualization here shows the mean polyarchy scores for the states in our dataset along with error bars around them running from the low to the high value for each
 
-- This variable measures a country-year by the level of torture being practiced
+- In order to do the replications themselves we need to decide how to classify the states in the dataset as democracies or dictatorships
 
-- 0: Not respected by public authorities. Torture is practiced systematically and is incited and approved by the leaders of government.
-
-- 1: Weakly respected by public authorities. Torture is practiced frequently but is often not incited or approved by top leaders of government. At the same time, leaders of government are not actively working to prevent it.
-
-- 2: Somewhat. Torture is practiced occasionally but is typically not approved by top leaders of government.
-
-- 3: Mostly respected by public authorities. Torture is practiced in a few isolated cases but is not incited or approved by top government leaders.
-
-- 4: Fully respected by public authorities. Torture is non-existent.
+- OR, if that's not possible, then we need to decide where to draw the line between "low" and "high" scores of electoral democracy
 
 <br>
 
-**Given everything we've discussed today, is it fair to evaluate the CAT in terms of the level of torture happening within countries after ratification? Why or why not?**
+**SO, how did you use the V-Dem electoral democracy index to split the sample between high and low scores in the replication?**
+
+- *DISCUSS*
 
 <br>
 
-**Focusing on the design of the treaty itself, what are "fair" tests of the effectiveness of the CAT?**
+**SLIDE**: A cut-off of .5
 
-- **In other words, based on what the treaty is ACTUALLY DESIGNED TO DO, what evidence would we need to argue the treaty has worked?**
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png"}
+
+```{r, fig.asp=.618, fig.align='center'}
+d |>
+  filter(!is.na(polyarchy_median)) |>
+  mutate(
+    poly_group = if_else(polyarchy_median > .5, "democracy", "dictatorship")
+  ) |> 
+  ggplot(aes(y = polyarchy_median, x = reorder(country_text_id, polyarchy_median))) +
+  geom_point(aes(color = poly_group)) +
+  geom_segment(aes(y = polyarchy_25th, yend = polyarchy_75th)) +
+  labs(x = "States", y = "Electoral Democracy Index", caption = "Source: V-Dem (2026)") +
+  scale_x_discrete(labels = NULL) +
+  theme_bw()  +
+  guides(color = "none") +
+  scale_color_manual(values = c("blue", "red"))
+  
+  #geom_hline(colour = "red", yintercept = .5)
+```
+
+::: notes
+
+As I understand it, the rough dichotomous approximation of polyarchy used by the V-Dem researchers is a cut-off at .5
+
+- polyarchy > .5 = electoral democracy
+
+- polyarchy <= .5 = dictatorship
+
+- There are other measures in the dataset that do this alongside a few other tweaks (v2x_regime), but this approach basically captures 90% of the variation in those alternative measures
+
+<br>
+
+**SLIDE**: Ok, let's classify states by torture
 
 :::
 
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .smaller}
 
-[**Next Class: Has the CAT been effective?**]
+::: {.panel-tabset}
 
-1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
+### Instrument
 
-2. Vreeland (2008) "Political Institutions and Human Rights: Why Dictatorships Enter into the United Nations Convention Against Torture"
+![](Images/08_3-VDEM_Torture_Codebook1.png){width="800"}
 
-3. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
+### Bar Plot
 
-:::: notes
-
-Next class we dive into the academic literature that tries to answer this question!
-
-<br>
-
-Your job to get ready for class is simply to identify the argument being tested
-
-- Who are the interests the paper is focusing on?
-
-- What are the institutions that structure their behavior?
-
-- What are the interactions that complicate their behavior?
-
-<br>
-
-In class we'll diagram and discuss those models and then review the analyses together.
-
-**Questions on the assignment?**
+```{r, fig.asp=0.618, fig.align='center'}
+d2 |>
+  ggplot(aes(x = torture)) +
+#  geom_histogram(color = "white") +
+  geom_bar(fill = RColorBrewer::brewer.pal(n = 5, name = "RdBu"), width = .7) +
+  theme_bw() +
+  labs(x = "V-Dem Torture (ordinal measure)", y = "Count", caption = "Source: V-Dem (2026)")
+```
 
 :::
+
+::: notes
+
+**SO, how did you use the torture scores to split the sample between high and low scores in the replication?**
+
+- *DISCUSS*
+
+<br>
+
+**REVEAL bar plot**
+
+For my replications I qualified any state with a score of 0 or 1 as engaging in torture
+
+- "2" strikes me as bad but moves into a different kind of problem than a 0 or 1
+
+<br>
+
+**SLIDE**: Alright, let's get to the replications!
+
+:::
+
+
+
+
+## Replication 1 {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+**Domestic enforcement capacity matters (Hathaway 2007)**
+
+- Are democracies that use torture slower to ratify the CAT than other democracies?
+
+::: notes
+
+*Split class into groups*
+
+- Groups, share how you attacked this question and agree on a single answer then report back
+
+<br>
+
+*PRESENT and DISCUSS each: Walk us through your process*
+
+<br>
+
+**SLIDE**: My version to evaluate
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .smaller}
+
+::: {.panel-tabset}
+
+### Process
+
+<br>
+
+1. Filter the dataset to only include "democracies" (polyarchy_median > .5)
+
+2. Calculate the ratification delay in years (binding_date - "1984-12-10")
+
+3. Calculate the mean torture level in the five years preceding the adoption of the CAT (1980 - 1984)
+
+4. Make a scatter plot of mean torture level by ratification delay
+
+
+<br>
+
+### Output
+
+```{r, fig.asp=.618, fig.align='center'}
+# Are democracies that use torture slower to ratify the CAT than other democracies?
+# Focus on democracies
+# Classify by their level of torture from 1980 to 1984
+
+d_temp <- d |>
+  filter(polyarchy_median > .5) |>
+  mutate(
+    binding_cat = if_else(Binding == 1, "Ratified", "Not Ratified"),
+    torture_mean_5yr = (VDem_Torture1980 + VDem_Torture1981 + VDem_Torture1982 + VDem_Torture1983 + VDem_Torture1984) / 5
+  )
+
+d_temp_labs <- d_temp |>
+  filter(rat_delay_yrs > 15)
+
+d_temp |> 
+  ggplot(aes(x = jitter(torture_mean_5yr, amount = .1), y = rat_delay_yrs)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  ggrepel::geom_text_repel(data = d_temp_labs, aes(labels = country)) +
+  theme_bw() +
+  labs(x = "Freedom from Torture (1980-1984, mean)", y = "Ratification Delay (years)",
+       caption = "Source: V-Dem (2026) and the UNTC (2026")
+```
+
+:::
+
+::: notes
+
+This scatter plot visualizes the "democracies in the dataset by two characteristics:
+
+- X-axis: Average level of torture from 1980-1984
+
+- y-axis: Number of years it took them to ratify the CAT
+
+- I've added a little jitter to the torture score to help us see the different points
+
+<br>
+
+**What does this suggest about the relationship between the use of torture and ratification of the CAT in democracies?**
+
+- (Definitely not a "yes": "Democracies" with the worst torture records ratified at similar speeds to most other categories)
+
+- (HOWEVER)
+
+    - Maybe more spread in the 0 and 1 levels than in 2 and 4?
+    
+    - Category 3 is very intriguing, e.g. democracies who mostly do not torture. Is this the effect Hathaway suggested?
+    
+<br>
+
+**What are the strengths and weaknesses of providing this as your answer to the first question?**
+
+- *DISCUSS*
+
+<br>
+
+**Ok, do we walk away more or less convinced by Hathaway's (2007) argument about domestic enforcement capacity mattering?**
+
+<br>
+
+**SLIDE**: Replication 2
+
+:::
+
+
+
+
+## Replication 2 {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+**Domestic enforcement capacity matters (Hathaway 2007) and torture as costly signaling mechanism (Hollyer and Rosendorff 2011)**
+
+- Are dictatorships that use torture faster to ratify the CAT than other states?
+
+::: notes
+
+Groups, share how you attacked this question and agree on a single answer then report back
+
+<br>
+
+*PRESENT and DISCUSS each: Walk us through your process*
+
+<br>
+
+**SLIDE**: My version to evaluate
+
+:::
+
+
+
+
+## Replication 2 {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r, fig.asp=.618, fig.align='center'}
+# Are dictatorships that use torture faster to ratify the CAT than other states?
+
+d_temp <- d |>
+  filter(polyarchy_median <= .5) |>
+  mutate(
+    binding_cat = if_else(Binding == 1, "Ratified", "Not Ratified"),
+    torture_mean_5yr = (VDem_Torture1980 + VDem_Torture1981 + VDem_Torture1982 + VDem_Torture1983 + VDem_Torture1984) / 5
+  )
+
+d_temp_labs <- d_temp |>
+  filter(rat_delay_yrs > 20)
+
+d_temp |> 
+  ggplot(aes(x = jitter(torture_mean_5yr, amount = .1), y = rat_delay_yrs)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  ggrepel::geom_text_repel(data = d_temp_labs, aes(labels = country)) +
+  scale_x_continuous(limits = c(0, 4)) +
+  theme_bw() +
+  labs(x = "Freedom from Torture (1980-1984, mean)", y = "Ratification Delay (years)",
+       caption = "Source: V-Dem (2026) and the UNTC (2026")
+```
+
+::: notes
+
+Same approach as before but now focusing on dictatorships
+
+<br>
+
+**What does this suggest about the relationship between the use of torture and ratification of the CAT in dictatorships?**
+
+- (Supports a "yes": More torture = faster ratification on average
+
+- (HOWEVER: lots of variation within wach category
+    
+<br>
+
+**What are the strengths and weaknesses of providing this as your answer to the first question?**
+
+- *DISCUSS*
+
+<br>
+
+**Ok, do we walk away more or less convinced by the perverse incentives proposed by Hathaway (2007) and the costly signaling proposed by H&R (2011)?**
+
+<br>
+
+**SLIDE**: Replication 3
+
+:::
+
+
+
+
+
+## Replication 3 {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+**Changes in torture levels after joining CAT (Hollyer and Rosendorff 2011)**
+
+- Do dictatorships that ratify the CAT increase or decrease their use of torture after joining? If so, how much and in which direction?
+
+::: notes
+
+Groups, share how you attacked this question and agree on a single answer then report back
+
+<br>
+
+*PRESENT and DISCUSS each: Walk us through your process*
+
+<br>
+
+**SLIDE**: My versions to evaluate
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .smaller}
+
+::: {.panel-tabset}
+
+### Process
+
+<br>
+
+1. Filter the dataset to only dictatorships (polyarchy_median <= .5)
+
+2. Create a variable to identify country-years pre and post ratification
+
+3. Calculate the mean torture level for each state: pre vs post ratification
+
+4. Calculate the difference between the pre vs post ratification torture means
+
+5. Visualize the pre-ratification means for each dictatorship and add an arrow segment showing the changes in torture post-ratification
+
+### Output
+
+```{r, fig.asp=.618, fig.align='center'}
+# Do dictatorships that ratify the CAT increase or decrease their use of torture after joining? If so, how much and in which direction?
+
+# d_temp_labs2 <- d2 |>
+#   filter(polyarchy_median <= .5) |>
+#   filter(torture_year <= year(binding_date)) |>
+#   group_by(country_text_id) |>
+#   summarize(
+#     mean_torture = mean(torture, na.rm = T) 
+#   ) |>
+#   filter(!is.na(mean_torture)) |>
+#   arrange(mean_torture)
+
+d2_temp <- d2 |>
+  filter(polyarchy_median <= .5) |>
+  mutate(
+    groups1 = if_else(torture_year > year(binding_date), "Post-Ratification", "Pre-Ratification")
+  ) |>
+  filter(!is.na(groups1)) |>
+  group_by(country_text_id, groups1) |>
+  summarize(
+    mean_torture = mean(torture, na.rm = T) 
+  ) |>
+  ungroup() |>
+  pivot_wider(names_from = groups1, values_from = mean_torture) |>
+  na.omit() |>
+  mutate(
+    Difference1 = `Post-Ratification` - `Pre-Ratification`,
+    diff_group = if_else(Difference1 > 0, "Positive", "Negative")
+  )
+
+#summary(d2_temp$Difference1)
+#table(d2_temp$Difference1 > 0)
+
+d2_temp |>
+  ggplot(aes(x = reorder(country_text_id, `Pre-Ratification`), y = `Pre-Ratification`)) +
+  #geom_point(aes(y = `Post-Ratification`), color = "blue") +
+  geom_point(color = "black") +
+  geom_segment(aes(y = `Pre-Ratification`, yend = `Post-Ratification`, color = diff_group), arrow = arrow(length = unit(0.1, "inches"))) +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 4)) +
+  scale_x_discrete(labels = NULL) +
+  labs(x = "Dictatorships (V-Dem)", y = "Mean Freedom from Torture (V-Dem)", caption = "Source: V-Dem (2026), UNTC (2026)",
+       title = "60% (47/78) of dictatorships that ratified the CAT improved their torture scores over time") +
+  scale_color_manual(values = c("red", "blue"))  +
+  guides(color = "none")
+```
+
+:::
+
+::: notes
+
+**What does this suggest about the relationship between the use of torture and ratification of the CAT in dictatorships?**
+
+- (Seems like good and bad news!)
+
+- The Good: Less torture!
+
+- The Bad: Is it because ratifying the CAT is a successful costly signal that reduces opposition efforts?
+    
+<br>
+
+**What are the strengths and weaknesses of providing this as your answer to the third question?**
+
+- *DISCUSS*
+
+<br>
+
+**Ok, what is our answer to this question?**
+
+- **Does our expanded and updated analysis agree with the research or not?**
+
+<br>
+
+**SLIDE**: Next Class
+
+:::
+
+
+
+## For Next Class {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+**Principal-Agent Theory and International Organizations**
+
+1. Read some background on PA theory, and
+
+2. Find a recent, current event that involves an international organization (IO) doing something "important" or "useful" in the world.
+
+

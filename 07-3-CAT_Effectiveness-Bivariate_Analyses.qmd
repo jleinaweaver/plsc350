@@ -50,6 +50,8 @@ Justin Leinaweaver (Fall 2026)
     
     - Dataset 3 - CAT Ratifications + V-Dem data: DATA-CAT_VDem-1980-2025.xlsx
 
+3. Be ready to open the spreadsheets or show RStudio for live coding
+
 <br>
 
 Before class I asked you to perform data analyses in order to answer three broad questions that connect ratifying the CAT and the use of torture around the world
@@ -363,25 +365,60 @@ ggplot(data = d3) +
 
 ::: notes
 
-**Alright, let's share answers to this question and the techniques you applied to generate them!**
+Alright, let's start with a big picture sense of your results
 
-- *Go around the room to share*
+- Raise your hand if your answer to this question is "yes"
+
+- Raise your hand if your answer to this question is "no"
 
 <br>
 
-**SLIDE**: My versions
+*Split class into groups*
 
-- line plot - means
-- Stacked bar plot: For each year count torture by level: 0, 1 and 2
-- Avg effects after ratification
+- Groups, share how you attacked this question and agree on a single answer then report back
+
+<br>
+
+*PRESENT and DISCUSS each: Walk us through your process*
+
+<br>
+
+I'll now show you a few different approaches to answering this question
+
+- For each I want you to evaluate the approach and whether it is ultimately a "good" answer to the question or not
+
+- **SLIDE**: My versions to evaluate
+
+    - line plot - means
+    - Stacked bar plot: For each year count torture by level: 0, 1 and 2
+    - Avg effects after ratification
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-```{r, echo=FALSE, fig.height=6}
+## {background-image="./Images/background-scales_justice_v3.png" .smaller}
+
+::: {.panel-tabset}
+
+### Process
+
+<br>
+
+1. Split the dataset:
+
+    - Subset 1 - Country-years of non-participants' torture scores
+    
+    - Subset 2 - Country-years of participants' torture scores
+
+2. Calculate the average torture score for each year in each subset
+
+3. Visualize the averages across time
+
+### Output
+
+```{r, echo=FALSE, fig.height=6, fig.align='center'}
 # Line plot - Means: Average torture score ratifiers vs non-ratifiers
 # REMEMBER: Higher numbers are good
 ciri2 <- ciri |>
@@ -417,11 +454,47 @@ ciri2 |>
   annotate("text", x = 2018, y = .5, label = "Participant", color = "blue", size = 5)
 ```
 
+:::
+
+::: notes
+
+**What are the strengths and weaknesses of providing this as your answer to Question 3?**
+
+- *DISCUSS*
+
+:::
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-```{r, echo=FALSE, fig.height=6}
+
+## {background-image="./Images/background-scales_justice_v3.png" .smaller}
+
+::: {.panel-tabset}
+
+### Process
+
+<br>
+
+1. Split the dataset:
+
+    - Subset 1 - Country-years of non-participants' torture scores
+    
+    - Subset 2 - Country-years of participants' torture scores
+
+2. For each subset, count per year:
+
+    - The number of states with a CIRIGHTS torture level of 0
+    
+    - The number of states with a CIRIGHTS torture level of 1
+    
+    - The number of states with a CIRIGHTS torture level of 2
+
+3. Visualize the counts as a stacked bar plot
+
+
+### Output
+
+```{r, echo=FALSE, fig.height=6, fig.align='center'}
 # Stacked bar plot: For each year count torture by level: 0, 1 and 2
 # Can we identify what is happening?
 ciri2 |>
@@ -447,9 +520,46 @@ ciri2 |>
   theme(legend.position = "bottom")
 ```
 
+:::
+
+::: notes
+
+**What are the strengths and weaknesses of providing this as your answer to Question 3?**
+
+- *DISCUSS*
+
+:::
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+## {background-image="./Images/background-scales_justice_v3.png" .smaller}
+
+::: {.panel-tabset}
+
+### Process
+
+<br>
+
+1. Filter the dataset to focus on participants only
+
+2. For each state, identify the torture level from the year the state joined the CAT
+
+3. Split the dataset into three subsets
+
+    - Subset 1 - States that had a torture score of 0 at ratification
+    
+    - Subset 2 - States that had a torture score of 1 at ratification
+    
+    - Subset 3 - States that had a torture score of 2 at ratification
+
+4. Filter each subset to only include country-years beyond the ratification year
+
+5. Calculate the mean torture score per year in each data subset
+
+6. Visualize the means with a line plot
+
+
+### Output
 
 ```{r, echo=FALSE, fig.height=7, fig.align='center'}
 
@@ -492,9 +602,37 @@ left_join(ciri2, base_torture, by = "country") |>
 #ggsave("Images/08_1-CIRI-Test_of_CAT.png")
 ```
 
+:::
+
 ::: notes
 
 In this visualization I am analyzing the behavior of states only AFTER they bind themselves to the CAT
+
+<br>
+
+**What are the strengths and weaknesses of providing this as your answer to Question 3?**
+
+- *DISCUSS*
+
+:::
+
+
+
+## Canvas Question 3 {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+### According to the CIRIGHTS data project, did countries that ratified the CAT reduce their use of torture in the following years?
+
+::: notes
+
+**Ok, what is our "best" answer to this question so far?**
+
+- **What evidence would you provide a reader to support this answer?**
+
+<br>
+
+**SLIDE**: Q4
 
 :::
 
@@ -508,17 +646,33 @@ In this visualization I am analyzing the behavior of states only AFTER they bind
 
 ::: notes
 
-**Alright, let's share answers to this question and the techniques you applied to generate them!**
+Alright, let's start with a big picture sense of your results
 
-- *Go around the room to share*
+- Raise your hand if your answer to this question is "yes"
+
+- Raise your hand if your answer to this question is "no"
 
 <br>
 
-**SLIDE**: My versions
+*Split class into groups*
 
-- line plot - means
-- Stacked bar plot: For each year count torture by level: 0, 1 and 2
-- Avg effects after ratification
+- Groups, share how you attacked this question and agree on a single answer then report back
+
+<br>
+
+*PRESENT and DISCUSS each: Walk us through your process*
+
+<br>
+
+Just like before, I'll show you a few different approaches to answering this question
+
+- For each I want you to evaluate the approach and whether it is ultimately a "good" answer to the question or not
+
+- **SLIDE**: My versions to evaluate
+
+    - line plot - means
+    - Stacked bar plot: For each year count torture by level: 0, 1 and 2
+    - Avg effects after ratification
 
 :::
 
@@ -563,6 +717,16 @@ vdem2 |>
 ```
 
 ::: notes
+
+Same process I mapped out before but using V-Dem instead of CIRIGHTS
+
+<br>
+
+**What are the strengths and weaknesses of providing this as your answer to Question 3?**
+
+- *DISCUSS*
+
+<br>
 
 V-Dem Freedom from Torture (v2cltort) Ordinal Scale
 
@@ -609,6 +773,12 @@ vdem2 |>
 ```
 
 ::: notes
+
+**What are the strengths and weaknesses of providing this as your answer to Question 3?**
+
+- *DISCUSS*
+
+<br>
 
 V-Dem Freedom from Torture (v2cltort) Ordinal Scale
 
@@ -678,14 +848,14 @@ left_join(vdem2, base_torture, by = "country") |>
 
 In this visualization I am analyzing the behavior of states only AFTER they bind themselves to the CAT
 
-:::
+<br>
 
-::: notes
+**What are the strengths and weaknesses of providing this as your answer to Question 3?**
 
-
-
+- *DISCUSS*
 
 <br>
+
 
 V-Dem Freedom from Torture (v2cltort) Ordinal Scale
 
@@ -698,6 +868,26 @@ V-Dem Freedom from Torture (v2cltort) Ordinal Scale
 3: Torture is limited to isolated cases and unapproved by authorities.
 
 4: Torture is non-existent.
+
+:::
+
+
+
+## Canvas Question 4 {background-image="./Images/background-scales_justice_v3.png" .center}
+
+<br>
+
+### According to the V-Dem data project, did countries that ratified the CAT reduce their use of torture in the following years?
+
+::: notes
+
+**Ok, what is our "best" answer to this question so far?**
+
+- **What evidence would you provide a reader to support this answer?**
+
+<br>
+
+**SLIDE**: In sum
 
 :::
 

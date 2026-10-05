@@ -219,6 +219,7 @@
 <li><p>Dataset 2 - CAT Ratifications + CIRIGHTS data: DATA-CAT_CIRIGHTS-1981-2022.xlsx</p></li>
 <li><p>Dataset 3 - CAT Ratifications + V-Dem data: DATA-CAT_VDem-1980-2025.xlsx</p></li>
 </ul></li>
+<li><p>Be ready to open the spreadsheets or show RStudio for live coding</p></li>
 </ol>
 <p><br></p>
 <p>Before class I asked you to perform data analyses in order to answer three broad questions that connect ratifying the CAT and the use of torture around the world</p>
@@ -476,16 +477,28 @@
 <p><br></p>
 <h3 id="according-to-the-cirights-data-project-did-countries-that-ratified-the-cat-reduce-their-use-of-torture-in-the-following-years">According to the CIRIGHTS data project, did countries that ratified the CAT reduce their use of torture in the following years?</h3>
 <aside class="notes">
-<p><strong>Alright, let’s share answers to this question and the techniques you applied to generate them!</strong></p>
+<p>Alright, let’s start with a big picture sense of your results</p>
 <ul>
-<li><em>Go around the room to share</em></li>
+<li><p>Raise your hand if your answer to this question is “yes”</p></li>
+<li><p>Raise your hand if your answer to this question is “no”</p></li>
 </ul>
 <p><br></p>
-<p><strong>SLIDE</strong>: My versions</p>
+<p><em>Split class into groups</em></p>
+<ul>
+<li>Groups, share how you attacked this question and agree on a single answer then report back</li>
+</ul>
+<p><br></p>
+<p><em>PRESENT and DISCUSS each: Walk us through your process</em></p>
+<p><br></p>
+<p>I’ll now show you a few different approaches to answering this question</p>
+<ul>
+<li><p>For each I want you to evaluate the approach and whether it is ultimately a “good” answer to the question or not</p></li>
+<li><p><strong>SLIDE</strong>: My versions to evaluate</p>
 <ul>
 <li>line plot - means</li>
 <li>Stacked bar plot: For each year count torture by level: 0, 1 and 2</li>
 <li>Avg effects after ratification</li>
+</ul></li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -499,19 +512,169 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-3" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<section id="section-3" class="slide level2 smaller" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
-
-<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
-<section id="section-4" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Process</a></li><li><a href="#tabset-1-2">Output</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p><br></p>
+<ol type="1">
+<li><p>Split the dataset:</p>
+<ul>
+<li><p>Subset 1 - Country-years of non-participants’ torture scores</p></li>
+<li><p>Subset 2 - Country-years of participants’ torture scores</p></li>
+</ul></li>
+<li><p>Calculate the average torture score for each year in each subset</p></li>
+<li><p>Visualize the averages across time</p></li>
+</ol>
+</div>
+<div id="tabset-1-2">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-8-1.png" class="quarto-figure quarto-figure-center" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>What are the strengths and weaknesses of providing this as your answer to Question 3?</strong></p>
+<ul>
+<li><em>DISCUSS</em></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-4" class="slide level2 smaller" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
-
-<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
-<section id="section-5" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Process</a></li><li><a href="#tabset-2-2">Output</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<p><br></p>
+<ol type="1">
+<li><p>Split the dataset:</p>
+<ul>
+<li><p>Subset 1 - Country-years of non-participants’ torture scores</p></li>
+<li><p>Subset 2 - Country-years of participants’ torture scores</p></li>
+</ul></li>
+<li><p>For each subset, count per year:</p>
+<ul>
+<li><p>The number of states with a CIRIGHTS torture level of 0</p></li>
+<li><p>The number of states with a CIRIGHTS torture level of 1</p></li>
+<li><p>The number of states with a CIRIGHTS torture level of 2</p></li>
+</ul></li>
+<li><p>Visualize the counts as a stacked bar plot</p></li>
+</ol>
+</div>
+<div id="tabset-2-2">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-9-1.png" class="quarto-figure quarto-figure-center" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p><strong>What are the strengths and weaknesses of providing this as your answer to Question 3?</strong></p>
+<ul>
+<li><em>DISCUSS</em></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-5" class="slide level2 smaller" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
-
-<img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-10-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Process</a></li><li><a href="#tabset-3-2">Output</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<p><br></p>
+<ol type="1">
+<li><p>Filter the dataset to focus on participants only</p></li>
+<li><p>For each state, identify the torture level from the year the state joined the CAT</p></li>
+<li><p>Split the dataset into three subsets</p>
+<ul>
+<li><p>Subset 1 - States that had a torture score of 0 at ratification</p></li>
+<li><p>Subset 2 - States that had a torture score of 1 at ratification</p></li>
+<li><p>Subset 3 - States that had a torture score of 2 at ratification</p></li>
+</ul></li>
+<li><p>Filter each subset to only include country-years beyond the ratification year</p></li>
+<li><p>Calculate the mean torture score per year in each data subset</p></li>
+<li><p>Visualize the means with a line plot</p></li>
+</ol>
+</div>
+<div id="tabset-3-2">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-10-1.png" class="quarto-figure quarto-figure-center" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
 <p>In this visualization I am analyzing the behavior of states only AFTER they bind themselves to the CAT</p>
+<p><br></p>
+<p><strong>What are the strengths and weaknesses of providing this as your answer to Question 3?</strong></p>
+<ul>
+<li><em>DISCUSS</em></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="canvas-question-3-1" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2>Canvas Question 3</h2>
+<p><br></p>
+<h3 id="according-to-the-cirights-data-project-did-countries-that-ratified-the-cat-reduce-their-use-of-torture-in-the-following-years-1">According to the CIRIGHTS data project, did countries that ratified the CAT reduce their use of torture in the following years?</h3>
+<aside class="notes">
+<p><strong>Ok, what is our “best” answer to this question so far?</strong></p>
+<ul>
+<li><strong>What evidence would you provide a reader to support this answer?</strong></li>
+</ul>
+<p><br></p>
+<p><strong>SLIDE</strong>: Q4</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -529,16 +692,28 @@
 <p><br></p>
 <h3 id="according-to-the-v-dem-data-project-did-countries-that-ratified-the-cat-reduce-their-use-of-torture-in-the-following-years">According to the V-Dem data project, did countries that ratified the CAT reduce their use of torture in the following years?</h3>
 <aside class="notes">
-<p><strong>Alright, let’s share answers to this question and the techniques you applied to generate them!</strong></p>
+<p>Alright, let’s start with a big picture sense of your results</p>
 <ul>
-<li><em>Go around the room to share</em></li>
+<li><p>Raise your hand if your answer to this question is “yes”</p></li>
+<li><p>Raise your hand if your answer to this question is “no”</p></li>
 </ul>
 <p><br></p>
-<p><strong>SLIDE</strong>: My versions</p>
+<p><em>Split class into groups</em></p>
+<ul>
+<li>Groups, share how you attacked this question and agree on a single answer then report back</li>
+</ul>
+<p><br></p>
+<p><em>PRESENT and DISCUSS each: Walk us through your process</em></p>
+<p><br></p>
+<p>Just like before, I’ll show you a few different approaches to answering this question</p>
+<ul>
+<li><p>For each I want you to evaluate the approach and whether it is ultimately a “good” answer to the question or not</p></li>
+<li><p><strong>SLIDE</strong>: My versions to evaluate</p>
 <ul>
 <li>line plot - means</li>
 <li>Stacked bar plot: For each year count torture by level: 0, 1 and 2</li>
 <li>Avg effects after ratification</li>
+</ul></li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -556,6 +731,13 @@
 <h2></h2>
 
 <img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"><aside class="notes">
+<p>Same process I mapped out before but using V-Dem instead of CIRIGHTS</p>
+<p><br></p>
+<p><strong>What are the strengths and weaknesses of providing this as your answer to Question 3?</strong></p>
+<ul>
+<li><em>DISCUSS</em></li>
+</ul>
+<p><br></p>
 <p>V-Dem Freedom from Torture (v2cltort) Ordinal Scale</p>
 <p>0: Torture is practiced systematically and approved by government leaders.</p>
 <p>1: Torture is frequent without top leader approval, but leaders fail to prevent it.</p>
@@ -578,6 +760,11 @@
 <h2></h2>
 
 <img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"><aside class="notes">
+<p><strong>What are the strengths and weaknesses of providing this as your answer to Question 3?</strong></p>
+<ul>
+<li><em>DISCUSS</em></li>
+</ul>
+<p><br></p>
 <p>V-Dem Freedom from Torture (v2cltort) Ordinal Scale</p>
 <p>0: Torture is practiced systematically and approved by government leaders.</p>
 <p>1: Torture is frequent without top leader approval, but leaders fail to prevent it.</p>
@@ -601,6 +788,18 @@
 
 <img data-src="07-3-CAT_Effectiveness-Bivariate_Analyses_files/figure-revealjs/unnamed-chunk-13-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
 <p>In this visualization I am analyzing the behavior of states only AFTER they bind themselves to the CAT</p>
+<p><br></p>
+<p><strong>What are the strengths and weaknesses of providing this as your answer to Question 3?</strong></p>
+<ul>
+<li><em>DISCUSS</em></li>
+</ul>
+<p><br></p>
+<p>V-Dem Freedom from Torture (v2cltort) Ordinal Scale</p>
+<p>0: Torture is practiced systematically and approved by government leaders.</p>
+<p>1: Torture is frequent without top leader approval, but leaders fail to prevent it.</p>
+<p>2: Torture occurs occasionally without leadership approval.</p>
+<p>3: Torture is limited to isolated cases and unapproved by authorities.</p>
+<p>4: Torture is non-existent.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -612,14 +811,18 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<aside class="notes">
+</section>
+<section id="canvas-question-4-1" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2>Canvas Question 4</h2>
 <p><br></p>
-<p>V-Dem Freedom from Torture (v2cltort) Ordinal Scale</p>
-<p>0: Torture is practiced systematically and approved by government leaders.</p>
-<p>1: Torture is frequent without top leader approval, but leaders fail to prevent it.</p>
-<p>2: Torture occurs occasionally without leadership approval.</p>
-<p>3: Torture is limited to isolated cases and unapproved by authorities.</p>
-<p>4: Torture is non-existent.</p>
+<h3 id="according-to-the-v-dem-data-project-did-countries-that-ratified-the-cat-reduce-their-use-of-torture-in-the-following-years-1">According to the V-Dem data project, did countries that ratified the CAT reduce their use of torture in the following years?</h3>
+<aside class="notes">
+<p><strong>Ok, what is our “best” answer to this question so far?</strong></p>
+<ul>
+<li><strong>What evidence would you provide a reader to support this answer?</strong></li>
+</ul>
+<p><br></p>
+<p><strong>SLIDE</strong>: In sum</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

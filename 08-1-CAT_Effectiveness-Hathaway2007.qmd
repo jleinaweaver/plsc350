@@ -953,6 +953,8 @@ Figure 1
 
 **So, what does this mean for the Domestic Enforcement Capacity Test?**
 
+<br>
+
 Domestic Enforcement Matters!
 
 - Regimes with no domestic enforcement feel free to ratify CAT and keep torturing
@@ -961,9 +963,115 @@ Domestic Enforcement Matters!
 
 <br>
 
-She doesn't find compelling evidence for the collateral consequences hypothesis so we'll skip that.
+**SLIDE**: And what about the collateral consequences?
 
-- e.g. more human rights NGOs matter for ratification
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+**Hathaway (2007): Domestic Collateral Consequences**
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+**Fig 12: Democracy**
+
+![](Images/08_1-Hathaway-Fig12a.png)
+:::
+
+::: {.column width="50%"}
+**Fig 13: NGOs**
+
+![](Images/08_1-Hathaway-Fig12b.png)
+:::
+::::
+
+::: notes
+
+*Note: Why are there three bars per figure for CAT? Regression model has an interaction with torture level so each predictor is adjusted by torture which produces three estimates of the likelihood of ratification*
+
+<br>
+
+**How does Figure 12 help us test the effect of a weak executive on the likelihood of joining the CAT or its optional articles?**
+
+<br>
+
+Since the paper focuses on interaction effects, this one is hard to isolate
+
+- This assumes the change in ratification as a state moves up the democracy scale (e.g. weakens the executive) BUT assuming that state does not use torture
+
+- "For each additional one point increase in “Democracy” in a state with no human rights violations, the chance that the state will ratify a treaty changes by the following amount" (610)
+
+- **Make sense?**
+
+<br>
+
+**Are you surprised to see the effect be so much larger for Arts 21 and 22 vs ratifying the treaty itself? Why or why not?**
+
+<br>
+
+**How does Figure 13 help us test the effect of NGOs on the likelihood of joining the CAT or its optional articles?**
+
+- (Each 10 NGOs increase ratification by 1%-11%; Fig 13, p610)
+
+<br>
+
+**Does this suggest that domestic NGO pressure is a good path to achieving state behavior change?** 
+
+- **In other words, is that a big or small effect? Why?**
+
+<br>
+
+**SLIDE**: Transnational collateral consequences
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+**Hathaway (2007): Transnational Collateral Consequences**
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+**Fig 14: New States**
+
+![](Images/08_1-Hathaway-Fig14a.png)
+:::
+
+::: {.column width="50%"}
+**Fig 15: Regional Pressure**
+
+![](Images/08_1-Hathaway-Fig15a.png)
+:::
+::::
+
+::: notes
+
+The effect of being a new state has a HUGE positive impact on ratification
+
+- **Are we confident this is a reputation story or could it be something else?**
+
+<br>
+
+The regional pressure dynamic is tough to wrap my head around (Regional ratifiers, Fig 15, p612)
+
+- Each 1% more ratification in your region, increase ratification for you by around 2% 
+
+- BUT, what does 1% more ratification in your region actually mean? 
+
+    - What is your region?
+    - Does each 1 state add a percent of the regional total?
+
+<br>
+
+**SLIDE**: In sum
 
 :::
 
@@ -1008,6 +1116,22 @@ She doesn't find compelling evidence for the collateral consequences hypothesis 
 Hollyer & Rosendorff. (2011). "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance." *Quarterly Journal of Political Science.* 6: p275–327
 
 ::: notes
+
+The paper we explore next class is HARD, but AWESOME
+
+- Jim Vreeland at NYU calls it the badass theory of torture
+
+- Some big important ideas in there we need to unpack and evaluate if we want to understand the effect of international institutions in the world
+
+<br>
+
+Do not let yourself get overwhelmed by the formal model in the article
+
+- As ever, the aim is to annotate the article, not memorize it
+
+- Find the key components and be ready to discuss them in class
+
+<br>
 
 **Questions on the assignment?**
 

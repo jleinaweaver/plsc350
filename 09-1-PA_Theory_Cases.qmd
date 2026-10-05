@@ -12,7 +12,7 @@ library(readxl)
 
 <br>
 
-**II. International Institutions for Mutual Restraint**
+**Section 2: How effective have international institutions been in reducing the use of torture by governments around the world?**
 
 - Principal-Agent Theory
 
@@ -30,8 +30,6 @@ Justin Leinaweaver (Fall 2026)
 
 1. Review cases submitted to Canvas
 
-2. Prep email/announcement assigning class to groups for next class
-
 <br>
 
 Today we add another tool to our toolbox: Principal-Agent Theory
@@ -48,15 +46,44 @@ Today we add another tool to our toolbox: Principal-Agent Theory
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Has the CAT been effective?**]
+**How effective have international institutions been in reducing the use of torture by governments around the world?**
+
+- Week 6: Defining and Measuring the Outcome
+
+- Week 7: The Convention Against Torture (CAT)
+
+- Week 8: Explaining the Effect of the CAT on Torture 
+
+- Week 9: The International Criminal Court (ICC)
+
+- Week 10: Can the ICC help us reduce global torture?
+
+- Week 11: Case Studies of ICC Effectiveness
+
+::: notes
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+**Has the CAT been effective?**
 
 <br>
 
 1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
 
-2. Vreeland (2008) "Political Institutions and Human Rights: Why Dictatorships Enter into the United Nations Convention Against Torture"
-
-3. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
+2. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
 
 ::: notes
 
