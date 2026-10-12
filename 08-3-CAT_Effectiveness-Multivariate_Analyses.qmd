@@ -13,13 +13,17 @@ library(lubridate)
 # Data input
 # Format dates
 # Add years to ratify - 10 December 1984
+
+right_censor_delay <- as.numeric(ymd("2025-12-31") - ymd("1984-12-10"))
+
 d <- read_excel("../../Data/DATA-CAT_VDem_Polyarchy-1980-2025.xlsx", na = "NA") |>
   rename("signed_date" = `Signature Date`, "binding_date" = `Binding Date`) |>
   mutate(
     signed_date = ymd(str_remove(signed_date, " 00:00:00")),
     binding_date = ymd(str_remove(binding_date, " 00:00:00")),
     rat_delay = as.numeric(binding_date - ymd("1984-12-10")),
-    rat_delay_yrs = as.numeric(rat_delay / 365)
+    rat_delay2 = if_else(is.na(rat_delay), right_censor_delay, rat_delay),
+    rat_delay_yrs = as.numeric(rat_delay2 / 365)
   )
 
 d2 <- d |>
@@ -273,6 +277,8 @@ Ok, now let's talk strengths and weaknesses
 
 ## {background-image="./Images/background-scales_justice_v3.png"}
 
+**Classifying States Using the Electoral Democracy Index**
+
 ```{r, fig.asp=.618, fig.align='center'}
 d |>
   filter(!is.na(polyarchy_median)) |>
@@ -308,11 +314,18 @@ My visualization here shows the mean polyarchy scores for the states in our data
 
 ## {background-image="./Images/background-scales_justice_v3.png"}
 
+**Classifying States Using the Electoral Democracy Index**
+
 ```{r, fig.asp=.618, fig.align='center'}
 d |>
   filter(!is.na(polyarchy_median)) |>
   mutate(
-    poly_group = if_else(polyarchy_median > .5, "democracy", "dictatorship")
+    #poly_group = if_else(polyarchy_median > .5, "democracy", "dictatorship")
+    poly_group = case_when(
+      polyarchy_25th > .5 ~ "democracy",
+      polyarchy_75th <= .5 ~ "dictatorship",
+      TRUE ~ "anocracy"
+    )
   ) |> 
   ggplot(aes(y = polyarchy_median, x = reorder(country_text_id, polyarchy_median))) +
   geom_point(aes(color = poly_group)) +
@@ -321,7 +334,7 @@ d |>
   scale_x_discrete(labels = NULL) +
   theme_bw()  +
   guides(color = "none") +
-  scale_color_manual(values = c("blue", "red"))
+  scale_color_manual(values = c("yellow", "blue", "red"))
   
   #geom_hline(colour = "red", yintercept = .5)
 ```
@@ -338,6 +351,18 @@ As I understand it, the rough dichotomous approximation of polyarchy used by the
 
 <br>
 
+For my replication work today I classified states as:
+
+- democracies if their 25th percentile polyarchy score was above .5
+
+- dictatorships if their 75th percentile score was below .5
+
+- and the rest as anocracies (the label the Polity project uses for the middles scores)
+
+- My aim was to be sure I was focusing on states that spent most of the period in the group we are analyzing
+
+<br>
+
 **SLIDE**: Ok, let's classify states by torture
 
 :::
@@ -345,15 +370,9 @@ As I understand it, the rough dichotomous approximation of polyarchy used by the
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .smaller}
+## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-::: {.panel-tabset}
-
-### Instrument
-
-![](Images/08_3-VDEM_Torture_Codebook1.png){width="800"}
-
-### Bar Plot
+**Did you consolidate the levels of torture?**
 
 ```{r, fig.asp=0.618, fig.align='center'}
 d2 |>
@@ -364,27 +383,22 @@ d2 |>
   labs(x = "V-Dem Torture (ordinal measure)", y = "Count", caption = "Source: V-Dem (2026)")
 ```
 
-:::
-
 ::: notes
 
-**SO, how did you use the torture scores to split the sample between high and low scores in the replication?**
-
-- *DISCUSS*
+![](Images/08_3-VDEM_Torture_Codebook1.png){width="800"}
 
 <br>
 
-**REVEAL bar plot**
+**Did you choose to split the sample between high and low torture scores in the replications or examine all the levels?**
 
-For my replications I qualified any state with a score of 0 or 1 as engaging in torture
-
-- "2" strikes me as bad but moves into a different kind of problem than a 0 or 1
+- *DISCUSS*
 
 <br>
 
 **SLIDE**: Alright, let's get to the replications!
 
 :::
+
 
 
 
@@ -405,37 +419,209 @@ For my replications I qualified any state with a score of 0 or 1 as engaging in 
 
 <br>
 
-*PRESENT and DISCUSS each: Walk us through your process*
+**Ok, groups, walk us through your process**
+
+- *PRESENT and DISCUSS each*
+
+- **YOU** *track on the board, help them see how to write the steps*
 
 <br>
 
-**SLIDE**: My version to evaluate
+**SLIDE**: My versions to discuss
+
+- Direct replication of Hathaway so data up to 2005
+
+- All years so new DV: ratification delay
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
+
+**Domestic enforcement capacity matters (Hathaway 2007)**
+
+<br>
+
+**Process**
+
+1. Filter the dataset to only include years up to 2005 (match Hathaway)
+
+2. Remake the "Binding" variable up to 2005 
+
+3. Convert polyarchy into three-level nominal variable
+
+    - "democracy" = polyarchy_25th > .5
+    - "dictatorship" = polyarchy_75th < .5
+    - "anocracy" = rest of cases
+
+4. Calculate the average torture level (5 years = 1980 - 1984)
+
+5. Make a violin plot of regime type x torture level x binding decision
+
+::: notes
+
+It is hard to directly replicate Hathaway's work because she is using a Cox proportional hazards model
+
+- Essentially she's running a fancy regression on the data and we're trying to replicate it with much simpler methods
+
+<br>
+
+As you remember from your various statistics classes, variable type determines tool
+
+- In this case we have two categorical variables and a numeric variable, so that means a box plot, a violin plot or overlapping densities
+
+- **SLIDE**: Let's look at the violin plots!
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+**Domestic enforcement capacity matters (Hathaway 2007)**
+
+```{r, fig.align='center', fig.asp=.618}
+# Who had ratified or not by 2005?
+# violin plots
+d |>
+  mutate(
+    poly_group = case_when(
+      polyarchy_25th > .5 ~ "Democracy",
+      polyarchy_75th <= .5 ~ "Dictatorship",
+      TRUE ~ "Anocracy"
+    ),
+    binding2005 = if_else(binding_date <= ymd("2005-12-31"), "Participant", "Non-Participant", missing = "Non-Participant"),
+    binding_all = if_else(Binding == 1, "Participant", "Non-Participant", missing = "Non-Participant"),
+    torture_mean_5yr = (VDem_Torture1980 + VDem_Torture1981 + VDem_Torture1982 + VDem_Torture1983 + VDem_Torture1984) / 5
+  ) |>
+  ggplot(aes(x = poly_group, y = torture_mean_5yr, fill = binding2005)) +
+  geom_violin() +
+  scale_x_discrete(limits = c("Dictatorship", "Anocracy", "Democracy")) +
+  labs(x = "", y = "Average Torture Level (1980 - 1984)", fill = "The Convention Against Torture (up to 2005)") +
+  theme_bw() +
+  theme(legend.position = "top") +
+  scale_fill_manual(values = c("red3", "lightblue"))
+
+# # Density overlapping
+# d |>
+#   mutate(
+#     poly_group = case_when(
+#       polyarchy_25th > .5 ~ "Democracy",
+#       polyarchy_75th <= .5 ~ "Dictatorship",
+#       TRUE ~ "Anocracy"
+#     ),
+#     binding2005 = if_else(binding_date <= ymd("2005-12-31"), "Participant", "Non-Participant", missing = "Non-Participant"),
+#     torture_mean_5yr = (VDem_Torture1980 + VDem_Torture1981 + VDem_Torture1982 + VDem_Torture1983 + VDem_Torture1984) / 5
+#   ) |>
+#   ggplot(aes(x = torture_mean_5yr, fill = binding2005)) +
+#   geom_density() +
+#   #scale_x_discrete(limits = c("Dictatorship", "Anocracy", "Democracy")) +
+#   facet_wrap(~ poly_group)
+
+# # scatter...
+# d |>
+#   mutate(
+#     binding2005 = if_else(binding_date <= ymd("2005-12-31"), "Participant", "Non-Participant", missing = "Non-Participant"),
+#     torture_mean_5yr = (VDem_Torture1980 + VDem_Torture1981 + VDem_Torture1982 + VDem_Torture1983 + VDem_Torture1984) / 5
+#   ) |>
+#   ggplot(aes(x = polyarchy_median, y = torture_mean_5yr, color = binding2005, shape = binding2005)) +
+#   geom_point(size = 3) +
+#   geom_smooth(method = "lm", se = FALSE)
+
+
+# # bar plot: regime type in three levels x ratification dummy x torture in 1984
+# d |>
+#   #filter(torture_year <= 2005) |>
+#   mutate(
+#     poly_group = case_when(
+#       polyarchy_25th > .5 ~ "Democracy",
+#       polyarchy_75th <= .5 ~ "Dictatorship",
+#       TRUE ~ "Anocracy"
+#     ),
+#     binding2005 = if_else(binding_date <= ymd("2005-12-31"), "Participant", "Non-Participant", missing = "Non-Participant")
+#   ) |>
+#   filter(!is.na(VDem_Torture1984)) |>
+#   ggplot(aes(x = factor(VDem_Torture1984), fill = binding2005)) +
+#   geom_bar(position = "fill") +
+#   facet_wrap(~ poly_group)
+```
+
+::: notes
+
+A violin plot is a visualization that shows how numbers are spread out by combining a box plot and a density curve
+
+- The sides of each violin represent the density curve
+
+- The length of each violin tells you the approximate range of the data in that group
+
+    - So, the dictatorships up to 2005 have torture scores running from 0 - 3
+    
+    - The democracies run the full gamut!
+
+- The widest parts of each violin are where most of the observations are in that group
+
+    - Democracies that didn't join CAT by 2005 are heavily in the 3 range for torture
+
+<br>
+
+**So, what do we see here?**
+
+- **Is this consistent with Hathaway's findings?**
+
+<br>
+
+- The torture levels for dictatorship look VERY similar for the participants and the non-participants
+
+    - Confirms Hathaway: suggests torture is not a strong predictor of participation for them
+
+- BUT anocracies and democracies DO show a difference
+
+    - There appear to be a group of democracies and anocracies where torture is practiced in "isolated cases" but is not approved by the leaders of those states
+    
+    - Points in the general direction of Hathaway but a weak result
+    
+<br>
+
+**If we had perfectly replicated Hathaway's findings, what would the two violins look like in the democracies?**
+
+- (Two much more separate distributions)
+
+- The red violin higher and the blue violin lower
+
+- **Does that make sense?**
+
+<br>
+
+**SLIDE**: Shifting to ratification delay as the outcome variable
 
 :::
 
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .smaller}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
-::: {.panel-tabset}
-
-### Process
+**Domestic enforcement capacity matters (Hathaway 2007)**
 
 <br>
 
-1. Filter the dataset to only include "democracies" (polyarchy_median > .5)
+**Process**
+
+1. Filter the dataset to only include "democracies" (polyarchy_25th > .5)
 
 2. Calculate the ratification delay in years (binding_date - "1984-12-10")
+
+    - States that have not joined are given a binding date of 2025-12-31 (right-censored)
 
 3. Calculate the mean torture level in the five years preceding the adoption of the CAT (1980 - 1984)
 
 4. Make a scatter plot of mean torture level by ratification delay
 
 
-<br>
 
-### Output
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
 
 ```{r, fig.asp=.618, fig.align='center'}
 # Are democracies that use torture slower to ratify the CAT than other democracies?
@@ -443,26 +629,27 @@ For my replications I qualified any state with a score of 0 or 1 as engaging in 
 # Classify by their level of torture from 1980 to 1984
 
 d_temp <- d |>
-  filter(polyarchy_median > .5) |>
+  #filter(polyarchy_median > .5) |>
+  filter(polyarchy_25th > .5) |>
   mutate(
-    binding_cat = if_else(Binding == 1, "Ratified", "Not Ratified"),
-    torture_mean_5yr = (VDem_Torture1980 + VDem_Torture1981 + VDem_Torture1982 + VDem_Torture1983 + VDem_Torture1984) / 5
+    binding_all = if_else(Binding == 1, "Participant", "Non-Participant", missing = "Non-Participant"),
+    torture_mean_5yr = (VDem_Torture1980 + VDem_Torture1981 + VDem_Torture1982 + VDem_Torture1983 + VDem_Torture1984) / 5,
+    torture_mean_10yr = (VDem_Torture1980 + VDem_Torture1981 + VDem_Torture1982 + VDem_Torture1983 + VDem_Torture1984 + VDem_Torture1985 + VDem_Torture1986 + VDem_Torture1987 + VDem_Torture1988 + VDem_Torture1989) / 10
   )
 
 d_temp_labs <- d_temp |>
-  filter(rat_delay_yrs > 15)
+  filter(rat_delay_yrs > 10 | torture_mean_5yr < 1)
 
 d_temp |> 
   ggplot(aes(x = jitter(torture_mean_5yr, amount = .1), y = rat_delay_yrs)) +
   geom_point() +
-  geom_smooth(method = "lm", se = FALSE) +
+  geom_smooth(se = FALSE) +
   ggrepel::geom_text_repel(data = d_temp_labs, aes(labels = country)) +
   theme_bw() +
-  labs(x = "Freedom from Torture (1980-1984, mean)", y = "Ratification Delay (years)",
+  labs(x = "Freedom from Torture (1980-1984, mean)", y = "Ratification Delay (years)", title = "Does domestic enforcement capacity matter for democracies? (Hathaway 2007)",
        caption = "Source: V-Dem (2026) and the UNTC (2026")
 ```
 
-:::
 
 ::: notes
 
@@ -474,17 +661,19 @@ This scatter plot visualizes the "democracies in the dataset by two characterist
 
 - I've added a little jitter to the torture score to help us see the different points
 
+- I also tested this with different numbers of years in the torture mean (5 vs 10) and it didn't change the results
+
 <br>
 
 **What does this suggest about the relationship between the use of torture and ratification of the CAT in democracies?**
 
-- (Definitely not a "yes": "Democracies" with the worst torture records ratified at similar speeds to most other categories)
+- (Line slope is positive suggesting less torture is associated with slightly longer ratification delays)
 
-- (HOWEVER)
-
-    - Maybe more spread in the 0 and 1 levels than in 2 and 4?
+    - And WAY longer time in Suriname, Sao Tome, the DR and Vanuatu!
     
     - Category 3 is very intriguing, e.g. democracies who mostly do not torture. Is this the effect Hathaway suggested?
+    
+- BUT, at level 4 with the least torture the delay falls back down
     
 <br>
 
@@ -494,7 +683,13 @@ This scatter plot visualizes the "democracies in the dataset by two characterist
 
 <br>
 
-**Ok, do we walk away more or less convinced by Hathaway's (2007) argument about domestic enforcement capacity mattering?**
+**Ok, do we walk away more or less convinced by Hathaway's (2007) argument about domestic enforcement capacity mattering in democracies?**
+
+- Depends on how much we want to focus on that collection of outliers in torture category 3
+
+- Is that hesitancy due to domestic enforcement?
+
+- If so, why don't we see it continue where torture is higher on the left side of the plot?
 
 <br>
 
@@ -530,29 +725,31 @@ Groups, share how you attacked this question and agree on a single answer then r
 
 
 
-## Replication 2 {background-image="./Images/background-scales_justice_v3.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .center}
 
 ```{r, fig.asp=.618, fig.align='center'}
 # Are dictatorships that use torture faster to ratify the CAT than other states?
 
 d_temp <- d |>
-  filter(polyarchy_median <= .5) |>
+  filter(polyarchy_75th <= .5) |>
   mutate(
-    binding_cat = if_else(Binding == 1, "Ratified", "Not Ratified"),
+    binding_all = if_else(Binding == 1, "Participant", "Non-Participant", missing = "Non-Participant"),
     torture_mean_5yr = (VDem_Torture1980 + VDem_Torture1981 + VDem_Torture1982 + VDem_Torture1983 + VDem_Torture1984) / 5
   )
 
 d_temp_labs <- d_temp |>
-  filter(rat_delay_yrs > 20)
+  filter(rat_delay_yrs > 20 | rat_delay_yrs < 10)
 
 d_temp |> 
   ggplot(aes(x = jitter(torture_mean_5yr, amount = .1), y = rat_delay_yrs)) +
   geom_point() +
-  geom_smooth(method = "lm", se = FALSE) +
+  geom_smooth(se = FALSE) +
   ggrepel::geom_text_repel(data = d_temp_labs, aes(labels = country)) +
   scale_x_continuous(limits = c(0, 4)) +
   theme_bw() +
   labs(x = "Freedom from Torture (1980-1984, mean)", y = "Ratification Delay (years)",
+       title = "Dictatorships lack enforcement capacity and may see torture as a costly signal",
+       subtitle = "(Hathaway 2007; H&R 2011)",
        caption = "Source: V-Dem (2026) and the UNTC (2026")
 ```
 
@@ -564,9 +761,11 @@ Same approach as before but now focusing on dictatorships
 
 **What does this suggest about the relationship between the use of torture and ratification of the CAT in dictatorships?**
 
-- (Supports a "yes": More torture = faster ratification on average
+- (Super hard to interpret)
 
-- (HOWEVER: lots of variation within wach category
+- Scary that there are no free from torture states ("4"s) in the dictatorships
+
+- (Lots of variation within each category)
     
 <br>
 
@@ -613,15 +812,17 @@ Groups, share how you attacked this question and agree on a single answer then r
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .smaller}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
-::: {.panel-tabset}
-
-### Process
+::: {.r-fit-text}
+**Changes in torture levels after joining CAT (Hollyer and Rosendorff 2011)**
+:::
 
 <br>
 
-1. Filter the dataset to only dictatorships (polyarchy_median <= .5)
+**Process**
+
+1. Filter the dataset to only dictatorships (polyarchy_75th <= .5)
 
 2. Create a variable to identify country-years pre and post ratification
 
@@ -631,7 +832,10 @@ Groups, share how you attacked this question and agree on a single answer then r
 
 5. Visualize the pre-ratification means for each dictatorship and add an arrow segment showing the changes in torture post-ratification
 
-### Output
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
 
 ```{r, fig.asp=.618, fig.align='center'}
 # Do dictatorships that ratify the CAT increase or decrease their use of torture after joining? If so, how much and in which direction?
@@ -647,7 +851,7 @@ Groups, share how you attacked this question and agree on a single answer then r
 #   arrange(mean_torture)
 
 d2_temp <- d2 |>
-  filter(polyarchy_median <= .5) |>
+  filter(polyarchy_75th <= .5) |>
   mutate(
     groups1 = if_else(torture_year > year(binding_date), "Post-Ratification", "Pre-Ratification")
   ) |>
@@ -664,8 +868,13 @@ d2_temp <- d2 |>
     diff_group = if_else(Difference1 > 0, "Positive", "Negative")
   )
 
+# table(d2_temp$Difference1 > 0)
+# table(d2_temp$Difference1 < 0)
+# table(d2_temp$Difference1 == 0)
 #summary(d2_temp$Difference1)
-#table(d2_temp$Difference1 > 0)
+# summary(d2_temp$Difference1[d2_temp$Difference1 > 0])
+# summary(d2_temp$Difference1[d2_temp$Difference1 < 0])
+
 
 d2_temp |>
   ggplot(aes(x = reorder(country_text_id, `Pre-Ratification`), y = `Pre-Ratification`)) +
@@ -676,12 +885,15 @@ d2_temp |>
   scale_y_continuous(limits = c(0, 4)) +
   scale_x_discrete(labels = NULL) +
   labs(x = "Dictatorships (V-Dem)", y = "Mean Freedom from Torture (V-Dem)", caption = "Source: V-Dem (2026), UNTC (2026)",
-       title = "60% (47/78) of dictatorships that ratified the CAT improved their torture scores over time") +
+       title = "Pre vs Post-CAT Ratification by Dictatorships") +
   scale_color_manual(values = c("red", "blue"))  +
-  guides(color = "none")
-```
+  guides(color = "none") +
+  annotate("text", x = 3, y = 3.8, label = "34 (56%) improved their scores by an average of +0.7", hjust = 0, size = 5, color = "blue") +
+  annotate("text", x = 3, y = 3.5, label = "7 (11%) kept the same score", hjust = 0, size = 5, color = "orange") +
+  annotate("text", x = 3, y = 3.2, label = "20 (33%) decreased their scores by an average of -0.4", hjust = 0, size = 5, color = "red") 
 
-:::
+
+```
 
 ::: notes
 
@@ -707,9 +919,73 @@ d2_temp |>
 
 <br>
 
+**SLIDE**: Let's check the same thing for democracies!
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r, fig.asp=.618, fig.align='center'}
+# Replicate for democracies?
+
+d2_temp <- d2 |>
+  filter(polyarchy_25th > .5) |>
+  mutate(
+    groups1 = if_else(torture_year > year(binding_date), "Post-Ratification", "Pre-Ratification")
+  ) |>
+  filter(!is.na(groups1)) |>
+  group_by(country_text_id, groups1) |>
+  summarize(
+    mean_torture = mean(torture, na.rm = T) 
+  ) |>
+  ungroup() |>
+  pivot_wider(names_from = groups1, values_from = mean_torture) |>
+  na.omit() |>
+  mutate(
+    Difference1 = `Post-Ratification` - `Pre-Ratification`,
+    diff_group = if_else(Difference1 > 0, "Positive", "Negative")
+  )
+
+# table(d2_temp$Difference1 > 0)
+# table(d2_temp$Difference1 < 0)
+# table(d2_temp$Difference1 == 0)
+#summary(d2_temp$Difference1)
+# summary(d2_temp$Difference1[d2_temp$Difference1 > 0])
+# summary(d2_temp$Difference1[d2_temp$Difference1 < 0])
+
+
+d2_temp |>
+  ggplot(aes(x = reorder(country_text_id, `Pre-Ratification`), y = `Pre-Ratification`)) +
+  #geom_point(aes(y = `Post-Ratification`), color = "blue") +
+  geom_point(color = "black") +
+  geom_segment(aes(y = `Pre-Ratification`, yend = `Post-Ratification`, color = diff_group), arrow = arrow(length = unit(0.1, "inches"))) +
+  theme_bw() +
+  scale_y_continuous(limits = c(0, 4)) +
+  scale_x_discrete(labels = NULL) +
+  labs(x = "Dictatorships (V-Dem)", y = "Mean Freedom from Torture (V-Dem)", caption = "Source: V-Dem (2026), UNTC (2026)",
+       title = "Pre vs Post-CAT Ratification by Democracies") +
+  scale_color_manual(values = c("red", "blue"))  +
+  guides(color = "none") +
+  annotate("text", x = 27, y = 1, label = "30 (51%) improved their scores by an average of +1.2", hjust = 0, size = 5, color = "blue") +
+  annotate("text", x = 27, y = .7, label = "19 (33%) kept the same score", hjust = 0, size = 5, color = "orange") +
+  annotate("text", x = 27, y = .4, label = "9 (15%) decreased their scores by an average of -0.2", hjust = 0, size = 5, color = "red") 
+
+
+```
+
+::: notes
+
+Come on guys, that's some good results right there!
+
+<br>
+
 **SLIDE**: Next Class
 
 :::
+
+
 
 
 
@@ -721,6 +997,24 @@ d2_temp |>
 
 1. Read some background on PA theory, and
 
-2. Find a recent, current event that involves an international organization (IO) doing something "important" or "useful" in the world.
+2. International organization (IO) case studies
+
+::: notes
+
+
+Canvas DISCUSSION: International Organization Case Studies
+
+Select an international organization (IO) from the list maintained by Wikipedia that you think sounds interesting. No overlapping cases; first-come, first-served.
+
+1. What is the IO you have selected?
+2. What treaty or instrument created the IO? (Provide a link to the founding document)
+3. What year was the IO established?
+4. What is something specific and useful this IO has done in the world? The more recent the action, the better. Provide a link to evidence supporting your argument.
+5. How do the member states control the IO? In other words, what is at least one limit member states have placed on its ability to do things? You must provide evidence to support your argument.
+
+
+
+
+:::
 
 

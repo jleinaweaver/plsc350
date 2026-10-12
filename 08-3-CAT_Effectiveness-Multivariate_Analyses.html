@@ -366,6 +366,7 @@
 </section>
 <section id="section-5" class="slide level2" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
+<p><strong>Classifying States Using the Electoral Democracy Index</strong></p>
 
 <img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-2-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
 <p>My visualization here shows the mean polyarchy scores for the states in our dataset along with error bars around them running from the low to the high value for each</p>
@@ -394,6 +395,7 @@
 </section>
 <section id="section-6" class="slide level2" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
+<p><strong>Classifying States Using the Electoral Democracy Index</strong></p>
 
 <img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-3-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
 <p>As I understand it, the rough dichotomous approximation of polyarchy used by the V-Dem researchers is a cut-off at .5</p>
@@ -401,6 +403,14 @@
 <li><p>polyarchy &gt; .5 = electoral democracy</p></li>
 <li><p>polyarchy &lt;= .5 = dictatorship</p></li>
 <li><p>There are other measures in the dataset that do this alongside a few other tweaks (v2x_regime), but this approach basically captures 90% of the variation in those alternative measures</p></li>
+</ul>
+<p><br></p>
+<p>For my replication work today I classified states as:</p>
+<ul>
+<li><p>democracies if their 25th percentile polyarchy score was above .5</p></li>
+<li><p>dictatorships if their 75th percentile score was below .5</p></li>
+<li><p>and the rest as anocracies (the label the Polity project uses for the middles scores)</p></li>
+<li><p>My aim was to be sure I was focusing on states that spent most of the period in the group we are analyzing</p></li>
 </ul>
 <p><br></p>
 <p><strong>SLIDE</strong>: Ok, let’s classify states by torture</p>
@@ -416,15 +426,9 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-7" class="slide level2 smaller" data-background-image="./Images/background-scales_justice_v3.png">
+<section id="section-7" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
-<div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Instrument</a></li><li><a href="#tabset-1-2">Bar Plot</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1">
-<p><img data-src="Images/08_3-VDEM_Torture_Codebook1.png" width="800"></p>
-</div>
-<div id="tabset-1-2">
+<p><strong>Did you consolidate the levels of torture?</strong></p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -434,19 +438,12 @@
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
 <aside class="notes">
-<p><strong>SO, how did you use the torture scores to split the sample between high and low scores in the replication?</strong></p>
+<p><img data-src="Images/08_3-VDEM_Torture_Codebook1.png" width="800"></p>
+<p><br></p>
+<p><strong>Did you choose to split the sample between high and low torture scores in the replications or examine all the levels?</strong></p>
 <ul>
 <li><em>DISCUSS</em></li>
-</ul>
-<p><br></p>
-<p><strong>REVEAL bar plot</strong></p>
-<p>For my replications I qualified any state with a score of 0 or 1 as engaging in torture</p>
-<ul>
-<li>“2” strikes me as bad but moves into a different kind of problem than a 0 or 1</li>
 </ul>
 <p><br></p>
 <p><strong>SLIDE</strong>: Alright, let’s get to the replications!</p>
@@ -475,9 +472,17 @@
 <li>Groups, share how you attacked this question and agree on a single answer then report back</li>
 </ul>
 <p><br></p>
-<p><em>PRESENT and DISCUSS each: Walk us through your process</em></p>
+<p><strong>Ok, groups, walk us through your process</strong></p>
+<ul>
+<li><p><em>PRESENT and DISCUSS each</em></p></li>
+<li><p><strong>YOU</strong> <em>track on the board, help them see how to write the steps</em></p></li>
+</ul>
 <p><br></p>
-<p><strong>SLIDE</strong>: My version to evaluate</p>
+<p><strong>SLIDE</strong>: My versions to discuss</p>
+<ul>
+<li><p>Direct replication of Hathaway so data up to 2005</p></li>
+<li><p>All years so new DV: ratification delay</p></li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -490,50 +495,137 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-8" class="slide level2 smaller" data-background-image="./Images/background-scales_justice_v3.png">
+<section id="section-8" class="slide level2 center smaller" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
-<div class="panel-tabset">
-<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Process</a></li><li><a href="#tabset-2-2">Output</a></li></ul>
-<div class="tab-content">
-<div id="tabset-2-1">
+<p><strong>Domestic enforcement capacity matters (Hathaway 2007)</strong></p>
 <p><br></p>
+<p><strong>Process</strong></p>
 <ol type="1">
-<li><p>Filter the dataset to only include “democracies” (polyarchy_median &gt; .5)</p></li>
-<li><p>Calculate the ratification delay in years (binding_date - “1984-12-10”)</p></li>
+<li><p>Filter the dataset to only include years up to 2005 (match Hathaway)</p></li>
+<li><p>Remake the “Binding” variable up to 2005</p></li>
+<li><p>Convert polyarchy into three-level nominal variable</p>
+<ul>
+<li>“democracy” = polyarchy_25th &gt; .5</li>
+<li>“dictatorship” = polyarchy_75th &lt; .5</li>
+<li>“anocracy” = rest of cases</li>
+</ul></li>
+<li><p>Calculate the average torture level (5 years = 1980 - 1984)</p></li>
+<li><p>Make a violin plot of regime type x torture level x binding decision</p></li>
+</ol>
+<aside class="notes">
+<p>It is hard to directly replicate Hathaway’s work because she is using a Cox proportional hazards model</p>
+<ul>
+<li>Essentially she’s running a fancy regression on the data and we’re trying to replicate it with much simpler methods</li>
+</ul>
+<p><br></p>
+<p>As you remember from your various statistics classes, variable type determines tool</p>
+<ul>
+<li><p>In this case we have two categorical variables and a numeric variable, so that means a box plot, a violin plot or overlapping densities</p></li>
+<li><p><strong>SLIDE</strong>: Let’s look at the violin plots!</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-9" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+<p><strong>Domestic enforcement capacity matters (Hathaway 2007)</strong></p>
+
+<img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-5-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
+<p>A violin plot is a visualization that shows how numbers are spread out by combining a box plot and a density curve</p>
+<ul>
+<li><p>The sides of each violin represent the density curve</p></li>
+<li><p>The length of each violin tells you the approximate range of the data in that group</p>
+<ul>
+<li><p>So, the dictatorships up to 2005 have torture scores running from 0 - 3</p></li>
+<li><p>The democracies run the full gamut!</p></li>
+</ul></li>
+<li><p>The widest parts of each violin are where most of the observations are in that group</p>
+<ul>
+<li>Democracies that didn’t join CAT by 2005 are heavily in the 3 range for torture</li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><strong>So, what do we see here?</strong></p>
+<ul>
+<li><strong>Is this consistent with Hathaway’s findings?</strong></li>
+</ul>
+<p><br></p>
+<ul>
+<li><p>The torture levels for dictatorship look VERY similar for the participants and the non-participants</p>
+<ul>
+<li>Confirms Hathaway: suggests torture is not a strong predictor of participation for them</li>
+</ul></li>
+<li><p>BUT anocracies and democracies DO show a difference</p>
+<ul>
+<li><p>There appear to be a group of democracies and anocracies where torture is practiced in “isolated cases” but is not approved by the leaders of those states</p></li>
+<li><p>Points in the general direction of Hathaway but a weak result</p></li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><strong>If we had perfectly replicated Hathaway’s findings, what would the two violins look like in the democracies?</strong></p>
+<ul>
+<li><p>(Two much more separate distributions)</p></li>
+<li><p>The red violin higher and the blue violin lower</p></li>
+<li><p><strong>Does that make sense?</strong></p></li>
+</ul>
+<p><br></p>
+<p><strong>SLIDE</strong>: Shifting to ratification delay as the outcome variable</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-10" class="slide level2 center smaller" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+<p><strong>Domestic enforcement capacity matters (Hathaway 2007)</strong></p>
+<p><br></p>
+<p><strong>Process</strong></p>
+<ol type="1">
+<li><p>Filter the dataset to only include “democracies” (polyarchy_25th &gt; .5)</p></li>
+<li><p>Calculate the ratification delay in years (binding_date - “1984-12-10”)</p>
+<ul>
+<li>States that have not joined are given a binding date of 2025-12-31 (right-censored)</li>
+</ul></li>
 <li><p>Calculate the mean torture level in the five years preceding the adoption of the CAT (1980 - 1984)</p></li>
 <li><p>Make a scatter plot of mean torture level by ratification delay</p></li>
 </ol>
-<p><br></p>
-</div>
-<div id="tabset-2-2">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-5-1.png" class="quarto-figure quarto-figure-center" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<aside class="notes">
+</section>
+<section id="section-11" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-6-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
 <p>This scatter plot visualizes the “democracies in the dataset by two characteristics:</p>
 <ul>
 <li><p>X-axis: Average level of torture from 1980-1984</p></li>
 <li><p>y-axis: Number of years it took them to ratify the CAT</p></li>
 <li><p>I’ve added a little jitter to the torture score to help us see the different points</p></li>
+<li><p>I also tested this with different numbers of years in the torture mean (5 vs 10) and it didn’t change the results</p></li>
 </ul>
 <p><br></p>
 <p><strong>What does this suggest about the relationship between the use of torture and ratification of the CAT in democracies?</strong></p>
 <ul>
-<li><p>(Definitely not a “yes”: “Democracies” with the worst torture records ratified at similar speeds to most other categories)</p></li>
-<li><p>(HOWEVER)</p>
+<li><p>(Line slope is positive suggesting less torture is associated with slightly longer ratification delays)</p>
 <ul>
-<li><p>Maybe more spread in the 0 and 1 levels than in 2 and 4?</p></li>
+<li><p>And WAY longer time in Suriname, Sao Tome, the DR and Vanuatu!</p></li>
 <li><p>Category 3 is very intriguing, e.g.&nbsp;democracies who mostly do not torture. Is this the effect Hathaway suggested?</p></li>
 </ul></li>
+<li><p>BUT, at level 4 with the least torture the delay falls back down</p></li>
 </ul>
 <p><br></p>
 <p><strong>What are the strengths and weaknesses of providing this as your answer to the first question?</strong></p>
@@ -541,7 +633,12 @@
 <li><em>DISCUSS</em></li>
 </ul>
 <p><br></p>
-<p><strong>Ok, do we walk away more or less convinced by Hathaway’s (2007) argument about domestic enforcement capacity mattering?</strong></p>
+<p><strong>Ok, do we walk away more or less convinced by Hathaway’s (2007) argument about domestic enforcement capacity mattering in democracies?</strong></p>
+<ul>
+<li><p>Depends on how much we want to focus on that collection of outliers in torture category 3</p></li>
+<li><p>Is that hesitancy due to domestic enforcement?</p></li>
+<li><p>If so, why don’t we see it continue where torture is higher on the left side of the plot?</p></li>
+</ul>
 <p><br></p>
 <p><strong>SLIDE</strong>: Replication 2</p>
 <style type="text/css">
@@ -581,16 +678,17 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="replication-2-1" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
-<h2>Replication 2</h2>
+<section id="section-12" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
 
-<img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-6-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
+<img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-7-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
 <p>Same approach as before but now focusing on dictatorships</p>
 <p><br></p>
 <p><strong>What does this suggest about the relationship between the use of torture and ratification of the CAT in dictatorships?</strong></p>
 <ul>
-<li><p>(Supports a “yes”: More torture = faster ratification on average</p></li>
-<li><p>(HOWEVER: lots of variation within wach category</p></li>
+<li><p>(Super hard to interpret)</p></li>
+<li><p>Scary that there are no free from torture states (“4”s) in the dictatorships</p></li>
+<li><p>(Lots of variation within each category)</p></li>
 </ul>
 <p><br></p>
 <p><strong>What are the strengths and weaknesses of providing this as your answer to the first question?</strong></p>
@@ -638,35 +736,25 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-9" class="slide level2 smaller" data-background-image="./Images/background-scales_justice_v3.png">
+<section id="section-13" class="slide level2 center smaller" data-background-image="./Images/background-scales_justice_v3.png">
 <h2></h2>
-<div class="panel-tabset">
-<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Process</a></li><li><a href="#tabset-3-2">Output</a></li></ul>
-<div class="tab-content">
-<div id="tabset-3-1">
+<div class="r-fit-text">
+<p><strong>Changes in torture levels after joining CAT (Hollyer and Rosendorff 2011)</strong></p>
+</div>
 <p><br></p>
+<p><strong>Process</strong></p>
 <ol type="1">
-<li><p>Filter the dataset to only dictatorships (polyarchy_median &lt;= .5)</p></li>
+<li><p>Filter the dataset to only dictatorships (polyarchy_75th &lt;= .5)</p></li>
 <li><p>Create a variable to identify country-years pre and post ratification</p></li>
 <li><p>Calculate the mean torture level for each state: pre vs post ratification</p></li>
 <li><p>Calculate the difference between the pre vs post ratification torture means</p></li>
 <li><p>Visualize the pre-ratification means for each dictatorship and add an arrow segment showing the changes in torture post-ratification</p></li>
 </ol>
-</div>
-<div id="tabset-3-2">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-7-1.png" class="quarto-figure quarto-figure-center" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<aside class="notes">
+</section>
+<section id="section-14" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-8-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
 <p><strong>What does this suggest about the relationship between the use of torture and ratification of the CAT in dictatorships?</strong></p>
 <ul>
 <li><p>(Seems like good and bad news!)</p></li>
@@ -683,6 +771,25 @@
 <ul>
 <li><strong>Does our expanded and updated analysis agree with the research or not?</strong></li>
 </ul>
+<p><br></p>
+<p><strong>SLIDE</strong>: Let’s check the same thing for democracies!</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-15" class="slide level2 center" data-background-image="./Images/background-scales_justice_v3.png">
+<h2></h2>
+
+<img data-src="08-3-CAT_Effectiveness-Multivariate_Analyses_files/figure-revealjs/unnamed-chunk-9-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"><aside class="notes">
+<p>Come on guys, that’s some good results right there!</p>
 <p><br></p>
 <p><strong>SLIDE</strong>: Next Class</p>
 <style type="text/css">
@@ -703,8 +810,29 @@
 <p><strong>Principal-Agent Theory and International Organizations</strong></p>
 <ol type="1">
 <li><p>Read some background on PA theory, and</p></li>
-<li><p>Find a recent, current event that involves an international organization (IO) doing something “important” or “useful” in the world.</p></li>
+<li><p>International organization (IO) case studies</p></li>
 </ol>
+<aside class="notes">
+<p>Canvas DISCUSSION: International Organization Case Studies</p>
+<p>Select an international organization (IO) from the list maintained by Wikipedia that you think sounds interesting. No overlapping cases; first-come, first-served.</p>
+<ol type="1">
+<li>What is the IO you have selected?</li>
+<li>What treaty or instrument created the IO? (Provide a link to the founding document)</li>
+<li>What year was the IO established?</li>
+<li>What is something specific and useful this IO has done in the world? The more recent the action, the better. Provide a link to evidence supporting your argument.</li>
+<li>How do the member states control the IO? In other words, what is at least one limit member states have placed on its ability to do things? You must provide evidence to support your argument.</li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 </section>
     </div>

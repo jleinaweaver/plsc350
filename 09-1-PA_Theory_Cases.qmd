@@ -32,15 +32,10 @@ Justin Leinaweaver (Fall 2026)
 
 <br>
 
-Today we add another tool to our toolbox: Principal-Agent Theory
-
-- PA Theory is an incredibly useful approach for thinking much more deeply about delegation BOTH at the domestic and the international levels.
-
-<br>
-
-**SLIDE**: But, before we dive into this new material let's refresh where we ended last week.
+**SLIDE**: The recap
 
 :::
+
 
 
 
@@ -62,50 +57,90 @@ Today we add another tool to our toolbox: Principal-Agent Theory
 
 ::: notes
 
+Section 2 of our class has focused on a big question
+
+- Have international institutions made a significant and positive impact on torture rates around the world?
+
+<br>
+
+**Why should every research project start like we did in Week 6, by analyzing the outcome variable?**
+
+- (The aim of any research project is to explain variation in the world and that means:
+
+1. We understand the challenges of measuring that outcome, and
+
+2. We are sure there is variation to explain!
+    
+<br>
+
+**And based on our work analyzing the outcome variable, did we determine that there is variation in the use of torture around the world?**
+
+- (Darn right we did!)
+
+<br>
+
+In Week 7 we shifted our analysis to the first predictor variable in our project: the Convention Against Torture (1984)
+
+- **Given the design of the treaty itself, what kinds of real-world effects is it likely to have on its participants?**
+
+- (Increases in information dissemination about torture?)
+
+- (More international meetings focused on the topic?)
+
+- (More requests for investigative assistance across border?)
+
+- (More requests for extradition?)
+
+<br>
+
+In Week 8 we reviewed some of the academic literature on our topic
+
+- **Why does every useful research project have to review the academic literature on its topic?**
+
+- (Building on the shoulders of giants!)
+
+- (OR, maintaining a coherence in the development of knowledge by not continuously trying to reinvent the wheel)
+
+<br>
+
+**And what did we learn from Hathaway (2007), Hollyer and Rosendorff (2011) and our efforts to replicate their work?**
+
+1. (In the absence of international enforcement, domestic enforcement capacity matters)
+
+    - (Hathaway: Domestic enforcement capacity explains ratification UP TO 2005)
+
+    - (Replication: There does appear to be a slower rat process for democracies who use some torture ("3"))
+
+2. ("Bad" states have joined the CAT, possibly for "bad" reasons!)
+
+    - (H&R: The absence of credible international enforcement allows the worst states to use the CAT as a tool of repression!)
+
+    - (Replication: Torture for 60% of dictatorships got better after RAT, BUT is that because opposition effort fell (H&R's arg) or because the treaty compelled better behavior?)
+
+<br>
+
+This week we shift our focus to a second predictor variable
+
+- Since most countries appear to have opted out of the oversight provided by the CAT's "Committee" we need to look elsewhere for enforcement!
+
+- And that brings us to the International Criminal Court
+
+<br>
+
+Analyzing delegation to an IO like the ICC means we need new tools in our toolbox
+
+- **SLIDE**: So, let's talk principal-agent theory
+
 :::
-
-
-
-
-
-
-
-
 
 
 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-**Has the CAT been effective?**
-
-<br>
-
-1. Hathaway (2007) "Why Do Countries Commit to Human Rights Treaties?"
-
-2. Hollyer & Rosendorff (2011) "Why Do Authoritarian Regimes Sign the Convention Against Torture? Signaling, Domestic Politics and Non-Compliance"
-
-::: notes
-
-Last week we analyzed the Convention Against Torture (CAT) as an example of an international institution designed for mutual restraint.
-
-<br>
-
-**Bottom line takeaways?**
-
-- **Has the CAT been an effective tool for restraining states? Why or why not?**
-
+::: {.r-fit-text}
+**Why would states delegate power to an external agent?**
 :::
-
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Why would states delegate power to an external agent?**]
-
-<br>
 
 ![](Images/07_1-youre-hired.gif){style="display: block; margin: 0 auto"}
 
@@ -125,11 +160,9 @@ States tend to jealously defend their sovereignty in essentially all scenarios, 
 
 <br>
 
-We've encountered "delegation" before in our study of international institutions.
+We've encountered "delegation" before in our study of international institutions!
 
-**How does the legalization article answer this question?**
-
-- (**SLIDE**)
+- **SLIDE**: The legalization concept gives delegation its own category!
 
 :::
 
@@ -137,9 +170,15 @@ We've encountered "delegation" before in our study of international institutions
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Why would states delegate power to an external agent?**]
+::: {.r-fit-text}
+**Why would states delegate power to an external agent?**
+:::
 
 <br>
+
+**Legalization**
+
+(Abbott, Keohane, Moravcsik, Slaughter & Snidal 2000)
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -153,38 +192,63 @@ We've encountered "delegation" before in our study of international institutions
 
 ::: notes
 
-Remember, the Legalization approach investigates delegation in two parts
+The legalization approach investigates delegation in two parts:
 
 - Dispute resolution and rule-making / implementation
 
 <br>
 
-**According to this framework, why MIGHT states delegate to an external agent?**
+**In what specific ways is the legalization approach to analyzing delegation useful?**
 
 <br>
 
-This suggests that states look to external agents to make those two tasks easier.
-
-- HOWEVER, legalization is a measurement tool, not an argument in favor of greater delegation.
-
-    - Just because these researchers have designed a ruler that CAN identify significant delegation, doesn't mean it exists or is likely to!
-
-- Within each type of delegation the possible rules run the gamut from hard law, powerful agents to soft law agents with basically no autonomy.
+**Can we use legalization to answer the big "why" question here? Why or why not?**
 
 <br>
 
-**How did the Rational Design literature try to answer this question?**
+Not directly
 
-- (**SLIDE**)
+- Legalization is more a measurement tool than it is an explanation for design choices
+
+- Abbott and Snidal (2000) try to add some of this in their discussion of the strengths and weaknesses of hard vs soft law
+
+<br>
+
+**Can anybody remind us of why states might prefer "harder" forms of delegation according to Abbott and Snidal (2000)?**
+
+1. Makes your commitments more credible,
+    
+2. Reduces transaction costs, and
+
+3. Allows for incomplete contracting
+
+<br>
+
+So, legalization suggests significant delegation can be useful but is also VERY hard to design and agree upon.
+
+<br>
+
+**SLIDE**: The rational design literature also discusses delegation to third parties in international institutions
 
 :::
 
 
 
-
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Why would states delegate power to an external agent?**]
+::: {.r-fit-text}
+**Why would states delegate power to an external agent?**
+:::
+
+<br>
+
+**Rational Design**
+
+(Koremenos, Lipson & Snidal 2001)
+
+:::: {.columns}
+::: {.column width="50%"}
+**Assumptions**
 
 - Rational design
 
@@ -193,38 +257,64 @@ This suggests that states look to external agents to make those two tasks easier
 - Transaction costs
 
 - Risk aversion
+:::
 
-Therefore, states design international institutions to facilitate and strengthen international cooperation (KLS 2001).
+::: {.column width="50%"}
+**Design Choices**
+
+- Membership rules
+
+- Scope of issues
+
+- Centralization of tasks
+
+- Rules for control
+
+- Flexibility of arrangements
+
+:::
+::::
+
 
 ::: notes
 
-**Does this help?**
+Here we see the baseline assumptions and design choices proposed by KLS (2001)
 
-- **How does the KLS argument answer our question about why states delegate to an external agent?**
+- Essentially, the design choices are like legalization, a tool for summary and analysis
+
+- The baseline assumptions are where this approach brings theory to the table and allows us to answer big "why" questions like this one
 
 <br>
 
-In a sense, each of these suggests the conditions under which a significant act of delegation may be appealing
+**How does the rational design assumption explain why states delegate to an external agent?**
 
-1. Rational design
+- States and other international actors, acting for self-interested reasons, design institutions purposefully to advance their joint interests.
 
-    - States and other international actors, acting for self-interested reasons, design institutions purposefully to advance their joint interests.
-    - IFF an agent facilitates joint interests, it MAY be worth the risk
-    
-2. Shadow of the future
+- IFF an agent facilitates joint interests, it MAY be worth the risk
 
-    - The value of future gains is strong enough to support a cooperative arrangement.
-    - IFF an agent's existence helps to extend the likelihood of cooperation over the long-term, it MAY be worth the risk
+<br>
 
-3. Transaction costs
+**How does the shadow of the future assumption explain why states delegate to an external agent?**
 
-    - Establishing and participating in international institutions is costly.
-    - IFF an agent can mitigate the costs of running an institution, it MAY be worth the risk
+- The value of future gains is strong enough to support a cooperative arrangement.
 
-4. Risk aversion
+- IFF an agent's existence helps to extend the likelihood of cooperation over the long-term, it MAY be worth the risk
 
-    - States are risk-averse and worry about possible adverse effects when creating or modifying international institutions.
-    - IFF an agent can mitigate the risks of running an institution, it MAY be worth the risk
+<br>
+
+**How does the transaction costs assumption explain why states delegate to an external agent?**
+
+- Establishing and participating in international institutions is costly.
+
+- IFF an agent can mitigate the costs of running an institution, it MAY be worth the risk
+
+<br>
+
+**How does the risk aversion assumption explain why states delegate to an external agent?**
+
+- States are risk-averse and worry about possible adverse effects when creating or modifying international institutions.
+
+- IFF an agent can mitigate the risks of running an institution, it MAY be worth the risk
 
 <br>
 
@@ -234,15 +324,15 @@ In a sense, each of these suggests the conditions under which a significant act 
 
 This comes a lot closer to offering us an answer to our question.
 
-- HOWEVER, it simply opens up the possibility without helping us think through the implications of delegation as a design choice.
+- HOWEVER, it opens up the possibility of delegation without necessarily helping us think through the implications of delegation as a design choice.
 
 <br>
 
 Your reading for today from Hawkins, Lake, Nielson and Tierney (2006) is meant to do just that.
 
-**How do the authors in today's reading define delegation?**
+- They propose elements of theory and design meant to help us be more sophisticated when thinking about international principals and their agents
 
-- (**SLIDE**)
+- **SLIDE**
 
 :::
 
@@ -252,9 +342,15 @@ Your reading for today from Hawkins, Lake, Nielson and Tierney (2006) is meant t
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**PA Theory: Why Delegate?**]
+::: {.r-fit-text}
+**Principal-Agent Theory (Hawkins, Lake, Nielson & Tierney 2006)**
+:::
 
-"Delegation is a conditional grant of authority from a principal to an agent that empowers the latter to act on behalf of the former" (Hawkins et al 2006, 4).
+<br>
+
+::: {.fragment}
+
+"Delegation is a conditional grant of authority from a principal to an agent that empowers the latter to act on behalf of the former" (4).
 
 - Always governed by a contract
 
@@ -264,33 +360,80 @@ Your reading for today from Hawkins, Lake, Nielson and Tierney (2006) is meant t
 
 - Roles are mutually constitutive
 
+:::
 ::: notes
+
+To be clear, principal-agent theory has a long and storied history across the fields of political science and business
+
+- This makes sense because the challenges facing a business owner with his employees and a state executive with his government are often quite similar
+
+<br>
+
+The authors I am citing here took PA theory into the context of international institutions
+
+- This is THE citation for thinking about member states as principals and IOs as agents
+
+<br>
+
+Let's start big picture with defining our terms
+
+- **How do Hawkins, Lake, Nielson & Tierney (2006) define delegation?**
+
+- (**REVEAL**)
+
+<br>
 
 The definition itself is quite simple which helps keep it focused
 
-- Unlike legalization this does not tie delegation to only specific tasks (rule making, dispute resolution)
+- Unlike legalization this does not tie delegation to only specific categories of tasks like rule making or dispute resolution
+
+- Unlike rational design this is not an approach rooted in set ideas about what motivates the principals in question
+
+- The conditions of delegation proposed here as part of the definition are how we start to answer the big question: Why would any principal delegate to an external agent?
 
 <br>
 
-The conditions of delegation proposed here as part of the definition are how we start to answer the big question: Why delegate to an external agent?
+**What does "always governed by a contract" mean and why should member state principals ALWAYS require this condition?**
+
+- (An explicit contract makes the exact limits and expectations of the relationship clear for all parties)
+
+- (Delegations to an IO threaten sovereignty so you should want in writing how much and under what specific conditions those infringements are allowed)
 
 <br>
 
-**Explain these four definitional criteria to me in terms of why a state would insist on this as part of any principal-agent relationship.**
+**What does "limited in time or scope" mean and why should principals ALWAYS require this condition?**
 
-1. (An explicit contract makes the exact limits and expectations of the relationship clear for all parties)
+- (Limited in time or scope means the power transfer is expressly limited from the beginning)
 
-2. (Limited in time or scope means the power transfer is expressly limited from the beginning)
-
-3. (Revocable agency means the agent can be fired)
-    - The power transfer is NOT permanent
-
-4. (The agent is only an agent, with all rights and privileges attached, so long as it works for the principal under the terms the principal has elaborated)
-    - Not really an independent actor at all
+- (Similar reasons to the above (protect sovereignty), but presents time and scope as trade-offs: either grant big power over a tiny area (scope) or for a limited time)
 
 <br>
 
-**SLIDE**: According to the reading, there are six benefits to delegation for the principal
+**What does "must be revocable" mean and why should principals ALWAYS require this condition?**
+
+- (Revocable agency means the agent can be fired; the power transfer is NOT permanent)
+
+- (No state will willingly cede sovereignty permanently)
+
+<br>
+
+**What does "roles are mutually constitutive" mean and why should principals ALWAYS require this condition?**
+
+- (The agent is only an agent, with all rights and privileges attached, so long as it works for the principal under the terms the principal has elaborated)
+
+    - Not really an independent actor AT ALL
+    
+    - The ICC only exists so long as it is emplyed by me by the terms I have set
+
+<br>
+
+So, a first answer to the question, why would states delegate power to an external agent?, is that delegation is a much more limited and controlled state of affairs than you might otherwise assume!
+
+<br>
+
+But that's not all!
+
+- **SLIDE**: If designed well, there are at least six distinct benefits of delegation to the principal
 
 :::
 
@@ -298,7 +441,13 @@ The conditions of delegation proposed here as part of the definition are how we 
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Hawkins et al (2006): The Benefits of Delegation**]
+::: {.r-fit-text}
+**Principal-Agent Theory (Hawkins, Lake, Nielson & Tierney 2006)**
+:::
+
+<br>
+
+**The Benefits of Delegation**
 
 1. Divide the labor & create gains from specialization
 
@@ -314,67 +463,137 @@ The conditions of delegation proposed here as part of the definition are how we 
 
 ::: notes
 
-SMALL GROUPS: Go through this list with the case study you brought to class in mind.
+These six items help PA theory to explain why states would delegate significant authorities to a third party agent
 
-- Get ready to introduce your case to us as an example of one or more of these benefits in action.
+- Think of this like adding more detail to the rational design conjectures but focused on delegation
+
+- Each of these benefits allows us to overcome a specific kind of challenge in designing an international institution
 
 <br>
 
-**Questions on the assignment?**
+Ok, split into pairs, then share with each other IO case you brought to class today
+
+- THEN help each other to identify which of the six benefits on this list your examples illustrate
+
+- My hope is that each case covers AT LEAST ONE of these benefits
 
 - Go!
 
 <br>
 
-**Ok, what is the first benefit of delegating to an IO?**
+Ok, let's step through these benefits as we see them in the real world!
 
-- **Who has an example of an IO providing the first benefit?**
-
-- *REPEAT for EACH*
+- Remember, each of these is a design solution to a specific problem
 
 <br>
 
-**Notes**
+Benefit 1 is "Divide the labor & create gains from specialization"
 
-(1. Divide the labor and create gains from specialization)
+- **What is the problem this benefit is trying to solve?**
 
-- frequent, repetitive tasks that require specific knowledge benefit from being delegated, agent gets better at them over time
-- Create a specialized agent (ICC, World Bank, IMF)
+- (PROBLEM: frequent, repetitive tasks that require specific knowledge benefit from being delegated, agent gets better at them over time)
 
-(2. Managing policy externalities)
+- **And how can an agent address it?** 
 
-- Coordinating agent: coordination games (chicken game) the policy outcome doesn't matter as long as everyone does the same thing. Let the agent dictate.
-- Collaboration agents: collaboration games (PD): States want to defect, delegate to an agent to provide the good for you or to monitor and publicize bad behavior. CoE monitors human rights.
-- Coordinating agent (International Postal Union) 
-- Collaboration agents (CoE, OECD, IAEA)
+- (SOLUTION: Create a specialized agent (ICC, World Bank, IMF))
 
-(3. Facilitating collective decision-making)
+- **Who has an example of an IO dividing the labor and creating gains from specialization? Tell us about it!**
 
-- Agenda-setting Agent: Agent with agenda setting power can help states get past vote cycling problems or other preference instabilities
-- Basics of vote cycling: No condorcet winner (an option that beats all others in pairwise competition).
-- agenda-setting agent (European Commission)
+<br>
 
-(4. Resolving disputes)
+Benefit 2 is "Managing policy externalities"
 
-- Arbitrating agent: Incomplete contracting has lower future transaction costs if you create an arbitrating agent.
-- Problems arise from incomplete contracting.
-- Arrange careful rules so states can give the IO the authority AND autonomy to handle these unplanned for events.
-- Arbitrating agents
+- **What is the problem this benefit is trying to solve?**
 
-(5. Enhancing credibility)
+- (PROBLEM 1: Coordination games (chicken game) the policy outcome doesn't matter as long as everyone does the same thing. Let the agent dictate.)
 
-- Enforcing agents: with high discretion to push policy in the direction desired over the long-term. Makes it hard for states to cheat to grab short-term gains.
-- time-inconsistency problem (long-term interests may not be same as short-term interests)
-- Delegating authority to an IO is a demonstrable action that ties a state’s hands more than simple talk.
-- Enforcing agents (ECB)
+- (PROBLEM 2: Collaboration games (PD): States want to defect, delegate to an agent to provide the good for you or to monitor and publicize bad behavior.)
 
-(6. Creating policy bias)
+- **And how can an agent address it?** 
 
-- Create lock-in with policy-biased agents
-- Try to set the rules of behavior of the IO so that your power is protected even if the balance shifts over time.
-- e.g. Post civil war create institutions with voting rules balanced across ethnic groups
-- Policy creates winners and losers. Ensure your preferences remain in place long after you're gone.
-- UNSC structure reflected power dynamics in 1945 but keeps them central today
+- (SOLUTION 1: A coordinating agent like the International Postal Union)
+
+- (SOLUTION 2: A collaboration agent like the CoE, OECD, IAEA)
+
+- **Who has an example of an IO managing policy externalities? Tell us about it!**
+
+<br>
+
+Benefit 3 is "Facilitating collective decision-making"
+
+- **What is the problem this benefit is trying to solve?**
+
+- (PROBLEM: Vote cycling problems or other preference instabilities; Basics of vote cycling: No condorcet winner (an option that beats all others in pairwise competition)
+
+- **And how can an agent address it?** 
+
+- (SOLUTION: Agenda-setting Agent: Agent with agenda setting power can help like the European Commission)
+
+- **Who has an example of an IO facilitating collective decision-making? Tell us about it!**
+
+<br>
+
+Benefit 4 is "Resolving disputes"
+
+- **What is the problem this benefit is trying to solve?**
+
+- (SOLUTION: Create a specialized agent (ICC, World Bank, IMF))
+
+- **And how can an agent address it?** 
+
+- (SOLUTION: Create an arbitrating agent)
+
+    - Incomplete contracting has lower future transaction costs if you create an arbitrating agent.
+    
+    - Arrange careful rules so states can give the IO the authority AND autonomy to handle these unplanned for events.
+
+- **Who has an example of an IO resolving disputes? Tell us about it!**
+
+<br>
+
+Benefit 5 is "Enhancing credibility"
+
+- **What is the problem this benefit is trying to solve?**
+
+- (PROBLEM: time-inconsistency problem, e.g. long-term interests may not be same as short-term interests)
+
+- **And how can an agent address it?** 
+
+- (SOLUTION: Create an enforcing agent like the ECB)
+
+    - Enforcing agents: with high discretion to push policy in the direction desired over the long-term. Makes it hard for states to cheat to grab short-term gains.
+    
+    - Delegating authority to an IO is a demonstrable action that ties a state’s hands more than simple talk.
+
+- **Who has an example of an IO enhancing credibility? Tell us about it!**
+
+<br>
+
+Benefit 6 is "Creating policy bias"
+
+- **What is the problem this benefit is trying to solve?**
+
+- (PROBLEM: Policy creates winners and losers but how do you ensure your preferences remain in place long after you're gone?)
+
+- **And how can an agent address it?** 
+
+- (SOLUTION: Create lock-in with policy-biased agents)
+
+    - These agents can then be counted on to set the rules of behavior of the IO so that your power is protected even if the balance shifts over time
+    
+    - e.g. post civil war create institutions with voting rules balanced across ethnic groups)
+    
+    - e.g. the UN Security Council which reflects power dynamics in 1945 but keeps them central today)
+
+**Who has an example of an IO creating policy bias? Tell us about it!**
+
+<br>
+
+**Any questions on these six benefits?**
+
+<br>
+
+**SLIDE**: Let's now talk about the other side of this coin
 
 :::
 
@@ -385,13 +604,11 @@ SMALL GROUPS: Go through this list with the case study you brought to class in m
 
 ::: notes
 
-Delegation can provide substantial benefits to a principal.
+Clearly from these examples, delegation can provide substantial benefits to a principal.
 
-<br>
+- AND, these specific problems we've just discussed come up ALL the time
 
-So, why not delegate when it promises to provide benefits?
-
-- Because those benefits depend on minimizing agent slack
+- The drawback is what the authors refer to as "agency slack"
 
 <br>
 
@@ -402,6 +619,8 @@ So, why not delegate when it promises to provide benefits?
 <br>
 
 The chapter defines two types of "slack."
+
+<br>
 
 **1. What is "shirking" and give me an example from your work lives?**
 
@@ -423,7 +642,253 @@ The chapter defines two types of "slack."
 
 **Everybody clear on those forms of agency loss?**
 
+<br>
+
+**SLIDE**: The challenge for the principal is how to set up agent to maximize the benefits they produce
+
 :::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r, fig.align='center', fig.height=5, fig.width=6}
+# The relationship between agent autonomy and productivity
+# the good
+d1 <- tibble(
+  x1 = 1:5,
+  y1 = c(1:5)
+)
+
+# the problem
+d2 <- tibble(
+  x1 = 1:10,
+  y1 = c(1:5, 5:1)
+)
+
+# Set up the plot: explain the axes
+ggplot(data = d1, aes(x = x1, y = y1)) +
+  geom_line(linewidth = 0) +
+  theme_bw() +
+  labs(x = "Agent Autonomy", y = "Productivity") +
+  scale_x_continuous(labels = NULL) +
+  scale_y_continuous(labels = NULL)
+```
+
+::: notes
+
+Let's examine the relationship between agent autonomy and productivity
+
+- For simplicity let's just imagine you own a widget factory
+
+<br>
+
+- By productivity I mean how much additional output your agent can produce for you
+
+- By agent autonomy I mean how much freedom you give them to do their job
+
+<br>
+
+**SLIDE**: Zero autonomy
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r, fig.align='center', fig.height=5, fig.width=6}
+# Principal hires an agent and stands over their shoulder watching them work for the entire day
+# Zero autonomy, zero added productivity
+ggplot(data = d1, aes(x = x1, y = y1)) +
+  geom_line(linewidth = 0) +
+  theme_bw() +
+  labs(x = "Agent Autonomy", y = "Productivity") +
+  scale_x_continuous(labels = NULL) +
+  scale_y_continuous(labels = NULL) +
+  annotate("point", x = 1, y = 1, size = 5)
+```
+
+::: notes
+
+Principal hires an agent to make widgets but stands over their shoulder watching them work for the entire day
+
+- Zero autonomy, zero added productivity
+
+- Your factory produces the same number of widgets with you doing all the work except now you're paying an agent
+
+<br>
+
+**SLIDE**: Ease off a bit!
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r, fig.align='center', fig.height=5, fig.width=6}
+# Principal spends their time standing over the agent's shoulder, but also responds to customer emails on phone
+# Some added work being done so some productivity improvement
+ggplot(data = d1, aes(x = x1, y = y1)) +
+  geom_line(linewidth = 0) +
+  theme_bw() +
+  labs(x = "Agent Autonomy", y = "Productivity") +
+  scale_x_continuous(labels = NULL) +
+  scale_y_continuous(labels = NULL) +
+  annotate("point", x = 1, y = 1, size = 5) +
+  annotate("point", x = 2, y = 2, size = 5, color = "blue") +
+  annotate("segment", x = 1, xend = 1.9, y = 1, yend = 1.9, arrow = arrow(length = unit(0.15, "inches")), color = "blue")
+```
+
+::: notes
+
+Principal spends their time standing over the agent's shoulder, but also responds to customer emails on phone
+
+- Some added work being done so some productivity improvement
+
+<br>
+
+**SLIDE**: Ease up more!
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r, fig.align='center', fig.height=5, fig.width=6}
+# Principal goes back to their office for 30 minutes each hour to do other work but makes sure to keep checking in on the agent hourly
+# Agent runs into problems and tries to tackle them but knows the principal will be back soon to make suggestions
+ggplot(data = d1, aes(x = x1, y = y1)) +
+  geom_line(linewidth = 0) +
+  theme_bw() +
+  labs(x = "Agent Autonomy", y = "Productivity") +
+  scale_x_continuous(labels = NULL) +
+  scale_y_continuous(labels = NULL) +
+  annotate("point", x = 1, y = 1, size = 5) +
+  annotate("point", x = 2, y = 2, size = 5, color = "blue") +
+  annotate("point", x = 3, y = 3, size = 5, color = "blue") +
+  annotate("segment", x = 1, xend = 2.9, y = 1, yend = 2.9, arrow = arrow(length = unit(0.15, "inches")), color = "blue")
+```
+
+::: notes
+
+Principal goes back to their office for 30 minutes each hour to do other work but makes sure to keep checking in on the agent hourly
+
+- Agent runs into problems and tries to tackle them but knows the principal will be back soon to make suggestions
+
+- Agent very slowly gets better at doing the job (specialization)
+
+<br>
+
+**SLIDE**: Ease off more
+
+:::
+
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r, fig.align='center', fig.height=5, fig.width=6}
+# Principal off doing other work but occasionally checks in, agent forced to develop skills specializing in the task and finds new ways to get things done better!
+ggplot(data = d1, aes(x = x1, y = y1)) +
+  geom_line(linewidth = 0) +
+  theme_bw() +
+  labs(x = "Agent Autonomy", y = "Productivity") +
+  scale_x_continuous(labels = NULL) +
+  scale_y_continuous(labels = NULL) +
+  annotate("point", x = 1, y = 1, size = 5) +
+  annotate("point", x = 2, y = 2, size = 5, color = "blue") +
+  annotate("point", x = 3, y = 3, size = 5, color = "blue") +
+  annotate("point", x = 4, y = 4, size = 5, color = "blue") +
+  annotate("segment", x = 1, xend = 3.9, y = 1, yend = 3.9, arrow = arrow(length = unit(0.15, "inches")), color = "blue")
+```
+
+::: notes
+
+Principal off doing other work but occasionally checks in
+
+- Agent is forced to develop skills specializing in the task and finds new ways to get things done better!
+
+- More autonomy, more specialization, more output!
+
+<br>
+
+**SLIDE**: Does this go on forever?
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r, fig.align='center', fig.height=5, fig.width=6}
+# Agent learns the principal checks in on a regular and predictable schedule and just expects a set number of widgets per hour...
+ggplot(data = d1, aes(x = x1, y = y1)) +
+  geom_line(linewidth = 0) +
+  theme_bw() +
+  labs(x = "Agent Autonomy", y = "Productivity") +
+  scale_x_continuous(labels = NULL) +
+  scale_y_continuous(labels = NULL) +
+  annotate("segment", x = 1, xend = 4, y = 1, yend = 4, color = "blue") +
+  annotate("segment", x = 4, xend = 4.9, y = 4, yend = 4, arrow = arrow(length = unit(0.15, "inches")), color = "red") +
+  annotate("point", x = 1, y = 1, size = 5) +
+  annotate("point", x = 2, y = 2, size = 5, color = "blue") +
+  annotate("point", x = 3, y = 3, size = 5, color = "blue") +
+  annotate("point", x = 4, y = 4, size = 5, color = "blue") +
+  annotate("point", x = 5, y = 4, size = 5, color = "red")
+```
+
+::: notes
+
+Agent learns the principal checks in on a regular and predictable schedule and just expects a set number of widgets per hour...
+
+- So, make that many widgets and the rest of your time is yours!
+
+<br>
+
+**SLIDE**: Uh oh...
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+```{r, fig.align='center', fig.height=5, fig.width=6}
+# Principal thinks this is going great and opens a new factory and splits their time between the two locations...
+ggplot(data = d1, aes(x = x1, y = y1)) +
+  geom_line(linewidth = 0) +
+  theme_bw() +
+  labs(x = "Agent Autonomy", y = "Productivity") +
+  scale_x_continuous(labels = NULL) +
+  scale_y_continuous(labels = NULL) +
+  annotate("segment", x = 1, xend = 4, y = 1, yend = 4, color = "blue") +
+  annotate("segment", x = 4, xend = 5, y = 4, yend = 4, color = "red") +
+  annotate("segment", x = 5, xend = 5.9, y = 4, yend = 3.05, arrow = arrow(length = unit(0.15, "inches")), color = "red") +
+  annotate("point", x = 1, y = 1, size = 5) +
+  annotate("point", x = 2, y = 2, size = 5, color = "blue") +
+  annotate("point", x = 3, y = 3, size = 5, color = "blue") +
+  annotate("point", x = 4, y = 4, size = 5, color = "blue") +
+  annotate("point", x = 5, y = 4, size = 5, color = "red") +
+  annotate("point", x = 6, y = 3, size = 5, color = "red")
+
+```
+
+::: notes
+
+Principal thinks this is going great and opens a new factory and splits their time between the two locations...
+
+<br>
+
+**SLIDE**: the trade-off visualized
+
+:::
+
+
 
 
 
@@ -433,12 +898,6 @@ The chapter defines two types of "slack."
 ![](Images/07_1-PA_Maximizing_Benefits.png){style="display: block; margin: 0 auto"}
 
 ::: notes
-
-Now that we have the basic concepts down...
-
-**Explain to me what we're seeing in these two figures.**
-
-<br>
 
 The primary benefit of delegation is in specialization.
 
@@ -454,32 +913,26 @@ The problem is that specialization only pays off if you give the agent the freed
 
 The challenge for the principal is to design a contract that maximizes productivity while minimizing slack.
 
-**Does this make sense?**
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/07_1-PA_Control_Mechanisms.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-So, the question for us is how do you control your agents with good design?
+- **Does this make sense?**
 
 <br>
 
-**SLIDE**: According to the reading there are five major mechanisms states use to control their agents
+**SLIDE**: Control mechanisms
 
 :::
 
 
 
+
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Principal-Agent Theory: Control Mechanisms**]
+::: {.r-fit-text}
+**Principal-Agent Theory (Hawkins, Lake, Nielson & Tierney 2006)**
+:::
+
+<br>
+
+**Control Mechanisms**
 
 1. Rules vs Discretion
 
@@ -493,94 +946,176 @@ So, the question for us is how do you control your agents with good design?
 
 ::: notes
 
-GROUPS back to your cases!
+According to the reading there are five major mechanisms states use to control their agents
 
-- Go through this list with the case study you brought to class in mind.
+- Let's once again use your cases to illustrate these control mechanisms in action
 
-- Get ready to introduce your case to us as an example of one or more of these control mechanisms in action.
-
-<br>
-
-**Questions on the assignment?**
+- Consult in pairs again and then we'll go through them together
 
 - Go!
 
 <br>
 
-**Ok, how does the first control mechanism work?**
+**Ok, what are the controls referred to as "rules vs discretion"?**
+
+- How extensive and specific will the rules be for agent task execution?
+
+    - Entirely rule-based is inefficient and only needed when agent is difficult to control through other means (Ex: World Bank and the environment)
+
+    - Total discretion is better when uncertainty is very high, agent possesses important specialized knowledge or in cases of preference heterogeneity, BUT, trade-off is greater chance of slack.
 
 - **Who has an example of an IO illustrating this control mechanism in action?**
 
-*REPEAT for EACH*
+<br>
+
+**What are the controls referred to as "Monitoring and Reporting Requirements"?**
+
+- "ex post" monitoring 
+
+    - "police patrol" is direct monitoring of agent by principals 
+
+    - "fire alarm" relies upon affected outside actors to make principals aware of a problem
+    
+- **Who has an example of an IO illustrating this control mechanism in action?**
 
 <br>
 
-**Notes**
+**What are the controls referred to as "Screening and Selection Procedures"?**
 
-1. Rules vs Discretion
+- Carefully pick agents whose preferences match your own.
 
-    - How extensive and specific will the rules be for agent task execution?
-    - Entirely rule-based is inefficient and only needed when agent is difficult to control through other means (Ex: World Bank and the environment)
-    - Total discretion is better when uncertainty is very high, agent possesses important specialized knowledge or in cases of preference heterogeneity, BUT, trade-off is greater chance of slack.
-
-2. Monitoring and Reporting Requirements
-
-    - "ex post" monitoring 
-    - "police patrol" is direct monitoring of agent by principals 
-    - "fire alarm" relies upon affected outside actors to make principals aware of a problem
-
-3. Screening and Selection Procedures
-
-    - Carefully pick agents whose preferences match your own.
     - Of course, agents have an incentive to misrepresent their preferences...
+    
+- **Who has an example of an IO illustrating this control mechanism in action?**
 
-4. Institutional Checks and Balances
+<br>
 
-    - Design internal, conflicting authorities (UNSC can stop ICC)
-    - empower more than one agent with overlapping authorities
+**What are the controls referred to as "Institutional Checks and Balances"?**
 
-5. Sanctions
+- Design internal, conflicting authorities (UNSC can stop ICC)
 
-    - Carrots and sticks
+- empower more than one agent with overlapping authorities
+
+- **Who has an example of an IO illustrating this control mechanism in action?**
+
+<br>
+
+**What are the controls referred to as "Sanctions"?**
+
+- Carrots and sticks
+
     - Increase or decrease budgets, perks, staff, degree of oversight
+
     - Control mechanisms are costly and imperfect
+    
+- **Who has an example of an IO illustrating this control mechanism in action?**
+
+<br>
+
+**SLIDE**: Figure 1.1
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Why would states delegate power to an external agent?**
+:::
+
+<br>
+
+**Hawkins, Lake, Nielson & Tierney (2006)**
+
+::: {.incremental}
+
+1. Because delegation is a limited action
+
+2. Because delegation can provide substantial benefits
+
+3. Because delegation can be designed to minimize agency slack
+
+:::
+
+::: notes
+
+Let's sum all this up by going back to our motivating question
+
+- Why would states delegate power to an external agent?
+
+<br>
+
+Hawkins, Lake, Nielson & Tierney (2006) give us four reasons:
+
+- **REVEAL x 3**
+
+<br>
+
+**SLIDE**: And reason 4...
 
 :::
 
 
 
 
+
+
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Why would states delegate power to an external agent?**
+:::
+
+<br>
+
+**Hawkins, Lake, Nielson & Tierney (2006)**
 
 ![](Images/07_1-Hawkins_Lake_Tierney_Fig1.png){style="display: block; margin: 0 auto"}
 
 ::: notes
 
-**Any questions on the PA Theory introduced in chapter 1 of today's reading?**
+Reason 4: BECAUSE choosing NOT to delegate ALSO carries costs!
 
 <br>
 
-I really like Figure 1.1 in the chapter as a visual representation of the delegation outcome.
-
-- The figure shows us the alternatives to delegation 
+Figure 1.1 presents the options for states facing international problems
 
 <br>
 
 At node 1, the top, states must decide if they want to cooperate or not
 
-- e.g. per Keohane, mutual policy adjustment
+- e.g. per Keohane, make mutual policy adjustments or not
 
-At node 2, if they decide to cooperate, but not delegate we have standard international cooperation
+- If states do nothing the problem remains and problems are costly!
 
-- e.g. states adjust policy through domestic laws or regulations
+- If states decide to do something about it together then they move to node 2
+
+<br>
+
+At node 2, the states who want to cooperate have to decide if they want to delegate to an agent or not
+
+- Choose no delegation and you aim for international cooperation by adjusting domestic laws or regulations
+
+- e.g. no international enforcement so must rely on domestic institutions!
+
+- As we just saw with the CAT that choice is a BIG risk!
+
+<br>
 
 Alternatively, states may choose international cooperation through delegation
 
 - e.g. power to implement policy is given externally
 
+- Designing an agent is hard and risky, but the possible benefits could be substantial!
+
 <br>
 
-The authors point out that thinking about "why delegate?" requires considering the real alternatives to it (e.g. unilateralism vs standard cooperation with domestic implementation)
+Put it all together and I think this figure is a SUPER clever way of adding depth to our understanding of the delegation problem
+
+- The choice is not delegation vs the problem is solved otherwise
+
+- The choice is do nothing (problem remains) vs solve it with domestic enforcement (fingers crossed) vs solve it with delegation
 
 - Without considering the "next best alternative" it can be hard to understand the delegation choice!
 
@@ -588,30 +1123,45 @@ The authors point out that thinking about "why delegate?" requires considering t
 
 **Make sense?**
 
+<br>
+
+**SLIDE**: Next class we turn to the ICC!
+
 :::
 
 
 
 ## Next Class {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/07-1-Assignment.png){style="display: block; margin: 0 auto"}
+<br>
+
+**Analyzing the Design of the International Criminal Court**
+
+- Read "Understanding the International Criminal Court" by the ICC Press Office,
+
+- Review the Rome Statute (founding treaty), and
+
+- Help us identify the design benefits and control mechanisms in the ICC
+
 
 ::: notes
 
-Next class we take PA Theory back to our study of institutions for mutual restraint.
-
-- Specifically, we begin an analysis of the International Criminal Court (ICC).
-
-<br>
-
-1. I want everyone to read "Understanding the ICC" document
-
-2. Each of you will be assigned to a group and each group will be tasked with finding us real-world examples of one of these important roles fulfilled by the ICC.
-
-- I'll send out an announcement of which group you are in after class.
+Next class we begin our analysis of the International Criminal Court (ICC).
 
 <br>
 
 **Any questions on the assignment?**
+
+<br>
+
+Canvas ASSIGNMENT: Analyzing the Design of the International Criminal Court
+
+First, read the Understanding the International Criminal Court (2020) document produced by the ICC to get a better sense of how the organization presents itself to the world.
+
+Second, review the Rome Statute (1998) in order to identify the specific articles in the treaty that either generate the benefits of delegation (per PA theory) or represent controls on the institution (per legalization and the rational design conjectures). 
+
+1. Identify THREE specific benefits of delegation that the ICC provides to participating states (per the benefits of delegation discussed in PA theory). Make sure to include specific citations to the treaty and to explain your arguments.
+2. Identify THREE specific mechanisms of control the Rome Statute provides states to reduce agency slack (per PA theory and the rational design conjectures). Make sure to include specific citations to the treaty and to explain your arguments.
+
 
 :::

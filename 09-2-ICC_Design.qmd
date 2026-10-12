@@ -12,9 +12,7 @@ library(readxl)
 
 <br>
 
-**II. International Institutions for Mutual Restraint**
-
-- Design Analysis
+**Section 2: How effective have international institutions been in reducing the use of torture by governments around the world?**
 
 - The International Criminal Court (ICC) and the Rome Statute (1998)
 
@@ -30,15 +28,19 @@ Justin Leinaweaver (Fall 2026)
 
 1. Check Canvas submissions
 
-2. Open the treaty AND the reading for today "Understanding the International Criminal Court"
+2. Prep tracking document for analyzing the ICC / Rome Statute
+
+3. Readings
+
+    - [The Rome Statute (1998)](https://www.icc-cpi.int/sites/default/files/RS-Eng.pdf)
+    
+    - ["Understanding the International Criminal Court"](https://www.icc-cpi.int/sites/default/files/Publications/understanding-the-icc.pdf)
+    
+    - [UNTC Page](https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XVIII-10&chapter=18&clang=_en)
 
 <br>
 
-[UNTC Page](https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XVIII-10&chapter=18&clang=_en)
-
-[Treaty Text](https://www.icc-cpi.int/sites/default/files/RS-Eng.pdf)
-
-[Understanding the ICC](https://www.icc-cpi.int/sites/default/files/Publications/understanding-the-icc.pdf)
+**SLIDE**: Our current place in the Section 2 research project
 
 :::
 
@@ -46,28 +48,256 @@ Justin Leinaweaver (Fall 2026)
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-![](Images/07_2-ICC.webp){style="display: block; margin: 0 auto"}
+**How effective have international institutions been in reducing the use of torture by governments around the world?**
 
-[**International Institutions for Mutual Restraint**]
+- [Week 6: Defining and Measuring the Outcome]{style="color:gray;"}
+
+- [Week 7: The Convention Against Torture (CAT)]{style="color:gray;"}
+
+- [Week 8: Explaining the Effect of the CAT on Torture]{style="color:gray;"}
+
+- **Week 9: The International Criminal Court (ICC)**
+
+- [Week 10: Can the ICC help us reduce global torture?]{style="color:gray;"}
+
+- [Week 11: Case Studies of ICC Effectiveness]{style="color:gray;"}
 
 ::: notes
 
-Today we continue our exploration of international institutions designed for mutual restraint by digging into the design of the International Criminal Court (ICC) 
+This week we are introducing our second international institution designed to reduce human rights violations around the world
 
-- We'll use the reading to cover the broad strokes of how the court works, 
+- On Monday we prepped for this by digging into IO case studies and principal-agent theory
 
-- we'll use your cases to illustrate it in action, and then 
+<br>
 
-- we'll dig into the design of the Rome Statute itself.
+My argument to you last class was that PA theory adds to our understanding beyond what we get with legalization and the rational design conjectures
+
+- Specifically, PA theory gives us a better answer to the question, why would states choose to delegate significant authority to an international institution?
+
+<br>
+
+Before we dig into the ICC, let's quickly recap the four reasons PA theory answers the question with, of course states should consider delegation!
+
+<br>
+
+**According to PA theory, what is the first big reason states are willing to delegate significant authorities to an IO?**
+
+- (**SLIDE**: Delegation is limited)
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Principal-Agent Theory (Hawkins, Lake, Nielson & Tierney 2006)**
+:::
+
+<br>
+
+"Delegation is a conditional grant of authority from a principal to an agent that empowers the latter to act on behalf of the former" (4).
+
+- Always governed by a contract
+
+- Limited in time or scope
+
+- Must be revocable
+
+- Roles are mutually constitutive
+
+::: notes
+
+Reason 1: Because delegation is limited and controlled BY DEFINITION!
+
+- Properly conceived and designed, delegation is conditional and not to be feared
+
+- If the proper model for understanding an IO is an employer-employee relationship then states probably shouldn't fear IOs quite so much!
+
+<br>
+
+**According to PA theory, what is the second reason states are willing to delegate significant authorities to an IO?**
+
+- (**SLIDE**: Reason 2 - Because delegation can provide substantial benefits)
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
+
+::: {.r-fit-text}
+**Principal-Agent Theory (Hawkins, Lake, Nielson & Tierney 2006)**
+:::
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**Benefits of Delegation**
+
+1. Divide the labor & create gains from specialization
+
+2. Managing policy externalities
+
+3. Facilitating collective decision-making
+
+4. Resolving disputes
+
+5. Enhancing credibility
+
+6. Creating policy bias
+
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+
+**Control Mechanisms**
+
+1. Rules vs Discretion
+
+2. Monitoring and Reporting Requirements
+
+3. Screening and Selection Procedures
+
+4. Institutional Checks and Balances
+
+5. Sanctions
+
+:::
+:::
+::::
+
+::: notes
+
+Reason 2: Because delegation can provide substantial benefits
+
+<br>
+
+**Based on our case studies last class, how significant are these benefits to states in the real world?**
+
+<br>
+
+**According to PA theory, what is the third reason states are willing to delegate significant authorities to an IO?**
+
+- (**REVEAL**: Reason 3 - Because delegation can be designed to minimize agency slack)
+
+<br>
+
+**Based on our case studies last class, how difficult is it to limit agency slack in IOs in the real world?**
+
+- (Not hard! There are a TON of different control mechanisms available that can allow states to steer their agents in productive ways)
+
+<br>
+
+**According to PA theory, what is the final reason states are willing to delegate significant authorities to an IO?**
+
+- (**SLIDE**: Reason 4: BECAUSE choosing NOT to delegate ALSO carries costs!)
+
+:::
+
+
+
+## {background-image="./Images/background-scales_justice_v3.png" .center}
+
+::: {.r-fit-text}
+**Why would states delegate power to an external agent?**
+:::
+
+<br>
+
+::: {.r-fit-text}
+**Principal-Agent Theory (Hawkins, Lake, Nielson & Tierney 2006)**
+:::
+
+![](Images/07_1-Hawkins_Lake_Tierney_Fig1.png){style="display: block; margin: 0 auto"}
+
+::: notes
+
+Reason 4: BECAUSE choosing NOT to delegate ALSO carries costs!
+
+- The choice is not delegation vs the problem is solved otherwise
+
+- The choice is:
+
+    1. do nothing (and the problem remains)
+    
+    2. Try to solve it with domestic enforcement (fingers crossed), OR
+    
+    3. Try to solve it with delegation
+
+- Without considering the "next best alternative" it can be hard to understand the delegation choice!
+
+<br>
+
+**Any questions on our work on PA theory before we dig into the ICC?**
+
+<br>
+
+**SLIDE**: Ok, let's talk about the ICC in the big picture
+
+:::
+
+
+
+## {background-image="./Images/07_2-ICC_v3.png" .center}
+
+::: {.r-fit-text}
+**Rome Statute of the International Criminal Court (1998)**
+:::
+
+<br>
+
+### What are your takeaways from the preamble to the treaty?
+
+::: notes
+
+**If the preamble represents the normative argument in favor of an institution, what do we learn about the need for an international criminal court?**
+
+<br>
+
+(**SLIDE**: For me?)
+
+:::
+
+
+
+## {background-image="./Images/07_2-ICC_v3.png" .center}
+
+::: {.r-fit-text}
+**Rome Statute of the International Criminal Court (1998)**
+:::
+
+<br>
+
+- "**Mindful** that during this century millions of children, women and men have been victims of unimaginable atrocities that deeply shock the conscience of humanity,
+
+- **Recognizing** that such grave crimes threaten the peace, security and well-being of the world, ...
+
+- **Emphasizing** in this connection that nothing in this Statute shall be taken as authorizing any State Party to intervene in an armed conflict or in the internal affairs of any State" (preamble).
+
+::: notes
+
+The cognitive dissonance required to make international law is sometimes staggering
+
+<br>
+
+**SLIDE**: To Part 1
 
 :::
 
 
 
 
-## {background-image="./Images/07_2-ICC.webp" .center}
+
+## {background-image="./Images/07_2-ICC_v3.png" .center}
 
 **Rome Statute of the International Criminal Court (1998)**
+
+<br>
 
 **Article 1: The Court**
 
@@ -89,9 +319,11 @@ This article contains a ton of important detail about the need for and the desig
 
 
 
-## {background-image="./Images/07_2-ICC.webp" .center}
+## {background-image="./Images/07_2-ICC_v3.png" .center}
 
 **Rome Statute of the International Criminal Court (1998)**
+
+<br>
 
 **Article 1: The Court**
 
@@ -150,20 +382,26 @@ The UN Security Council, which is charged with maintaining international peace a
 
 The creation of these tribunals, especially ICTY, led to considerable international criticism.
 
-**BRAINSTORM: Why might a state, an NGO or an IO have a problem with this ad hoc approach by the SC?
+**BRAINSTORM: Why might a state, an NGO or an IO have a problem with this ad hoc approach by the SC?**
 
 1. (**Inconsistency**) 
+
     - Not every atrocity gets its own tribunal. 
+
     - If justice is inconsistent then it is less likely to influence the calculations of "bad" leaders
     
 2. (**Selective justice**)
+
     - Aren't these just examples of "justice" by the victors?
+    
     - Powerful states disagree with some actions by weaker states so they are punished as "crimes"
 
 3. (**Distraction**)
+
     - Transparent cover for failure by the major powers to stop the crimes themselves
 
 4. (**Lack legitimacy**)
+
     - What right does the SC have to create international courts? None specified in Charter.
     
 :::
@@ -171,9 +409,11 @@ The creation of these tribunals, especially ICTY, led to considerable internatio
 
 
 
-## {background-image="./Images/07_2-ICC.webp" .center}
+## {background-image="./Images/07_2-ICC_v3.png" .center}
 
-[**Rome Statute of the International Criminal Court (1998)**]
+**Rome Statute of the International Criminal Court (1998)**
+
+<br>
 
 **Article 1: The Court**
 
@@ -200,15 +440,19 @@ All combined to, hopefully, push leaders to make "better" decisions
 
 ## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**PA Theory: Why Delegate?**]
+::: {.r-fit-text}
+**Principal-Agent Theory (Hawkins, Lake, Nielson & Tierney 2006)**
+:::
 
-"Delegation is a conditional grant of authority from a principal to an agent that empowers the latter to act on behalf of the former" (Hawkins et al 2006, 4).
+<br>
+
+"Delegation is a conditional grant of authority from a principal to an agent that empowers the latter to act on behalf of the former" (4).
 
 - Always governed by a contract
 
-- Limited in time or scope
+- [**Limited in time or scope**]{style="color:blue;"}
 
-- Must be revocable
+- [**Must be revocable**]{style="color:blue;"}
 
 - Roles are mutually constitutive
 
@@ -232,9 +476,11 @@ All combined to, hopefully, push leaders to make "better" decisions
 
 
 
-## {background-image="./Images/07_2-ICC.webp" .center}
+## {background-image="./Images/07_2-ICC_v3.png" .center}
 
-[**Rome Statute of the International Criminal Court (1998)**]
+**Rome Statute of the International Criminal Court (1998)**
+
+<br>
 
 **Article 1: The Court**
 
@@ -243,6 +489,8 @@ An International Criminal Court (‘the Court’) is hereby established. It shal
 ::: notes
 
 A second important characteristic of the ICC illustrated by Article 1 is its specification of "jurisdiction over persons." 
+
+<br>
 
 **Given everything we've studied this semester about international law, why is this a big deal?**
 
@@ -274,9 +522,11 @@ Many states, especially the US, have viewed this as a massive threat to their  s
 
 
 
-## {background-image="./Images/07_2-ICC.webp" .center}
+## {background-image="./Images/07_2-ICC_v3.png" .center}
 
-[**Rome Statute of the International Criminal Court (1998)**]
+**Rome Statute of the International Criminal Court (1998)**
+
+<br>
 
 **Article 1: The Court**
 
@@ -286,23 +536,33 @@ An International Criminal Court (‘the Court’) is hereby established. It shal
 
 A third important characteristic of the ICC illustrated by Article 1 is its specification of a somewhat limited subject jurisdiction.
 
-**Per the reading, which crimes fall within the jurisdiction of the ICC?**
+<br>
 
-- (a. the crime of genocide; b. crimes against humanity; c. War crimes; d. the crime of aggression)
+**Per the reading, which crimes fall within the jurisdiction of the ICC?**
 
 - Note that this is covered in the treaty itself in Arts 5-8
 
+    - (a. the crime of genocide)
+
+    - (b. crimes against humanity)
+
+    - (c. War crimes)
+
+    - (d. the crime of aggression)
+
 <br>
 
-We can think of this as another important attempt by the princples to narrow the scope of the new agent.
+We can think of this as another important attempt by the principals to narrow the scope of the new agent.
 
 :::
 
 
 
-## {background-image="./Images/07_2-ICC.webp" .center}
+## {background-image="./Images/07_2-ICC_v3.png" .center}
 
-[**Rome Statute of the International Criminal Court (1998)**]
+**Rome Statute of the International Criminal Court (1998)**
+
+<br>
 
 **Article 1: The Court**
 
@@ -318,9 +578,10 @@ A fourth important characteristic of the ICC illustrated by Article 1 is its req
 
 <br>
 
-**If you are a state trying to decide whether to joi the ICC, would you be fully comforted by the "complementarity" principal or not?**
+**If you are a state trying to decide whether to join the ICC, would you be fully comforted by the "complementarity" principal or not?**
 
 - (Could be a bigger infringement than you realized if the ICC gets to decide “genuine” effort)
+
 - (Almost ANYTHING could be their jurisdiction)
 
 <br>
@@ -328,7 +589,9 @@ A fourth important characteristic of the ICC illustrated by Article 1 is its req
 **Ok, putting all this together, when does the ICC have jurisdiction over a case?**
 
 1. Person alleged to have committed crime in Art 5
+
 2. Must be citizen of ICC party state or have committed crime in ICC party state
+
 3. Domestic courts must fail to “genuinely” investigate or prosecute.
 
 :::
@@ -353,6 +616,10 @@ One other set-up idea comes from Article 21 of the Rome Statute governing how th
 
 <br>
 
+**SLIDE**: Ok, let's talk benefits!
+
+<br>
+
 **Notes**
 
 ICJ Article 38
@@ -369,269 +636,165 @@ ICJ Article 38
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Princpal-Agent Theory**]
-
-**Elements of Delegation**: Always governed by a contract, limited in time or scope, must be revocable and the roles are mutually constitutive
-
-**Benefits of Delegation**: Divide the labor & create gains from specialization, Managing policy externalities, Facilitating collective decision-making, Resolving disputes, Enhancing credibility, Creating policy bias
-
-**Control Mechanisms**: Rules vs Discretion, Monitoring and Reporting Requirements, Screening and Selection Procedures, Institutional Checks and Balances, Sanctions
-
-::: notes
-
-**Before we start digging into the specifics of your cases and the rome Statute itself, are there any questions on the PA Theory material from last class?**
-
-<br>
-
-**Based on the big picture material we've been reviewing, which of these "benefits" is the ICC supposed to provide to the principals?**
-
-<br>
-
-**SLIDE**: Ok, let's hear about each of the sections your groups were assigned.
-
-:::
-
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-[**Group 1: Referrals, analyses and investigations**]
-
-![](Images/07_2-ICC_Investigations-2023-09.png){style="display: block; margin: 0 auto"}
-
-::: notes
-
-https://www.icc-cpi.int/situations-under-investigations
-
-<br>
-
-Group 1, talk to us about how the ICC handles referrals, analyses and investigations
-
-- What did you find in your searches of current events?
-
-<br>
-
-**Notes**
-
-- p31-32
-    - 33) How do cases come before the Court?
-    - 34) Can the Prosecutor decide on his own initiative to open an investigation?
-    - 35) What happens when a situation is referred to the ICC for investigation?
-    - 36) How is an investigation conducted?
-    - 37) Will the ICC prosecute all persons suspected of committing the most
-serious crimes?
-    - 38) Can other courts try the perpetrators that the ICC does not prosecute?
-    
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/07_2-Putin_Arrest_Warrant.jpg){style="display: block; margin: 0 auto"}
-
-[**Group 2: Arrests and the rights of suspects**]
-
-::: notes
-
-Group 2, talk to us about how the ICC handles arrests and the rights of suspects
-
-- What did you find in your searches of current events?
-
-<br>
-
-**Notes**
-
-- Arrests p35-37
-    - 39) Who has the power to issue a warrant of arrest or a summons to appear?
-    - 40) What information do the judges need from the Prosecution before they can issue a warrant of arrest or a summons to appear?
-    - 41) What reasons may justify the issuing of a warrant of arrest?
-    - 42) What happens after a warrant of arrest is issued?
-    - 43) Does the ICC have the power to arrest suspects?
-    - 44) Who has to execute the warrants of arrest?
-    - 45) What happens after a person is arrested?
-    - 46) What are the conditions of detention at the Detention Centre in The Hague?
-- Rights of Suspects, p39
-    - 47) Are detainees deemed to have been convicted by virtue of their transfer to the Court?
-    - 48) What rights do suspects have?
-    - 49) What happens if a suspect does not have the means to pay for legal assistance?
-    - 50) Can detainees obtain interim release pending trial?
-    - 51) What is the role of the Office of Public Counsel for the Defence (OPCD)?
-- Confirmation of Charges Before Trial, p40
-    - 52) Do suspects appear before the Court as soon as they arrive in The Hague?
-    - 53) What decisions can a Pre-Trial Chamber issue following a confirmation of charges hearing?
-    - 54) Does the confirmation of charges prejudge the suspect’s guilt?
-    - 55) What happens after the confirmation of charges?
-    
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
-
-![](Images/07_2-ICC_Trial.jpg){style="display: block; margin: 0 auto"}
-
-[**Group 3: ICC Trials**]
-
-::: notes
-
-Group 3, talk to us about how the ICC handles its trials
-
-- What did you find in your searches of current events?
-
-<br>
-
-**Notes**
-
-- The Trial, p42-43
-    - 56) Where does the trial take place?
-    - 57) What happens at the commencement of the trial?
-    - 58) What happens if the accused makes an admission of guilt?
-    - 59) How is the trial conducted?
-    - 60) Who can present evidence?
-- Judgement and Sentence, p46
-    - 61) When is the sentence pronounced by the Court?
-    - 62) What penalties may be imposed by the Court?
-    - 63) Where are the sentences served?
-- Appeals and Revision, p47
-    - 64) When may a decision be appealed?
-    - 65) Does the convicted person remain in custody pending an appeal?
-    - 66) When can a decision be revised?
-    - 67) What happens if someone has been the victim of unlawful arrest or detention?
-
-:::
-
-
-
-## {background-image="./Images/background-scales_justice_v3.png" .center}
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
 :::: {.columns}
-::: {.column width="50%"}
-**Group 4**
+::: {.column width="65%"}
+**Rome Statute (1998)**
 
-**Victims' Participation**
+1. Establishment of the Court
+2. Jurisdiction, admissibility & applicable law
+3. General principles of criminal law
+4. Composition & administration of the Court
+5. Investigation & prosecution
+6. The trial
+7. Penalties
+8. Appeal & revision
+9. International cooperation & judicial assistance
+10. Enforcement
+11. Assembly of States Parties
+12. Financing
+13. Final clauses
 :::
 
-::: {.column width="50%"}
-![](Images/07_2-ICC_Victims_Participation1.png){style="display: block; margin: 0 auto"}
+::: {.column width="35%"}
+**Benefits of Delegation**
+
+1. Divide the labor & create gains from specialization
+
+2. Managing policy externalities
+
+3. Facilitating collective decision-making
+
+4. Resolving disputes
+
+5. Enhancing credibility
+
+6. Creating policy bias
 :::
 ::::
 
 ::: notes
 
-Group 4, talk to us about how the ICC handles the participation of victims
+For today each of you identified three benefits of delegation across different parts of the Rome Statute
 
-- What did you find in your searches of current events?
+- Let's share what you found, but organized by benefit
 
-<br>
-
-**Notes**
-
-- p51-55
-    - 68) What is the difference between a victim and a witness?
-    - 69) Who is considered a “victim” before the ICC?
-    - 70) What are the rights of victims before the ICC?
-    - 71) How can victims participate in the proceedings?
-    - 72) Can all victims in a situation participate in the proceedings?
-    - 73) Do victims have to travel to the seat of the Court in The Hague?
-    - 74) How can victims find a legal representative?
-    - 75) What happens if the victims cannot afford a legal representative?
-    - 76) What is the role of the Office of Public Counsel for Victims?
-    - 77) Does the Court protect victims participating in proceedings?
-    - 78) What decisions may the judges take concerning reparations for victims at the end of a trial?
-    - 79) What is the role of the Trust Fund for Victims?
-    - 80) Do victims have to first participate in the proceedings before they are entitled to reparations?
+- *TRACK on the BOARD*
 
 <br>
 
-**SLIDE**: I'd like to shift our focus over to the Rome Statute itself
+**Ok, who has examples from the Rome Statute of the ICC dividing the labor and creating gains from specialization?**
+
+- *SHARE and DISCUSS*
+
+<br>
+
+*REPEAT for EACH benefit, list articles*
+
+<br>
+
+**Ultimately, how substantial are the benefits of delegation in the Rome Statute?**
+
+<br>
+
+**SLIDE**: Now let's do the control mechanisms
 
 :::
 
 
 
-## {background-image="./Images/background-scales_justice_v3.png" .center}
 
-[**Treaty Design Analysis: The Rome Statute (1998)**]
+## {background-image="./Images/background-scales_justice_v3.png" .center .smaller}
 
 :::: {.columns}
-::: {.column width="50%"}
-Group 1) How effectively can states delay / obstruct an investigation they do not want? (*Art. 86-102*)
-    
-Group 2) How does the ICC prosecutor decide to investigate? (*Art. 53-61*)
+::: {.column width="65%"}
+**Rome Statute (1998)**
 
-Group 3) How does enforcement work? (*Art 103-111*)
-
-Group 4) Who are the judges? How autonomous are they? (*Art 34-52*)
+1. Establishment of the Court
+2. Jurisdiction, admissibility & applicable law
+3. General principles of criminal law
+4. Composition & administration of the Court
+5. Investigation & prosecution
+6. The trial
+7. Penalties
+8. Appeal & revision
+9. International cooperation & judicial assistance
+10. Enforcement
+11. Assembly of States Parties
+12. Financing
+13. Final clauses
 :::
 
-::: {.column width="50%"}
-![](Images/02_2-Legalization_Table4.png){style="display: block; margin: 0 auto"}
+::: {.column width="35%"}
+**Control Mechanisms**
+
+1. Rules vs Discretion
+
+2. Monitoring and Reporting Requirements
+
+3. Screening and Selection Procedures
+
+4. Institutional Checks and Balances
+
+5. Sanctions
 :::
 ::::
 
 ::: notes
 
-I'd like us to focus our review of the treaty on the delegation aspect of Legalization.
+For today each of you also identified three control mechanisms across different parts of the Rome Statute
 
-- Specifically, how substantial is the ICC as an act of delegation?
+- Let's share what you found, but organized by mechanism
 
-- Put differently, how autonomous is the agent itself?
-
-<br>
-
-Groups, focus your review on the articles I have specified here and use them to answer this question.
-
-**Everyody clear on the task?**
-
-- Let's go!
+- *TRACK on the BOARD*
 
 <br>
 
-*PRESENT and DISCUSS each*
+**Ok, who has examples from the Rome Statute of the rules vs discretion in the ICC?**
+
+- *SHARE and DISCUSS*
 
 <br>
 
-**Class Notes**
+*REPEAT for EACH mechanism, list articles*
 
-1. How effectively can states delay / obstruct an investigation they do not want?
-    - *Part 9. International cooperation and judicial assistance, Art. 86-102*
-    - ?
-    
-2. How does the ICC prosecutor decide to investigate?
-    - *Part 5. Investigation and prosecution, Art. 53-61*
-    - ?
+<br>
 
-3. How does enforcement work?
-    - *Part 10. Enforcement, Art 103-111*
-    - ?
+**Ultimately, how good a job did the designers do in minimizing agency slack?**
 
-4. Who are the judges? How autonomous are they?
-    - *Part 4. Composition and administration of the court, Art 34-52*
-    - ?
-    
+<br>
+
+**If time remains, why do we think the United States is such a vigorous opponent of the institution?**
+
+<br>
+
+**SLIDE**: Next week, academic research on the ICC
+
 :::
+
 
 
 
 
 ## For Next Class {background-image="./Images/background-scales_justice_v3.png" .center}
 
-1. Hillebrecht (2016) "The Deterrent Effects of the International Criminal Court: Evidence from Libya"
+<br>
 
-2. Hillebrecht & Straus (2017) "Who Pursues the Perpetrators? State Cooperation with the ICC"
+Hillebrecht, C. (2016). The Deterrent Effects of the International Criminal Court: Evidence from Libya. *International Interactions*, 42(4), 616–643. 
 
 ::: notes
 
-Your job is to read the arguments and conclusions in these three articles
+Canvas ASSIGNMENT: Unpacking Hillebrecht's (2016) argument and analyses
 
-- Page numbers in the syllabus: Hillebrecht 2016 p616-628, 637-638; Hillebrecht and Straus 2017 p162-172, 185-187
+Be ready to discuss the Hillebrecht article in class. To help you prepare for our discussion read the article and answer the following prompts:
 
-- Be ready to diagram the argument in class
+1. What is the RQ?
+2. On what specific page numbers does Hillebrecht explain the central argument in the paper? (e.g. the proposed answer to the RQ)
+3. Big picture, what is the proposed answer to the question?
+4. On what specific page numbers does Hillebrecht explain and evaluate the sources of the data being analyzed?
+5. On what specific page numbers does Hillebrecht describe and explain the tests of the data?
+6. What is the bottom line conclusion of the paper? What does Hillebrecht think we know about the world now that we didn't before?
 
-- Give the analyses a skim too!
 
 :::
